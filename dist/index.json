@@ -14892,7 +14892,6 @@
 		],
 		"validity": {
 			"am": [
-				"boot",
 				"integrity",
 				"power"
 			],
@@ -14943,7 +14942,6 @@
 				"thermload"
 			],
 			"cc": [
-				"boot",
 				"integrity",
 				"mass",
 				"power"
@@ -14982,9 +14980,7 @@
 				"range"
 			],
 			"fs": [
-				"boot",
 				"integrity",
-				"mass",
 				"power"
 			],
 			"fsd": [
@@ -14998,13 +14994,11 @@
 			],
 			"ft": [],
 			"fx": [
-				"boot",
 				"integrity",
 				"mass",
 				"power"
 			],
 			"hb": [
-				"boot",
 				"integrity",
 				"mass",
 				"power"
@@ -15089,7 +15083,6 @@
 				"thermload"
 			],
 			"pc": [
-				"boot",
 				"integrity",
 				"mass",
 				"power"
@@ -15143,9 +15136,7 @@
 			],
 			"pv": [],
 			"rf": [
-				"boot",
 				"integrity",
-				"mass",
 				"power"
 			],
 			"rg": [
@@ -15181,11 +15172,11 @@
 			"sc": [],
 			"scb": [
 				"boot",
-				"delay",
 				"duration",
 				"integrity",
 				"power",
 				"shield",
+				"spinup",
 				"thermload"
 			],
 			"sg": [
