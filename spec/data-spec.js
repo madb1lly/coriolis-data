@@ -36,7 +36,10 @@ describe('JSON Data', function() {
         var id = group[i].id;
         expect(ids[id]).toBeFalsy('ID already exists: ' + id);
         expect(group[i].edID > 0).toBeTruthy('Standard module ' + id + ' is missing E:D ID');
-        expect(group[i].eddbID > 0 || group[i].pp).toBeTruthy('Standard module' + id + ' is missing EDDB ID');
+        expect(group[i].eddbID > 0 || group[i].pp).toBeTruthy('Standard module ' + id + ' is missing EDDB ID');
+	if (s != 'ft' && s != 'pas' ) {
+          expect(group[i].integrity).toBeDefined('Standard module ' + id + ' is missing integrity');
+	}
         expect(group[i].grp).toBeDefined(`No group defined, Type: ${s}, ID: ${id}, Index: ${i}`);
         expect(eddbIDs[group[i].eddbID]).toBeFalsy(`EDDB ID [${group[i].eddbID}] already exists for ID: ${id}, Index: ${i}`);
         expect(edIDs[group[i].edID]).toBeFalsy(`E:D ID [${group[i].edID}] already exists for ID: ${id}, Index: ${i}`);
