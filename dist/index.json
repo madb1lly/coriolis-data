@@ -14897,8 +14897,8 @@
 				"power"
 			],
 			"bh": [
-				"armour",
 				"explres",
+				"hullboost",
 				"kinres",
 				"mass",
 				"thermres"

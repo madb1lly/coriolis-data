@@ -12475,7 +12475,7 @@ module.exports = {
     modifiers: [ "mass", "integrity", "power", "hps", "boot", "pGen", "eff", "optmass", "optmult", "maxfuel", "maxsys", "maxeng", "maxwep", "ratesys", "rateeng", "ratewep", "rof", "hps", "eps", "ammo", "clip", "reload", "range" ],
     validity: {
       am: [ "boot", "integrity", "power" ],
-      bh: [ "armour", "explres", "kinres", "mass", "thermres" ],
+      bh: [ "explres", "hullboost", "kinres", "mass", "thermres" ],
       bl: [ "armourpen", "damage", "distdraw", "integrity", "mass", "power", "range", "thermload" ],
       bsg: [ "boot", "brokenregen", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
       c: [ "ammo", "armourpen", "clip", "damage", "distdraw", "integrity", "jitter", "mass", "power", "range", "reload", "rof", "thermload" ],
