@@ -10881,8 +10881,8 @@ module.exports = {
         power: 1.44,
         rating: "E",
         recharge: 476,
-        rechargeRating: "C",
-        spinUpTime: 5,
+        rechargerating: "C",
+        spinup: 5,
         thermload: 800
       }, {
         ammocost: 300,
@@ -10900,8 +10900,8 @@ module.exports = {
         power: 1.92,
         rating: "D",
         recharge: 629,
-        rechargeRating: "D",
-        spinUpTime: 5,
+        rechargerating: "D",
+        spinup: 5,
         thermload: 800
       }, {
         ammocost: 300,
@@ -10919,8 +10919,8 @@ module.exports = {
         power: 2.4,
         rating: "C",
         recharge: 799,
-        rechargeRating: "C",
-        spinUpTime: 5,
+        rechargerating: "C",
+        spinup: 5,
         thermload: 800
       }, {
         ammocost: 300,
@@ -10938,8 +10938,8 @@ module.exports = {
         power: 2.88,
         rating: "B",
         recharge: 952,
-        rechargeRating: "B",
-        spinUpTime: 5,
+        rechargerating: "B",
+        spinup: 5,
         thermload: 800
       }, {
         ammocost: 300,
@@ -10957,28 +10957,28 @@ module.exports = {
         power: 3.36,
         rating: "A",
         recharge: 1105,
-        rechargeRating: "A",
-        spinUpTime: 5,
+        rechargerating: "A",
+        spinup: 5,
         thermload: 800
       }, {
-        thermload: 720,
-        spinUpTime: 5,
-        rechargeRating: "E",
-        recharge: 264,
-        rating: "E",
-        power: 1.24,
-        mass: 80,
-        integrity: 105,
-        id: "60",
-        grp: "scb",
-        eddbID: 1181,
-        edID: 128064328,
-        duration: 11,
-        cost: 249137,
-        class: 7,
-        cells: 6,
+        ammocost: 300,
         boot: 25,
-        ammocost: 300
+        cells: 6,
+        class: 7,
+        cost: 249137,
+        duration: 11,
+        edID: 128064328,
+        eddbID: 1181,
+        grp: "scb",
+        id: "60",
+        integrity: 105,
+        mass: 80,
+        power: 1.24,
+        rating: "E",
+        recharge: 264,
+        rechargerating: "E",
+        spinup: 5,
+        thermload: 720
       }, {
         ammocost: 300,
         boot: 25,
@@ -10995,8 +10995,8 @@ module.exports = {
         power: 1.66,
         rating: "D",
         recharge: 352,
-        rechargeRating: "D",
-        spinUpTime: 5,
+        rechargerating: "D",
+        spinup: 5,
         thermload: 720
       }, {
         ammocost: 300,
@@ -11014,8 +11014,8 @@ module.exports = {
         power: 2.07,
         rating: "C",
         recharge: 451,
-        rechargeRating: "C",
-        spinUpTime: 5,
+        rechargerating: "C",
+        spinup: 5,
         thermload: 720
       }, {
         ammocost: 300,
@@ -11033,8 +11033,8 @@ module.exports = {
         power: 2.48,
         rating: "B",
         recharge: 539,
-        rechargeRating: "B",
-        spinUpTime: 5,
+        rechargerating: "B",
+        spinup: 5,
         thermload: 720
       }, {
         ammocost: 300,
@@ -11052,8 +11052,8 @@ module.exports = {
         power: 2.9,
         rating: "A",
         recharge: 627,
-        rechargeRating: "A",
-        spinUpTime: 5,
+        rechargerating: "A",
+        spinup: 5,
         thermload: 720
       }, {
         ammocost: 300,
@@ -11071,8 +11071,8 @@ module.exports = {
         power: 1.06,
         rating: "E",
         recharge: 160,
-        rechargeRating: "E",
-        spinUpTime: 5,
+        rechargerating: "E",
+        spinup: 5,
         thermload: 640
       }, {
         ammocost: 300,
@@ -11090,9 +11090,9 @@ module.exports = {
         power: 1.42,
         rating: "D",
         recharge: 208,
-        rechargeRating: "D",
-        spinUpTime: 5,
-        thermload: 410
+        rechargerating: "D",
+        spinup: 5,
+        thermload: 640
       }, {
         ammocost: 300,
         boot: 25,
@@ -11109,9 +11109,9 @@ module.exports = {
         power: 1.77,
         rating: "C",
         recharge: 264,
-        rechargeRating: "C",
-        spinUpTime: 5,
-        thermload: 410
+        rechargerating: "C",
+        spinup: 5,
+        thermload: 640
       }, {
         ammocost: 300,
         boot: 25,
@@ -11128,9 +11128,9 @@ module.exports = {
         power: 2.12,
         rating: "B",
         recharge: 312,
-        rechargeRating: "B",
-        spinUpTime: 5,
-        thermload: 410
+        rechargerating: "B",
+        spinup: 5,
+        thermload: 640
       }, {
         ammocost: 300,
         boot: 25,
@@ -11147,9 +11147,9 @@ module.exports = {
         power: 2.48,
         rating: "A",
         recharge: 368,
-        rechargeRating: "A",
-        spinUpTime: 5,
-        thermload: 410
+        rechargerating: "A",
+        spinup: 5,
+        thermload: 640
       }, {
         ammocost: 300,
         boot: 25,
@@ -11166,8 +11166,8 @@ module.exports = {
         power: .9,
         rating: "E",
         recharge: 105,
-        rechargeRating: "E",
-        spinUpTime: 5,
+        rechargerating: "E",
+        spinup: 5,
         thermload: 540
       }, {
         ammocost: 300,
@@ -11185,8 +11185,8 @@ module.exports = {
         power: 1.2,
         rating: "D",
         recharge: 140,
-        rechargeRating: "D",
-        spinUpTime: 5,
+        rechargerating: "D",
+        spinup: 5,
         thermload: 540
       }, {
         ammocost: 300,
@@ -11204,8 +11204,8 @@ module.exports = {
         power: 1.5,
         rating: "C",
         recharge: 175,
-        rechargeRating: "C",
-        spinUpTime: 5,
+        rechargerating: "C",
+        spinup: 5,
         thermload: 540
       }, {
         ammocost: 300,
@@ -11223,8 +11223,8 @@ module.exports = {
         power: 1.8,
         rating: "B",
         recharge: 205,
-        rechargeRating: "B",
-        spinUpTime: 5,
+        rechargerating: "B",
+        spinup: 5,
         thermload: 540
       }, {
         ammocost: 300,
@@ -11242,8 +11242,8 @@ module.exports = {
         power: 2.1,
         rating: "A",
         recharge: 240,
-        rechargeRating: "A",
-        spinUpTime: 5,
+        rechargerating: "A",
+        spinup: 5,
         thermload: 540
       }, {
         ammocost: 300,
@@ -11261,8 +11261,8 @@ module.exports = {
         power: .74,
         rating: "E",
         recharge: 60,
-        rechargeRating: "E",
-        spinUpTime: 5,
+        rechargerating: "E",
+        spinup: 5,
         thermload: 410
       }, {
         ammocost: 300,
@@ -11280,8 +11280,8 @@ module.exports = {
         power: .98,
         rating: "D",
         recharge: 78,
-        rechargeRating: "D",
-        spinUpTime: 5,
+        rechargerating: "D",
+        spinup: 5,
         thermload: 410
       }, {
         ammocost: 300,
@@ -11299,8 +11299,8 @@ module.exports = {
         power: 1.23,
         rating: "C",
         recharge: 99,
-        rechargeRating: "C",
-        spinUpTime: 5,
+        rechargerating: "C",
+        spinup: 5,
         thermload: 410
       }, {
         ammocost: 300,
@@ -11318,8 +11318,8 @@ module.exports = {
         power: 1.48,
         rating: "B",
         recharge: 117,
-        rechargeRating: "B",
-        spinUpTime: 5,
+        rechargerating: "B",
+        spinup: 5,
         thermload: 410
       }, {
         ammocost: 300,
@@ -11337,8 +11337,8 @@ module.exports = {
         power: 1.72,
         rating: "A",
         recharge: 138,
-        rechargeRating: "A",
-        spinUpTime: 5,
+        rechargerating: "A",
+        spinup: 5,
         thermload: 410
       }, {
         ammocost: 300,
@@ -11356,8 +11356,8 @@ module.exports = {
         power: .61,
         rating: "E",
         recharge: 34,
-        rechargeRating: "E",
-        spinUpTime: 5,
+        rechargerating: "E",
+        spinup: 5,
         thermload: 340
       }, {
         ammocost: 300,
@@ -11375,8 +11375,8 @@ module.exports = {
         power: .82,
         rating: "D",
         recharge: 46,
-        rechargeRating: "D",
-        spinUpTime: 5,
+        rechargerating: "D",
+        spinup: 5,
         thermload: 340
       }, {
         ammocost: 300,
@@ -11394,8 +11394,8 @@ module.exports = {
         power: 1.02,
         rating: "C",
         recharge: 58,
-        rechargeRating: "C",
-        spinUpTime: 5,
+        rechargerating: "C",
+        spinup: 5,
         thermload: 340
       }, {
         ammocost: 300,
@@ -11413,8 +11413,8 @@ module.exports = {
         power: 1.22,
         rating: "B",
         recharge: 70,
-        rechargeRating: "B",
-        spinUpTime: 5,
+        rechargerating: "B",
+        spinup: 5,
         thermload: 340
       }, {
         ammocost: 300,
@@ -11432,8 +11432,8 @@ module.exports = {
         power: 1.43,
         rating: "A",
         recharge: 82,
-        rechargeRating: "A",
-        spinUpTime: 5,
+        rechargerating: "A",
+        spinup: 5,
         thermload: 340
       }, {
         ammocost: 300,
@@ -11451,8 +11451,8 @@ module.exports = {
         power: .5,
         rating: "E",
         recharge: 28,
-        rechargeRating: "E",
-        spinUpTime: 5,
+        rechargerating: "E",
+        spinup: 5,
         thermload: 240
       }, {
         ammocost: 300,
@@ -11470,8 +11470,8 @@ module.exports = {
         power: .67,
         rating: "D",
         recharge: 36,
-        rechargeRating: "D",
-        spinUpTime: 5,
+        rechargerating: "D",
+        spinup: 5,
         thermload: 240
       }, {
         ammocost: 300,
@@ -11489,28 +11489,28 @@ module.exports = {
         power: .84,
         rating: "C",
         recharge: 46,
-        rechargeRating: "C",
-        spinUpTime: 5,
+        rechargerating: "C",
+        spinup: 5,
         thermload: 240
       }, {
-        thermload: 240,
-        spinUpTime: 5,
-        rechargeRating: "B",
-        recharge: 56,
-        rating: "B",
-        power: 1.01,
-        mass: 4,
-        integrity: 71,
-        id: "54",
-        grp: "scb",
-        eddbID: 1159,
-        edID: 128064306,
-        duration: 2,
-        cost: 22619,
-        class: 2,
-        cells: 5,
+        ammocost: 300,
         boot: 25,
-        ammocost: 300
+        cells: 5,
+        class: 2,
+        cost: 22619,
+        duration: 2,
+        edID: 128064306,
+        eddbID: 1159,
+        grp: "scb",
+        id: "54",
+        integrity: 71,
+        mass: 4,
+        power: 1.01,
+        rating: "B",
+        recharge: 56,
+        rechargerating: "B",
+        spinup: 5,
+        thermload: 240
       }, {
         ammocost: 300,
         boot: 25,
@@ -11527,8 +11527,8 @@ module.exports = {
         power: 1.18,
         rating: "A",
         recharge: 64,
-        rechargeRating: "A",
-        spinUpTime: 5,
+        rechargerating: "A",
+        spinup: 5,
         thermload: 240
       }, {
         ammocost: 300,
@@ -11546,8 +11546,8 @@ module.exports = {
         power: .41,
         rating: "E",
         recharge: 12,
-        rechargeRating: "E",
-        spinUpTime: 5,
+        rechargerating: "E",
+        spinup: 5,
         thermload: 170
       }, {
         ammocost: 300,
@@ -11565,8 +11565,8 @@ module.exports = {
         power: .55,
         rating: "D",
         recharge: 12.5,
-        rechargeRating: "D",
-        spinUpTime: 5,
+        rechargerating: "D",
+        spinup: 5,
         thermload: 170
       }, {
         ammocost: 300,
@@ -11584,8 +11584,8 @@ module.exports = {
         power: .69,
         rating: "C",
         recharge: 20,
-        rechargeRating: "C",
-        spinUpTime: 5,
+        rechargerating: "C",
+        spinup: 5,
         thermload: 170
       }, {
         ammocost: 300,
@@ -11603,8 +11603,8 @@ module.exports = {
         power: .83,
         rating: "B",
         recharge: 24,
-        rechargeRating: "B",
-        spinUpTime: 5,
+        rechargerating: "B",
+        spinup: 5,
         thermload: 170
       }, {
         ammocost: 300,
@@ -11622,8 +11622,8 @@ module.exports = {
         power: .97,
         rating: "A",
         recharge: 28,
-        rechargeRating: "A",
-        spinUpTime: 5,
+        rechargerating: "A",
+        spinup: 5,
         thermload: 170
       } ],
       sg: [ {
