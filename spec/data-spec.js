@@ -56,10 +56,9 @@ describe('JSON Data', function() {
 
   it('has valid hardpoints', function() {
     var ids = {};
-    var groups = Modules.hardpoints;
 
-    for (var g in groups) {
-      var group = groups[g];
+    for (var g in Modules.hardpoints) {
+      var group = Modules.hardpoints[g];
       for (var i = 0; i < group.length; i++) {
         var id = group[i].id;
         expect(ids[id]).toBeFalsy('ID already exists: ' + id);
@@ -85,7 +84,7 @@ describe('JSON Data', function() {
             expect(group[i].eps).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing eps`);
             expect(group[i].hps).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing hps`);
         }
-	if (group[i].ammo || group[i].reload || group[i].clip) {
+	if ((group[i].ammo || group[i].reload || group[i].clip) && g != 'hs' && g != 'ec') {
             expect(group[i].ammo).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing ammo`);
             expect(group[i].clip).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing clip`);
             expect(group[i].reload).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing reload`);
@@ -97,10 +96,9 @@ describe('JSON Data', function() {
 
   it('has valid internal modules', function() {
     var ids = {};
-    var groups = Modules.internal;
 
-    for (var g in groups) {
-      var group = groups[g];
+    for (var g in Modules.internal) {
+      var group = Modules.internal[g];
       for (var i = 0; i < group.length; i++) {
         var id = group[i].id;
         expect(group[i].grp).toBeDefined(`No group defined, ID: ${id}`);

@@ -54,14 +54,24 @@
     "mass",
     "power"
   ],
-  "cr": [],
+  "ch": [
+    "ammo",
+    "integrity",
+    "mass",
+    "power",
+    "reload"
+  ],
   "cs": [
     "boot",
     "integrity",
     "mass",
     "power"
   ],
-  "dc": [],
+  "ec": [
+    "integrity",
+    "mass",
+    "power"
+  ],
   "fc": [
     "ammo",
     "armourpen",
@@ -78,7 +88,6 @@
     "rof",
     "thermload"
   ],
-  "fh": [],
   "fi": [
     "boot",
     "facinglimit",
@@ -100,7 +109,6 @@
     "power",
     "thermload"
   ],
-  "ft": [],
   "fx": [
     "integrity",
     "mass",
@@ -118,6 +126,13 @@
     "kinres",
     "mass",
     "thermres"
+  ],
+  "hs": [
+    "ammo",
+    "integrity",
+    "mass",
+    "power",
+    "reload"
   ],
   "kw": [
     "boot",
@@ -146,7 +161,6 @@
     "rof",
     "thermload"
   ],
-  "ml": [],
   "mr": [
     "ammo",
     "armourpen",
@@ -195,9 +209,6 @@
     "mass",
     "power"
   ],
-  "pci": [],
-  "pcm": [],
-  "pcq": [],
   "pd": [
     "boot",
     "engcap",
@@ -222,6 +233,13 @@
     "rof",
     "thermload"
   ],
+  "po": [
+    "ammo",
+    "integrity",
+    "mass",
+    "power",
+    "reload"
+  ],
   "pp": [
     "eff",
     "integrity",
@@ -242,7 +260,6 @@
     "thermload",
     "thermres"
   ],
-  "pv": [],
   "rf": [
     "integrity",
     "power"
@@ -277,7 +294,6 @@
     "shieldmul",
     "thermres"
   ],
-  "sc": [],
   "scb": [
     "boot",
     "duration",

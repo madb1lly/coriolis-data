@@ -1,0 +1,29 @@
+{
+  "po": [
+    {
+      "ammo": 10000,
+      "burst": 4,
+      "burstrof": 15,
+      "class": 0,
+      "clip": 50,
+      "cost": 18550,
+      "edID": 128049522,
+      "eddbID": 887,
+      "grp": "cm",
+      "id": "03",
+      "integrity": 30,
+      "jitter": 1.5,
+      "mass": 0.5,
+      "name": "Point Defence",
+      "passive": 1,
+      "power": 0.2,
+      "range": 2500,
+      "rating": "I",
+      "reload": 0,
+      "rof": 10,
+      "speed": 1000,
+      "thermload": 0.1,
+      "type": "K"
+    }
+  ]
+}

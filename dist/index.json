@@ -9652,89 +9652,6 @@
 					"time": 10
 				}
 			],
-			"cm": [
-				{
-					"ammo": 10,
-					"class": 0,
-					"clip": 1,
-					"cost": 8500,
-					"duration": 20,
-					"edID": 128049513,
-					"eddbID": 884,
-					"eps": 4,
-					"grp": "cm",
-					"hps": 4,
-					"id": "00",
-					"integrity": 20,
-					"mass": 1.3,
-					"name": "Chaff Launcher",
-					"passive": 1,
-					"power": 0.2,
-					"rating": "I",
-					"reload": 10,
-					"rof": 1
-				},
-				{
-					"activepower": 4,
-					"chargeup": 4,
-					"class": 0,
-					"cooldown": 10,
-					"cost": 12500,
-					"edID": 128049516,
-					"eddbID": 885,
-					"grp": "cm",
-					"id": "01",
-					"integrity": 20,
-					"mass": 1.3,
-					"name": "Electronic Countermeasure",
-					"power": 0.2,
-					"range": 3000,
-					"rating": "F"
-				},
-				{
-					"ammo": 2,
-					"class": 0,
-					"clip": 1,
-					"cost": 3500,
-					"duration": 10,
-					"edID": 128049519,
-					"eddbID": 886,
-					"eps": 0.4,
-					"grp": "cm",
-					"id": "02",
-					"integrity": 20,
-					"mass": 1.3,
-					"name": "Heat Sink Launcher",
-					"passive": 1,
-					"power": 0.2,
-					"rating": "I",
-					"reload": 10,
-					"rof": 0.2
-				},
-				{
-					"ammo": 10000,
-					"burst": 4,
-					"burstrof": 15,
-					"class": 0,
-					"clip": 50,
-					"cost": 18550,
-					"edID": 128049522,
-					"eddbID": 887,
-					"grp": "cm",
-					"id": "03",
-					"integrity": 20,
-					"jitter": 1.5,
-					"mass": 0.5,
-					"name": "Point Defence",
-					"passive": 1,
-					"power": 0.2,
-					"rating": "I",
-					"reload": 0,
-					"rof": 10,
-					"speed": 1000,
-					"type": "K"
-				}
-			],
 			"ws": [
 				{
 					"class": 0,
@@ -9949,6 +9866,101 @@
 					"power": 1.2,
 					"rating": "A",
 					"shieldmul": 0.2
+				}
+			],
+			"ch": [
+				{
+					"ammo": 10,
+					"class": 0,
+					"clip": 1,
+					"cost": 8500,
+					"distdraw": 4,
+					"duration": 20,
+					"edID": 128049513,
+					"eddbID": 884,
+					"grp": "ch",
+					"id": "00",
+					"integrity": 20,
+					"mass": 1.3,
+					"name": "Chaff Launcher",
+					"passive": 1,
+					"power": 0.2,
+					"rating": "I",
+					"reload": 10,
+					"thermload": 4,
+					"rof": 1
+				}
+			],
+			"ec": [
+				{
+					"activepower": 4,
+					"chargeup": 3,
+					"class": 0,
+					"cooldown": 10,
+					"cost": 12500,
+					"edID": 128049516,
+					"eddbID": 885,
+					"grp": "ec",
+					"id": "01",
+					"integrity": 20,
+					"mass": 1.3,
+					"name": "Electronic Countermeasure",
+					"power": 0.2,
+					"range": 3000,
+					"reload": 10,
+					"rating": "F",
+					"thermload": 4
+				}
+			],
+			"hs": [
+				{
+					"ammo": 2,
+					"class": 0,
+					"clip": 1,
+					"cost": 3500,
+					"distdraw": 2,
+					"drain": 100,
+					"duration": 10,
+					"edID": 128049519,
+					"eddbID": 886,
+					"eps": 0.4,
+					"grp": "hs",
+					"id": "02",
+					"integrity": 20,
+					"mass": 1.3,
+					"name": "Heat Sink Launcher",
+					"passive": 1,
+					"power": 0.2,
+					"rating": "I",
+					"reload": 10,
+					"rof": 0.2
+				}
+			],
+			"po": [
+				{
+					"ammo": 10000,
+					"burst": 4,
+					"burstrof": 15,
+					"class": 0,
+					"clip": 50,
+					"cost": 18550,
+					"edID": 128049522,
+					"eddbID": 887,
+					"grp": "cm",
+					"id": "03",
+					"integrity": 30,
+					"jitter": 1.5,
+					"mass": 0.5,
+					"name": "Point Defence",
+					"passive": 1,
+					"power": 0.2,
+					"range": 2500,
+					"rating": "I",
+					"reload": 0,
+					"rof": 10,
+					"speed": 1000,
+					"thermload": 0.1,
+					"type": "K"
 				}
 			]
 		},
@@ -14986,14 +14998,24 @@
 				"mass",
 				"power"
 			],
-			"cr": [],
+			"ch": [
+				"ammo",
+				"integrity",
+				"mass",
+				"power",
+				"reload"
+			],
 			"cs": [
 				"boot",
 				"integrity",
 				"mass",
 				"power"
 			],
-			"dc": [],
+			"ec": [
+				"integrity",
+				"mass",
+				"power"
+			],
 			"fc": [
 				"ammo",
 				"armourpen",
@@ -15010,7 +15032,6 @@
 				"rof",
 				"thermload"
 			],
-			"fh": [],
 			"fi": [
 				"boot",
 				"facinglimit",
@@ -15032,7 +15053,6 @@
 				"power",
 				"thermload"
 			],
-			"ft": [],
 			"fx": [
 				"integrity",
 				"mass",
@@ -15050,6 +15070,13 @@
 				"kinres",
 				"mass",
 				"thermres"
+			],
+			"hs": [
+				"ammo",
+				"integrity",
+				"mass",
+				"power",
+				"reload"
 			],
 			"kw": [
 				"boot",
@@ -15078,7 +15105,6 @@
 				"rof",
 				"thermload"
 			],
-			"ml": [],
 			"mr": [
 				"ammo",
 				"armourpen",
@@ -15127,9 +15153,6 @@
 				"mass",
 				"power"
 			],
-			"pci": [],
-			"pcm": [],
-			"pcq": [],
 			"pd": [
 				"boot",
 				"engcap",
@@ -15154,6 +15177,13 @@
 				"rof",
 				"thermload"
 			],
+			"po": [
+				"ammo",
+				"integrity",
+				"mass",
+				"power",
+				"reload"
+			],
 			"pp": [
 				"eff",
 				"integrity",
@@ -15174,7 +15204,6 @@
 				"thermload",
 				"thermres"
 			],
-			"pv": [],
 			"rf": [
 				"integrity",
 				"power"
@@ -15209,7 +15238,6 @@
 				"shieldmul",
 				"thermres"
 			],
-			"sc": [],
 			"scb": [
 				"boot",
 				"duration",
