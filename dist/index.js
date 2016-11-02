@@ -23,30 +23,35 @@ module.exports = {
         id: "BC",
         edID: 128049268,
         eddbID: 753,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "BD",
         edID: 128049269,
         eddbID: 754,
+        grp: "bh",
         cost: 35120,
         mass: 3
       }, {
         id: "BE",
         edID: 128049270,
         eddbID: 755,
+        grp: "bh",
         cost: 79030,
         mass: 5
       }, {
         id: "BF",
         edID: 128049271,
         eddbID: 756,
+        grp: "bh",
         cost: 186770,
         mass: 5
       }, {
         id: "BG",
         edID: 128049272,
         eddbID: 757,
+        grp: "bh",
         cost: 206960,
         mass: 5
       } ],
@@ -85,30 +90,35 @@ module.exports = {
         id: "bT",
         edID: 128049364,
         eddbID: 818,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "bU",
         edID: 128049365,
         eddbID: 819,
+        grp: "bh",
         cost: 58787780,
         mass: 30
       }, {
         id: "bV",
         edID: 128049366,
         eddbID: 820,
+        grp: "bh",
         cost: 132272510,
         mass: 60
       }, {
         id: "bW",
         edID: 128049367,
         eddbID: 821,
+        grp: "bh",
         cost: 312604020,
         mass: 60
       }, {
         id: "bX",
         edID: 128049368,
         eddbID: 822,
+        grp: "bh",
         cost: 346407e3,
         mass: 60
       } ],
@@ -146,30 +156,35 @@ module.exports = {
         id: "BH",
         edID: 128049304,
         eddbID: 778,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "BI",
         edID: 128049305,
         eddbID: 779,
+        grp: "bh",
         cost: 2664460,
         mass: 21
       }, {
         id: "BJ",
         edID: 128049306,
         eddbID: 780,
+        grp: "bh",
         cost: 5995040,
         mass: 42
       }, {
         id: "BK",
         edID: 128049307,
         eddbID: 781,
+        grp: "bh",
         cost: 14168270,
         mass: 42
       }, {
         id: "BL",
         edID: 128049308,
         eddbID: 782,
+        grp: "bh",
         cost: 15700340,
         mass: 42
       } ],
@@ -207,30 +222,35 @@ module.exports = {
         id: "c1",
         edID: 128672278,
         eddbID: 1503,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "c2",
         edID: 128672279,
         eddbID: 1504,
+        grp: "bh",
         cost: 1584460,
         mass: 21
       }, {
         id: "c3",
         edID: 128672280,
         eddbID: 1505,
+        grp: "bh",
         cost: 3565040,
         mass: 42
       }, {
         id: "c4",
         edID: 128672281,
         eddbID: 1506,
+        grp: "bh",
         cost: 8425380,
         mass: 42
       }, {
         id: "c5",
         edID: 128672282,
         eddbID: 1507,
+        grp: "bh",
         cost: 9336440,
         mass: 42
       } ],
@@ -270,30 +290,35 @@ module.exports = {
         id: "cl",
         edID: 128049346,
         eddbID: 1554,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "cm",
         edID: 128049347,
         eddbID: 1555,
+        grp: "bh",
         cost: 33813120,
         mass: 83
       }, {
         id: "cn",
         edID: 128049348,
         eddbID: 1556,
+        grp: "bh",
         cost: 76079500,
         mass: 165
       }, {
         id: "co",
         edID: 128049349,
         eddbID: 1557,
+        grp: "bh",
         cost: 179801200,
         mass: 165
       }, {
         id: "cp",
         edID: 128049350,
         eddbID: 1558,
+        grp: "bh",
         cost: 199243730,
         mass: 165
       } ],
@@ -371,30 +396,35 @@ module.exports = {
         id: "bk",
         edID: 128049280,
         eddbID: 763,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "bl",
         edID: 128049281,
         eddbID: 764,
+        grp: "bh",
         cost: 151890,
         mass: 14
       }, {
         id: "bm",
         edID: 128049282,
         eddbID: 765,
+        grp: "bh",
         cost: 341750,
         mass: 27
       }, {
         id: "bn",
         edID: 128049283,
         eddbID: 766,
+        grp: "bh",
         cost: 797410,
         mass: 27
       }, {
         id: "bo",
         edID: 128049284,
         eddbID: 767,
+        grp: "bh",
         cost: 895e3,
         mass: 27
       } ],
@@ -432,30 +462,35 @@ module.exports = {
         id: "cg",
         edID: 128672264,
         eddbID: 1518,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "ch",
         edID: 128672265,
         eddbID: 1519,
+        grp: "bh",
         cost: 305890,
         mass: 14
       }, {
         id: "ci",
         edID: 128672266,
         eddbID: 1520,
+        grp: "bh",
         cost: 688250,
         mass: 27
       }, {
         id: "cj",
         edID: 128672267,
         eddbID: 1521,
+        grp: "bh",
         cost: 1605910,
         mass: 27
       }, {
         id: "ck",
         edID: 128672268,
         eddbID: 1522,
+        grp: "bh",
         cost: 1802440,
         mass: 27
       } ],
@@ -493,30 +528,35 @@ module.exports = {
         id: "ba",
         edID: 128671832,
         eddbID: 1456,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "bb",
         edID: 128671833,
         eddbID: 1457,
+        grp: "bh",
         cost: 8e5,
         mass: 23
       }, {
         id: "bc",
         edID: 128671834,
         eddbID: 1458,
+        grp: "bh",
         cost: 18e5,
         mass: 47
       }, {
         id: "bd",
         edID: 128671835,
         eddbID: 1459,
+        grp: "bh",
         cost: 42e5,
         mass: 26
       }, {
         id: "be",
         edID: 128671836,
         eddbID: 1460,
+        grp: "bh",
         cost: 4714e3,
         mass: 47
       } ],
@@ -554,30 +594,35 @@ module.exports = {
         id: "b5",
         edID: 128671218,
         eddbID: 1384,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "b6",
         edID: 128671219,
         eddbID: 1385,
+        grp: "bh",
         cost: 225700,
         mass: 13
       }, {
         id: "b7",
         edID: 128671220,
         eddbID: 1386,
+        grp: "bh",
         cost: 507900,
         mass: 26
       }, {
         id: "b8",
         edID: 128671221,
         eddbID: 1387,
+        grp: "bh",
         cost: 1185100,
         mass: 26
       }, {
         id: "b9",
         edID: 128671222,
         eddbID: 1388,
+        grp: "bh",
         cost: 1330100,
         mass: 26
       } ],
@@ -615,30 +660,35 @@ module.exports = {
         id: "bY",
         edID: 128049256,
         eddbID: 743,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "bZ",
         edID: 128049257,
         eddbID: 744,
+        grp: "bh",
         cost: 26880,
         mass: 4
       }, {
         id: "B0",
         edID: 128049258,
         eddbID: 745,
+        grp: "bh",
         cost: 90050,
         mass: 8
       }, {
         id: "B1",
         edID: 128049259,
         eddbID: 746,
+        grp: "bh",
         cost: 140090,
         mass: 8
       }, {
         id: "B2",
         edID: 128049260,
         eddbID: 747,
+        grp: "bh",
         cost: 150390,
         mass: 8
       } ],
@@ -676,30 +726,35 @@ module.exports = {
         id: "bz",
         edID: 128672147,
         eddbID: 1466,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "bA",
         edID: 128672148,
         eddbID: 1467,
+        grp: "bh",
         cost: 7925680,
         mass: 44
       }, {
         id: "bB",
         edID: 128672149,
         eddbID: 1468,
+        grp: "bh",
         cost: 17832780,
         mass: 87
       }, {
         id: "bC",
         edID: 128672150,
         eddbID: 1469,
+        grp: "bh",
         cost: 42144810,
         mass: 87
       }, {
         id: "bD",
         edID: 128672151,
         eddbID: 1470,
+        grp: "bh",
         cost: 46702080,
         mass: 87
       } ],
@@ -738,30 +793,35 @@ module.exports = {
         id: "BW",
         edID: 128049370,
         eddbID: 1498,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "BX",
         edID: 128049371,
         eddbID: 1499,
+        grp: "bh",
         cost: 75187790,
         mass: 30
       }, {
         id: "BY",
         edID: 128049372,
         eddbID: 1500,
+        grp: "bh",
         cost: 169172510,
         mass: 60
       }, {
         id: "BZ",
         edID: 128049373,
         eddbID: 1501,
+        grp: "bh",
         cost: 399811020,
         mass: 60
       }, {
         id: "c0",
         edID: 128049374,
         eddbID: 1502,
+        grp: "bh",
         cost: 443044e3,
         mass: 60
       } ],
@@ -799,30 +859,35 @@ module.exports = {
         id: "bE",
         edID: 128049322,
         eddbID: 793,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "bF",
         edID: 128049323,
         eddbID: 794,
+        grp: "bh",
         cost: 5725680,
         mass: 44
       }, {
         id: "bG",
         edID: 128049324,
         eddbID: 795,
+        grp: "bh",
         cost: 12882780,
         mass: 87
       }, {
         id: "bH",
         edID: 128049325,
         eddbID: 796,
+        grp: "bh",
         cost: 30446310,
         mass: 87
       }, {
         id: "bI",
         edID: 128049326,
         eddbID: 797,
+        grp: "bh",
         cost: 33738580,
         mass: 87
       } ],
@@ -861,30 +926,35 @@ module.exports = {
         id: "bJ",
         edID: 128672154,
         eddbID: 1471,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "bK",
         edID: 128672155,
         eddbID: 1472,
+        grp: "bh",
         cost: 14325690,
         mass: 44
       }, {
         id: "bL",
         edID: 128672156,
         eddbID: 1473,
+        grp: "bh",
         cost: 32232790,
         mass: 87
       }, {
         id: "bM",
         edID: 128672157,
         eddbID: 1474,
+        grp: "bh",
         cost: 76176810,
         mass: 87
       }, {
         id: "bN",
         edID: 128672158,
         eddbID: 1475,
+        grp: "bh",
         cost: 84414090,
         mass: 87
       } ],
@@ -922,30 +992,35 @@ module.exports = {
         id: "Bd",
         edID: 128049352,
         eddbID: 813,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "Be",
         edID: 128049353,
         eddbID: 814,
+        grp: "bh",
         cost: 20626820,
         mass: 19
       }, {
         id: "Bf",
         edID: 128049354,
         eddbID: 815,
+        grp: "bh",
         cost: 46410340,
         mass: 38
       }, {
         id: "Bg",
         edID: 128049355,
         eddbID: 816,
+        grp: "bh",
         cost: 109683090,
         mass: 38
       }, {
         id: "Bh",
         edID: 128049356,
         eddbID: 817,
+        grp: "bh",
         cost: 121543510,
         mass: 38
       } ],
@@ -983,30 +1058,35 @@ module.exports = {
         id: "Bi",
         edID: 128049262,
         eddbID: 748,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "Bj",
         edID: 128049263,
         eddbID: 749,
+        grp: "bh",
         cost: 42180,
         mass: 1
       }, {
         id: "Bk",
         edID: 128049264,
         eddbID: 750,
+        grp: "bh",
         cost: 185050,
         mass: 2
       }, {
         id: "Bl",
         edID: 128049265,
         eddbID: 751,
+        grp: "bh",
         cost: 270300,
         mass: 2
       }, {
         id: "Bm",
         edID: 128049266,
         eddbID: 752,
+        grp: "bh",
         cost: 282420,
         mass: 2
       } ],
@@ -1044,30 +1124,35 @@ module.exports = {
         id: "bp",
         edID: 128049316,
         eddbID: 788,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "bq",
         edID: 128049317,
         eddbID: 789,
+        grp: "bh",
         cost: 8918340,
         mass: 30
       }, {
         id: "br",
         edID: 128049318,
         eddbID: 790,
+        grp: "bh",
         cost: 20066270,
         mass: 60
       }, {
         id: "bs",
         edID: 128049319,
         eddbID: 791,
+        grp: "bh",
         cost: 47423290,
         mass: 60
       }, {
         id: "bt",
         edID: 128049320,
         eddbID: 792,
+        grp: "bh",
         cost: 52551340,
         mass: 60
       } ],
@@ -1105,30 +1190,35 @@ module.exports = {
         id: "bf",
         edID: 128671224,
         eddbID: 1389,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "bg",
         edID: 128671225,
         eddbID: 1390,
+        grp: "bh",
         cost: 1017200,
         mass: 4
       }, {
         id: "bh",
         edID: 128671226,
         eddbID: 1391,
+        grp: "bh",
         cost: 2288600,
         mass: 8
       }, {
         id: "bi",
         edID: 128671227,
         eddbID: 1392,
+        grp: "bh",
         cost: 5408800,
         mass: 8
       }, {
         id: "bj",
         edID: 128671228,
         eddbID: 1393,
+        grp: "bh",
         cost: 5993700,
         mass: 8
       } ],
@@ -1167,30 +1257,35 @@ module.exports = {
         id: "BR",
         edID: 128049376,
         eddbID: 1493,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "BS",
         edID: 128049377,
         eddbID: 1494,
+        grp: "bh",
         cost: 83587790,
         mass: 30
       }, {
         id: "BT",
         edID: 128049378,
         eddbID: 1495,
+        grp: "bh",
         cost: 188072510,
         mass: 60
       }, {
         id: "BU",
         edID: 128049379,
         eddbID: 1496,
+        grp: "bh",
         cost: 444478020,
         mass: 60
       }, {
         id: "BV",
         edID: 128049380,
         eddbID: 1497,
+        grp: "bh",
         cost: 492541e3,
         mass: 60
       } ],
@@ -1228,30 +1323,35 @@ module.exports = {
         id: "bu",
         edID: 128672140,
         eddbID: 1461,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "bv",
         edID: 128672141,
         eddbID: 1462,
+        grp: "bh",
         cost: 66500,
         mass: 4
       }, {
         id: "bw",
         edID: 128672142,
         eddbID: 1463,
+        grp: "bh",
         cost: 222760,
         mass: 8
       }, {
         id: "bx",
         edID: 128672143,
         eddbID: 1464,
+        grp: "bh",
         cost: 346550,
         mass: 8
       }, {
         id: "by",
         edID: 128672144,
         eddbID: 1465,
+        grp: "bh",
         cost: 372040,
         mass: 8
       } ],
@@ -1290,30 +1390,35 @@ module.exports = {
         id: "cb",
         edID: 128672271,
         eddbID: 1513,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "cc",
         edID: 128672272,
         eddbID: 1514,
+        grp: "bh",
         cost: 1250460,
         mass: 12
       }, {
         id: "cd",
         edID: 128672273,
         eddbID: 1515,
+        grp: "bh",
         cost: 2813540,
         mass: 23
       }, {
         id: "ce",
         edID: 128672274,
         eddbID: 1516,
+        grp: "bh",
         cost: 6649330,
         mass: 23
       }, {
         id: "cf",
         edID: 128672275,
         eddbID: 1517,
+        grp: "bh",
         cost: 7368340,
         mass: 23
       } ],
@@ -1352,30 +1457,35 @@ module.exports = {
         id: "BM",
         edID: 128049328,
         eddbID: 798,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "BN",
         edID: 128049329,
         eddbID: 799,
+        grp: "bh",
         cost: 19415950,
         mass: 21
       }, {
         id: "BO",
         edID: 128049330,
         eddbID: 800,
+        grp: "bh",
         cost: 43685900,
         mass: 87
       }, {
         id: "BP",
         edID: 128049331,
         eddbID: 801,
+        grp: "bh",
         cost: 103244340,
         mass: 87
       }, {
         id: "BQ",
         edID: 128049332,
         eddbID: 802,
+        grp: "bh",
         cost: 114408510,
         mass: 87
       } ],
@@ -1433,30 +1543,35 @@ module.exports = {
         id: "bO",
         edID: 128049340,
         eddbID: 808,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "bP",
         edID: 128049341,
         eddbID: 809,
+        grp: "bh",
         cost: 22791270,
         mass: 26
       }, {
         id: "bQ",
         edID: 128049342,
         eddbID: 810,
+        grp: "bh",
         cost: 51280360,
         mass: 53
       }, {
         id: "bR",
         edID: 128049343,
         eddbID: 811,
+        grp: "bh",
         cost: 121192590,
         mass: 53
       }, {
         id: "bS",
         edID: 128049344,
         eddbID: 812,
+        grp: "bh",
         cost: 134297570,
         mass: 53
       } ],
@@ -1494,30 +1609,35 @@ module.exports = {
         id: "b0",
         edID: 128049250,
         eddbID: 738,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "b1",
         edID: 128049251,
         eddbID: 739,
+        grp: "bh",
         cost: 25600,
         mass: 2
       }, {
         id: "b2",
         edID: 128049252,
         eddbID: 740,
+        grp: "bh",
         cost: 80320,
         mass: 4
       }, {
         id: "b3",
         edID: 128049253,
         eddbID: 741,
+        grp: "bh",
         cost: 132060,
         mass: 4
       }, {
         id: "b4",
         edID: 128049254,
         eddbID: 742,
+        grp: "bh",
         cost: 139420,
         mass: 4
       } ],
@@ -1555,30 +1675,35 @@ module.exports = {
         id: "Bn",
         edID: 128049286,
         eddbID: 768,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "Bo",
         edID: 128049287,
         eddbID: 769,
+        grp: "bh",
         cost: 418380,
         mass: 12
       }, {
         id: "Bp",
         edID: 128049288,
         eddbID: 770,
+        grp: "bh",
         cost: 941350,
         mass: 23
       }, {
         id: "Bq",
         edID: 128049289,
         eddbID: 771,
+        grp: "bh",
         cost: 2224730,
         mass: 23
       }, {
         id: "Br",
         edID: 128049290,
         eddbID: 772,
+        grp: "bh",
         cost: 2465290,
         mass: 23
       } ],
@@ -1616,30 +1741,35 @@ module.exports = {
         id: "Bs",
         edID: 128049298,
         eddbID: 773,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "Bt",
         edID: 128049299,
         eddbID: 774,
+        grp: "bh",
         cost: 6988900,
         mass: 32
       }, {
         id: "Bu",
         edID: 128049300,
         eddbID: 775,
+        grp: "bh",
         cost: 15725030,
         mass: 63
       }, {
         id: "Bv",
         edID: 128049301,
         eddbID: 776,
+        grp: "bh",
         cost: 37163480,
         mass: 63
       }, {
         id: "Bw",
         edID: 128049302,
         eddbID: 777,
+        grp: "bh",
         cost: 41182100,
         mass: 63
       } ],
@@ -1678,30 +1808,35 @@ module.exports = {
         id: "Bx",
         edID: 128049334,
         eddbID: 803,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "By",
         edID: 128049335,
         eddbID: 804,
+        grp: "bh",
         cost: 30622340,
         mass: 75
       }, {
         id: "Bz",
         edID: 128049336,
         eddbID: 805,
+        grp: "bh",
         cost: 68900260,
         mass: 150
       }, {
         id: "BA",
         edID: 128049337,
         eddbID: 806,
+        grp: "bh",
         cost: 162834280,
         mass: 150
       }, {
         id: "BB",
         edID: 128049338,
         eddbID: 807,
+        grp: "bh",
         cost: 180442120,
         mass: 150
       } ],
@@ -1739,30 +1874,35 @@ module.exports = {
         id: "B3",
         edID: 128049274,
         eddbID: 758,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "B4",
         edID: 128049275,
         eddbID: 759,
+        grp: "bh",
         cost: 57170,
         mass: 5
       }, {
         id: "B5",
         edID: 128049276,
         eddbID: 760,
+        grp: "bh",
         cost: 128640,
         mass: 9
       }, {
         id: "B6",
         edID: 128049277,
         eddbID: 761,
+        grp: "bh",
         cost: 304010,
         mass: 9
       }, {
         id: "B7",
         edID: 128049278,
         eddbID: 762,
+        grp: "bh",
         cost: 336890,
         mass: 9
       } ],
@@ -1800,30 +1940,35 @@ module.exports = {
         id: "c6",
         edID: 128672257,
         eddbID: 1508,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "c7",
         edID: 128672258,
         eddbID: 1509,
+        grp: "bh",
         cost: 175180,
         mass: 5
       }, {
         id: "c8",
         edID: 128672259,
         eddbID: 1510,
+        grp: "bh",
         cost: 394140,
         mass: 9
       }, {
         id: "c9",
         edID: 128672260,
         eddbID: 1511,
+        grp: "bh",
         cost: 931490,
         mass: 9
       }, {
         id: "ca",
         edID: 128672261,
         eddbID: 1512,
+        grp: "bh",
         cost: 1033210,
         mass: 9
       } ],
@@ -1861,30 +2006,35 @@ module.exports = {
         id: "B8",
         edID: 128049310,
         eddbID: 783,
+        grp: "bh",
         cost: 0,
         mass: 0
       }, {
         id: "B9",
         edID: 128049311,
         eddbID: 784,
+        grp: "bh",
         cost: 1970250,
         mass: 17
       }, {
         id: "Ba",
         edID: 128049312,
         eddbID: 785,
+        grp: "bh",
         cost: 4433050,
         mass: 35
       }, {
         id: "Bb",
         edID: 128049313,
         eddbID: 786,
+        grp: "bh",
         cost: 10476780,
         mass: 35
       }, {
         id: "Bc",
         edID: 128049314,
         eddbID: 787,
+        grp: "bh",
         cost: 11609670,
         mass: 35
       } ],
@@ -12325,6 +12475,7 @@ module.exports = {
     modifiers: [ "mass", "integrity", "power", "hps", "boot", "pGen", "eff", "optmass", "optmult", "maxfuel", "maxsys", "maxeng", "maxwep", "ratesys", "rateeng", "ratewep", "rof", "hps", "eps", "ammo", "clip", "reload", "range" ],
     validity: {
       am: [ "boot", "integrity", "power" ],
+      bh: [ "armour", "explres", "kinres", "mass", "thermres" ],
       bl: [ "armourpen", "damage", "distdraw", "integrity", "mass", "power", "range", "thermload" ],
       bsg: [ "boot", "brokenregen", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
       c: [ "ammo", "armourpen", "clip", "damage", "distdraw", "integrity", "jitter", "mass", "power", "range", "reload", "rof", "thermload" ],

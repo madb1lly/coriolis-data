@@ -4,6 +4,13 @@
     "integrity",
     "power"
   ],
+  "bh": [
+    "armour",
+    "explres",
+    "kinres",
+    "mass",
+    "thermres"
+  ],
   "bl": [
     "armourpen",
     "damage",
