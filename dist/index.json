@@ -13025,7 +13025,7 @@
 			],
 			"hr": [
 				{
-					"armouradd": 360,
+					"hullreinforcement": 360,
 					"class": 5,
 					"cost": 150000,
 					"edID": 128668545,
@@ -13036,7 +13036,7 @@
 					"rating": "E"
 				},
 				{
-					"armouradd": 390,
+					"hullreinforcement": 390,
 					"class": 5,
 					"cost": 450000,
 					"edID": 128668546,
@@ -13047,7 +13047,7 @@
 					"rating": "D"
 				},
 				{
-					"armouradd": 300,
+					"hullreinforcement": 300,
 					"class": 4,
 					"cost": 65000,
 					"edID": 128668543,
@@ -13058,7 +13058,7 @@
 					"rating": "E"
 				},
 				{
-					"armouradd": 330,
+					"hullreinforcement": 330,
 					"class": 4,
 					"cost": 195000,
 					"edID": 128668544,
@@ -13069,7 +13069,7 @@
 					"rating": "D"
 				},
 				{
-					"armouradd": 230,
+					"hullreinforcement": 230,
 					"class": 3,
 					"cost": 28000,
 					"edID": 128668541,
@@ -13080,7 +13080,7 @@
 					"rating": "E"
 				},
 				{
-					"armouradd": 260,
+					"hullreinforcement": 260,
 					"class": 3,
 					"cost": 84000,
 					"edID": 128668542,
@@ -13091,7 +13091,7 @@
 					"rating": "D"
 				},
 				{
-					"armouradd": 150,
+					"hullreinforcement": 150,
 					"class": 2,
 					"cost": 12000,
 					"edID": 128668539,
@@ -13102,7 +13102,7 @@
 					"rating": "E"
 				},
 				{
-					"armouradd": 190,
+					"hullreinforcement": 190,
 					"class": 2,
 					"cost": 36000,
 					"edID": 128668540,
@@ -13113,7 +13113,7 @@
 					"rating": "D"
 				},
 				{
-					"armouradd": 80,
+					"hullreinforcement": 80,
 					"class": 1,
 					"cost": 5000,
 					"edID": 128668537,
@@ -13124,7 +13124,7 @@
 					"rating": "E"
 				},
 				{
-					"armouradd": 110,
+					"hullreinforcement": 110,
 					"class": 1,
 					"cost": 15000,
 					"edID": 128668538,
@@ -15664,7 +15664,7 @@
 				"power"
 			],
 			"hr": [
-				"armour",
+				"hullreinforcement",
 				"explres",
 				"hullboost",
 				"kinres",

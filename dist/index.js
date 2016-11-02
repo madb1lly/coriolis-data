@@ -10798,7 +10798,7 @@ module.exports = {
         time: 18
       } ],
       hr: [ {
-        armouradd: 360,
+        hullreinforcement: 360,
         class: 5,
         cost: 15e4,
         edID: 128668545,
@@ -10808,7 +10808,7 @@ module.exports = {
         mass: 64,
         rating: "E"
       }, {
-        armouradd: 390,
+        hullreinforcement: 390,
         class: 5,
         cost: 45e4,
         edID: 128668546,
@@ -10818,7 +10818,7 @@ module.exports = {
         mass: 32,
         rating: "D"
       }, {
-        armouradd: 300,
+        hullreinforcement: 300,
         class: 4,
         cost: 65e3,
         edID: 128668543,
@@ -10828,7 +10828,7 @@ module.exports = {
         mass: 32,
         rating: "E"
       }, {
-        armouradd: 330,
+        hullreinforcement: 330,
         class: 4,
         cost: 195e3,
         edID: 128668544,
@@ -10838,7 +10838,7 @@ module.exports = {
         mass: 16,
         rating: "D"
       }, {
-        armouradd: 230,
+        hullreinforcement: 230,
         class: 3,
         cost: 28e3,
         edID: 128668541,
@@ -10848,7 +10848,7 @@ module.exports = {
         mass: 16,
         rating: "E"
       }, {
-        armouradd: 260,
+        hullreinforcement: 260,
         class: 3,
         cost: 84e3,
         edID: 128668542,
@@ -10858,7 +10858,7 @@ module.exports = {
         mass: 8,
         rating: "D"
       }, {
-        armouradd: 150,
+        hullreinforcement: 150,
         class: 2,
         cost: 12e3,
         edID: 128668539,
@@ -10868,7 +10868,7 @@ module.exports = {
         mass: 8,
         rating: "E"
       }, {
-        armouradd: 190,
+        hullreinforcement: 190,
         class: 2,
         cost: 36e3,
         edID: 128668540,
@@ -10878,7 +10878,7 @@ module.exports = {
         mass: 4,
         rating: "D"
       }, {
-        armouradd: 80,
+        hullreinforcement: 80,
         class: 1,
         cost: 5e3,
         edID: 128668537,
@@ -10888,7 +10888,7 @@ module.exports = {
         mass: 4,
         rating: "E"
       }, {
-        armouradd: 110,
+        hullreinforcement: 110,
         class: 1,
         cost: 15e3,
         edID: 128668538,
@@ -13138,7 +13138,7 @@ module.exports = {
       fsd: [ "boot", "integrity", "mass", "maxfuel", "optmass", "power", "thermload" ],
       fx: [ "integrity", "mass", "power" ],
       hb: [ "integrity", "mass", "power" ],
-      hr: [ "armour", "explres", "hullboost", "kinres", "mass", "thermres" ],
+      hr: [ "hullreinforcement", "explres", "hullboost", "kinres", "mass", "thermres" ],
       hs: [ "ammo", "integrity", "mass", "power", "reload" ],
       kw: [ "boot", "integrity", "mass", "power" ],
       ls: [ "boot", "integrity", "mass", "power" ],
