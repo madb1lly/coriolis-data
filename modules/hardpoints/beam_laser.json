@@ -1,7 +1,6 @@
 {
   "bl": [
     {
-      "armourpen": 18,
       "breachdmg": 7.9,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -16,6 +15,7 @@
       "integrity": 40,
       "mass": 2,
       "mount": "F",
+      "piercing": 18,
       "power": 0.69,
       "range": 3000,
       "rating": "E",
@@ -23,7 +23,6 @@
       "type": "T"
     },
     {
-      "armourpen": 18,
       "breachdmg": 6.1,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -38,6 +37,7 @@
       "integrity": 40,
       "mass": 2,
       "mount": "G",
+      "piercing": 18,
       "power": 0.67,
       "range": 3000,
       "rating": "E",
@@ -45,7 +45,6 @@
       "type": "T"
     },
     {
-      "armourpen": 18,
       "breachdmg": 4.3,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -62,6 +61,7 @@
       "integrity": 40,
       "mass": 2,
       "mount": "T",
+      "piercing": 18,
       "power": 0.63,
       "range": 3000,
       "rating": "F",
@@ -69,14 +69,13 @@
       "type": "T"
     },
     {
-      "armourpen": 18,
       "breachdmg": 3.9,
       "breachmax": 0.8,
       "breachmin": 0.4,
       "class": 1,
       "cost": 56150,
       "damage": 4.9,
-      "distdraw": 2.80,
+      "distdraw": 2.8,
       "edID": 128671346,
       "eddbID": 1476,
       "grp": "bl",
@@ -85,6 +84,7 @@
       "mass": 2,
       "mount": "F",
       "name": "Retributor",
+      "piercing": 18,
       "power": 0.69,
       "pp": "Edmund Mahon",
       "range": 3000,
@@ -93,7 +93,6 @@
       "type": "T"
     },
     {
-      "armourpen": 35,
       "breachdmg": 12.8,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -108,6 +107,7 @@
       "integrity": 51,
       "mass": 4,
       "mount": "F",
+      "piercing": 35,
       "power": 1.12,
       "range": 3000,
       "rating": "D",
@@ -115,7 +115,6 @@
       "type": "T"
     },
     {
-      "armourpen": 35,
       "breachdmg": 10,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -130,6 +129,7 @@
       "integrity": 51,
       "mass": 4,
       "mount": "G",
+      "piercing": 35,
       "power": 1.1,
       "range": 3000,
       "rating": "D",
@@ -137,7 +137,6 @@
       "type": "T"
     },
     {
-      "armourpen": 35,
       "breachdmg": 7.1,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -152,6 +151,7 @@
       "integrity": 51,
       "mass": 4,
       "mount": "T",
+      "piercing": 35,
       "power": 1.03,
       "range": 3000,
       "rating": "E",
@@ -159,7 +159,6 @@
       "type": "T"
     },
     {
-      "armourpen": 50,
       "breachdmg": 20.6,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -174,6 +173,7 @@
       "integrity": 64,
       "mass": 8,
       "mount": "F",
+      "piercing": 50,
       "power": 1.8,
       "range": 3000,
       "rating": "C",
@@ -181,7 +181,6 @@
       "type": "T"
     },
     {
-      "armourpen": 50,
       "breachdmg": 16.2,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -196,6 +195,7 @@
       "integrity": 64,
       "mass": 8,
       "mount": "G",
+      "piercing": 50,
       "power": 1.78,
       "range": 3000,
       "rating": "C",
@@ -203,7 +203,6 @@
       "type": "T"
     },
     {
-      "armourpen": 50,
       "breachdmg": 11.5,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -218,6 +217,7 @@
       "integrity": 64,
       "mass": 8,
       "mount": "T",
+      "piercing": 50,
       "power": 1.68,
       "range": 3000,
       "rating": "D",
@@ -225,14 +225,13 @@
       "type": "T"
     },
     {
-      "armourpen": 60,
       "breachdmg": 33.1,
       "breachmax": 0.8,
       "breachmin": 0.4,
       "class": 4,
       "cost": 2396160,
       "damage": 41.38,
-      "distdraw": 9.10,
+      "distdraw": 9.1,
       "edID": 128049431,
       "eddbID": 1540,
       "grp": "bl",
@@ -240,6 +239,7 @@
       "integrity": 80,
       "mass": 16,
       "mount": "F",
+      "piercing": 60,
       "power": 2.9,
       "range": 3000,
       "rating": "A",
@@ -247,7 +247,6 @@
       "type": "T"
     },
     {
-      "armourpen": 60,
       "breachdmg": 26.1,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -262,6 +261,7 @@
       "integrity": 80,
       "mass": 16,
       "mount": "G",
+      "piercing": 60,
       "power": 2.86,
       "range": 3000,
       "rating": "A",

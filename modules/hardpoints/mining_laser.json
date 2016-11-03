@@ -1,7 +1,6 @@
 {
   "ml": [
     {
-      "armourpen": 18,
       "breachdmg": 0.3,
       "breachmax": 0.2,
       "breachmin": 0.1,
@@ -16,12 +15,12 @@
       "integrity": 40,
       "mass": 2,
       "mount": "F",
+      "piercing": 18,
       "power": 0.5,
       "rating": "D",
       "thermload": 2
     },
     {
-      "armourpen": "D",
       "breachdmg": 0.6,
       "breachmax": 0.2,
       "breachmin": 0.1,
@@ -32,9 +31,11 @@
       "eddbID": 1479,
       "grp": "ml",
       "id": "ml",
+      "integrity": 40,
       "mass": 2,
       "mount": "F",
       "name": "Mining Lance",
+      "piercing": "D",
       "power": 0.7,
       "pp": "Zemina Torval",
       "rating": "D",
@@ -42,7 +43,6 @@
       "type": "T"
     },
     {
-      "armourpen": 18,
       "breachdmg": 1.2,
       "breachmax": 0.2,
       "breachmin": 0.1,
@@ -57,6 +57,7 @@
       "integrity": 51,
       "mass": 2,
       "mount": "F",
+      "piercing": 18,
       "power": 0.75,
       "rating": "D",
       "thermload": 4

@@ -2662,7 +2662,7 @@ module.exports = {
         id: "py",
         integrity: 135,
         mass: 160,
-        pGen: 24,
+        pgen: 24,
         rating: "E"
       }, {
         class: 8,
@@ -2674,7 +2674,7 @@ module.exports = {
         id: "px",
         integrity: 120,
         mass: 64,
-        pGen: 27,
+        pgen: 27,
         rating: "D"
       }, {
         class: 8,
@@ -2686,7 +2686,7 @@ module.exports = {
         id: "pw",
         integrity: 150,
         mass: 80,
-        pGen: 30,
+        pgen: 30,
         rating: "C"
       }, {
         class: 8,
@@ -2698,7 +2698,7 @@ module.exports = {
         id: "pv",
         integrity: 180,
         mass: 128,
-        pGen: 33,
+        pgen: 33,
         rating: "B"
       }, {
         class: 8,
@@ -2710,7 +2710,7 @@ module.exports = {
         id: "pu",
         integrity: 165,
         mass: 80,
-        pGen: 36,
+        pgen: 36,
         rating: "A"
       }, {
         class: 7,
@@ -2722,7 +2722,7 @@ module.exports = {
         id: "pt",
         integrity: 118,
         mass: 80,
-        pGen: 20,
+        pgen: 20,
         rating: "E"
       }, {
         class: 7,
@@ -2734,7 +2734,7 @@ module.exports = {
         id: "ps",
         integrity: 105,
         mass: 32,
-        pGen: 22.5,
+        pgen: 22.5,
         rating: "D"
       }, {
         class: 7,
@@ -2746,7 +2746,7 @@ module.exports = {
         id: "pr",
         integrity: 131,
         mass: 40,
-        pGen: 25,
+        pgen: 25,
         rating: "C"
       }, {
         class: 7,
@@ -2758,7 +2758,7 @@ module.exports = {
         id: "pq",
         integrity: 157,
         mass: 64,
-        pGen: 27.5,
+        pgen: 27.5,
         rating: "B"
       }, {
         class: 7,
@@ -2770,7 +2770,7 @@ module.exports = {
         id: "pp",
         integrity: 144,
         mass: 40,
-        pGen: 30,
+        pgen: 30,
         rating: "A"
       }, {
         class: 6,
@@ -2782,7 +2782,7 @@ module.exports = {
         id: "po",
         integrity: 90,
         mass: 40,
-        pGen: 16.8,
+        pgen: 16.8,
         rating: "E"
       }, {
         class: 6,
@@ -2794,7 +2794,7 @@ module.exports = {
         id: "pn",
         integrity: 113,
         mass: 16,
-        pGen: 18.9,
+        pgen: 18.9,
         rating: "D"
       }, {
         class: 6,
@@ -2806,7 +2806,7 @@ module.exports = {
         id: "pm",
         integrity: 136,
         mass: 20,
-        pGen: 21,
+        pgen: 21,
         rating: "C"
       }, {
         class: 6,
@@ -2818,7 +2818,7 @@ module.exports = {
         id: "pl",
         integrity: 124,
         mass: 32,
-        pGen: 23.1,
+        pgen: 23.1,
         rating: "B"
       }, {
         class: 6,
@@ -2830,7 +2830,7 @@ module.exports = {
         id: "pk",
         integrity: 118,
         mass: 20,
-        pGen: 25.2,
+        pgen: 25.2,
         rating: "A"
       }, {
         class: 5,
@@ -2842,7 +2842,7 @@ module.exports = {
         id: "pj",
         integrity: 86,
         mass: 20,
-        pGen: 13.6,
+        pgen: 13.6,
         rating: "E"
       }, {
         class: 5,
@@ -2854,7 +2854,7 @@ module.exports = {
         id: "pi",
         integrity: 77,
         mass: 8,
-        pGen: 15.3,
+        pgen: 15.3,
         rating: "D"
       }, {
         class: 5,
@@ -2866,7 +2866,7 @@ module.exports = {
         id: "ph",
         integrity: 96,
         mass: 10,
-        pGen: 17,
+        pgen: 17,
         rating: "C"
       }, {
         class: 5,
@@ -2878,7 +2878,7 @@ module.exports = {
         id: "pg",
         integrity: 114,
         mass: 16,
-        pGen: 18.7,
+        pgen: 18.7,
         rating: "B"
       }, {
         class: 5,
@@ -2890,7 +2890,7 @@ module.exports = {
         id: "pf",
         integrity: 106,
         mass: 10,
-        pGen: 20.4,
+        pgen: 20.4,
         rating: "A"
       }, {
         class: 4,
@@ -2902,7 +2902,7 @@ module.exports = {
         id: "pe",
         integrity: 72,
         mass: 10,
-        pGen: 10.4,
+        pgen: 10.4,
         rating: "E"
       }, {
         class: 4,
@@ -2914,7 +2914,7 @@ module.exports = {
         id: "pd",
         integrity: 64,
         mass: 4,
-        pGen: 11.7,
+        pgen: 11.7,
         rating: "D"
       }, {
         class: 4,
@@ -2926,7 +2926,7 @@ module.exports = {
         id: "pc",
         integrity: 80,
         mass: 5,
-        pGen: 13,
+        pgen: 13,
         rating: "C"
       }, {
         class: 4,
@@ -2938,7 +2938,7 @@ module.exports = {
         id: "pb",
         integrity: 96,
         mass: 8,
-        pGen: 14.3,
+        pgen: 14.3,
         rating: "B"
       }, {
         class: 4,
@@ -2950,7 +2950,7 @@ module.exports = {
         id: "pa",
         integrity: 88,
         mass: 5,
-        pGen: 15.6,
+        pgen: 15.6,
         rating: "A"
       }, {
         class: 3,
@@ -2962,7 +2962,7 @@ module.exports = {
         id: "p9",
         integrity: 58,
         mass: 5,
-        pGen: 8,
+        pgen: 8,
         rating: "E"
       }, {
         class: 3,
@@ -2974,7 +2974,7 @@ module.exports = {
         id: "p8",
         integrity: 51,
         mass: 2,
-        pGen: 9,
+        pgen: 9,
         rating: "D"
       }, {
         class: 3,
@@ -2986,7 +2986,7 @@ module.exports = {
         id: "p7",
         integrity: 64,
         mass: 2.5,
-        pGen: 10,
+        pgen: 10,
         rating: "C"
       }, {
         class: 3,
@@ -2998,7 +2998,7 @@ module.exports = {
         id: "p6",
         integrity: 77,
         mass: 4,
-        pGen: 11,
+        pgen: 11,
         rating: "B"
       }, {
         class: 3,
@@ -3010,7 +3010,7 @@ module.exports = {
         id: "p5",
         integrity: 70,
         mass: 2.5,
-        pGen: 12,
+        pgen: 12,
         rating: "A"
       }, {
         class: 2,
@@ -3022,7 +3022,7 @@ module.exports = {
         id: "p4",
         integrity: 46,
         mass: 2.5,
-        pGen: 6.4,
+        pgen: 6.4,
         rating: "E"
       }, {
         class: 2,
@@ -3034,7 +3034,7 @@ module.exports = {
         id: "p3",
         integrity: 41,
         mass: 1,
-        pGen: 7.2,
+        pgen: 7.2,
         rating: "D"
       }, {
         class: 2,
@@ -3046,7 +3046,7 @@ module.exports = {
         id: "p2",
         integrity: 51,
         mass: 1.3,
-        pGen: 8,
+        pgen: 8,
         rating: "C"
       }, {
         class: 2,
@@ -3058,7 +3058,7 @@ module.exports = {
         id: "p1",
         integrity: 61,
         mass: 2,
-        pGen: 8.8,
+        pgen: 8.8,
         rating: "B"
       }, {
         class: 2,
@@ -3070,7 +3070,7 @@ module.exports = {
         id: "p0",
         integrity: 56,
         mass: 1.3,
-        pGen: 9.6,
+        pgen: 9.6,
         rating: "A"
       } ],
       t: [ {
@@ -6001,7 +6001,6 @@ module.exports = {
     },
     hardpoints: {
       pl: [ {
-        armourpen: 20,
         breachdmg: 2.04,
         breachmax: .8,
         breachmin: .4,
@@ -6016,6 +6015,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "F",
+        piercing: 20,
         power: .39,
         range: 3e3,
         rating: "F",
@@ -6023,7 +6023,6 @@ module.exports = {
         thermload: .3,
         type: "T"
       }, {
-        armourpen: 20,
         breachdmg: 1.3,
         breachmax: .8,
         breachmin: .4,
@@ -6038,6 +6037,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "G",
+        piercing: 20,
         power: .39,
         range: 3e3,
         rating: "G",
@@ -6045,7 +6045,6 @@ module.exports = {
         thermload: .3,
         type: "T"
       }, {
-        armourpen: 20,
         breachdmg: 1,
         breachmax: .8,
         breachmin: .4,
@@ -6060,6 +6059,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "T",
+        piercing: 20,
         power: .38,
         range: 3e3,
         rating: "G",
@@ -6067,7 +6067,6 @@ module.exports = {
         thermload: .2,
         type: "T"
       }, {
-        armourpen: 35,
         breachdmg: 3,
         breachmax: .8,
         breachmin: .4,
@@ -6082,6 +6081,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "F",
+        piercing: 35,
         power: .6,
         range: 3e3,
         rating: "F",
@@ -6089,7 +6089,6 @@ module.exports = {
         thermload: .6,
         type: "T"
       }, {
-        armourpen: 35,
         breachdmg: 2.3,
         breachmax: .8,
         breachmin: .4,
@@ -6104,6 +6103,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "G",
+        piercing: 35,
         power: .6,
         range: 3e3,
         rating: "F",
@@ -6111,7 +6111,6 @@ module.exports = {
         thermload: .5,
         type: "T"
       }, {
-        armourpen: 35,
         breachdmg: 1.7,
         breachmax: .8,
         breachmin: .4,
@@ -6126,6 +6125,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "T",
+        piercing: 35,
         power: .58,
         range: 3e3,
         rating: "F",
@@ -6133,7 +6133,6 @@ module.exports = {
         thermload: .3,
         type: "T"
       }, {
-        armourpen: "A",
         breachdmg: 2.4,
         breachmax: .8,
         breachmin: .4,
@@ -6144,9 +6143,11 @@ module.exports = {
         eddbID: 1483,
         grp: "pl",
         id: "PL",
+        integrity: 51,
         mass: 4,
         mount: "F",
         name: "Disruptor",
+        piercing: "A",
         power: .7,
         pp: "Felicia Winters",
         rating: "E",
@@ -6154,7 +6155,6 @@ module.exports = {
         thermload: 1,
         type: "T"
       }, {
-        armourpen: 52,
         breachdmg: 5.1,
         breachmax: .8,
         breachmin: .4,
@@ -6169,6 +6169,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "F",
+        piercing: 52,
         power: .9,
         range: 3e3,
         rating: "D",
@@ -6176,7 +6177,6 @@ module.exports = {
         thermload: 1,
         type: "T"
       }, {
-        armourpen: 52,
         breachdmg: 3.9,
         breachmax: .8,
         breachmin: .4,
@@ -6191,6 +6191,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "G",
+        piercing: 52,
         power: .92,
         range: 3e3,
         rating: "E",
@@ -6198,7 +6199,6 @@ module.exports = {
         thermload: .9,
         type: "T"
       }, {
-        armourpen: 52,
         breachdmg: 3,
         breachmax: .8,
         breachmin: .4,
@@ -6213,6 +6213,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "T",
+        piercing: 52,
         power: .89,
         range: 3e3,
         rating: "F",
@@ -6220,7 +6221,6 @@ module.exports = {
         thermload: .6,
         type: "T"
       }, {
-        armourpen: 65,
         breachdmg: 8.7,
         breachmax: .8,
         breachmin: .4,
@@ -6235,6 +6235,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "F",
+        piercing: 65,
         power: 1.33,
         range: 3e3,
         rating: "A",
@@ -6242,7 +6243,6 @@ module.exports = {
         thermload: 1.6,
         type: "T"
       }, {
-        armourpen: 65,
         breachdmg: 6.6,
         breachmax: .8,
         breachmin: .4,
@@ -6257,6 +6257,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "G",
+        piercing: 65,
         power: 1.37,
         range: 3e3,
         rating: "A",
@@ -6265,7 +6266,6 @@ module.exports = {
         type: "T"
       } ],
       ul: [ {
-        armourpen: 20,
         breachdmg: 7.05,
         breachmax: .8,
         breachmin: .4,
@@ -6282,6 +6282,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "F",
+        piercing: 20,
         power: .65,
         range: 3e3,
         rating: "F",
@@ -6289,7 +6290,6 @@ module.exports = {
         thermload: .4,
         type: "T"
       }, {
-        armourpen: 20,
         breachdmg: 5.3,
         breachmax: .8,
         breachmin: .4,
@@ -6306,6 +6306,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "G",
+        piercing: 20,
         power: .64,
         range: 3e3,
         rating: "G",
@@ -6313,7 +6314,6 @@ module.exports = {
         thermload: .3,
         type: "T"
       }, {
-        armourpen: 20,
         breachdmg: 1.92,
         breachmax: .8,
         breachmin: .4,
@@ -6330,6 +6330,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "T",
+        piercing: 20,
         power: .6,
         range: 3e3,
         rating: "G",
@@ -6337,7 +6338,6 @@ module.exports = {
         thermload: .2,
         type: "T"
       }, {
-        armourpen: 1,
         breachdmg: 15.25,
         breachmax: 0,
         breachmin: 0,
@@ -6355,6 +6355,7 @@ module.exports = {
         mass: 2,
         mount: "F",
         name: "Cytoscrambler",
+        piercing: 1,
         power: .8,
         pp: "Archon Delaine",
         range: 600,
@@ -6363,7 +6364,6 @@ module.exports = {
         thermload: .3,
         type: "T"
       }, {
-        armourpen: 35,
         breachdmg: 11.1,
         breachmax: .8,
         breachmin: .4,
@@ -6380,6 +6380,7 @@ module.exports = {
         integrity: 40,
         mass: 4,
         mount: "F",
+        piercing: 35,
         power: 1.05,
         range: 3e3,
         rating: "E",
@@ -6387,7 +6388,6 @@ module.exports = {
         thermload: .8,
         type: "T"
       }, {
-        armourpen: 35,
         breachdmg: 8.82,
         breachmax: .8,
         breachmin: .4,
@@ -6404,6 +6404,7 @@ module.exports = {
         integrity: 40,
         mass: 4,
         mount: "G",
+        piercing: 35,
         power: 1.04,
         range: 3e3,
         rating: "F",
@@ -6411,7 +6412,6 @@ module.exports = {
         thermload: .7,
         type: "T"
       }, {
-        armourpen: 35,
         breachdmg: 3.51,
         breachmax: .8,
         breachmin: .4,
@@ -6428,6 +6428,7 @@ module.exports = {
         integrity: 40,
         mass: 4,
         mount: "T",
+        piercing: 35,
         power: .98,
         range: 3e3,
         rating: "F",
@@ -6435,7 +6436,6 @@ module.exports = {
         thermload: .4,
         type: "T"
       }, {
-        armourpen: 52,
         breachdmg: 10.53,
         breachmax: .8,
         breachmin: .4,
@@ -6452,6 +6452,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "F",
+        piercing: 52,
         power: 1.66,
         range: 3e3,
         rating: "D",
@@ -6459,7 +6460,6 @@ module.exports = {
         thermload: 1.7,
         type: "T"
       }, {
-        armourpen: 52,
         breachdmg: 14.08,
         breachmax: .8,
         breachmin: .4,
@@ -6476,6 +6476,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "G",
+        piercing: 52,
         power: 1.65,
         range: 3e3,
         rating: "E",
@@ -6483,7 +6484,6 @@ module.exports = {
         thermload: 1.4,
         type: "T"
       }, {
-        armourpen: 52,
         breachdmg: 5.58,
         breachmax: .8,
         breachmin: .4,
@@ -6500,6 +6500,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "T",
+        piercing: 52,
         power: 1.57,
         range: 3e3,
         rating: "E",
@@ -6507,7 +6508,6 @@ module.exports = {
         thermload: .8,
         type: "T"
       }, {
-        armourpen: 65,
         breachdmg: 28,
         breachmax: .8,
         breachmin: .4,
@@ -6524,6 +6524,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "F",
+        piercing: 65,
         power: 2.58,
         range: 3e3,
         rating: "E",
@@ -6531,7 +6532,6 @@ module.exports = {
         thermload: 4.5,
         type: "T"
       }, {
-        armourpen: 65,
         breachdmg: 21.63,
         breachmax: .8,
         breachmin: .4,
@@ -6548,6 +6548,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "G",
+        piercing: 65,
         power: 2.59,
         range: 3e3,
         rating: "E",
@@ -6556,7 +6557,6 @@ module.exports = {
         type: "T"
       } ],
       bl: [ {
-        armourpen: 18,
         breachdmg: 7.9,
         breachmax: .8,
         breachmin: .4,
@@ -6571,13 +6571,13 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "F",
+        piercing: 18,
         power: .69,
         range: 3e3,
         rating: "E",
         thermload: 3.5,
         type: "T"
       }, {
-        armourpen: 18,
         breachdmg: 6.1,
         breachmax: .8,
         breachmin: .4,
@@ -6592,13 +6592,13 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "G",
+        piercing: 18,
         power: .67,
         range: 3e3,
         rating: "E",
         thermload: 3.6,
         type: "T"
       }, {
-        armourpen: 18,
         breachdmg: 4.3,
         breachmax: .8,
         breachmin: .4,
@@ -6615,13 +6615,13 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "T",
+        piercing: 18,
         power: .63,
         range: 3e3,
         rating: "F",
         thermload: 2.4,
         type: "T"
       }, {
-        armourpen: 18,
         breachdmg: 3.9,
         breachmax: .8,
         breachmin: .4,
@@ -6637,6 +6637,7 @@ module.exports = {
         mass: 2,
         mount: "F",
         name: "Retributor",
+        piercing: 18,
         power: .69,
         pp: "Edmund Mahon",
         range: 3e3,
@@ -6644,7 +6645,6 @@ module.exports = {
         thermload: 2.7,
         type: "T"
       }, {
-        armourpen: 35,
         breachdmg: 12.8,
         breachmax: .8,
         breachmin: .4,
@@ -6659,13 +6659,13 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "F",
+        piercing: 35,
         power: 1.12,
         range: 3e3,
         rating: "D",
         thermload: 5.1,
         type: "T"
       }, {
-        armourpen: 35,
         breachdmg: 10,
         breachmax: .8,
         breachmin: .4,
@@ -6680,13 +6680,13 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "G",
+        piercing: 35,
         power: 1.1,
         range: 3e3,
         rating: "D",
         thermload: 5.3,
         type: "T"
       }, {
-        armourpen: 35,
         breachdmg: 7.1,
         breachmax: .8,
         breachmin: .4,
@@ -6701,13 +6701,13 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "T",
+        piercing: 35,
         power: 1.03,
         range: 3e3,
         rating: "E",
         thermload: 3.5,
         type: "T"
       }, {
-        armourpen: 50,
         breachdmg: 20.6,
         breachmax: .8,
         breachmin: .4,
@@ -6722,13 +6722,13 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "F",
+        piercing: 50,
         power: 1.8,
         range: 3e3,
         rating: "C",
         thermload: 7.2,
         type: "T"
       }, {
-        armourpen: 50,
         breachdmg: 16.2,
         breachmax: .8,
         breachmin: .4,
@@ -6743,13 +6743,13 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "G",
+        piercing: 50,
         power: 1.78,
         range: 3e3,
         rating: "C",
         thermload: 7.6,
         type: "T"
       }, {
-        armourpen: 50,
         breachdmg: 11.5,
         breachmax: .8,
         breachmin: .4,
@@ -6764,13 +6764,13 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "T",
+        piercing: 50,
         power: 1.68,
         range: 3e3,
         rating: "D",
         thermload: 5.1,
         type: "T"
       }, {
-        armourpen: 60,
         breachdmg: 33.1,
         breachmax: .8,
         breachmin: .4,
@@ -6785,13 +6785,13 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "F",
+        piercing: 60,
         power: 2.9,
         range: 3e3,
         rating: "A",
         thermload: 9.9,
         type: "T"
       }, {
-        armourpen: 60,
         breachdmg: 26.1,
         breachmax: .8,
         breachmin: .4,
@@ -6806,6 +6806,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "G",
+        piercing: 60,
         power: 2.86,
         range: 3e3,
         rating: "A",
@@ -6814,7 +6815,6 @@ module.exports = {
       } ],
       mc: [ {
         ammo: 2100,
-        armourpen: 22,
         breachdmg: 1,
         breachmax: .8,
         breachmin: .4,
@@ -6830,6 +6830,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "F",
+        piercing: 22,
         power: .28,
         range: 4e3,
         rating: "F",
@@ -6840,7 +6841,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 2100,
-        armourpen: 22,
         breachdmg: .7,
         breachmax: .8,
         breachmin: .4,
@@ -6856,6 +6856,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "G",
+        piercing: 22,
         power: .37,
         range: 4e3,
         rating: "G",
@@ -6866,7 +6867,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 2100,
-        armourpen: 22,
         breachdmg: .5,
         breachmax: .8,
         breachmin: .4,
@@ -6882,6 +6882,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "T",
+        piercing: 22,
         power: .26,
         range: 4e3,
         rating: "G",
@@ -6892,7 +6893,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 1e3,
-        armourpen: "A",
         breachdmg: 2.7,
         breachmax: .8,
         breachmin: .4,
@@ -6904,9 +6904,11 @@ module.exports = {
         eddbID: 1481,
         grp: "mc",
         id: "e0",
+        integrity: 40,
         mass: 2,
         mount: "F",
         name: "Enforcer",
+        piercing: "A",
         power: .28,
         pp: "Pranav Antal",
         range: 4500,
@@ -6918,7 +6920,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 2100,
-        armourpen: 37,
         breachdmg: 2,
         breachmax: .8,
         breachmin: .4,
@@ -6934,6 +6935,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "F",
+        piercing: 37,
         power: .46,
         range: 4e3,
         rating: "E",
@@ -6944,7 +6946,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 2100,
-        armourpen: 37,
         breachdmg: 1.5,
         breachmax: .8,
         breachmin: .4,
@@ -6960,6 +6961,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "G",
+        piercing: 37,
         power: .64,
         range: 4e3,
         rating: "F",
@@ -6970,7 +6972,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 2100,
-        armourpen: 37,
         breachdmg: 1.1,
         breachmax: .8,
         breachmin: .4,
@@ -6986,6 +6987,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "T",
+        piercing: 37,
         power: .5,
         range: 4e3,
         rating: "F",
@@ -6996,7 +6998,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 2100,
-        armourpen: 54,
         breachdmg: 3.5,
         breachmax: .8,
         breachmin: .4,
@@ -7012,6 +7013,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "F",
+        piercing: 54,
         power: .64,
         range: 4e3,
         rating: "C",
@@ -7022,7 +7024,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 2100,
-        armourpen: 54,
         breachdmg: 2.6,
         breachmax: .8,
         breachmin: .4,
@@ -7038,6 +7039,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "G",
+        piercing: 54,
         power: .97,
         range: 4e3,
         rating: "C",
@@ -7048,7 +7050,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 2100,
-        armourpen: 68,
         breachdmg: 4.2,
         breachmax: .8,
         breachmin: .4,
@@ -7064,6 +7065,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "F",
+        piercing: 68,
         power: .73,
         range: 4e3,
         rating: "A",
@@ -7075,7 +7077,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 2100,
-        armourpen: 68,
         breachdmg: 3.1,
         breachmax: .8,
         breachmin: .4,
@@ -7091,6 +7092,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "G",
+        piercing: 68,
         power: 1.22,
         range: 4e3,
         rating: "A",
@@ -7103,7 +7105,6 @@ module.exports = {
       } ],
       c: [ {
         ammo: 100,
-        armourpen: 35,
         breachdmg: 17.1,
         breachmax: .8,
         breachmin: .6,
@@ -7119,6 +7120,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "F",
+        piercing: 35,
         power: .34,
         range: 3e3,
         rating: "D",
@@ -7129,7 +7131,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 100,
-        armourpen: 35,
         breachdmg: 13.2,
         breachmax: .9,
         breachmin: .6,
@@ -7145,6 +7146,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "G",
+        piercing: 35,
         power: .38,
         range: 3e3,
         rating: "E",
@@ -7155,7 +7157,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 100,
-        armourpen: 90,
         breachdmg: 10.6,
         breachmax: .8,
         breachmin: .6,
@@ -7171,6 +7172,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "T",
+        piercing: 90,
         power: .32,
         range: 3e3,
         rating: "F",
@@ -7181,7 +7183,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 100,
-        armourpen: 90,
         breachdmg: 28,
         breachmax: .8,
         breachmin: .6,
@@ -7197,6 +7198,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "F",
+        piercing: 90,
         power: .49,
         range: 3500,
         rating: "D",
@@ -7207,7 +7209,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 100,
-        armourpen: 90,
         breachdmg: 20.3,
         breachmax: .8,
         breachmin: .6,
@@ -7223,6 +7224,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "G",
+        piercing: 90,
         power: .54,
         range: 3500,
         rating: "D",
@@ -7233,7 +7235,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 100,
-        armourpen: 90,
         breachdmg: 16.3,
         breachmax: .8,
         breachmin: .6,
@@ -7249,6 +7250,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "T",
+        piercing: 90,
         power: .45,
         range: 3500,
         rating: "E",
@@ -7259,7 +7261,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 100,
-        armourpen: 90,
         breachdmg: 42.3,
         breachmax: .8,
         breachmin: .6,
@@ -7275,6 +7276,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "F",
+        piercing: 90,
         power: .67,
         range: 4e3,
         rating: "C",
@@ -7285,7 +7287,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 100,
-        armourpen: 90,
         breachdmg: 30.9,
         breachmax: .8,
         breachmin: .6,
@@ -7303,6 +7304,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "G",
+        piercing: 90,
         power: .75,
         range: 4e3,
         rating: "C",
@@ -7313,7 +7315,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 100,
-        armourpen: 90,
         breachdmg: 25.14,
         breachmax: .8,
         breachmin: .6,
@@ -7329,6 +7330,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "T",
+        piercing: 90,
         power: .64,
         range: 4e3,
         rating: "D",
@@ -7339,7 +7341,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 100,
-        armourpen: 90,
         breachdmg: 63.2,
         breachmax: .8,
         breachmin: .6,
@@ -7357,6 +7358,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "F",
+        piercing: 90,
         power: .92,
         range: 4500,
         rating: "B",
@@ -7367,7 +7369,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 100,
-        armourpen: 90,
         breachdmg: 46.7,
         breachmax: .8,
         breachmin: .6,
@@ -7385,6 +7386,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "G",
+        piercing: 90,
         power: 1.03,
         range: 4500,
         rating: "B",
@@ -7396,7 +7398,6 @@ module.exports = {
       } ],
       fc: [ {
         ammo: 90,
-        armourpen: 20,
         breachdmg: 1.3,
         breachmax: .8,
         breachmin: .4,
@@ -7413,6 +7414,7 @@ module.exports = {
         jitter: .5,
         mass: 2,
         mount: "F",
+        piercing: 20,
         power: .45,
         range: 2e3,
         rating: "E",
@@ -7424,7 +7426,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 90,
-        armourpen: 20,
         breachdmg: .9,
         breachmax: .8,
         breachmin: .4,
@@ -7441,6 +7442,7 @@ module.exports = {
         jitter: .5,
         mass: 2,
         mount: "G",
+        piercing: 20,
         power: .59,
         range: 2e3,
         rating: "E",
@@ -7452,7 +7454,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 90,
-        armourpen: 20,
         breachdmg: .5,
         breachmax: .8,
         breachmin: .4,
@@ -7469,6 +7470,7 @@ module.exports = {
         jitter: .5,
         mass: 2,
         mount: "T",
+        piercing: 20,
         power: .42,
         range: 2e3,
         rating: "E",
@@ -7480,7 +7482,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 90,
-        armourpen: 35,
         breachdmg: 2.3,
         breachmax: .8,
         breachmin: .4,
@@ -7497,6 +7498,7 @@ module.exports = {
         jitter: .5,
         mass: 4,
         mount: "F",
+        piercing: 35,
         power: .74,
         range: 2e3,
         rating: "A",
@@ -7508,7 +7510,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 90,
-        armourpen: 35,
         breachdmg: 1.8,
         breachmax: .8,
         breachmin: .4,
@@ -7525,6 +7526,7 @@ module.exports = {
         jitter: .5,
         mass: 4,
         mount: "G",
+        piercing: 35,
         power: 1.03,
         range: 2e3,
         rating: "D",
@@ -7536,7 +7538,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 90,
-        armourpen: 35,
         breachdmg: 1.3,
         breachmax: .8,
         breachmin: .4,
@@ -7553,6 +7554,7 @@ module.exports = {
         jitter: .5,
         mass: 4,
         mount: "T",
+        piercing: 35,
         power: .79,
         range: 2e3,
         rating: "D",
@@ -7564,7 +7566,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 90,
-        armourpen: 52,
         breachdmg: 3.5,
         breachmax: .8,
         breachmin: .4,
@@ -7581,6 +7582,7 @@ module.exports = {
         jitter: .5,
         mass: 8,
         mount: "F",
+        piercing: 52,
         power: 1.02,
         range: 2e3,
         rating: "C",
@@ -7592,7 +7594,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 90,
-        armourpen: 52,
         breachdmg: 2.9,
         breachmax: .8,
         breachmin: .4,
@@ -7609,6 +7610,7 @@ module.exports = {
         jitter: .5,
         mass: 8,
         mount: "G",
+        piercing: 52,
         power: 1.55,
         range: 2e3,
         rating: "C",
@@ -7620,7 +7622,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 90,
-        armourpen: 52,
         breachdmg: 2.3,
         breachmax: .8,
         breachmin: .4,
@@ -7637,6 +7638,7 @@ module.exports = {
         jitter: .5,
         mass: 8,
         mount: "T",
+        piercing: 52,
         power: 1.29,
         range: 2e3,
         rating: "C",
@@ -7648,7 +7650,6 @@ module.exports = {
         type: "K"
       }, {
         ammo: 90,
-        armourpen: 52,
         breachdmg: 3.1,
         breachmax: .8,
         breachmin: .4,
@@ -7665,9 +7666,11 @@ module.exports = {
         mass: 8,
         mount: "F",
         name: "Pacifier",
+        piercing: 52,
         power: 1.02,
         pp: "Zachary Hudson",
         rating: "C",
+        reload: 5,
         rof: 4.5,
         speed: 1e3,
         thermload: 1.1,
@@ -7675,7 +7678,6 @@ module.exports = {
       } ],
       rg: [ {
         ammo: 30,
-        armourpen: 30,
         breachdmg: 22.2,
         breachmax: .8,
         breachmin: .4,
@@ -7691,6 +7693,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "F",
+        piercing: 30,
         power: 1.15,
         range: 3e3,
         rating: "D",
@@ -7700,7 +7703,6 @@ module.exports = {
         type: "KT"
       }, {
         ammo: 30,
-        armourpen: 48,
         breachdmg: 39.5,
         breachmax: .8,
         breachmin: .4,
@@ -7716,6 +7718,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "F",
+        piercing: 48,
         power: 1.63,
         range: 3e3,
         rating: "B",
@@ -7725,7 +7728,6 @@ module.exports = {
         type: "KT"
       }, {
         ammo: 90,
-        armourpen: "A",
         breachdmg: 14.3,
         breachmax: .8,
         breachmin: .4,
@@ -7740,19 +7742,21 @@ module.exports = {
         eddbID: 1484,
         grp: "rg",
         id: "ih",
+        integrity: 51,
         mass: 4,
         mount: "F",
         name: "Imperial Hammer",
+        piercing: "A",
         power: 1.63,
         pp: "Arissa Lavigny-Duval",
         rating: "B",
+        reload: 1,
         rof: 4.1,
         thermload: 16,
         type: "KT"
       } ],
       pa: [ {
         ammo: 100,
-        armourpen: 55,
         breachdmg: 44.2,
         breachmax: .8,
         breachmin: .4,
@@ -7768,6 +7772,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "F",
+        piercing: 55,
         power: 1.43,
         range: 3500,
         rating: "C",
@@ -7778,7 +7783,6 @@ module.exports = {
         type: "KT"
       }, {
         ammo: 100,
-        armourpen: 70,
         breachdmg: 68,
         breachmax: .8,
         breachmin: .4,
@@ -7794,6 +7798,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "F",
+        piercing: 70,
         power: 1.97,
         range: 3500,
         rating: "B",
@@ -7804,7 +7809,6 @@ module.exports = {
         type: "KT"
       }, {
         ammo: 300,
-        armourpen: 70,
         breachdmg: 28.1,
         breachmax: .8,
         breachmin: .4,
@@ -7821,6 +7825,7 @@ module.exports = {
         mass: 8,
         mount: "F",
         name: "Advanced Plasma Accelerator",
+        piercing: 70,
         power: 1.97,
         pp: "Denton Patreus",
         range: 3500,
@@ -7832,7 +7837,6 @@ module.exports = {
         type: "KT"
       }, {
         ammo: 100,
-        armourpen: 85,
         breachdmg: 102,
         breachmax: .8,
         breachmin: .4,
@@ -7848,6 +7852,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "F",
+        piercing: 85,
         power: 2.63,
         range: 3500,
         rating: "A",
@@ -7859,7 +7864,6 @@ module.exports = {
       } ],
       mr: [ {
         ammo: 16,
-        armourpen: 60,
         breachdmg: 20,
         breachmax: 1,
         breachmin: 1,
@@ -7876,6 +7880,7 @@ module.exports = {
         mass: 2,
         missile: "D",
         mount: "F",
+        piercing: 60,
         power: .4,
         rating: "B",
         reload: 5,
@@ -7885,7 +7890,6 @@ module.exports = {
         type: "E"
       }, {
         ammo: 6,
-        armourpen: 60,
         breachdmg: 16,
         breachmax: 0,
         breachmin: 0,
@@ -7902,6 +7906,7 @@ module.exports = {
         mass: 2,
         missile: "S",
         mount: "F",
+        piercing: 60,
         power: .6,
         rating: "B",
         reload: 12,
@@ -7911,7 +7916,6 @@ module.exports = {
         type: "E"
       }, {
         ammo: 48,
-        armourpen: 60,
         breachdmg: 20,
         breachmax: 1,
         breachmin: 1,
@@ -7929,6 +7933,7 @@ module.exports = {
         mass: 4,
         missile: "D",
         mount: "F",
+        piercing: 60,
         power: 1.2,
         rating: "B",
         reload: 5,
@@ -7937,7 +7942,6 @@ module.exports = {
         type: "E"
       }, {
         ammo: 18,
-        armourpen: 60,
         breachdmg: 16,
         breachmax: 0,
         breachmin: 0,
@@ -7956,6 +7960,7 @@ module.exports = {
         mass: 4,
         missile: "S",
         mount: "F",
+        piercing: 60,
         power: 1.2,
         rating: "B",
         reload: 12,
@@ -7965,7 +7970,6 @@ module.exports = {
         type: "E"
       }, {
         ammo: 48,
-        armourpen: 60,
         breachdmg: 16,
         breachmax: 0,
         breachmin: 0,
@@ -7982,6 +7986,7 @@ module.exports = {
         missile: "D",
         mount: "F",
         name: "Rocket Propelled FSD Disruptor",
+        piercing: 60,
         power: 1.2,
         pp: "Yuri Grom",
         rating: "B",
@@ -7992,7 +7997,6 @@ module.exports = {
         type: "E"
       }, {
         ammo: 120,
-        armourpen: 60,
         breachdmg: 6,
         breachmax: 0,
         breachmin: 0,
@@ -8012,6 +8016,7 @@ module.exports = {
         missile: "S",
         mount: "F",
         name: "Pack-Hound",
+        piercing: 60,
         power: 1.2,
         pp: "Li Yong-Rui",
         rating: "B",
@@ -8024,7 +8029,6 @@ module.exports = {
       } ],
       tp: [ {
         ammo: 1,
-        armourpen: 1e4,
         breachdmg: 60,
         breachmax: .8,
         breachmin: .6,
@@ -8032,6 +8036,7 @@ module.exports = {
         clip: 1,
         cost: 11200,
         damage: 120,
+        distdraw: 0,
         edID: 128049509,
         eddbID: 882,
         grp: "tp",
@@ -8040,6 +8045,7 @@ module.exports = {
         mass: 2,
         missile: "S",
         mount: "F",
+        piercing: 1e4,
         power: .4,
         rating: "I",
         reload: 5,
@@ -8049,14 +8055,14 @@ module.exports = {
         type: "E"
       }, {
         ammo: 2,
-        armourpen: 1e4,
         breachdmg: 60,
         breachmax: .8,
         breachmin: .6,
         class: 2,
         clip: 1,
         cost: 44800,
-        dps: 120,
+        damage: 120,
+        distdraw: 0,
         edID: 128049510,
         eddbID: 883,
         grp: "tp",
@@ -8065,6 +8071,7 @@ module.exports = {
         mass: 4,
         missile: "S",
         mount: "F",
+        piercing: 1e4,
         power: .4,
         rating: "I",
         reload: 5,
@@ -8075,7 +8082,6 @@ module.exports = {
       } ],
       nl: [ {
         ammo: 36,
-        armourpen: 60,
         breachdmg: 0,
         breachmax: 0,
         breachmin: 0,
@@ -8091,6 +8097,7 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "F",
+        piercing: 60,
         power: .4,
         rating: "I",
         reload: 2,
@@ -8099,7 +8106,6 @@ module.exports = {
         type: "ET"
       }, {
         ammo: 36,
-        armourpen: 60,
         breachdmg: 0,
         breachmax: 0,
         breachmin: 0,
@@ -8116,6 +8122,7 @@ module.exports = {
         mass: 2,
         mount: "F",
         name: "Shock Mine Launcher",
+        piercing: 60,
         power: .4,
         rating: "I",
         reload: 2,
@@ -8124,7 +8131,6 @@ module.exports = {
         type: "ET"
       }, {
         ammo: 36,
-        armourpen: 60,
         breachdmg: 0,
         breachmax: 0,
         breachmin: 0,
@@ -8140,6 +8146,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "F",
+        piercing: 60,
         power: .4,
         rating: "I",
         reload: 2,
@@ -8148,7 +8155,6 @@ module.exports = {
         type: "ET"
       } ],
       ml: [ {
-        armourpen: 18,
         breachdmg: .3,
         breachmax: .2,
         breachmin: .1,
@@ -8163,11 +8169,11 @@ module.exports = {
         integrity: 40,
         mass: 2,
         mount: "F",
+        piercing: 18,
         power: .5,
         rating: "D",
         thermload: 2
       }, {
-        armourpen: "D",
         breachdmg: .6,
         breachmax: .2,
         breachmin: .1,
@@ -8178,16 +8184,17 @@ module.exports = {
         eddbID: 1479,
         grp: "ml",
         id: "ml",
+        integrity: 40,
         mass: 2,
         mount: "F",
         name: "Mining Lance",
+        piercing: "D",
         power: .7,
         pp: "Zemina Torval",
         rating: "D",
         thermload: 6,
         type: "T"
       }, {
-        armourpen: 18,
         breachdmg: 1.2,
         breachmax: .2,
         breachmin: .1,
@@ -8202,6 +8209,7 @@ module.exports = {
         integrity: 51,
         mass: 2,
         mount: "F",
+        piercing: 18,
         power: .75,
         rating: "D",
         thermload: 4
@@ -8493,8 +8501,8 @@ module.exports = {
         power: .2,
         rating: "I",
         reload: 10,
-        thermload: 4,
-        rof: 1
+        rof: 1,
+        thermload: 4
       } ],
       ec: [ {
         activepower: 4,
@@ -8511,8 +8519,8 @@ module.exports = {
         name: "Electronic Countermeasure",
         power: .2,
         range: 3e3,
-        reload: 10,
         rating: "F",
+        reload: 10,
         thermload: 4
       } ],
       hs: [ {

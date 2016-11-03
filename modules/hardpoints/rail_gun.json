@@ -2,7 +2,6 @@
   "rg": [
     {
       "ammo": 30,
-      "armourpen": 30,
       "breachdmg": 22.2,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -18,6 +17,7 @@
       "integrity": 40,
       "mass": 2,
       "mount": "F",
+      "piercing": 30,
       "power": 1.15,
       "range": 3000,
       "rating": "D",
@@ -28,7 +28,6 @@
     },
     {
       "ammo": 30,
-      "armourpen": 48,
       "breachdmg": 39.5,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -44,6 +43,7 @@
       "integrity": 51,
       "mass": 4,
       "mount": "F",
+      "piercing": 48,
       "power": 1.63,
       "range": 3000,
       "rating": "B",
@@ -54,7 +54,6 @@
     },
     {
       "ammo": 90,
-      "armourpen": "A",
       "breachdmg": 14.3,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -69,12 +68,15 @@
       "eddbID": 1484,
       "grp": "rg",
       "id": "ih",
+      "integrity": 51,
       "mass": 4,
       "mount": "F",
       "name": "Imperial Hammer",
+      "piercing": "A",
       "power": 1.63,
       "pp": "Arissa Lavigny-Duval",
       "rating": "B",
+      "reload": 1,
       "rof": 4.1,
       "thermload": 16,
       "type": "KT"

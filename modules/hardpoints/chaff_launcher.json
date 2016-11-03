@@ -18,8 +18,8 @@
       "power": 0.2,
       "rating": "I",
       "reload": 10,
-      "thermload": 4,
-      "rof": 1
+      "rof": 1,
+      "thermload": 4
     }
   ]
 }

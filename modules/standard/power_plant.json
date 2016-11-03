@@ -10,7 +10,7 @@
       "id": "py",
       "integrity": 135,
       "mass": 160,
-      "pGen": 24,
+      "pgen": 24,
       "rating": "E"
     },
     {
@@ -23,7 +23,7 @@
       "id": "px",
       "integrity": 120,
       "mass": 64,
-      "pGen": 27,
+      "pgen": 27,
       "rating": "D"
     },
     {
@@ -36,7 +36,7 @@
       "id": "pw",
       "integrity": 150,
       "mass": 80,
-      "pGen": 30,
+      "pgen": 30,
       "rating": "C"
     },
     {
@@ -49,7 +49,7 @@
       "id": "pv",
       "integrity": 180,
       "mass": 128,
-      "pGen": 33,
+      "pgen": 33,
       "rating": "B"
     },
     {
@@ -62,7 +62,7 @@
       "id": "pu",
       "integrity": 165,
       "mass": 80,
-      "pGen": 36,
+      "pgen": 36,
       "rating": "A"
     },
     {
@@ -75,7 +75,7 @@
       "id": "pt",
       "integrity": 118,
       "mass": 80,
-      "pGen": 20,
+      "pgen": 20,
       "rating": "E"
     },
     {
@@ -88,7 +88,7 @@
       "id": "ps",
       "integrity": 105,
       "mass": 32,
-      "pGen": 22.5,
+      "pgen": 22.5,
       "rating": "D"
     },
     {
@@ -101,7 +101,7 @@
       "id": "pr",
       "integrity": 131,
       "mass": 40,
-      "pGen": 25,
+      "pgen": 25,
       "rating": "C"
     },
     {
@@ -114,7 +114,7 @@
       "id": "pq",
       "integrity": 157,
       "mass": 64,
-      "pGen": 27.5,
+      "pgen": 27.5,
       "rating": "B"
     },
     {
@@ -127,7 +127,7 @@
       "id": "pp",
       "integrity": 144,
       "mass": 40,
-      "pGen": 30,
+      "pgen": 30,
       "rating": "A"
     },
     {
@@ -140,7 +140,7 @@
       "id": "po",
       "integrity": 90,
       "mass": 40,
-      "pGen": 16.8,
+      "pgen": 16.8,
       "rating": "E"
     },
     {
@@ -153,7 +153,7 @@
       "id": "pn",
       "integrity": 113,
       "mass": 16,
-      "pGen": 18.9,
+      "pgen": 18.9,
       "rating": "D"
     },
     {
@@ -166,7 +166,7 @@
       "id": "pm",
       "integrity": 136,
       "mass": 20,
-      "pGen": 21,
+      "pgen": 21,
       "rating": "C"
     },
     {
@@ -179,7 +179,7 @@
       "id": "pl",
       "integrity": 124,
       "mass": 32,
-      "pGen": 23.1,
+      "pgen": 23.1,
       "rating": "B"
     },
     {
@@ -192,7 +192,7 @@
       "id": "pk",
       "integrity": 118,
       "mass": 20,
-      "pGen": 25.2,
+      "pgen": 25.2,
       "rating": "A"
     },
     {
@@ -205,7 +205,7 @@
       "id": "pj",
       "integrity": 86,
       "mass": 20,
-      "pGen": 13.6,
+      "pgen": 13.6,
       "rating": "E"
     },
     {
@@ -218,7 +218,7 @@
       "id": "pi",
       "integrity": 77,
       "mass": 8,
-      "pGen": 15.3,
+      "pgen": 15.3,
       "rating": "D"
     },
     {
@@ -231,7 +231,7 @@
       "id": "ph",
       "integrity": 96,
       "mass": 10,
-      "pGen": 17,
+      "pgen": 17,
       "rating": "C"
     },
     {
@@ -244,7 +244,7 @@
       "id": "pg",
       "integrity": 114,
       "mass": 16,
-      "pGen": 18.7,
+      "pgen": 18.7,
       "rating": "B"
     },
     {
@@ -257,7 +257,7 @@
       "id": "pf",
       "integrity": 106,
       "mass": 10,
-      "pGen": 20.4,
+      "pgen": 20.4,
       "rating": "A"
     },
     {
@@ -270,7 +270,7 @@
       "id": "pe",
       "integrity": 72,
       "mass": 10,
-      "pGen": 10.4,
+      "pgen": 10.4,
       "rating": "E"
     },
     {
@@ -283,7 +283,7 @@
       "id": "pd",
       "integrity": 64,
       "mass": 4,
-      "pGen": 11.7,
+      "pgen": 11.7,
       "rating": "D"
     },
     {
@@ -296,7 +296,7 @@
       "id": "pc",
       "integrity": 80,
       "mass": 5,
-      "pGen": 13,
+      "pgen": 13,
       "rating": "C"
     },
     {
@@ -309,7 +309,7 @@
       "id": "pb",
       "integrity": 96,
       "mass": 8,
-      "pGen": 14.3,
+      "pgen": 14.3,
       "rating": "B"
     },
     {
@@ -322,7 +322,7 @@
       "id": "pa",
       "integrity": 88,
       "mass": 5,
-      "pGen": 15.6,
+      "pgen": 15.6,
       "rating": "A"
     },
     {
@@ -335,7 +335,7 @@
       "id": "p9",
       "integrity": 58,
       "mass": 5,
-      "pGen": 8,
+      "pgen": 8,
       "rating": "E"
     },
     {
@@ -348,7 +348,7 @@
       "id": "p8",
       "integrity": 51,
       "mass": 2,
-      "pGen": 9,
+      "pgen": 9,
       "rating": "D"
     },
     {
@@ -361,7 +361,7 @@
       "id": "p7",
       "integrity": 64,
       "mass": 2.5,
-      "pGen": 10,
+      "pgen": 10,
       "rating": "C"
     },
     {
@@ -374,7 +374,7 @@
       "id": "p6",
       "integrity": 77,
       "mass": 4,
-      "pGen": 11,
+      "pgen": 11,
       "rating": "B"
     },
     {
@@ -387,7 +387,7 @@
       "id": "p5",
       "integrity": 70,
       "mass": 2.5,
-      "pGen": 12,
+      "pgen": 12,
       "rating": "A"
     },
     {
@@ -400,7 +400,7 @@
       "id": "p4",
       "integrity": 46,
       "mass": 2.5,
-      "pGen": 6.4,
+      "pgen": 6.4,
       "rating": "E"
     },
     {
@@ -413,7 +413,7 @@
       "id": "p3",
       "integrity": 41,
       "mass": 1,
-      "pGen": 7.2,
+      "pgen": 7.2,
       "rating": "D"
     },
     {
@@ -426,7 +426,7 @@
       "id": "p2",
       "integrity": 51,
       "mass": 1.3,
-      "pGen": 8,
+      "pgen": 8,
       "rating": "C"
     },
     {
@@ -439,7 +439,7 @@
       "id": "p1",
       "integrity": 61,
       "mass": 2,
-      "pGen": 8.8,
+      "pgen": 8.8,
       "rating": "B"
     },
     {
@@ -452,7 +452,7 @@
       "id": "p0",
       "integrity": 56,
       "mass": 1.3,
-      "pGen": 9.6,
+      "pgen": 9.6,
       "rating": "A"
     }
   ]

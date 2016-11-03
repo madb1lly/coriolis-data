@@ -15,8 +15,8 @@
       "name": "Electronic Countermeasure",
       "power": 0.2,
       "range": 3000,
-      "reload": 10,
       "rating": "F",
+      "reload": 10,
       "thermload": 4
     }
   ]

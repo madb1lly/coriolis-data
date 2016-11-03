@@ -2,7 +2,6 @@
   "mr": [
     {
       "ammo": 16,
-      "armourpen": 60,
       "breachdmg": 20,
       "breachmax": 1,
       "breachmin": 1,
@@ -19,6 +18,7 @@
       "mass": 2,
       "missile": "D",
       "mount": "F",
+      "piercing": 60,
       "power": 0.4,
       "rating": "B",
       "reload": 5,
@@ -29,7 +29,6 @@
     },
     {
       "ammo": 6,
-      "armourpen": 60,
       "breachdmg": 16,
       "breachmax": 0,
       "breachmin": 0,
@@ -46,6 +45,7 @@
       "mass": 2,
       "missile": "S",
       "mount": "F",
+      "piercing": 60,
       "power": 0.6,
       "rating": "B",
       "reload": 12,
@@ -56,7 +56,6 @@
     },
     {
       "ammo": 48,
-      "armourpen": 60,
       "breachdmg": 20,
       "breachmax": 1,
       "breachmin": 1,
@@ -74,6 +73,7 @@
       "mass": 4,
       "missile": "D",
       "mount": "F",
+      "piercing": 60,
       "power": 1.2,
       "rating": "B",
       "reload": 5,
@@ -83,7 +83,6 @@
     },
     {
       "ammo": 18,
-      "armourpen": 60,
       "breachdmg": 16,
       "breachmax": 0,
       "breachmin": 0,
@@ -102,6 +101,7 @@
       "mass": 4,
       "missile": "S",
       "mount": "F",
+      "piercing": 60,
       "power": 1.2,
       "rating": "B",
       "reload": 12,
@@ -112,7 +112,6 @@
     },
     {
       "ammo": 48,
-      "armourpen": 60,
       "breachdmg": 16,
       "breachmax": 0,
       "breachmin": 0,
@@ -129,6 +128,7 @@
       "missile": "D",
       "mount": "F",
       "name": "Rocket Propelled FSD Disruptor",
+      "piercing": 60,
       "power": 1.2,
       "pp": "Yuri Grom",
       "rating": "B",
@@ -140,7 +140,6 @@
     },
     {
       "ammo": 120,
-      "armourpen": 60,
       "breachdmg": 6,
       "breachmax": 0,
       "breachmin": 0,
@@ -160,6 +159,7 @@
       "missile": "S",
       "mount": "F",
       "name": "Pack-Hound",
+      "piercing": 60,
       "power": 1.2,
       "pp": "Li Yong-Rui",
       "rating": "B",

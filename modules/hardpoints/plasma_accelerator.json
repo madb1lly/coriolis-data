@@ -2,7 +2,6 @@
   "pa": [
     {
       "ammo": 100,
-      "armourpen": 55,
       "breachdmg": 44.2,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -18,6 +17,7 @@
       "integrity": 51,
       "mass": 4,
       "mount": "F",
+      "piercing": 55,
       "power": 1.43,
       "range": 3500,
       "rating": "C",
@@ -29,7 +29,6 @@
     },
     {
       "ammo": 100,
-      "armourpen": 70,
       "breachdmg": 68,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -45,6 +44,7 @@
       "integrity": 64,
       "mass": 8,
       "mount": "F",
+      "piercing": 70,
       "power": 1.97,
       "range": 3500,
       "rating": "B",
@@ -56,7 +56,6 @@
     },
     {
       "ammo": 300,
-      "armourpen": 70,
       "breachdmg": 28.1,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -73,6 +72,7 @@
       "mass": 8,
       "mount": "F",
       "name": "Advanced Plasma Accelerator",
+      "piercing": 70,
       "power": 1.97,
       "pp": "Denton Patreus",
       "range": 3500,
@@ -85,7 +85,6 @@
     },
     {
       "ammo": 100,
-      "armourpen": 85,
       "breachdmg": 102,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -101,6 +100,7 @@
       "integrity": 80,
       "mass": 16,
       "mount": "F",
+      "piercing": 85,
       "power": 2.63,
       "range": 3500,
       "rating": "A",
