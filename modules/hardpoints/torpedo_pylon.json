@@ -3,18 +3,16 @@
     {
       "ammo": 1,
       "armourpen": 10000,
-      "breachdps": 60,
+      "breachdmg": 60,
       "breachmax": 0.8,
       "breachmin": 0.6,
       "class": 1,
       "clip": 1,
       "cost": 11200,
-      "dps": 120,
+      "damage": 120,
       "edID": 128049509,
       "eddbID": 882,
-      "eps": 0,
       "grp": "tp",
-      "hps": 45,
       "id": "2h",
       "integrity": 40,
       "mass": 2,
@@ -25,12 +23,13 @@
       "reload": 5,
       "rof": 1,
       "speed": 250,
+      "thermload": 45,
       "type": "E"
     },
     {
       "ammo": 2,
       "armourpen": 10000,
-      "breachdps": 60,
+      "breachdmg": 60,
       "breachmax": 0.8,
       "breachmin": 0.6,
       "class": 2,
@@ -39,9 +38,7 @@
       "dps": 120,
       "edID": 128049510,
       "eddbID": 883,
-      "eps": 0,
       "grp": "tp",
-      "hps": 50,
       "id": "2i",
       "integrity": 51,
       "mass": 4,
@@ -52,6 +49,7 @@
       "reload": 5,
       "rof": 1,
       "speed": 250,
+      "thermload": 50,
       "type": "E"
     }
   ]
