@@ -13153,7 +13153,7 @@ module.exports = {
     }
   },
   Modifications: {
-    modifiers: [ "ammo", "boot", "brokenregen", "burst", "clip", "damage", "distdraw", "duration", "eff", "engcap", "engrate", "explres", "facinglimit", "hullboost", "hullreinforcement", "integrity", "jitter", "kinres", "mass", "maxfuel", "optmass", "optmul", "pgen", "piercing", "power", "range", "ranget", "regen", "reload", "rof", "shield", "shieldmul", "spinup", "syscap", "sysrate", "thermload", "thermres", "wepcap", "weprate" ],
+    modifiers: [ "ammo", "boot", "brokenregen", "burst", "clip", "damage", "distdraw", "duration", "eff", "engcap", "engrate", "explres", "facinglimit", "hullboost", "hullreinforcement", "integrity", "jitter", "kinres", "mass", "maxfuel", "optmass", "optmul", "pgen", "piercing", "power", "range", "ranget", "regen", "reload", "rof", "shield", "shieldboost", "spinup", "syscap", "sysrate", "thermload", "thermres", "wepcap", "weprate" ],
     validity: {
       am: [ "integrity", "power" ],
       bh: [ "explres", "hullboost", "kinres", "mass", "thermres" ],
@@ -13187,7 +13187,7 @@ module.exports = {
       rf: [ "integrity", "power" ],
       rg: [ "ammo", "clip", "damage", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
       s: [ "boot", "integrity", "mass", "power" ],
-      sb: [ "explres", "integrity", "kinres", "mass", "power", "shieldmul", "thermres" ],
+      sb: [ "explres", "integrity", "kinres", "mass", "power", "shieldboost", "thermres" ],
       scb: [ "boot", "duration", "integrity", "power", "shield", "spinup", "thermload" ],
       sg: [ "boot", "brokenregen", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
       t: [ "integrity", "mass", "optmass", "optmul", "power", "thermload" ],

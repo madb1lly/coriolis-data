@@ -15581,7 +15581,7 @@
 			"reload",
 			"rof",
 			"shield",
-			"shieldmul",
+			"shieldboost",
 			"spinup",
 			"syscap",
 			"sysrate",
@@ -15883,7 +15883,7 @@
 				"kinres",
 				"mass",
 				"power",
-				"shieldmul",
+				"shieldboost",
 				"thermres"
 			],
 			"scb": [
