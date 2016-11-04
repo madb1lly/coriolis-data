@@ -10441,7 +10441,7 @@
 					"passive": 1,
 					"power": 0.2,
 					"rating": "E",
-					"shieldmul": 0.04
+					"shieldboost": 0.04
 				},
 				{
 					"class": 0,
@@ -10455,7 +10455,7 @@
 					"passive": 1,
 					"power": 0.5,
 					"rating": "D",
-					"shieldmul": 0.08
+					"shieldboost": 0.08
 				},
 				{
 					"class": 0,
@@ -10469,7 +10469,7 @@
 					"passive": 1,
 					"power": 0.7,
 					"rating": "C",
-					"shieldmul": 0.12
+					"shieldboost": 0.12
 				},
 				{
 					"class": 0,
@@ -10483,7 +10483,7 @@
 					"passive": 1,
 					"power": 1,
 					"rating": "B",
-					"shieldmul": 0.16
+					"shieldboost": 0.16
 				},
 				{
 					"class": 0,
@@ -10497,7 +10497,7 @@
 					"passive": 1,
 					"power": 1.2,
 					"rating": "A",
-					"shieldmul": 0.2
+					"shieldboost": 0.2
 				}
 			],
 			"ch": [

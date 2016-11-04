@@ -8429,7 +8429,7 @@ module.exports = {
         passive: 1,
         power: .2,
         rating: "E",
-        shieldmul: .04
+        shieldboost: .04
       }, {
         class: 0,
         cost: 23e3,
@@ -8442,7 +8442,7 @@ module.exports = {
         passive: 1,
         power: .5,
         rating: "D",
-        shieldmul: .08
+        shieldboost: .08
       }, {
         class: 0,
         cost: 53e3,
@@ -8455,7 +8455,7 @@ module.exports = {
         passive: 1,
         power: .7,
         rating: "C",
-        shieldmul: .12
+        shieldboost: .12
       }, {
         class: 0,
         cost: 122e3,
@@ -8468,7 +8468,7 @@ module.exports = {
         passive: 1,
         power: 1,
         rating: "B",
-        shieldmul: .16
+        shieldboost: .16
       }, {
         class: 0,
         cost: 281e3,
@@ -8481,7 +8481,7 @@ module.exports = {
         passive: 1,
         power: 1.2,
         rating: "A",
-        shieldmul: .2
+        shieldboost: .2
       } ],
       ch: [ {
         ammo: 10,
