@@ -1,0 +1,25 @@
+{
+  "ch": [
+    {
+      "ammo": 10,
+      "class": 0,
+      "clip": 1,
+      "cost": 8500,
+      "distdraw": 4,
+      "duration": 20,
+      "edID": 128049513,
+      "eddbID": 884,
+      "grp": "ch",
+      "id": "00",
+      "integrity": 20,
+      "mass": 1.3,
+      "name": "Chaff Launcher",
+      "passive": 1,
+      "power": 0.2,
+      "rating": "I",
+      "reload": 10,
+      "rof": 1,
+      "thermload": 4
+    }
+  ]
+}

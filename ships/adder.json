@@ -11,19 +11,19 @@
       "boost": 320,
       "boostEnergy": 9,
       "agility": 8,
-      "baseShieldStrength": 78,
-      "baseArmour": 162,
+      "baseShieldStrength": 60,
+      "baseArmour": 90,
       "hullMass": 35,
       "masslock": 7,
       "pipSpeed": 0.13625
     },
     "retailCost": 87810,
     "bulkheads": [
-      { "id": "BC", "edID": 128049268, "eddbID": 753, "cost": 0, "mass": 0 },
-      { "id": "BD", "edID": 128049269, "eddbID": 754, "cost": 35120, "mass": 3 },
-      { "id": "BE", "edID": 128049270, "eddbID": 755, "cost": 79030, "mass": 5 },
-      { "id": "BF", "edID": 128049271, "eddbID": 756, "cost": 186770, "mass": 5 },
-      { "id": "BG", "edID": 128049272, "eddbID": 757, "cost": 206960, "mass": 5 }
+      { "id": "BC", "edID": 128049268, "eddbID": 753, "grp": "bh", "cost": 0, "mass": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0.2, "hullboost": 0.8 },
+      { "id": "BD", "edID": 128049269, "eddbID": 754, "grp": "bh", "cost": 35120, "mass": 3, "explres": -0.4, "kinres": 0.2, "thermres": 0, "hullboost": 1.52 },
+      { "id": "BE", "edID": 128049270, "eddbID": 755, "grp": "bh", "cost": 79030, "mass": 5, "explres": -0.4, "kinres": 0.2, "thermres": 0, "hullboost": 2.5 },
+      { "id": "BF", "edID": 128049271, "eddbID": 756, "grp": "bh", "cost": 186770, "mass": 5, "explres": -0.5, "kinres": -0.75, "thermres": 0.5, "hullboost": 2.5 },
+      { "id": "BG", "edID": 128049272, "eddbID": 757, "grp": "bh", "cost": 206960, "mass": 5, "explres": 0.2, "kinres": 0.25, "thermres": -0.4, "hullboost": 2.5  }
     ],
     "slots": {
       "standard": [3, 3, 3, 1, 2, 3, 3],
