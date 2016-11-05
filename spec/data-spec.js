@@ -36,7 +36,10 @@ describe('JSON Data', function() {
         var id = group[i].id;
         expect(ids[id]).toBeFalsy('ID already exists: ' + id);
         expect(group[i].edID > 0).toBeTruthy('Standard module ' + id + ' is missing E:D ID');
-        expect(group[i].eddbID > 0 || group[i].pp).toBeTruthy('Standard module' + id + ' is missing EDDB ID');
+        expect(group[i].eddbID > 0 || group[i].pp).toBeTruthy('Standard module ' + id + ' is missing EDDB ID');
+	if (s != 'ft' && s != 'pas' ) {
+          expect(group[i].integrity).toBeDefined('Standard module ' + id + ' is missing integrity');
+	}
         expect(group[i].grp).toBeDefined(`No group defined, Type: ${s}, ID: ${id}, Index: ${i}`);
         expect(eddbIDs[group[i].eddbID]).toBeFalsy(`EDDB ID [${group[i].eddbID}] already exists for ID: ${id}, Index: ${i}`);
         expect(edIDs[group[i].edID]).toBeFalsy(`E:D ID [${group[i].edID}] already exists for ID: ${id}, Index: ${i}`);
@@ -53,10 +56,9 @@ describe('JSON Data', function() {
 
   it('has valid hardpoints', function() {
     var ids = {};
-    var groups = Modules.hardpoints;
 
-    for (var g in groups) {
-      var group = groups[g];
+    for (var g in Modules.hardpoints) {
+      var group = Modules.hardpoints[g];
       for (var i = 0; i < group.length; i++) {
         var id = group[i].id;
         expect(ids[id]).toBeFalsy('ID already exists: ' + id);
@@ -73,16 +75,16 @@ describe('JSON Data', function() {
         if (group[i].edID) {
           edIDs[group[i].edID] = true;
         }
-	if (group[i].dps) {
-            expect(group[i].dps).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing dps`);
+	if (group[i].damage) {
+            expect(group[i].damage).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing damage`);
             expect(group[i].breachmin).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing breachmin`);
             expect(group[i].breachmax).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing breachmax`);
-            expect(group[i].breachdps).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing breachdps`);
-            expect(group[i].armourpen).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing armourpen`);
-            expect(group[i].eps).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing eps`);
-            expect(group[i].hps).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing hps`);
+            expect(group[i].breachdmg).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing breachdmg`);
+            expect(group[i].piercing).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing piercing`);
+            expect(group[i].thermload).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing thermload`);
+            expect(group[i].distdraw).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing distdraw`);
         }
-	if (group[i].ammo || group[i].reload || group[i].clip) {
+	if ((group[i].ammo || group[i].reload || group[i].clip) && g != 'hs' && g != 'ec') {
             expect(group[i].ammo).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing ammo`);
             expect(group[i].clip).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing clip`);
             expect(group[i].reload).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing reload`);
@@ -94,10 +96,9 @@ describe('JSON Data', function() {
 
   it('has valid internal modules', function() {
     var ids = {};
-    var groups = Modules.internal;
 
-    for (var g in groups) {
-      var group = groups[g];
+    for (var g in Modules.internal) {
+      var group = Modules.internal[g];
       for (var i = 0; i < group.length; i++) {
         var id = group[i].id;
         expect(group[i].grp).toBeDefined(`No group defined, ID: ${id}`);

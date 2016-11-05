@@ -7,11 +7,11 @@
       "manufacturer": "Core Dynamics",
       "class": 3,
       "hullCost": 182589570,
-      "speed": 198,
-      "boost": 257,
+      "speed": 200,
+      "boost": 260,
       "boostEnergy": 27,
       "agility": 2,
-      "baseShieldStrength": 516,
+      "baseShieldStrength": 555,
       "baseArmour": 666,
       "hullMass": 900,
       "masslock": 24,
@@ -20,11 +20,11 @@
     },
     "retailCost": 187969450,
     "bulkheads": [
-      { "id": "BW", "edID": 128049370, "eddbID": 1498, "cost": 0, "mass": 0 },
-      { "id": "BX", "edID": 128049371, "eddbID": 1499, "cost": 75187790, "mass": 30 },
-      { "id": "BY", "edID": 128049372, "eddbID": 1500, "cost": 169172510, "mass": 60 },
-      { "id": "BZ", "edID": 128049373, "eddbID": 1501, "cost": 399811020, "mass": 60 },
-      { "id": "c0", "edID": 128049374, "eddbID": 1502, "cost": 443044000, "mass": 60 }
+      { "id": "BW", "edID": 128049370, "eddbID": 1498, "grp": "bh", "cost": 0, "mass": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0.2, "hullboost": 0.8 },
+      { "id": "BX", "edID": 128049371, "eddbID": 1499, "grp": "bh", "cost": 75187790, "mass": 30, "explres": -0.4, "kinres": 0.2, "thermres": 0, "hullboost": 1.52 },
+      { "id": "BY", "edID": 128049372, "eddbID": 1500, "grp": "bh", "cost": 169172510, "mass": 60, "explres": -0.4, "kinres": 0.2, "thermres": 0, "hullboost": 2.5 },
+      { "id": "BZ", "edID": 128049373, "eddbID": 1501, "grp": "bh", "cost": 399811020, "mass": 60, "explres": -0.5, "kinres": -0.75, "thermres": 0.5, "hullboost": 2.5  },
+      { "id": "c0", "edID": 128049374, "eddbID": 1502, "grp": "bh", "cost": 443044000, "mass": 60, "explres": 0.2, "kinres": 0.25, "thermres": -0.4, "hullboost": 2.5 }
     ],
     "slots": {
       "standard": [8, 7, 6, 5, 8, 8, 5],

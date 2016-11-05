@@ -7,23 +7,23 @@
       "manufacturer": "Zorgon Peterson",
       "class": 1,
       "hullCost": 29790,
-      "speed": 203,
-      "boost": 305,
+      "speed": 200,
+      "boost": 300,
       "agility": 6,
       "boostEnergy": 7,
-      "baseShieldStrength": 65,
-      "baseArmour": 90,
+      "baseShieldStrength": 50,
+      "baseArmour": 50,
       "hullMass": 14,
       "masslock": 6,
       "pipSpeed": 0.1625
     },
     "retailCost": 52720,
     "bulkheads": [
-      { "id": "Bi", "edID": 128049262, "eddbID": 748, "cost": 0, "mass": 0 },
-      { "id": "Bj", "edID": 128049263, "eddbID": 749, "cost": 42180, "mass": 1 },
-      { "id": "Bk", "edID": 128049264, "eddbID": 750, "cost": 185050, "mass": 2 },
-      { "id": "Bl", "edID": 128049265, "eddbID": 751, "cost": 270300, "mass": 2 },
-      { "id": "Bm", "edID": 128049266, "eddbID": 752, "cost": 282420, "mass": 2 }
+      { "id": "Bi", "edID": 128049262, "eddbID": 748, "grp": "bh", "cost": 0, "mass": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0.2, "hullboost": 0.8 },
+      { "id": "Bj", "edID": 128049263, "eddbID": 749, "grp": "bh", "cost": 42180, "mass": 1, "explres": -0.4, "kinres": 0.2, "thermres": 0, "hullboost": 1.52 },
+      { "id": "Bk", "edID": 128049264, "eddbID": 750, "grp": "bh", "cost": 185050, "mass": 2, "explres": -0.4, "kinres": 0.2, "thermres": 0, "hullboost": 2.5 },
+      { "id": "Bl", "edID": 128049265, "eddbID": 751, "grp": "bh", "cost": 270300, "mass": 2, "explres": -0.5, "kinres": -0.75, "thermres": 0.5, "hullboost": 2.5  },
+      { "id": "Bm", "edID": 128049266, "eddbID": 752, "grp": "bh", "cost": 282420, "mass": 2, "explres": 0.2, "kinres": 0.25, "thermres": -0.4, "hullboost": 2.5 }
     ],
     "slots": {
       "standard": [2, 2, 2, 1, 1, 1, 2],

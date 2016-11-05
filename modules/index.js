@@ -23,10 +23,13 @@ module.exports = {
     nl: require('./hardpoints/mine_launcher').nl,
     ml: require('./hardpoints/mining_laser').ml,
     cs: require('./hardpoints/cargo_scanner').cs,
-    cm: require('./hardpoints/countermeasures').cm,
     ws: require('./hardpoints/frame_shift_wake_scanner').ws,
     kw: require('./hardpoints/kill_warrant_scanner').kw,
-    sb: require('./hardpoints/shield_booster').sb
+    sb: require('./hardpoints/shield_booster').sb,
+    ch: require('./hardpoints/chaff_launcher').ch,
+    ec: require('./hardpoints/electronic_countermeasure').ec,
+    hs: require('./hardpoints/heat_sink_launcher').hs,
+    po: require('./hardpoints/point_defence').po
   },
   internal: {
     am: require('./internal/auto_field_maintenance_unit').am,
