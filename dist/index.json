@@ -15615,6 +15615,7 @@
 			"bsg": [
 				"boot",
 				"brokenregen",
+				"distdraw",
 				"explres",
 				"integrity",
 				"kinres",
@@ -15841,6 +15842,7 @@
 			"psg": [
 				"boot",
 				"brokenregen",
+				"distdraw",
 				"explres",
 				"integrity",
 				"kinres",
@@ -15871,12 +15873,6 @@
 				"rof",
 				"thermload"
 			],
-			"s": [
-				"boot",
-				"integrity",
-				"mass",
-				"power"
-			],
 			"sb": [
 				"explres",
 				"integrity",
@@ -15898,6 +15894,7 @@
 			"sg": [
 				"boot",
 				"brokenregen",
+				"distdraw",
 				"explres",
 				"integrity",
 				"kinres",
