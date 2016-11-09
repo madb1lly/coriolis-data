@@ -6,7 +6,7 @@
       "name": "Type-7 Transporter",
       "manufacturer": "Lakon",
       "class": 3,
-      "hullCost": 16881510,
+      "hullCost": 16780510,
       "speed": 180,
       "boost": 300,
       "boostEnergy": 10,
@@ -17,7 +17,7 @@
       "masslock": 10,
       "pipSpeed": 0.16625
     },
-    "retailCost": 17472250,
+    "retailCost": 17472260,
     "bulkheads": [
       { "id": "Bs", "edID": 128049298, "eddbID": 773, "grp": "bh", "cost": 0, "mass": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0.2, "hullboost": 0.8 },
       { "id": "Bt", "edID": 128049299, "eddbID": 774, "grp": "bh", "cost": 6988900, "mass": 32, "explres": -0.4, "kinres": 0.2, "thermres": 0, "hullboost": 1.52 },
