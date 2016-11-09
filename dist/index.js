@@ -470,7 +470,7 @@ module.exports = {
       defaults: {
         standard: [ "6E", "7E", "7E", "8E", "6E", "5E", "7C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "4j", "04", "6dbusiness", "6dbusiness", "4dbusiness", "4dbusiness", "02", "01", 0, 0, "2h" ]
+        internal: [ "4j", "04", "mi", "mi", "mg", "mg", "02", "01", 0, 0, "2h" ]
       }
     },
     cobra_mk_iii: {
@@ -1773,7 +1773,7 @@ module.exports = {
         name: "Keelback",
         manufacturer: "Lakon",
         class: 2,
-        hullCost: 2951180,
+        hullCost: 2943880,
         speed: 200,
         boost: 300,
         boostEnergy: 10,
@@ -1785,7 +1785,7 @@ module.exports = {
         pipSpeed: .1375,
         fighterHangars: true
       },
-      retailCost: 3126150,
+      retailCost: 3126160,
       bulkheads: [ {
         id: "cb",
         edID: 128672271,
@@ -1860,7 +1860,7 @@ module.exports = {
         name: "Orca",
         manufacturer: "Saud Kruger",
         class: 3,
-        hullCost: 47798080,
+        hullCost: 47790590,
         speed: 300,
         boost: 380,
         boostEnergy: 16,
@@ -1872,7 +1872,7 @@ module.exports = {
         pipSpeed: .08375,
         luxuryCabins: true
       },
-      retailCost: 48539890,
+      retailCost: 48539900,
       bulkheads: [ {
         id: "BM",
         edID: 128049328,
@@ -1957,7 +1957,7 @@ module.exports = {
       defaults: {
         standard: [ "5E", "6E", "5E", "6E", "5E", "4E", "5C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "6e economy", "4e economy", "03", "4e", "02", 0, 0, "2h" ]
+        internal: [ "me", "mc", "03", "4e", "02", 0, 0, "2h" ]
       }
     },
     python: {
@@ -2225,7 +2225,7 @@ module.exports = {
         name: "Type-7 Transporter",
         manufacturer: "Lakon",
         class: 3,
-        hullCost: 16881510,
+        hullCost: 16780510,
         speed: 180,
         boost: 300,
         boostEnergy: 10,
@@ -2236,7 +2236,7 @@ module.exports = {
         masslock: 10,
         pipSpeed: .16625
       },
-      retailCost: 17472250,
+      retailCost: 17472260,
       bulkheads: [ {
         id: "Bs",
         edID: 128049298,
@@ -4234,7 +4234,7 @@ module.exports = {
       ls: [ {
         boot: 1,
         class: 8,
-        cost: 0,
+        cost: 697590,
         edID: 128064173,
         eddbID: 1031,
         grp: "ls",
@@ -4247,7 +4247,7 @@ module.exports = {
       }, {
         boot: 1,
         class: 8,
-        cost: 0,
+        cost: 1743970,
         edID: 128064174,
         eddbID: 1032,
         grp: "ls",
@@ -4260,7 +4260,7 @@ module.exports = {
       }, {
         boot: 1,
         class: 8,
-        cost: 0,
+        cost: 4359900,
         edID: 128064175,
         eddbID: 1033,
         grp: "ls",
@@ -4273,7 +4273,7 @@ module.exports = {
       }, {
         boot: 1,
         class: 8,
-        cost: 0,
+        cost: 10899770,
         edID: 128064176,
         eddbID: 1034,
         grp: "ls",
@@ -4286,7 +4286,7 @@ module.exports = {
       }, {
         boot: 1,
         class: 8,
-        cost: 0,
+        cost: 27249400,
         edID: 128064177,
         eddbID: 1035,
         grp: "ls",
