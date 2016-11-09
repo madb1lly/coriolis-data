@@ -10835,100 +10835,130 @@ module.exports = {
         cost: 15e4,
         edID: 128668545,
         eddbID: 1381,
+        explres: 2.5,
         grp: "hr",
         id: "2e",
+        kinres: 2.5,
         mass: 64,
-        rating: "E"
+        rating: "E",
+        thermres: 2.5
       }, {
         hullreinforcement: 390,
         class: 5,
         cost: 45e4,
         edID: 128668546,
         eddbID: 1382,
+        explres: 2.5,
         grp: "hr",
         id: "2d",
+        kinres: 2.5,
         mass: 32,
-        rating: "D"
+        rating: "D",
+        thermres: 2.5
       }, {
         hullreinforcement: 300,
         class: 4,
         cost: 65e3,
         edID: 128668543,
         eddbID: 1379,
+        explres: 2,
         grp: "hr",
         id: "2c",
+        kinres: 2,
         mass: 32,
-        rating: "E"
+        rating: "E",
+        thermres: 2
       }, {
         hullreinforcement: 330,
         class: 4,
         cost: 195e3,
         edID: 128668544,
         eddbID: 1380,
+        explres: 2,
         grp: "hr",
         id: "2b",
+        kinres: 2,
         mass: 16,
-        rating: "D"
+        rating: "D",
+        thermres: 2
       }, {
         hullreinforcement: 230,
         class: 3,
         cost: 28e3,
         edID: 128668541,
         eddbID: 1377,
+        explres: 1.5,
         grp: "hr",
         id: "2a",
+        kinres: 1.5,
         mass: 16,
-        rating: "E"
+        rating: "E",
+        thermres: 1.5
       }, {
         hullreinforcement: 260,
         class: 3,
         cost: 84e3,
         edID: 128668542,
         eddbID: 1378,
+        explres: 1.5,
         grp: "hr",
         id: "29",
+        kinres: 1.5,
         mass: 8,
-        rating: "D"
+        rating: "D",
+        thermres: 1.5
       }, {
         hullreinforcement: 150,
         class: 2,
         cost: 12e3,
         edID: 128668539,
         eddbID: 1375,
+        explres: 1,
         grp: "hr",
         id: "28",
+        kinres: 1,
         mass: 8,
-        rating: "E"
+        rating: "E",
+        thermres: 1
       }, {
         hullreinforcement: 190,
         class: 2,
         cost: 36e3,
         edID: 128668540,
         eddbID: 1376,
+        explres: 1,
         grp: "hr",
         id: "27",
+        kinres: 1,
         mass: 4,
-        rating: "D"
+        rating: "D",
+        themres: 1
       }, {
         hullreinforcement: 80,
         class: 1,
         cost: 5e3,
         edID: 128668537,
         eddbID: 1373,
+        explres: .5,
         grp: "hr",
         id: "26",
+        kinres: .5,
         mass: 4,
-        rating: "E"
+        rating: "E",
+        thermres: .5
       }, {
         hullreinforcement: 110,
         class: 1,
         cost: 15e3,
         edID: 128668538,
         eddbID: 1374,
+        explres: .5,
         grp: "hr",
         id: "25",
+        kinres: .5,
         mass: 2,
-        rating: "D"
+        rating: "D",
+        thermres: .5
       } ],
       pv: [ {
         bays: 4,
