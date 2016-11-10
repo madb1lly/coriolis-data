@@ -19,9 +19,9 @@
     },
     "retailCost": 56978180,
     "bulkheads": [
-      { "id": "bO", "edID": 128049340, "eddbID": 808, "grp": "bh", "cost": 0, "mass": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0.2, "hullboost": 0.8 },
-      { "id": "bP", "edID": 128049341, "eddbID": 809, "grp": "bh", "cost": 22791270, "mass": 26, "explres": -0.4, "kinres": 0.2, "thermres": 0, "hullboost": 1.52 },
-      { "id": "bQ", "edID": 128049342, "eddbID": 810, "grp": "bh", "cost": 51280360, "mass": 53, "explres": -0.4, "kinres": 0.2, "thermres": 0, "hullboost": 2.5 },
+      { "id": "bO", "edID": 128049340, "eddbID": 808, "grp": "bh", "cost": 0, "mass": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 0.8 },
+      { "id": "bP", "edID": 128049341, "eddbID": 809, "grp": "bh", "cost": 22791270, "mass": 26, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 1.52 },
+      { "id": "bQ", "edID": 128049342, "eddbID": 810, "grp": "bh", "cost": 51280360, "mass": 53, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 2.5 },
       { "id": "bR", "edID": 128049343, "eddbID": 811, "grp": "bh", "cost": 121192590, "mass": 53, "explres": -0.5, "kinres": -0.75, "thermres": 0.5, "hullboost": 2.5  },
       { "id": "bS", "edID": 128049344, "eddbID": 812, "grp": "bh", "cost": 134297570, "mass": 53, "explres": 0.2, "kinres": 0.25, "thermres": -0.4, "hullboost": 2.5 }
     ],

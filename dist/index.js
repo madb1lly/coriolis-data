@@ -28,7 +28,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "BD",
@@ -38,7 +38,7 @@ module.exports = {
         cost: 35120,
         mass: 3,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -49,7 +49,7 @@ module.exports = {
         cost: 79030,
         mass: 5,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -115,7 +115,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "bU",
@@ -125,7 +125,7 @@ module.exports = {
         cost: 58787780,
         mass: 30,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -136,7 +136,7 @@ module.exports = {
         cost: 132272510,
         mass: 60,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -201,7 +201,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "BI",
@@ -211,7 +211,7 @@ module.exports = {
         cost: 2664460,
         mass: 21,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -222,7 +222,7 @@ module.exports = {
         cost: 5995040,
         mass: 42,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -287,7 +287,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "c2",
@@ -297,7 +297,7 @@ module.exports = {
         cost: 1584460,
         mass: 21,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -308,7 +308,7 @@ module.exports = {
         cost: 3565040,
         mass: 42,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -375,7 +375,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "cm",
@@ -385,7 +385,7 @@ module.exports = {
         cost: 33813120,
         mass: 83,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -396,7 +396,7 @@ module.exports = {
         cost: 76079500,
         mass: 165,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -501,7 +501,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "bl",
@@ -511,7 +511,7 @@ module.exports = {
         cost: 151890,
         mass: 14,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -522,7 +522,7 @@ module.exports = {
         cost: 341750,
         mass: 27,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -587,7 +587,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "ch",
@@ -597,7 +597,7 @@ module.exports = {
         cost: 305890,
         mass: 14,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -608,7 +608,7 @@ module.exports = {
         cost: 688250,
         mass: 27,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -673,7 +673,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "bb",
@@ -683,7 +683,7 @@ module.exports = {
         cost: 8e5,
         mass: 23,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -694,7 +694,7 @@ module.exports = {
         cost: 18e5,
         mass: 47,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -759,7 +759,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "b6",
@@ -769,7 +769,7 @@ module.exports = {
         cost: 225700,
         mass: 13,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -780,7 +780,7 @@ module.exports = {
         cost: 507900,
         mass: 26,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -845,7 +845,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "bZ",
@@ -855,7 +855,7 @@ module.exports = {
         cost: 26880,
         mass: 4,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -866,7 +866,7 @@ module.exports = {
         cost: 90050,
         mass: 8,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -931,7 +931,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "bA",
@@ -941,7 +941,7 @@ module.exports = {
         cost: 7925680,
         mass: 44,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -952,7 +952,7 @@ module.exports = {
         cost: 17832780,
         mass: 87,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -1018,7 +1018,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "BX",
@@ -1028,7 +1028,7 @@ module.exports = {
         cost: 75187790,
         mass: 30,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -1039,7 +1039,7 @@ module.exports = {
         cost: 169172510,
         mass: 60,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -1104,7 +1104,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "bF",
@@ -1114,7 +1114,7 @@ module.exports = {
         cost: 5725680,
         mass: 44,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -1125,7 +1125,7 @@ module.exports = {
         cost: 12882780,
         mass: 87,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -1191,7 +1191,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "bK",
@@ -1201,7 +1201,7 @@ module.exports = {
         cost: 14325690,
         mass: 44,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -1212,7 +1212,7 @@ module.exports = {
         cost: 32232790,
         mass: 87,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -1277,7 +1277,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "Be",
@@ -1287,7 +1287,7 @@ module.exports = {
         cost: 20626820,
         mass: 19,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -1298,7 +1298,7 @@ module.exports = {
         cost: 46410340,
         mass: 38,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -1363,7 +1363,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "Bj",
@@ -1373,7 +1373,7 @@ module.exports = {
         cost: 42180,
         mass: 1,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -1384,7 +1384,7 @@ module.exports = {
         cost: 185050,
         mass: 2,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -1449,7 +1449,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "bq",
@@ -1459,7 +1459,7 @@ module.exports = {
         cost: 8918340,
         mass: 30,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -1470,7 +1470,7 @@ module.exports = {
         cost: 20066270,
         mass: 60,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -1535,7 +1535,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "bg",
@@ -1545,7 +1545,7 @@ module.exports = {
         cost: 1017200,
         mass: 4,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -1556,7 +1556,7 @@ module.exports = {
         cost: 2288600,
         mass: 8,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -1622,7 +1622,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "BS",
@@ -1632,7 +1632,7 @@ module.exports = {
         cost: 83587790,
         mass: 30,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -1643,7 +1643,7 @@ module.exports = {
         cost: 188072510,
         mass: 60,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -1708,7 +1708,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "bv",
@@ -1718,7 +1718,7 @@ module.exports = {
         cost: 66500,
         mass: 4,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -1729,7 +1729,7 @@ module.exports = {
         cost: 222760,
         mass: 8,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -1795,7 +1795,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "cc",
@@ -1805,7 +1805,7 @@ module.exports = {
         cost: 1250460,
         mass: 12,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -1816,7 +1816,7 @@ module.exports = {
         cost: 2813540,
         mass: 23,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -1882,7 +1882,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "BN",
@@ -1892,7 +1892,7 @@ module.exports = {
         cost: 19415950,
         mass: 21,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -1903,7 +1903,7 @@ module.exports = {
         cost: 43685900,
         mass: 87,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -1988,7 +1988,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "bP",
@@ -1998,7 +1998,7 @@ module.exports = {
         cost: 22791270,
         mass: 26,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -2009,7 +2009,7 @@ module.exports = {
         cost: 51280360,
         mass: 53,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -2074,7 +2074,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "b1",
@@ -2084,7 +2084,7 @@ module.exports = {
         cost: 25600,
         mass: 2,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -2095,7 +2095,7 @@ module.exports = {
         cost: 80320,
         mass: 4,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -2160,7 +2160,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "Bo",
@@ -2170,7 +2170,7 @@ module.exports = {
         cost: 418380,
         mass: 12,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -2181,7 +2181,7 @@ module.exports = {
         cost: 941350,
         mass: 23,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -2246,7 +2246,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "Bt",
@@ -2256,7 +2256,7 @@ module.exports = {
         cost: 6988900,
         mass: 32,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -2267,7 +2267,7 @@ module.exports = {
         cost: 15725030,
         mass: 63,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -2333,7 +2333,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "By",
@@ -2343,7 +2343,7 @@ module.exports = {
         cost: 30622340,
         mass: 75,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -2354,7 +2354,7 @@ module.exports = {
         cost: 68900260,
         mass: 150,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -2419,7 +2419,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "B4",
@@ -2429,7 +2429,7 @@ module.exports = {
         cost: 57170,
         mass: 5,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -2440,7 +2440,7 @@ module.exports = {
         cost: 128640,
         mass: 9,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -2505,7 +2505,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "c7",
@@ -2515,7 +2515,7 @@ module.exports = {
         cost: 175180,
         mass: 5,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -2526,7 +2526,7 @@ module.exports = {
         cost: 394140,
         mass: 9,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -2591,7 +2591,7 @@ module.exports = {
         mass: 0,
         explres: -.4,
         kinres: -.2,
-        thermres: .2,
+        thermres: 0,
         hullboost: .8
       }, {
         id: "B9",
@@ -2601,7 +2601,7 @@ module.exports = {
         cost: 1970250,
         mass: 17,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 1.52
       }, {
@@ -2612,7 +2612,7 @@ module.exports = {
         cost: 4433050,
         mass: 35,
         explres: -.4,
-        kinres: .2,
+        kinres: -.2,
         thermres: 0,
         hullboost: 2.5
       }, {
@@ -9058,8 +9058,10 @@ module.exports = {
         cost: 7710,
         edID: 128671331,
         eddbID: 1530,
+        explres: .5,
         grp: "bsg",
         id: "B6",
+        kinres: .4,
         mass: 1.3,
         maxmass: 63,
         maxmul: 1.4,
@@ -9069,14 +9071,17 @@ module.exports = {
         optmul: .9,
         power: 1.2,
         rating: "C",
-        recover: 2.4
+        recover: 2.4,
+        thermres: -.2
       }, {
         class: 2,
         cost: 26710,
         edID: 128671332,
         eddbID: 1531,
+        explres: .5,
         grp: "bsg",
         id: "B5",
+        kinres: .4,
         mass: 2.5,
         maxmass: 138,
         maxmul: 1.4,
@@ -9086,14 +9091,17 @@ module.exports = {
         optmul: .9,
         power: 1.5,
         rating: "C",
-        recover: 2.4
+        recover: 2.4,
+        thermres: -.2
       }, {
         class: 3,
         cost: 84650,
         edID: 128671333,
         eddbID: 1532,
+        explres: .5,
         grp: "bsg",
         id: "B4",
+        kinres: .4,
         mass: 5,
         maxmass: 413,
         maxmul: 1.4,
@@ -9103,14 +9111,17 @@ module.exports = {
         optmul: .9,
         power: 1.8,
         rating: "C",
-        recover: 2.4
+        recover: 2.4,
+        thermres: -.2
       }, {
         class: 4,
         cost: 268350,
         edID: 128671334,
         eddbID: 1533,
+        explres: .5,
         grp: "bsg",
         id: "B3",
+        kinres: .4,
         mass: 10,
         maxmass: 713,
         maxmul: 1.4,
@@ -9120,14 +9131,17 @@ module.exports = {
         optmul: .9,
         power: 2.2,
         rating: "C",
-        recover: 2.85
+        recover: 2.85,
+        thermres: -.2
       }, {
         class: 5,
         cost: 850660,
         edID: 128671335,
         eddbID: 1534,
+        explres: .5,
         grp: "bsg",
         id: "B2",
+        kinres: .4,
         mass: 20,
         maxmass: 1013,
         maxmul: 1.4,
@@ -9137,14 +9151,17 @@ module.exports = {
         optmul: .9,
         power: 2.6,
         rating: "C",
-        recover: 3.75
+        recover: 3.75,
+        thermres: -.2
       }, {
         class: 6,
         cost: 2696600,
         edID: 128671336,
         eddbID: 1535,
+        explres: .5,
         grp: "bsg",
         id: "B1",
+        kinres: .4,
         mass: 40,
         maxmass: 1350,
         maxmul: 1.4,
@@ -9154,14 +9171,17 @@ module.exports = {
         optmul: .9,
         power: 3.1,
         rating: "C",
-        recover: 4.8
+        recover: 4.8,
+        thermres: -.2
       }, {
         class: 7,
         cost: 8548200,
         edID: 128671337,
         eddbID: 1536,
+        explres: .5,
         grp: "bsg",
         id: "B0",
+        kinres: .4,
         mass: 80,
         maxmass: 2650,
         maxmul: 1.4,
@@ -9171,14 +9191,17 @@ module.exports = {
         optmul: .9,
         power: 3.5,
         rating: "C",
-        recover: 6
+        recover: 6,
+        thermres: -.2
       }, {
         class: 8,
         cost: 27097750,
         edID: 128671338,
         eddbID: 1537,
+        explres: .5,
         grp: "bsg",
         id: "B7",
+        kinres: .4,
         mass: 160,
         maxmass: 4500,
         maxmul: 1.4,
@@ -9188,7 +9211,8 @@ module.exports = {
         optmul: .9,
         power: 4,
         rating: "C",
-        recover: 7.2
+        recover: 7.2,
+        thermres: -.2
       } ],
       cr: [ {
         cargo: 2,
@@ -10835,130 +10859,130 @@ module.exports = {
         cost: 15e4,
         edID: 128668545,
         eddbID: 1381,
-        explres: 2.5,
+        explres: .025,
         grp: "hr",
         id: "2e",
-        kinres: 2.5,
+        kinres: .025,
         mass: 64,
         rating: "E",
-        thermres: 2.5
+        thermres: .025
       }, {
         hullreinforcement: 390,
         class: 5,
         cost: 45e4,
         edID: 128668546,
         eddbID: 1382,
-        explres: 2.5,
+        explres: .025,
         grp: "hr",
         id: "2d",
-        kinres: 2.5,
+        kinres: .025,
         mass: 32,
         rating: "D",
-        thermres: 2.5
+        thermres: .025
       }, {
         hullreinforcement: 300,
         class: 4,
         cost: 65e3,
         edID: 128668543,
         eddbID: 1379,
-        explres: 2,
+        explres: .2,
         grp: "hr",
         id: "2c",
-        kinres: 2,
+        kinres: .2,
         mass: 32,
         rating: "E",
-        thermres: 2
+        thermres: .2
       }, {
         hullreinforcement: 330,
         class: 4,
         cost: 195e3,
         edID: 128668544,
         eddbID: 1380,
-        explres: 2,
+        explres: .2,
         grp: "hr",
         id: "2b",
-        kinres: 2,
+        kinres: .2,
         mass: 16,
         rating: "D",
-        thermres: 2
+        thermres: .2
       }, {
         hullreinforcement: 230,
         class: 3,
         cost: 28e3,
         edID: 128668541,
         eddbID: 1377,
-        explres: 1.5,
+        explres: .015,
         grp: "hr",
         id: "2a",
-        kinres: 1.5,
+        kinres: .015,
         mass: 16,
         rating: "E",
-        thermres: 1.5
+        thermres: .015
       }, {
         hullreinforcement: 260,
         class: 3,
         cost: 84e3,
         edID: 128668542,
         eddbID: 1378,
-        explres: 1.5,
+        explres: .015,
         grp: "hr",
         id: "29",
-        kinres: 1.5,
+        kinres: .015,
         mass: 8,
         rating: "D",
-        thermres: 1.5
+        thermres: .015
       }, {
         hullreinforcement: 150,
         class: 2,
         cost: 12e3,
         edID: 128668539,
         eddbID: 1375,
-        explres: 1,
+        explres: .01,
         grp: "hr",
         id: "28",
-        kinres: 1,
+        kinres: .01,
         mass: 8,
         rating: "E",
-        thermres: 1
+        thermres: .01
       }, {
         hullreinforcement: 190,
         class: 2,
         cost: 36e3,
         edID: 128668540,
         eddbID: 1376,
-        explres: 1,
+        explres: .01,
         grp: "hr",
         id: "27",
-        kinres: 1,
+        kinres: .01,
         mass: 4,
         rating: "D",
-        themres: 1
+        thermres: .01
       }, {
         hullreinforcement: 80,
         class: 1,
         cost: 5e3,
         edID: 128668537,
         eddbID: 1373,
-        explres: .5,
+        explres: .005,
         grp: "hr",
         id: "26",
-        kinres: .5,
+        kinres: .005,
         mass: 4,
         rating: "E",
-        thermres: .5
+        thermres: .005
       }, {
         hullreinforcement: 110,
         class: 1,
         cost: 15e3,
         edID: 128668538,
         eddbID: 1374,
-        explres: .5,
+        explres: .005,
         grp: "hr",
         id: "25",
-        kinres: .5,
+        kinres: .005,
         mass: 2,
         rating: "D",
-        thermres: .5
+        thermres: .005
       } ],
       pv: [ {
         bays: 4,
@@ -11032,8 +11056,10 @@ module.exports = {
         cost: 132200,
         edID: 128671323,
         eddbID: 1485,
+        explres: .5,
         grp: "psg",
         id: "p6",
+        kinres: .4,
         mass: 2.5,
         maxmass: 63,
         maxmul: 2,
@@ -11044,14 +11070,17 @@ module.exports = {
         power: 2.52,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 1.2
+        recover: 1.2,
+        thermres: -.2
       }, {
         class: 2,
         cost: 240340,
         edID: 128671324,
         eddbID: 1486,
+        explres: .5,
         grp: "psg",
         id: "p5",
+        kinres: .4,
         mass: 5,
         maxmass: 138,
         maxmul: 2,
@@ -11062,14 +11091,17 @@ module.exports = {
         power: 3.15,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 1.2
+        recover: 1.2,
+        thermres: -.2
       }, {
         class: 3,
         cost: 761870,
         edID: 128671325,
         eddbID: 1487,
+        explres: .5,
         grp: "psg",
         id: "p4",
+        kinres: .4,
         mass: 10,
         maxmass: 413,
         maxmul: 2,
@@ -11080,14 +11112,17 @@ module.exports = {
         power: 3.78,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 1.2
+        recover: 1.2,
+        thermres: -.2
       }, {
         class: 4,
         cost: 2415120,
         edID: 128671326,
         eddbID: 1488,
+        explres: .5,
         grp: "psg",
         id: "p3",
+        kinres: .4,
         mass: 20,
         maxmass: 713,
         maxmul: 2,
@@ -11098,14 +11133,17 @@ module.exports = {
         power: 4.62,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 1.425
+        recover: 1.425,
+        thermres: -.2
       }, {
         class: 5,
         cost: 7655930,
         edID: 128671327,
         eddbID: 1489,
+        explres: .5,
         grp: "psg",
         id: "p2",
+        kinres: .4,
         mass: 40,
         maxmass: 1013,
         maxmul: 2,
@@ -11116,14 +11154,17 @@ module.exports = {
         power: 5.46,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 1.875
+        recover: 1.875,
+        thermres: -.2
       }, {
         class: 6,
         cost: 24269300,
         edID: 128671328,
         eddbID: 1490,
+        explres: .5,
         grp: "psg",
         id: "p1",
+        kinres: .4,
         mass: 80,
         maxmass: 1350,
         maxmul: 2,
@@ -11134,14 +11175,17 @@ module.exports = {
         power: 6.51,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 2.4
+        recover: 2.4,
+        thermres: -.2
       }, {
         class: 7,
         cost: 76933670,
         edID: 128671329,
         eddbID: 1491,
+        explres: .5,
         grp: "psg",
         id: "p0",
+        kinres: .4,
         mass: 160,
         maxmass: 2650,
         maxmul: 2,
@@ -11152,14 +11196,17 @@ module.exports = {
         power: 7.35,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 3
+        recover: 3,
+        thermres: -.2
       }, {
         class: 8,
         cost: 243879730,
         edID: 128671330,
         eddbID: 1492,
+        explres: .5,
         grp: "psg",
         id: "p7",
+        kinres: .4,
         mass: 320,
         maxmass: 4500,
         maxmul: 2,
@@ -11170,7 +11217,8 @@ module.exports = {
         power: 8.4,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 3.6
+        recover: 3.6,
+        thermres: -.2
       } ],
       pc: [ {
         class: 7,
@@ -12572,8 +12620,10 @@ module.exports = {
         cost: 2007240,
         edID: 128064293,
         eddbID: 1146,
+        explres: .5,
         grp: "sg",
         id: "4t",
+        kinres: .4,
         mass: 160,
         maxmass: 4500,
         maxmul: 1.3,
@@ -12583,14 +12633,17 @@ module.exports = {
         optmul: .8,
         power: 2.4,
         rating: "E",
-        recover: 4.8
+        recover: 4.8,
+        thermres: -.2
       }, {
         class: 8,
         cost: 6021720,
         edID: 128064294,
         eddbID: 1147,
+        explres: .5,
         grp: "sg",
         id: "4s",
+        kinres: .4,
         mass: 64,
         maxmass: 4500,
         maxmul: 1.4,
@@ -12600,14 +12653,17 @@ module.exports = {
         optmul: .9,
         power: 3.2,
         rating: "D",
-        recover: 4.8
+        recover: 4.8,
+        thermres: -.2
       }, {
         class: 8,
         cost: 18065170,
         edID: 128064295,
         eddbID: 1148,
+        explres: .5,
         grp: "sg",
         id: "4r",
+        kinres: .4,
         mass: 160,
         maxmass: 4500,
         maxmul: 1.5,
@@ -12617,14 +12673,17 @@ module.exports = {
         optmul: 1,
         power: 4,
         rating: "C",
-        recover: 4.8
+        recover: 4.8,
+        thermres: -.2
       }, {
         class: 8,
         cost: 54195500,
         edID: 128064296,
         eddbID: 1149,
+        explres: .5,
         grp: "sg",
         id: "4q",
+        kinres: .4,
         mass: 256,
         maxmass: 4500,
         maxmul: 1.6,
@@ -12634,14 +12693,17 @@ module.exports = {
         optmul: 1.1,
         power: 4.8,
         rating: "B",
-        recover: 4.8
+        recover: 4.8,
+        thermres: -.2
       }, {
         class: 8,
         cost: 162586490,
         edID: 128064297,
         eddbID: 1150,
+        explres: .5,
         grp: "sg",
         id: "4p",
+        kinres: .4,
         mass: 160,
         maxmass: 4500,
         maxmul: 1.7,
@@ -12651,14 +12713,17 @@ module.exports = {
         optmul: 1.2,
         power: 5.6,
         rating: "A",
-        recover: 4.8
+        recover: 4.8,
+        thermres: -.2
       }, {
         class: 7,
         cost: 633200,
         edID: 128064288,
         eddbID: 1141,
+        explres: .5,
         grp: "sg",
         id: "4o",
+        kinres: .4,
         mass: 80,
         maxmass: 2650,
         maxmul: 1.3,
@@ -12668,14 +12733,17 @@ module.exports = {
         optmul: .8,
         power: 2.1,
         rating: "E",
-        recover: 4
+        recover: 4,
+        thermres: -.2
       }, {
         class: 7,
         cost: 1899600,
         edID: 128064289,
         eddbID: 1142,
+        explres: .5,
         grp: "sg",
         id: "4n",
+        kinres: .4,
         mass: 32,
         maxmass: 2650,
         maxmul: 1.4,
@@ -12685,14 +12753,17 @@ module.exports = {
         optmul: .9,
         power: 2.8,
         rating: "D",
-        recover: 4
+        recover: 4,
+        thermres: -.2
       }, {
         class: 7,
         cost: 5698790,
         edID: 128064290,
         eddbID: 1143,
+        explres: .5,
         grp: "sg",
         id: "4m",
+        kinres: .4,
         mass: 80,
         maxmass: 2650,
         maxmul: 1.5,
@@ -12702,14 +12773,17 @@ module.exports = {
         optmul: 1,
         power: 3.5,
         rating: "C",
-        recover: 4
+        recover: 4,
+        thermres: -.2
       }, {
         class: 7,
         cost: 17096370,
         edID: 128064291,
         eddbID: 1144,
+        explres: .5,
         grp: "sg",
         id: "4l",
+        kinres: .4,
         mass: 128,
         maxmass: 2650,
         maxmul: 1.6,
@@ -12719,14 +12793,17 @@ module.exports = {
         optmul: 1.1,
         power: 4.2,
         rating: "B",
-        recover: 4
+        recover: 4,
+        thermres: -.2
       }, {
         class: 7,
         cost: 51289110,
         edID: 128064292,
         eddbID: 1145,
+        explres: .5,
         grp: "sg",
         id: "4k",
+        kinres: .4,
         mass: 80,
         maxmass: 2650,
         maxmul: 1.7,
@@ -12736,14 +12813,17 @@ module.exports = {
         optmul: 1.2,
         power: 4.9,
         rating: "A",
-        recover: 4
+        recover: 4,
+        thermres: -.2
       }, {
         class: 6,
         cost: 199750,
         edID: 128064283,
         eddbID: 1136,
+        explres: .5,
         grp: "sg",
         id: "4j",
+        kinres: .4,
         mass: 40,
         maxmass: 1350,
         maxmul: 1.3,
@@ -12753,14 +12833,17 @@ module.exports = {
         optmul: .8,
         power: 1.86,
         rating: "E",
-        recover: 3.2
+        recover: 3.2,
+        thermres: -.2
       }, {
         class: 6,
         cost: 599240,
         edID: 128064284,
         eddbID: 1137,
+        explres: .5,
         grp: "sg",
         id: "4i",
+        kinres: .4,
         mass: 16,
         maxmass: 1350,
         maxmul: 1.4,
@@ -12770,14 +12853,17 @@ module.exports = {
         optmul: .9,
         power: 2.48,
         rating: "D",
-        recover: 3.2
+        recover: 3.2,
+        thermres: -.2
       }, {
         class: 6,
         cost: 1797730,
         edID: 128064285,
         eddbID: 1138,
+        explres: .5,
         grp: "sg",
         id: "4h",
+        kinres: .4,
         mass: 40,
         maxmass: 1350,
         maxmul: 1.5,
@@ -12787,14 +12873,17 @@ module.exports = {
         optmul: 1,
         power: 3.1,
         rating: "C",
-        recover: 3.2
+        recover: 3.2,
+        thermres: -.2
       }, {
         class: 6,
         cost: 5393180,
         edID: 128064286,
         eddbID: 1139,
+        explres: .5,
         grp: "sg",
         id: "4g",
+        kinres: .4,
         mass: 64,
         maxmass: 1350,
         maxmul: 1.6,
@@ -12804,14 +12893,17 @@ module.exports = {
         optmul: 1.1,
         power: 3.72,
         rating: "B",
-        recover: 3.2
+        recover: 3.2,
+        thermres: -.2
       }, {
         class: 6,
         cost: 16179530,
         edID: 128064287,
         eddbID: 1140,
+        explres: .5,
         grp: "sg",
         id: "4f",
+        kinres: .4,
         mass: 40,
         maxmass: 1350,
         maxmul: 1.7,
@@ -12821,14 +12913,17 @@ module.exports = {
         optmul: 1.2,
         power: 4.34,
         rating: "A",
-        recover: 3.2
+        recover: 3.2,
+        thermres: -.2
       }, {
         class: 5,
         cost: 63010,
         edID: 128064278,
         eddbID: 1131,
+        explres: .5,
         grp: "sg",
         id: "4e",
+        kinres: .4,
         mass: 20,
         maxmass: 1013,
         maxmul: 1.3,
@@ -12838,14 +12933,17 @@ module.exports = {
         optmul: .8,
         power: 1.56,
         rating: "E",
-        recover: 2.5
+        recover: 2.5,
+        thermres: -.2
       }, {
         class: 5,
         cost: 189040,
         edID: 128064279,
         eddbID: 1132,
+        explres: .5,
         grp: "sg",
         id: "4d",
+        kinres: .4,
         mass: 8,
         maxmass: 1013,
         maxmul: 1.4,
@@ -12855,14 +12953,17 @@ module.exports = {
         optmul: .9,
         power: 2.08,
         rating: "D",
-        recover: 2.5
+        recover: 2.5,
+        thermres: -.2
       }, {
         class: 5,
         cost: 567110,
         edID: 128064280,
         eddbID: 1133,
+        explres: .5,
         grp: "sg",
         id: "4c",
+        kinres: .4,
         mass: 20,
         maxmass: 1013,
         maxmul: 1.5,
@@ -12872,14 +12973,17 @@ module.exports = {
         optmul: 1,
         power: 2.6,
         rating: "C",
-        recover: 2.5
+        recover: 2.5,
+        thermres: -.2
       }, {
         class: 5,
         cost: 1701320,
         edID: 128064281,
         eddbID: 1134,
+        explres: .5,
         grp: "sg",
         id: "4b",
+        kinres: .4,
         mass: 32,
         maxmass: 1013,
         maxmul: 1.6,
@@ -12889,14 +12993,17 @@ module.exports = {
         optmul: 1.1,
         power: 3.12,
         rating: "B",
-        recover: 2.5
+        recover: 2.5,
+        thermres: -.2
       }, {
         class: 5,
         cost: 5103950,
         edID: 128064282,
         eddbID: 1135,
+        explres: .5,
         grp: "sg",
         id: "4a",
+        kinres: .4,
         mass: 20,
         maxmass: 1013,
         maxmul: 1.7,
@@ -12906,14 +13013,17 @@ module.exports = {
         optmul: 1.2,
         power: 3.64,
         rating: "A",
-        recover: 2.5
+        recover: 2.5,
+        thermres: -.2
       }, {
         class: 4,
         cost: 19880,
         edID: 128064273,
         eddbID: 1126,
+        explres: .5,
         grp: "sg",
         id: "49",
+        kinres: .4,
         mass: 10,
         maxmass: 713,
         maxmul: 1.3,
@@ -12923,14 +13033,17 @@ module.exports = {
         optmul: .8,
         power: 1.32,
         rating: "E",
-        recover: 1.9
+        recover: 1.9,
+        thermres: -.2
       }, {
         class: 4,
         cost: 59630,
         edID: 128064274,
         eddbID: 1127,
+        explres: .5,
         grp: "sg",
         id: "48",
+        kinres: .4,
         mass: 4,
         maxmass: 713,
         maxmul: 1.4,
@@ -12940,14 +13053,17 @@ module.exports = {
         optmul: .9,
         power: 1.76,
         rating: "D",
-        recover: 1.9
+        recover: 1.9,
+        thermres: -.2
       }, {
         class: 4,
         cost: 178900,
         edID: 128064275,
         eddbID: 1128,
+        explres: .5,
         grp: "sg",
         id: "47",
+        kinres: .4,
         mass: 10,
         maxmass: 713,
         maxmul: 1.5,
@@ -12957,14 +13073,17 @@ module.exports = {
         optmul: 1,
         power: 2.2,
         rating: "C",
-        recover: 1.9
+        recover: 1.9,
+        thermres: -.2
       }, {
         class: 4,
         cost: 536690,
         edID: 128064276,
         eddbID: 1129,
+        explres: .5,
         grp: "sg",
         id: "46",
+        kinres: .4,
         mass: 16,
         maxmass: 713,
         maxmul: 1.6,
@@ -12974,14 +13093,17 @@ module.exports = {
         optmul: 1.1,
         power: 2.64,
         rating: "B",
-        recover: 1.9
+        recover: 1.9,
+        thermres: -.2
       }, {
         class: 4,
         cost: 1610080,
         edID: 128064277,
         eddbID: 1130,
+        explres: .5,
         grp: "sg",
         id: "45",
+        kinres: .4,
         mass: 10,
         maxmass: 713,
         maxmul: 1.7,
@@ -12991,14 +13113,17 @@ module.exports = {
         optmul: 1.2,
         power: 3.08,
         rating: "A",
-        recover: 1.9
+        recover: 1.9,
+        thermres: -.2
       }, {
         class: 3,
         cost: 6270,
         edID: 128064268,
         eddbID: 1121,
+        explres: .5,
         grp: "sg",
         id: "44",
+        kinres: .4,
         mass: 5,
         maxmass: 413,
         maxmul: 1.3,
@@ -13008,14 +13133,17 @@ module.exports = {
         optmul: .8,
         power: 1.08,
         rating: "E",
-        recover: 1.6
+        recover: 1.6,
+        thermres: -.2
       }, {
         class: 3,
         cost: 18810,
         edID: 128064269,
         eddbID: 1122,
+        explres: .5,
         grp: "sg",
         id: "43",
+        kinres: .4,
         mass: 2,
         maxmass: 413,
         maxmul: 1.4,
@@ -13025,14 +13153,17 @@ module.exports = {
         optmul: .9,
         power: 1.44,
         rating: "D",
-        recover: 1.6
+        recover: 1.6,
+        thermres: -.2
       }, {
         class: 3,
         cost: 56440,
         edID: 128064270,
         eddbID: 1123,
+        explres: .5,
         grp: "sg",
         id: "42",
+        kinres: .4,
         mass: 5,
         maxmass: 413,
         maxmul: 1.5,
@@ -13042,14 +13173,17 @@ module.exports = {
         optmul: 1,
         power: 1.8,
         rating: "C",
-        recover: 1.6
+        recover: 1.6,
+        thermres: -.2
       }, {
         class: 3,
         cost: 169300,
         edID: 128064271,
         eddbID: 1124,
+        explres: .5,
         grp: "sg",
         id: "41",
+        kinres: .4,
         mass: 8,
         maxmass: 413,
         maxmul: 1.6,
@@ -13059,14 +13193,17 @@ module.exports = {
         optmul: 1.1,
         power: 2.16,
         rating: "B",
-        recover: 1.6
+        recover: 1.6,
+        thermres: -.2
       }, {
         class: 3,
         cost: 507910,
         edID: 128064272,
         eddbID: 1125,
+        explres: .5,
         grp: "sg",
         id: "40",
+        kinres: .4,
         mass: 5,
         maxmass: 413,
         maxmul: 1.7,
@@ -13076,14 +13213,17 @@ module.exports = {
         optmul: 1.2,
         power: 2.52,
         rating: "A",
-        recover: 1.6
+        recover: 1.6,
+        thermres: -.2
       }, {
         class: 2,
         cost: 1980,
         edID: 128064263,
         eddbID: 1116,
+        explres: .5,
         grp: "sg",
         id: "3v",
+        kinres: .4,
         mass: 2.5,
         maxmass: 138,
         maxmul: 1.3,
@@ -13093,14 +13233,17 @@ module.exports = {
         optmul: .8,
         power: .9,
         rating: "E",
-        recover: 1.6
+        recover: 1.6,
+        thermres: -.2
       }, {
         class: 2,
         cost: 5930,
         edID: 128064264,
         eddbID: 1117,
+        explres: .5,
         grp: "sg",
         id: "3u",
+        kinres: .4,
         mass: 1,
         maxmass: 138,
         maxmul: 1.4,
@@ -13110,14 +13253,17 @@ module.exports = {
         optmul: .9,
         power: 1.2,
         rating: "D",
-        recover: 1.6
+        recover: 1.6,
+        thermres: -.2
       }, {
         class: 2,
         cost: 17800,
         edID: 128064265,
         eddbID: 1118,
+        explres: .5,
         grp: "sg",
         id: "3t",
+        kinres: .4,
         mass: 2.5,
         maxmass: 138,
         maxmul: 1.5,
@@ -13127,14 +13273,17 @@ module.exports = {
         optmul: 1,
         power: 1.5,
         rating: "C",
-        recover: 1.6
+        recover: 1.6,
+        thermres: -.2
       }, {
         class: 2,
         cost: 53410,
         edID: 128064266,
         eddbID: 1119,
+        explres: .5,
         grp: "sg",
         id: "3s",
+        kinres: .4,
         mass: 4,
         maxmass: 138,
         maxmul: 1.6,
@@ -13144,14 +13293,17 @@ module.exports = {
         optmul: 1.1,
         power: 1.8,
         rating: "B",
-        recover: 1.6
+        recover: 1.6,
+        thermres: -.2
       }, {
         class: 2,
         cost: 160220,
         edID: 128064267,
         eddbID: 1120,
+        explres: .5,
         grp: "sg",
         id: "3r",
+        kinres: .4,
         mass: 2.5,
         maxmass: 138,
         maxmul: 1.7,
@@ -13161,14 +13313,17 @@ module.exports = {
         optmul: 1.2,
         power: 2.1,
         rating: "A",
-        recover: 1.6
+        recover: 1.6,
+        thermres: -.2
       }, {
         class: 1,
         cost: 88075,
         edID: 128064262,
         eddbID: 1551,
+        explres: .5,
         grp: "sg",
         id: "1x",
+        kinres: .4,
         mass: 1.3,
         maxmass: 63,
         maxmul: 1.7,
@@ -13178,7 +13333,8 @@ module.exports = {
         optmul: 1.2,
         power: 1.68,
         rating: "A",
-        recover: 1
+        recover: 1,
+        thermres: -.2
       } ]
     }
   },
