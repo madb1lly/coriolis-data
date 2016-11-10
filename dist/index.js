@@ -6338,14 +6338,14 @@ module.exports = {
         thermload: .2,
         type: "T"
       }, {
-        breachdmg: 15.25,
+        breachdmg: 1.5,
         breachmax: 0,
         breachmin: 0,
-        burst: 8,
-        burstrof: 20,
+        burst: 3,
+        burstrof: 15,
         class: 1,
         cost: 8800,
-        damage: 18,
+        damage: 2.4,
         distdraw: .4,
         edID: 128671449,
         eddbID: 1477,
