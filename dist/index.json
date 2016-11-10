@@ -14188,7 +14188,7 @@
 					"mass": 160,
 					"power": 1.44,
 					"rating": "E",
-					"recharge": 476,
+					"shieldreinforcement": 476,
 					"rechargerating": "C",
 					"spinup": 5,
 					"thermload": 800
@@ -14208,7 +14208,7 @@
 					"mass": 64,
 					"power": 1.92,
 					"rating": "D",
-					"recharge": 629,
+					"shieldreinforcement": 629,
 					"rechargerating": "D",
 					"spinup": 5,
 					"thermload": 800
@@ -14228,7 +14228,7 @@
 					"mass": 160,
 					"power": 2.4,
 					"rating": "C",
-					"recharge": 799,
+					"shieldreinforcement": 799,
 					"rechargerating": "C",
 					"spinup": 5,
 					"thermload": 800
@@ -14248,7 +14248,7 @@
 					"mass": 256,
 					"power": 2.88,
 					"rating": "B",
-					"recharge": 952,
+					"shieldreinforcement": 952,
 					"rechargerating": "B",
 					"spinup": 5,
 					"thermload": 800
@@ -14268,7 +14268,7 @@
 					"mass": 160,
 					"power": 3.36,
 					"rating": "A",
-					"recharge": 1105,
+					"shieldreinforcement": 1105,
 					"rechargerating": "A",
 					"spinup": 5,
 					"thermload": 800
@@ -14288,7 +14288,7 @@
 					"mass": 80,
 					"power": 1.24,
 					"rating": "E",
-					"recharge": 264,
+					"shieldreinforcement": 264,
 					"rechargerating": "E",
 					"spinup": 5,
 					"thermload": 720
@@ -14308,7 +14308,7 @@
 					"mass": 32,
 					"power": 1.66,
 					"rating": "D",
-					"recharge": 352,
+					"shieldreinforcement": 352,
 					"rechargerating": "D",
 					"spinup": 5,
 					"thermload": 720
@@ -14328,7 +14328,7 @@
 					"mass": 80,
 					"power": 2.07,
 					"rating": "C",
-					"recharge": 451,
+					"shieldreinforcement": 451,
 					"rechargerating": "C",
 					"spinup": 5,
 					"thermload": 720
@@ -14348,7 +14348,7 @@
 					"mass": 128,
 					"power": 2.48,
 					"rating": "B",
-					"recharge": 539,
+					"shieldreinforcement": 539,
 					"rechargerating": "B",
 					"spinup": 5,
 					"thermload": 720
@@ -14368,7 +14368,7 @@
 					"mass": 80,
 					"power": 2.9,
 					"rating": "A",
-					"recharge": 627,
+					"shieldreinforcement": 627,
 					"rechargerating": "A",
 					"spinup": 5,
 					"thermload": 720
@@ -14388,7 +14388,7 @@
 					"mass": 40,
 					"power": 1.06,
 					"rating": "E",
-					"recharge": 160,
+					"shieldreinforcement": 160,
 					"rechargerating": "E",
 					"spinup": 5,
 					"thermload": 640
@@ -14408,7 +14408,7 @@
 					"mass": 16,
 					"power": 1.42,
 					"rating": "D",
-					"recharge": 208,
+					"shieldreinforcement": 208,
 					"rechargerating": "D",
 					"spinup": 5,
 					"thermload": 640
@@ -14428,7 +14428,7 @@
 					"mass": 40,
 					"power": 1.77,
 					"rating": "C",
-					"recharge": 264,
+					"shieldreinforcement": 264,
 					"rechargerating": "C",
 					"spinup": 5,
 					"thermload": 640
@@ -14448,7 +14448,7 @@
 					"mass": 64,
 					"power": 2.12,
 					"rating": "B",
-					"recharge": 312,
+					"shieldreinforcement": 312,
 					"rechargerating": "B",
 					"spinup": 5,
 					"thermload": 640
@@ -14468,7 +14468,7 @@
 					"mass": 40,
 					"power": 2.48,
 					"rating": "A",
-					"recharge": 368,
+					"shieldreinforcement": 368,
 					"rechargerating": "A",
 					"spinup": 5,
 					"thermload": 640
@@ -14488,7 +14488,7 @@
 					"mass": 20,
 					"power": 0.9,
 					"rating": "E",
-					"recharge": 105,
+					"shieldreinforcement": 105,
 					"rechargerating": "E",
 					"spinup": 5,
 					"thermload": 540
@@ -14508,7 +14508,7 @@
 					"mass": 8,
 					"power": 1.2,
 					"rating": "D",
-					"recharge": 140,
+					"shieldreinforcement": 140,
 					"rechargerating": "D",
 					"spinup": 5,
 					"thermload": 540
@@ -14528,7 +14528,7 @@
 					"mass": 20,
 					"power": 1.5,
 					"rating": "C",
-					"recharge": 175,
+					"shieldreinforcement": 175,
 					"rechargerating": "C",
 					"spinup": 5,
 					"thermload": 540
@@ -14548,7 +14548,7 @@
 					"mass": 32,
 					"power": 1.8,
 					"rating": "B",
-					"recharge": 205,
+					"shieldreinforcement": 205,
 					"rechargerating": "B",
 					"spinup": 5,
 					"thermload": 540
@@ -14568,7 +14568,7 @@
 					"mass": 20,
 					"power": 2.1,
 					"rating": "A",
-					"recharge": 240,
+					"shieldreinforcement": 240,
 					"rechargerating": "A",
 					"spinup": 5,
 					"thermload": 540
@@ -14588,7 +14588,7 @@
 					"mass": 10,
 					"power": 0.74,
 					"rating": "E",
-					"recharge": 60,
+					"shieldreinforcement": 60,
 					"rechargerating": "E",
 					"spinup": 5,
 					"thermload": 410
@@ -14608,7 +14608,7 @@
 					"mass": 4,
 					"power": 0.98,
 					"rating": "D",
-					"recharge": 78,
+					"shieldreinforcement": 78,
 					"rechargerating": "D",
 					"spinup": 5,
 					"thermload": 410
@@ -14628,7 +14628,7 @@
 					"mass": 10,
 					"power": 1.23,
 					"rating": "C",
-					"recharge": 99,
+					"shieldreinforcement": 99,
 					"rechargerating": "C",
 					"spinup": 5,
 					"thermload": 410
@@ -14648,7 +14648,7 @@
 					"mass": 16,
 					"power": 1.48,
 					"rating": "B",
-					"recharge": 117,
+					"shieldreinforcement": 117,
 					"rechargerating": "B",
 					"spinup": 5,
 					"thermload": 410
@@ -14668,7 +14668,7 @@
 					"mass": 10,
 					"power": 1.72,
 					"rating": "A",
-					"recharge": 138,
+					"shieldreinforcement": 138,
 					"rechargerating": "A",
 					"spinup": 5,
 					"thermload": 410
@@ -14688,7 +14688,7 @@
 					"mass": 5,
 					"power": 0.61,
 					"rating": "E",
-					"recharge": 34,
+					"shieldreinforcement": 34,
 					"rechargerating": "E",
 					"spinup": 5,
 					"thermload": 340
@@ -14708,7 +14708,7 @@
 					"mass": 2,
 					"power": 0.82,
 					"rating": "D",
-					"recharge": 46,
+					"shieldreinforcement": 46,
 					"rechargerating": "D",
 					"spinup": 5,
 					"thermload": 340
@@ -14728,7 +14728,7 @@
 					"mass": 5,
 					"power": 1.02,
 					"rating": "C",
-					"recharge": 58,
+					"shieldreinforcement": 58,
 					"rechargerating": "C",
 					"spinup": 5,
 					"thermload": 340
@@ -14748,7 +14748,7 @@
 					"mass": 8,
 					"power": 1.22,
 					"rating": "B",
-					"recharge": 70,
+					"shieldreinforcement": 70,
 					"rechargerating": "B",
 					"spinup": 5,
 					"thermload": 340
@@ -14768,7 +14768,7 @@
 					"mass": 5,
 					"power": 1.43,
 					"rating": "A",
-					"recharge": 82,
+					"shieldreinforcement": 82,
 					"rechargerating": "A",
 					"spinup": 5,
 					"thermload": 340
@@ -14788,7 +14788,7 @@
 					"mass": 2.5,
 					"power": 0.5,
 					"rating": "E",
-					"recharge": 28,
+					"shieldreinforcement": 28,
 					"rechargerating": "E",
 					"spinup": 5,
 					"thermload": 240
@@ -14808,7 +14808,7 @@
 					"mass": 1,
 					"power": 0.67,
 					"rating": "D",
-					"recharge": 36,
+					"shieldreinforcement": 36,
 					"rechargerating": "D",
 					"spinup": 5,
 					"thermload": 240
@@ -14828,7 +14828,7 @@
 					"mass": 2.5,
 					"power": 0.84,
 					"rating": "C",
-					"recharge": 46,
+					"shieldreinforcement": 46,
 					"rechargerating": "C",
 					"spinup": 5,
 					"thermload": 240
@@ -14848,7 +14848,7 @@
 					"mass": 4,
 					"power": 1.01,
 					"rating": "B",
-					"recharge": 56,
+					"shieldreinforcement": 56,
 					"rechargerating": "B",
 					"spinup": 5,
 					"thermload": 240
@@ -14868,7 +14868,7 @@
 					"mass": 2.5,
 					"power": 1.18,
 					"rating": "A",
-					"recharge": 64,
+					"shieldreinforcement": 64,
 					"rechargerating": "A",
 					"spinup": 5,
 					"thermload": 240
@@ -14888,7 +14888,7 @@
 					"mass": 1.3,
 					"power": 0.41,
 					"rating": "E",
-					"recharge": 12,
+					"shieldreinforcement": 12,
 					"rechargerating": "E",
 					"spinup": 5,
 					"thermload": 170
@@ -14908,7 +14908,7 @@
 					"mass": 0.5,
 					"power": 0.55,
 					"rating": "D",
-					"recharge": 12.5,
+					"shieldreinforcement": 12.5,
 					"rechargerating": "D",
 					"spinup": 5,
 					"thermload": 170
@@ -14928,7 +14928,7 @@
 					"mass": 1.3,
 					"power": 0.69,
 					"rating": "C",
-					"recharge": 20,
+					"shieldreinforcement": 20,
 					"rechargerating": "C",
 					"spinup": 5,
 					"thermload": 170
@@ -14948,7 +14948,7 @@
 					"mass": 2,
 					"power": 0.83,
 					"rating": "B",
-					"recharge": 24,
+					"shieldreinforcement": 24,
 					"rechargerating": "B",
 					"spinup": 5,
 					"thermload": 170
@@ -14968,7 +14968,7 @@
 					"mass": 1.3,
 					"power": 0.97,
 					"rating": "A",
-					"recharge": 28,
+					"shieldreinforcement": 28,
 					"rechargerating": "A",
 					"spinup": 5,
 					"thermload": 170
@@ -15774,7 +15774,8 @@
 			"thermload",
 			"thermres",
 			"wepcap",
-			"weprate"
+			"weprate",
+			"shieldreinforcement"
 		],
 		"validity": {
 			"am": [
@@ -16073,7 +16074,7 @@
 				"duration",
 				"integrity",
 				"power",
-				"shield",
+				"shieldreinforcement",
 				"spinup",
 				"thermload"
 			],

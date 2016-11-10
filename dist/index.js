@@ -11869,7 +11869,7 @@ module.exports = {
         mass: 160,
         power: 1.44,
         rating: "E",
-        recharge: 476,
+        shieldreinforcement: 476,
         rechargerating: "C",
         spinup: 5,
         thermload: 800
@@ -11888,7 +11888,7 @@ module.exports = {
         mass: 64,
         power: 1.92,
         rating: "D",
-        recharge: 629,
+        shieldreinforcement: 629,
         rechargerating: "D",
         spinup: 5,
         thermload: 800
@@ -11907,7 +11907,7 @@ module.exports = {
         mass: 160,
         power: 2.4,
         rating: "C",
-        recharge: 799,
+        shieldreinforcement: 799,
         rechargerating: "C",
         spinup: 5,
         thermload: 800
@@ -11926,7 +11926,7 @@ module.exports = {
         mass: 256,
         power: 2.88,
         rating: "B",
-        recharge: 952,
+        shieldreinforcement: 952,
         rechargerating: "B",
         spinup: 5,
         thermload: 800
@@ -11945,7 +11945,7 @@ module.exports = {
         mass: 160,
         power: 3.36,
         rating: "A",
-        recharge: 1105,
+        shieldreinforcement: 1105,
         rechargerating: "A",
         spinup: 5,
         thermload: 800
@@ -11964,7 +11964,7 @@ module.exports = {
         mass: 80,
         power: 1.24,
         rating: "E",
-        recharge: 264,
+        shieldreinforcement: 264,
         rechargerating: "E",
         spinup: 5,
         thermload: 720
@@ -11983,7 +11983,7 @@ module.exports = {
         mass: 32,
         power: 1.66,
         rating: "D",
-        recharge: 352,
+        shieldreinforcement: 352,
         rechargerating: "D",
         spinup: 5,
         thermload: 720
@@ -12002,7 +12002,7 @@ module.exports = {
         mass: 80,
         power: 2.07,
         rating: "C",
-        recharge: 451,
+        shieldreinforcement: 451,
         rechargerating: "C",
         spinup: 5,
         thermload: 720
@@ -12021,7 +12021,7 @@ module.exports = {
         mass: 128,
         power: 2.48,
         rating: "B",
-        recharge: 539,
+        shieldreinforcement: 539,
         rechargerating: "B",
         spinup: 5,
         thermload: 720
@@ -12040,7 +12040,7 @@ module.exports = {
         mass: 80,
         power: 2.9,
         rating: "A",
-        recharge: 627,
+        shieldreinforcement: 627,
         rechargerating: "A",
         spinup: 5,
         thermload: 720
@@ -12059,7 +12059,7 @@ module.exports = {
         mass: 40,
         power: 1.06,
         rating: "E",
-        recharge: 160,
+        shieldreinforcement: 160,
         rechargerating: "E",
         spinup: 5,
         thermload: 640
@@ -12078,7 +12078,7 @@ module.exports = {
         mass: 16,
         power: 1.42,
         rating: "D",
-        recharge: 208,
+        shieldreinforcement: 208,
         rechargerating: "D",
         spinup: 5,
         thermload: 640
@@ -12097,7 +12097,7 @@ module.exports = {
         mass: 40,
         power: 1.77,
         rating: "C",
-        recharge: 264,
+        shieldreinforcement: 264,
         rechargerating: "C",
         spinup: 5,
         thermload: 640
@@ -12116,7 +12116,7 @@ module.exports = {
         mass: 64,
         power: 2.12,
         rating: "B",
-        recharge: 312,
+        shieldreinforcement: 312,
         rechargerating: "B",
         spinup: 5,
         thermload: 640
@@ -12135,7 +12135,7 @@ module.exports = {
         mass: 40,
         power: 2.48,
         rating: "A",
-        recharge: 368,
+        shieldreinforcement: 368,
         rechargerating: "A",
         spinup: 5,
         thermload: 640
@@ -12154,7 +12154,7 @@ module.exports = {
         mass: 20,
         power: .9,
         rating: "E",
-        recharge: 105,
+        shieldreinforcement: 105,
         rechargerating: "E",
         spinup: 5,
         thermload: 540
@@ -12173,7 +12173,7 @@ module.exports = {
         mass: 8,
         power: 1.2,
         rating: "D",
-        recharge: 140,
+        shieldreinforcement: 140,
         rechargerating: "D",
         spinup: 5,
         thermload: 540
@@ -12192,7 +12192,7 @@ module.exports = {
         mass: 20,
         power: 1.5,
         rating: "C",
-        recharge: 175,
+        shieldreinforcement: 175,
         rechargerating: "C",
         spinup: 5,
         thermload: 540
@@ -12211,7 +12211,7 @@ module.exports = {
         mass: 32,
         power: 1.8,
         rating: "B",
-        recharge: 205,
+        shieldreinforcement: 205,
         rechargerating: "B",
         spinup: 5,
         thermload: 540
@@ -12230,7 +12230,7 @@ module.exports = {
         mass: 20,
         power: 2.1,
         rating: "A",
-        recharge: 240,
+        shieldreinforcement: 240,
         rechargerating: "A",
         spinup: 5,
         thermload: 540
@@ -12249,7 +12249,7 @@ module.exports = {
         mass: 10,
         power: .74,
         rating: "E",
-        recharge: 60,
+        shieldreinforcement: 60,
         rechargerating: "E",
         spinup: 5,
         thermload: 410
@@ -12268,7 +12268,7 @@ module.exports = {
         mass: 4,
         power: .98,
         rating: "D",
-        recharge: 78,
+        shieldreinforcement: 78,
         rechargerating: "D",
         spinup: 5,
         thermload: 410
@@ -12287,7 +12287,7 @@ module.exports = {
         mass: 10,
         power: 1.23,
         rating: "C",
-        recharge: 99,
+        shieldreinforcement: 99,
         rechargerating: "C",
         spinup: 5,
         thermload: 410
@@ -12306,7 +12306,7 @@ module.exports = {
         mass: 16,
         power: 1.48,
         rating: "B",
-        recharge: 117,
+        shieldreinforcement: 117,
         rechargerating: "B",
         spinup: 5,
         thermload: 410
@@ -12325,7 +12325,7 @@ module.exports = {
         mass: 10,
         power: 1.72,
         rating: "A",
-        recharge: 138,
+        shieldreinforcement: 138,
         rechargerating: "A",
         spinup: 5,
         thermload: 410
@@ -12344,7 +12344,7 @@ module.exports = {
         mass: 5,
         power: .61,
         rating: "E",
-        recharge: 34,
+        shieldreinforcement: 34,
         rechargerating: "E",
         spinup: 5,
         thermload: 340
@@ -12363,7 +12363,7 @@ module.exports = {
         mass: 2,
         power: .82,
         rating: "D",
-        recharge: 46,
+        shieldreinforcement: 46,
         rechargerating: "D",
         spinup: 5,
         thermload: 340
@@ -12382,7 +12382,7 @@ module.exports = {
         mass: 5,
         power: 1.02,
         rating: "C",
-        recharge: 58,
+        shieldreinforcement: 58,
         rechargerating: "C",
         spinup: 5,
         thermload: 340
@@ -12401,7 +12401,7 @@ module.exports = {
         mass: 8,
         power: 1.22,
         rating: "B",
-        recharge: 70,
+        shieldreinforcement: 70,
         rechargerating: "B",
         spinup: 5,
         thermload: 340
@@ -12420,7 +12420,7 @@ module.exports = {
         mass: 5,
         power: 1.43,
         rating: "A",
-        recharge: 82,
+        shieldreinforcement: 82,
         rechargerating: "A",
         spinup: 5,
         thermload: 340
@@ -12439,7 +12439,7 @@ module.exports = {
         mass: 2.5,
         power: .5,
         rating: "E",
-        recharge: 28,
+        shieldreinforcement: 28,
         rechargerating: "E",
         spinup: 5,
         thermload: 240
@@ -12458,7 +12458,7 @@ module.exports = {
         mass: 1,
         power: .67,
         rating: "D",
-        recharge: 36,
+        shieldreinforcement: 36,
         rechargerating: "D",
         spinup: 5,
         thermload: 240
@@ -12477,7 +12477,7 @@ module.exports = {
         mass: 2.5,
         power: .84,
         rating: "C",
-        recharge: 46,
+        shieldreinforcement: 46,
         rechargerating: "C",
         spinup: 5,
         thermload: 240
@@ -12496,7 +12496,7 @@ module.exports = {
         mass: 4,
         power: 1.01,
         rating: "B",
-        recharge: 56,
+        shieldreinforcement: 56,
         rechargerating: "B",
         spinup: 5,
         thermload: 240
@@ -12515,7 +12515,7 @@ module.exports = {
         mass: 2.5,
         power: 1.18,
         rating: "A",
-        recharge: 64,
+        shieldreinforcement: 64,
         rechargerating: "A",
         spinup: 5,
         thermload: 240
@@ -12534,7 +12534,7 @@ module.exports = {
         mass: 1.3,
         power: .41,
         rating: "E",
-        recharge: 12,
+        shieldreinforcement: 12,
         rechargerating: "E",
         spinup: 5,
         thermload: 170
@@ -12553,7 +12553,7 @@ module.exports = {
         mass: .5,
         power: .55,
         rating: "D",
-        recharge: 12.5,
+        shieldreinforcement: 12.5,
         rechargerating: "D",
         spinup: 5,
         thermload: 170
@@ -12572,7 +12572,7 @@ module.exports = {
         mass: 1.3,
         power: .69,
         rating: "C",
-        recharge: 20,
+        shieldreinforcement: 20,
         rechargerating: "C",
         spinup: 5,
         thermload: 170
@@ -12591,7 +12591,7 @@ module.exports = {
         mass: 2,
         power: .83,
         rating: "B",
-        recharge: 24,
+        shieldreinforcement: 24,
         rechargerating: "B",
         spinup: 5,
         thermload: 170
@@ -12610,7 +12610,7 @@ module.exports = {
         mass: 1.3,
         power: .97,
         rating: "A",
-        recharge: 28,
+        shieldreinforcement: 28,
         rechargerating: "A",
         spinup: 5,
         thermload: 170
@@ -13339,7 +13339,7 @@ module.exports = {
     }
   },
   Modifications: {
-    modifiers: [ "ammo", "boot", "brokenregen", "burst", "clip", "damage", "distdraw", "duration", "eff", "engcap", "engrate", "explres", "facinglimit", "hullboost", "hullreinforcement", "integrity", "jitter", "kinres", "mass", "maxfuel", "optmass", "optmul", "pgen", "piercing", "power", "range", "ranget", "regen", "reload", "rof", "shield", "shieldboost", "spinup", "syscap", "sysrate", "thermload", "thermres", "wepcap", "weprate" ],
+    modifiers: [ "ammo", "boot", "brokenregen", "burst", "clip", "damage", "distdraw", "duration", "eff", "engcap", "engrate", "explres", "facinglimit", "hullboost", "hullreinforcement", "integrity", "jitter", "kinres", "mass", "maxfuel", "optmass", "optmul", "pgen", "piercing", "power", "range", "ranget", "regen", "reload", "rof", "shield", "shieldboost", "spinup", "syscap", "sysrate", "thermload", "thermres", "wepcap", "weprate", "shieldreinforcement" ],
     validity: {
       am: [ "integrity", "power" ],
       bh: [ "explres", "hullboost", "kinres", "mass", "thermres" ],
@@ -13373,7 +13373,7 @@ module.exports = {
       rf: [ "integrity", "power" ],
       rg: [ "ammo", "clip", "damage", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
       sb: [ "explres", "integrity", "kinres", "mass", "power", "shieldboost", "thermres" ],
-      scb: [ "boot", "duration", "integrity", "power", "shield", "spinup", "thermload" ],
+      scb: [ "boot", "duration", "integrity", "power", "shieldreinforcement", "spinup", "thermload" ],
       sg: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
       t: [ "integrity", "mass", "optmass", "optmul", "power", "thermload" ],
       tp: [ "damage", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
