@@ -3185,7 +3185,7 @@ module.exports = {
         integrity: 105,
         mass: 32,
         maxmass: 2430,
-        maxmul: 1.86,
+        maxmul: 1.06,
         minmass: 810,
         minmul: .86,
         optmass: 1620,
