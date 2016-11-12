@@ -1,0 +1,309 @@
+{
+  "mod_boot_time": {
+    "boot": 1
+  },
+  "mod_defencemodifier_explosive_mult": {
+    "explres": 1
+  },
+  "mod_defencemodifier_global_hull_mult": {
+    "explres": 1,
+    "kinres": 1,
+    "thermres": 1
+  },
+  "mod_defencemodifier_global_shield_mult": {
+    "explres": 1,
+    "kinres": 1,
+    "thermres": 1
+  },
+  "mod_defencemodifier_health_add": {
+    "hullreinforcement": 1
+  },
+  "mod_defencemodifier_health_mult": {
+    "hullboost": 1
+  },
+  "mod_defencemodifier_kinetic_mult": {
+    "kinres": 1
+  },
+  "mod_defencemodifier_shield_explosive_mult": {
+    "explres": 1
+  },
+  "mod_defencemodifier_shield_kinetic_mult": {
+    "kinres": 1
+  },
+  "mod_defencemodifier_shield_mult": {
+    "shieldboost": 1
+  },
+  "mod_defencemodifier_shield_thermic_mult": {
+    "thermres": 1
+  },
+  "mod_defencemodifier_thermic_mult": {
+    "thermres": 1
+  },
+  "mod_engine_heat": {
+    "thermload": 1
+  },
+  "mod_engine_mass_curve": {
+    "optmass": 1
+  },
+  "mod_engine_mass_curve_multiplier": {
+    "optmul": 1
+  },
+  "mod_fsd_heat_rate": {
+    "thermload": 1
+  },
+  "mod_fsd_max_fuel_per_jump": {
+    "maxfuel": 1
+  },
+  "mod_fsd_optimised_mass": {
+    "optmass": 1
+  },
+  "mod_fsdinterdictor_facing_limit": {
+    "facinglimit": 1
+  },
+  "mod_fsdinterdictor_range": {
+    "ranget": 1
+  },
+  "mod_health": {
+    "integrity": 1
+  },
+  "mod_mass": {
+    "mass": 1
+  },
+  "mod_passive_power": {
+    "power": 1
+  },
+  "mod_powerdistributor_engine_charge": {
+    "engcap": 1
+  },
+  "mod_powerdistributor_engine_rate": {
+    "engrate": 1
+  },
+  "mod_powerdistributor_global_charge": {
+    "engcap": 1,
+    "syscap": 1,
+    "wepcap": 1
+  },
+  "mod_powerdistributor_global_rate": {
+    "engrate": 1,
+    "sysrate": 1,
+    "weprate": 1
+  },
+  "mod_powerdistributor_system_charge": {
+    "syscap": 1
+  },
+  "mod_powerdistributor_system_rate": {
+    "sysrate": 1
+  },
+  "mod_powerdistributor_weapon_charge": {
+    "wepcap": 1
+  },
+  "mod_powerdistributor_weapon_rate": {
+    "weprate": 1
+  },
+  "mod_powerplant_heat": {
+    "eff": 1
+  },
+  "mod_powerplant_power": {
+    "pgen": 1
+  },
+  "mod_shield_broken_regen": {
+    "brokenregen": 1
+  },
+  "mod_shield_energy_per_regen": {
+    "distdraw": 1
+  },
+  "mod_shield_explosive_mult": {
+    "explres": 1
+  },
+  "mod_shield_global_mult": {
+    "explres": 1,
+    "kinres": 1,
+    "thermres": 1
+  },
+  "mod_shield_kinetic_mult": {
+    "kinres": 1
+  },
+  "mod_shield_mass_curve": {
+    "optmass": 1
+  },
+  "mod_shield_mass_curve_multiplier": {
+    "optmul": 1
+  },
+  "mod_shield_normal_regen": {
+    "regen": 1
+  },
+  "mod_shield_thermal_mult": {
+    "thermres": 1
+  },
+  "mod_shieldcell_charge_heat": {
+    "thermload": 1
+  },
+  "mod_shieldcell_duration": {
+    "duration": 1
+  },
+  "mod_shieldcell_shield_units": {
+    "shieldreinforcement": 1
+  },
+  "mod_shieldcell_spin_up": {
+    "spinup": 1
+  },
+  "mod_weapon_active_heat": {
+    "thermload": 1
+  },
+  "mod_weapon_active_power": {
+    "distdraw": 1
+  },
+  "mod_weapon_ammo_capacity": {
+    "ammo": 1
+  },
+  "mod_weapon_burst_interval": {
+    "rof": 1
+  },
+  "mod_weapon_burst_rof": {},
+  "mod_weapon_burst_size": {},
+  "mod_weapon_clip_size": {
+    "clip": 1
+  },
+  "mod_weapon_damage": {
+    "damage": 1
+  },
+  "mod_weapon_hardness_piercing": {
+    "piercing": 1
+  },
+  "mod_weapon_jitter_radius": {
+    "jitter": 1
+  },
+  "mod_weapon_range": {
+    "range": 1
+  },
+  "mod_weapon_reload_time": {
+    "reload": 1
+  },
+  "special_auto_loader": {},
+  "special_choke_canister": {},
+  "special_corrosive_shell": {
+    "ammo": -0.2
+  },
+  "special_dispersal_field": {
+    "damage": -0.1
+  },
+  "special_distortion_field": {},
+  "special_drag_munitions": {},
+  "special_emissive_munitions": {
+    "thermload": 1
+  },
+  "special_feedback_cascade": {},
+  "special_high_yield_shell": {},
+  "special_incendiary_rounds": {
+    "rof": 0.05263157894736842,
+    "thermload": 2
+  },
+  "special_overload_munitions": {
+    "ammo": -0.2
+  },
+  "special_phasing_sequence": {},
+  "special_radiant_canister": {
+    "ammo": -0.25
+  },
+  "special_regeneration_sequence": {},
+  "special_scramble_spectrum": {
+    "rof": 0.1111111111111111
+  },
+  "special_shiftlock_canister": {
+    "damage": -0.2
+  },
+  "special_thermal_cascade": {},
+  "special_thermal_conduit": {},
+  "special_thermal_vent": {
+    "thermload": 0.25
+  },
+  "special_thermalshock": {
+    "damage": -0.25
+  },
+  "trade_cell_heat_cell_units": {},
+  "trade_defence_health_add_defence_global_mult": {},
+  "trade_distributor_engine_charge_system_charge": {
+    "engcap": 1,
+    "syscap": -1
+  },
+  "trade_distributor_global_charge_mass": {
+    "engcap": 0.75,
+    "mass": 1,
+    "syscap": 0.75,
+    "wepcap": 0.75
+  },
+  "trade_engine_curve_mult_engine_heat": {
+    "optmul": 0.4,
+    "thermload": 1
+  },
+  "trade_fsd_fuel_per_jump_fsd_heat": {
+    "maxfuel": 0.5,
+    "thermload": 1
+  },
+  "trade_interdictor_range_facing_limit": {},
+  "trade_mass_defence_health_add": {
+    "hullreinforcement": -0.75,
+    "mass": -1
+  },
+  "trade_mass_health": {
+    "integrity": 1,
+    "mass": 0.4
+  },
+  "trade_passive_power_booster_global_mult": {
+    "explres": 0.4,
+    "kinres": 0.4,
+    "power": -1,
+    "thermres": 0.4
+  },
+  "trade_passive_power_boot_time": {
+    "boot": 1,
+    "power": -0.5
+  },
+  "trade_passive_power_cell_spin_up": {},
+  "trade_passive_power_distributor_global_rate": {
+    "engrate": -1,
+    "power": -1,
+    "sysrate": -1,
+    "weprate": -1
+  },
+  "trade_passive_power_engine_curve": {
+    "optmass": -0.66,
+    "power": -1
+  },
+  "trade_passive_power_shield_global_mult": {
+    "explres": 0.5,
+    "kinres": 0.5,
+    "power": -1,
+    "thermres": 0.5
+  },
+  "trade_passive_power_weapon_active": {
+    "distdraw": -0.6,
+    "power": 1
+  },
+  "trade_shield_curve_shield_curve_mult": {
+    "optmass": -1,
+    "optmul": -0.8
+  },
+  "trade_shield_global_mult_shield_broken_regen": {
+    "brokenregen": -1,
+    "explres": -0.5,
+    "kinres": -0.5,
+    "thermres": -0.5
+  },
+  "trade_shield_kinetic_shield_thermic": {
+    "kinres": 1,
+    "thermres": -1
+  },
+  "trade_weapon_active_passive_power": {
+    "distdraw": -0.67,
+    "power": 1
+  },
+  "trade_weapon_damage_weapon_active_power": {
+    "damage": 0.5,
+    "distdraw": 1
+  },
+  "trade_weapon_hardness_weapon_heat": {
+    "piercing": 0.4,
+    "thermload": 1
+  }
+}
