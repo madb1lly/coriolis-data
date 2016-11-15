@@ -1608,7 +1608,7 @@
 				"boostEnergy": 27,
 				"agility": 2,
 				"baseShieldStrength": 555,
-				"baseArmour": 666,
+				"baseArmour": 370,
 				"hullMass": 900,
 				"masslock": 24,
 				"pipSpeed": 0.125,
@@ -10503,6 +10503,7 @@
 			"ch": [
 				{
 					"ammo": 10,
+					"ammocost": 100,
 					"class": 0,
 					"clip": 1,
 					"cost": 8500,
@@ -10547,6 +10548,7 @@
 			"hs": [
 				{
 					"ammo": 2,
+					"ammocost": 25,
 					"class": 0,
 					"clip": 1,
 					"cost": 3500,
@@ -11695,6 +11697,7 @@
 					"cost": 575660,
 					"edID": 128727930,
 					"eddbID": 1560,
+					"fightercost": 1030,
 					"grp": "fh",
 					"id": "fh",
 					"mass": 60,
@@ -11708,6 +11711,7 @@
 					"cost": 1869350,
 					"edID": 128727931,
 					"eddbID": 1561,
+					"fightercost": 1030,
 					"grp": "fh",
 					"id": "fm",
 					"mass": 40,
@@ -11721,6 +11725,7 @@
 					"cost": 2369330,
 					"edID": 128727932,
 					"eddbID": 1562,
+					"fightercost": 1030,
 					"grp": "fh",
 					"id": "fr",
 					"mass": 20,
