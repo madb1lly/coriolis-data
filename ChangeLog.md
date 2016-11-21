@@ -5,3 +5,4 @@
   * Add initial loadout passenger cabins for Orca
   * Update costs and initial loadouts for Keelback and Type-7
   * Add resistances for hull reinforcement packages
+  * Added modifier actions to create modifications from raw data

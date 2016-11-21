@@ -1,4 +1,5 @@
 module.exports = {
-  modifiers: require('./modifiers'),
+  modifications: require('./modifications'),
+  modifierActions: require('./modifierActions'),
   validity: require('./validity')
 };

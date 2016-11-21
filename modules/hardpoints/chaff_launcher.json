@@ -2,6 +2,7 @@
   "ch": [
     {
       "ammo": 10,
+      "ammocost": 100,
       "class": 0,
       "clip": 1,
       "cost": 8500,
