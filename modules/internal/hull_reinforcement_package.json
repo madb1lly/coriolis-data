@@ -6,10 +6,13 @@
       "cost": 150000,
       "edID": 128668545,
       "eddbID": 1381,
+      "explres": 0.025,
       "grp": "hr",
       "id": "2e",
+      "kinres": 0.025,
       "mass": 64,
-      "rating": "E"
+      "rating": "E",
+      "thermres": 0.025
     },
     {
       "hullreinforcement": 390,
@@ -17,10 +20,13 @@
       "cost": 450000,
       "edID": 128668546,
       "eddbID": 1382,
+      "explres": 0.025,
       "grp": "hr",
       "id": "2d",
+      "kinres": 0.025,
       "mass": 32,
-      "rating": "D"
+      "rating": "D",
+      "thermres": 0.025
     },
     {
       "hullreinforcement": 300,
@@ -28,10 +34,13 @@
       "cost": 65000,
       "edID": 128668543,
       "eddbID": 1379,
+      "explres": 0.2,
       "grp": "hr",
       "id": "2c",
+      "kinres": 0.2,
       "mass": 32,
-      "rating": "E"
+      "rating": "E",
+      "thermres": 0.2
     },
     {
       "hullreinforcement": 330,
@@ -39,10 +48,13 @@
       "cost": 195000,
       "edID": 128668544,
       "eddbID": 1380,
+      "explres": 0.2,
       "grp": "hr",
       "id": "2b",
+      "kinres": 0.2,
       "mass": 16,
-      "rating": "D"
+      "rating": "D",
+      "thermres": 0.2
     },
     {
       "hullreinforcement": 230,
@@ -50,10 +62,13 @@
       "cost": 28000,
       "edID": 128668541,
       "eddbID": 1377,
+      "explres": 0.015,
       "grp": "hr",
       "id": "2a",
+      "kinres": 0.015,
       "mass": 16,
-      "rating": "E"
+      "rating": "E",
+      "thermres": 0.015
     },
     {
       "hullreinforcement": 260,
@@ -61,10 +76,13 @@
       "cost": 84000,
       "edID": 128668542,
       "eddbID": 1378,
+      "explres": 0.015,
       "grp": "hr",
       "id": "29",
+      "kinres": 0.015,
       "mass": 8,
-      "rating": "D"
+      "rating": "D",
+      "thermres": 0.015
     },
     {
       "hullreinforcement": 150,
@@ -72,10 +90,13 @@
       "cost": 12000,
       "edID": 128668539,
       "eddbID": 1375,
+      "explres": 0.01,
       "grp": "hr",
       "id": "28",
+      "kinres": 0.01,
       "mass": 8,
-      "rating": "E"
+      "rating": "E",
+      "thermres": 0.01
     },
     {
       "hullreinforcement": 190,
@@ -83,10 +104,13 @@
       "cost": 36000,
       "edID": 128668540,
       "eddbID": 1376,
+      "explres": 0.01,
       "grp": "hr",
       "id": "27",
+      "kinres": 0.01,
       "mass": 4,
-      "rating": "D"
+      "rating": "D",
+      "thermres": 0.01
     },
     {
       "hullreinforcement": 80,
@@ -94,10 +118,13 @@
       "cost": 5000,
       "edID": 128668537,
       "eddbID": 1373,
+      "explres": 0.005,
       "grp": "hr",
       "id": "26",
+      "kinres": 0.005,
       "mass": 4,
-      "rating": "E"
+      "rating": "E",
+      "thermres": 0.005
     },
     {
       "hullreinforcement": 110,
@@ -105,10 +132,13 @@
       "cost": 15000,
       "edID": 128668538,
       "eddbID": 1374,
+      "explres": 0.005,
       "grp": "hr",
       "id": "25",
+      "kinres": 0.005,
       "mass": 2,
-      "rating": "D"
+      "rating": "D",
+      "thermres": 0.005
     }
   ]
 }

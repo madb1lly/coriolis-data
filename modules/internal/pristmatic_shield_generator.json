@@ -5,8 +5,10 @@
       "cost": 132200,
       "edID": 128671323,
       "eddbID": 1485,
+      "explres": 0.5,
       "grp": "psg",
       "id": "p6",
+      "kinres": 0.4,
       "mass": 2.5,
       "maxmass": 63,
       "maxmul": 2,
@@ -17,15 +19,18 @@
       "power": 2.52,
       "pp": "Aisling Duval",
       "rating": "A",
-      "recover": 1.2
+      "recover": 1.2,
+      "thermres": -0.2
     },
     {
       "class": 2,
       "cost": 240340,
       "edID": 128671324,
       "eddbID": 1486,
+      "explres": 0.5,
       "grp": "psg",
       "id": "p5",
+      "kinres": 0.4,
       "mass": 5,
       "maxmass": 138,
       "maxmul": 2,
@@ -36,15 +41,18 @@
       "power": 3.15,
       "pp": "Aisling Duval",
       "rating": "A",
-      "recover": 1.2
+      "recover": 1.2,
+      "thermres": -0.2
     },
     {
       "class": 3,
       "cost": 761870,
       "edID": 128671325,
       "eddbID": 1487,
+      "explres": 0.5,
       "grp": "psg",
       "id": "p4",
+      "kinres": 0.4,
       "mass": 10,
       "maxmass": 413,
       "maxmul": 2,
@@ -55,15 +63,18 @@
       "power": 3.78,
       "pp": "Aisling Duval",
       "rating": "A",
-      "recover": 1.2
+      "recover": 1.2,
+      "thermres": -0.2
     },
     {
       "class": 4,
       "cost": 2415120,
       "edID": 128671326,
       "eddbID": 1488,
+      "explres": 0.5,
       "grp": "psg",
       "id": "p3",
+      "kinres": 0.4,
       "mass": 20,
       "maxmass": 713,
       "maxmul": 2,
@@ -74,15 +85,18 @@
       "power": 4.62,
       "pp": "Aisling Duval",
       "rating": "A",
-      "recover": 1.425
+      "recover": 1.425,
+      "thermres": -0.2
     },
     {
       "class": 5,
       "cost": 7655930,
       "edID": 128671327,
       "eddbID": 1489,
+      "explres": 0.5,
       "grp": "psg",
       "id": "p2",
+      "kinres": 0.4,
       "mass": 40,
       "maxmass": 1013,
       "maxmul": 2,
@@ -93,15 +107,18 @@
       "power": 5.46,
       "pp": "Aisling Duval",
       "rating": "A",
-      "recover": 1.875
+      "recover": 1.875,
+      "thermres": -0.2
     },
     {
       "class": 6,
       "cost": 24269300,
       "edID": 128671328,
       "eddbID": 1490,
+      "explres": 0.5,
       "grp": "psg",
       "id": "p1",
+      "kinres": 0.4,
       "mass": 80,
       "maxmass": 1350,
       "maxmul": 2,
@@ -112,15 +129,18 @@
       "power": 6.51,
       "pp": "Aisling Duval",
       "rating": "A",
-      "recover": 2.4
+      "recover": 2.4,
+      "thermres": -0.2
     },
     {
       "class": 7,
       "cost": 76933670,
       "edID": 128671329,
       "eddbID": 1491,
+      "explres": 0.5,
       "grp": "psg",
       "id": "p0",
+      "kinres": 0.4,
       "mass": 160,
       "maxmass": 2650,
       "maxmul": 2,
@@ -131,15 +151,18 @@
       "power": 7.35,
       "pp": "Aisling Duval",
       "rating": "A",
-      "recover": 3
+      "recover": 3,
+      "thermres": -0.2
     },
     {
       "class": 8,
       "cost": 243879730,
       "edID": 128671330,
       "eddbID": 1492,
+      "explres": 0.5,
       "grp": "psg",
       "id": "p7",
+      "kinres": 0.4,
       "mass": 320,
       "maxmass": 4500,
       "maxmul": 2,
@@ -150,7 +173,8 @@
       "power": 8.4,
       "pp": "Aisling Duval",
       "rating": "A",
-      "recover": 3.6
+      "recover": 3.6,
+      "thermres": -0.2
     }
   ]
 }

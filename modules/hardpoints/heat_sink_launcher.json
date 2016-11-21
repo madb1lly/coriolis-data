@@ -2,6 +2,7 @@
   "hs": [
     {
       "ammo": 2,
+      "ammocost": 25,
       "class": 0,
       "clip": 1,
       "cost": 3500,

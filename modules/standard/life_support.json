@@ -3,7 +3,7 @@
     {
       "boot": 1,
       "class": 8,
-      "cost": 0,
+      "cost": 697590,
       "edID": 128064173,
       "eddbID": 1031,
       "grp": "ls",
@@ -17,7 +17,7 @@
     {
       "boot": 1,
       "class": 8,
-      "cost": 0,
+      "cost": 1743970,
       "edID": 128064174,
       "eddbID": 1032,
       "grp": "ls",
@@ -31,7 +31,7 @@
     {
       "boot": 1,
       "class": 8,
-      "cost": 0,
+      "cost": 4359900,
       "edID": 128064175,
       "eddbID": 1033,
       "grp": "ls",
@@ -45,7 +45,7 @@
     {
       "boot": 1,
       "class": 8,
-      "cost": 0,
+      "cost": 10899770,
       "edID": 128064176,
       "eddbID": 1034,
       "grp": "ls",
@@ -59,7 +59,7 @@
     {
       "boot": 1,
       "class": 8,
-      "cost": 0,
+      "cost": 27249400,
       "edID": 128064177,
       "eddbID": 1035,
       "grp": "ls",

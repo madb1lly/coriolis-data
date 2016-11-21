@@ -23,6 +23,7 @@
   "bsg": [
     "boot",
     "brokenregen",
+    "distdraw",
     "explres",
     "integrity",
     "kinres",
@@ -249,6 +250,7 @@
   "psg": [
     "boot",
     "brokenregen",
+    "distdraw",
     "explres",
     "integrity",
     "kinres",
@@ -279,12 +281,6 @@
     "rof",
     "thermload"
   ],
-  "s": [
-    "boot",
-    "integrity",
-    "mass",
-    "power"
-  ],
   "sb": [
     "explres",
     "integrity",
@@ -299,13 +295,14 @@
     "duration",
     "integrity",
     "power",
-    "shield",
+    "shieldreinforcement",
     "spinup",
     "thermload"
   ],
   "sg": [
     "boot",
     "brokenregen",
+    "distdraw",
     "explres",
     "integrity",
     "kinres",
