@@ -9585,8 +9585,8 @@ module.exports = {
         bays: 2,
         class: 7,
         cost: 575660,
-        edID: 128727930,
-        eddbID: 1560,
+        edID: 128727932,
+        eddbID: 1562,
         fightercost: 1030,
         grp: "fh",
         id: "fh",
@@ -9611,8 +9611,8 @@ module.exports = {
         bays: 1,
         class: 5,
         cost: 2369330,
-        edID: 128727932,
-        eddbID: 1562,
+        edID: 128727930,
+        eddbID: 1560,
         fightercost: 1030,
         grp: "fh",
         id: "fr",
@@ -13528,6 +13528,9 @@ module.exports = {
       },
       special_auto_loader: {},
       special_choke_canister: {},
+      special_concordant_sequence: {
+        thermload: .5
+      },
       special_corrosive_shell: {
         ammo: -.2
       },
@@ -13565,7 +13568,7 @@ module.exports = {
         thermload: .25
       },
       special_thermalshock: {
-        damage: -.25
+        damage: -.2
       },
       trade_cell_heat_cell_units: {},
       trade_defence_health_add_defence_global_mult: {},
