@@ -181,6 +181,9 @@
   },
   "special_auto_loader": {},
   "special_choke_canister": {},
+  "special_concordant_sequence": {
+    "thermload": 0.5
+  },
   "special_corrosive_shell": {
     "ammo": -0.2
   },

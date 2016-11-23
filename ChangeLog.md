@@ -1,5 +1,6 @@
 #2.2.3
   * Fix mismatch between class 5 and class 7 fighter hangars
+  * Add details for concordant sequence special effect
 
 #2.2.2
   * Add distributor draw modifier to shield generators
