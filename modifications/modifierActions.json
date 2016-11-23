@@ -221,7 +221,7 @@
     "thermload": 0.25
   },
   "special_thermalshock": {
-    "damage": -0.25
+    "damage": -0.2
   },
   "trade_cell_heat_cell_units": {},
   "trade_defence_health_add_defence_global_mult": {},
