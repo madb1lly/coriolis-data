@@ -1,4 +1,7 @@
-#2.2.x
+#2.2.3
+  * Fix mismatch between class 5 and class 7 fighter hangars
+
+#2.2.2
   * Add distributor draw modifier to shield generators
   * Remove modifiers for sensors
   * Add initial loadout passenger cabins for Beluga
