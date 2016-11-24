@@ -38,5 +38,6 @@
     "thermres",
     "wepcap",
     "weprate",
-    "shieldreinforcement"
+    "shieldreinforcement",
+    "type"
 ]
