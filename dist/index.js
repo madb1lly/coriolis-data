@@ -13710,7 +13710,7 @@ module.exports = {
         name: "Sturdy"
       }
     },
-    modifications: [ "ammo", "boot", "brokenregen", "burst", "clip", "damage", "distdraw", "duration", "eff", "engcap", "engrate", "explres", "facinglimit", "hullboost", "hullreinforcement", "integrity", "jitter", "kinres", "mass", "maxfuel", "optmass", "optmul", "pgen", "piercing", "power", "range", "ranget", "regen", "reload", "rof", "shield", "shieldboost", "spinup", "syscap", "sysrate", "thermload", "thermres", "wepcap", "weprate", "shieldreinforcement" ],
+    modifications: [ "ammo", "boot", "brokenregen", "burst", "clip", "damage", "distdraw", "duration", "eff", "engcap", "engrate", "explres", "facinglimit", "hullboost", "hullreinforcement", "integrity", "jitter", "kinres", "mass", "maxfuel", "optmass", "optmul", "pgen", "piercing", "power", "range", "ranget", "regen", "reload", "rof", "shield", "shieldboost", "spinup", "syscap", "sysrate", "thermload", "thermres", "wepcap", "weprate", "shieldreinforcement", "type" ],
     modifierActions: {
       mod_boot_time: {
         boot: 1
@@ -13912,7 +13912,8 @@ module.exports = {
       special_high_yield_shell: {},
       special_incendiary_rounds: {
         rof: .05263157894736842,
-        thermload: 2
+        thermload: 2,
+        type: "T"
       },
       special_overload_munitions: {
         ammo: -.2

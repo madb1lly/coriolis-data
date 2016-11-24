@@ -199,7 +199,8 @@
   "special_high_yield_shell": {},
   "special_incendiary_rounds": {
     "rof": 0.05263157894736842,
-    "thermload": 2
+    "thermload": 2,
+    "type": "T"
   },
   "special_overload_munitions": {
     "ammo": -0.2
