@@ -1,5 +1,6 @@
 var Modules = require('../modules');
 var Ships = require('../ships');
+var Modifications = require('../modifications');
 
 describe('JSON Data', function() {
 
@@ -157,6 +158,17 @@ describe('JSON Data', function() {
         }
         bulkheadIds[b.id] = true;
       }
+    }
+  });
+
+  it('has valid blueprints', function() {
+    var ids = {};
+
+    for (var k in Modifications.blueprints) {
+      const blueprint = Modifications.blueprints[k];
+      expect(ids[blueprint.id]).toBeFalsy('ID already exists: ' + blueprint.id);
+      expect(blueprint.name).toBeDefined('Blueprint has no name, ID:' + blueprint.id);
+      ids[blueprint.idid] = true;
     }
   });
 

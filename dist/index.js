@@ -9585,8 +9585,8 @@ module.exports = {
         bays: 2,
         class: 7,
         cost: 575660,
-        edID: 128727930,
-        eddbID: 1560,
+        edID: 128727932,
+        eddbID: 1562,
         fightercost: 1030,
         grp: "fh",
         id: "fh",
@@ -9611,8 +9611,8 @@ module.exports = {
         bays: 1,
         class: 5,
         cost: 2369330,
-        edID: 128727932,
-        eddbID: 1562,
+        edID: 128727930,
+        eddbID: 1560,
         fightercost: 1030,
         grp: "fh",
         id: "fr",
@@ -13344,6 +13344,372 @@ module.exports = {
     }
   },
   Modifications: {
+    blueprints: {
+      AFM_LightWeight: {
+        id: 1,
+        name: "Lightweight"
+      },
+      AFM_Reinforced: {
+        id: 2,
+        name: "Reinforced"
+      },
+      AFM_Shielded: {
+        id: 3,
+        name: "Shielded"
+      },
+      Armour_Advanced: {
+        id: 4,
+        name: "Kinetic resistant"
+      },
+      Armour_Explosive: {
+        id: 5,
+        name: "Blast Resistant"
+      },
+      Armour_LightWeight: {
+        id: 6,
+        name: "Lightweight"
+      },
+      Armour_HeavyDuty: {
+        id: 7,
+        name: "Heavy Duty"
+      },
+      Armour_Thermic: {
+        id: 8,
+        name: "Thermal Resistant"
+      },
+      CargoScanner_LightWeight: {
+        id: 9,
+        name: "Lightweight"
+      },
+      CargoScanner_Reinforced: {
+        id: 10,
+        name: "Reinforced"
+      },
+      CargoScanner_Shielded: {
+        id: 11,
+        name: "Shielded"
+      },
+      ChaffLauncher_ChaffCapacity: {
+        id: 12,
+        name: "Ammo capacity"
+      },
+      ChaffLauncher_LightWeight: {
+        id: 13,
+        name: "Lightweight"
+      },
+      ChaffLauncher_Reinforced: {
+        id: 14,
+        name: "Reinforced"
+      },
+      ChaffLauncher_Shielded: {
+        id: 15,
+        name: "Shielded"
+      },
+      CollectionLimpet_LightWeight: {
+        id: 16,
+        name: "Lightweight"
+      },
+      CollectionLimpet_Reinforced: {
+        id: 17,
+        name: "Reinforced"
+      },
+      CollectionLimpet_Shielded: {
+        id: 18,
+        name: "Shielded"
+      },
+      ECM_LightWeight: {
+        id: 19,
+        name: "Lightweight"
+      },
+      ECM_Reinforced: {
+        id: 20,
+        name: "Reinforced"
+      },
+      ECM_Shielded: {
+        id: 21,
+        name: "Shielded"
+      },
+      Engine_Dirty: {
+        id: 22,
+        name: "Dirty"
+      },
+      Engine_Reinforced: {
+        id: 23,
+        name: "Reinforced"
+      },
+      Engine_Tuned: {
+        id: 24,
+        name: "Clean"
+      },
+      FSD_FastBoot: {
+        id: 25,
+        name: "Faster boot sequence"
+      },
+      FSD_LongRange: {
+        id: 26,
+        name: "Increased range"
+      },
+      FSD_Shielded: {
+        id: 27,
+        name: "Shielded"
+      },
+      FSDinterdictor_Expanded: {
+        id: 28,
+        name: "Expanded capture arc"
+      },
+      FSDinterdictor_LongRange: {
+        id: 29,
+        name: "Longer range"
+      },
+      FuelScoop_Shielded: {
+        id: 30,
+        name: "Shielded"
+      },
+      FuelTransferLimpet_LightWeight: {
+        id: 31,
+        name: "Lightweight"
+      },
+      FuelTransferLimpet_Reinforced: {
+        id: 32,
+        name: "Reinforced"
+      },
+      FuelTransferLimpet_Shielded: {
+        id: 33,
+        name: "Shielded"
+      },
+      HatchBreakerLimpet_LightWeight: {
+        id: 34,
+        name: "Lightweight"
+      },
+      HatchBreakerLimpet_Reinforced: {
+        id: 35,
+        name: "Reinforced"
+      },
+      HatchBreakerLimpet_Shielded: {
+        id: 36,
+        name: "Shielded"
+      },
+      HeatSinkLauncher_HeatSinkCapacity: {
+        id: 37,
+        name: "Ammo capacity"
+      },
+      HeatSinkLauncher_LightWeight: {
+        id: 38,
+        name: "Lightweight"
+      },
+      HeatSinkLauncher_Reinforced: {
+        id: 39,
+        name: "Reinforced"
+      },
+      HeatSinkLauncher_Shielded: {
+        id: 40,
+        name: "Shielded"
+      },
+      HullReinforcement_Advanced: {
+        id: 41,
+        name: "Blast resistant"
+      },
+      HullReinforcement_HeavyDuty: {
+        id: 42,
+        name: "Heavy duty"
+      },
+      HullReinforcement_Lightweight: {
+        id: 43,
+        name: "Lightweight"
+      },
+      HullReinforcement_Kinetic: {
+        id: 44,
+        name: "Kinetic resistant"
+      },
+      HullReinforcement_Thermic: {
+        id: 45,
+        name: "Thermal resistant"
+      },
+      KillWarrantScanner_LightWeight: {
+        id: 46,
+        name: "Lightweight"
+      },
+      KillWarrantScanner_Reinforced: {
+        id: 47,
+        name: "Reinforced"
+      },
+      KillWarrantScanner_Shielded: {
+        id: 48,
+        name: "Shielded"
+      },
+      LifeSupport_LightWeight: {
+        id: 49,
+        name: "Lightweight"
+      },
+      LifeSupport_Reinforced: {
+        id: 50,
+        name: "Reinforced"
+      },
+      LifeSupport_Shielded: {
+        id: 51,
+        name: "Shielded"
+      },
+      PointDefence_LightWeight: {
+        id: 52,
+        name: "Lightweight"
+      },
+      PointDefence_Reinforced: {
+        id: 53,
+        name: "Reinforced"
+      },
+      PointDefence_Shielded: {
+        id: 54,
+        name: "Shielded"
+      },
+      PointDefence_PointDefenseCapacity: {
+        id: 55,
+        name: "Ammo capacity"
+      },
+      PowerDistributor_HighCapacity: {
+        id: 56,
+        name: "High charge capacity"
+      },
+      PowerDistributor_HighFrequency: {
+        id: 57,
+        name: "Charge enhanced"
+      },
+      PowerDistributor_PriorityEngines: {
+        id: 58,
+        name: "Engine focused"
+      },
+      PowerDistributor_PrioritySystems: {
+        id: 59,
+        name: "System focused"
+      },
+      PowerDistributor_PriorityWeapons: {
+        id: 60,
+        name: "Weapon focused"
+      },
+      PowerDistributor_Shielded: {
+        id: 61,
+        name: "Shielded"
+      },
+      PowerPlant_Armoured: {
+        id: 62,
+        name: "Armoured"
+      },
+      PowerPlant_Boosted: {
+        id: 63,
+        name: "Overcharged"
+      },
+      PowerPlant_Stealth: {
+        id: 64,
+        name: "Low emissions"
+      },
+      ProspectingLimpet_LightWeight: {
+        id: 63,
+        name: "Lightweight"
+      },
+      ProspectingLimpet_Reinforced: {
+        id: 66,
+        name: "Reinforced"
+      },
+      ProspectingLimpet_Shielded: {
+        id: 67,
+        name: "Shielded"
+      },
+      ShieldBooster_Explosive: {
+        id: 68,
+        name: "Blast resistant"
+      },
+      ShieldBooster_HeavyDuty: {
+        id: 69,
+        name: "Heavy duty"
+      },
+      ShieldBooster_Kinetic: {
+        id: 70,
+        name: "Kinetic resistant"
+      },
+      ShieldBooster_Resistive: {
+        id: 71,
+        name: "Resistance augmented"
+      },
+      ShieldBooster_Thermic: {
+        id: 72,
+        name: "Thermal resistant"
+      },
+      ShieldCellBank_Rapid: {
+        id: 73,
+        name: "Rapid charge"
+      },
+      ShieldCellBank_Specialised: {
+        id: 74,
+        name: "Specialised"
+      },
+      ShieldGenerator_Kinetic: {
+        id: 75,
+        name: "Kinetic resistant"
+      },
+      ShieldGenerator_Optimised: {
+        id: 76,
+        name: "Enhanced low power"
+      },
+      ShieldGenerator_Reinforced: {
+        id: 77,
+        name: "Reinforced"
+      },
+      ShieldGenerator_Thermic: {
+        id: 78,
+        name: "Thermal resistant"
+      },
+      WakeScanner_LightWeight: {
+        id: 79,
+        name: "Lightweight"
+      },
+      WakeScanner_Shielded: {
+        id: 80,
+        name: "Shielded"
+      },
+      WakeScanner_Reinforced: {
+        id: 81,
+        name: "Reinforced"
+      },
+      Weapon_DoubleShot: {
+        id: 82,
+        name: "Double shot"
+      },
+      Weapon_Efficient: {
+        id: 83,
+        name: "Efficient"
+      },
+      Weapon_Focused: {
+        id: 84,
+        name: "Focused"
+      },
+      Weapon_HighCapacity: {
+        id: 85,
+        name: "High capacity"
+      },
+      Weapon_LightWeight: {
+        id: 86,
+        name: "Lightweight"
+      },
+      Weapon_LongRange: {
+        id: 87,
+        name: "Long range"
+      },
+      Weapon_Overcharged: {
+        id: 88,
+        name: "Overcharged"
+      },
+      Weapon_RapidFire: {
+        id: 89,
+        name: "Rapid fire"
+      },
+      Weapon_ShortRange: {
+        id: 90,
+        name: "Short range"
+      },
+      Weapon_Sturdy: {
+        id: 91,
+        name: "Sturdy"
+      }
+    },
     modifications: [ "ammo", "boot", "brokenregen", "burst", "clip", "damage", "distdraw", "duration", "eff", "engcap", "engrate", "explres", "facinglimit", "hullboost", "hullreinforcement", "integrity", "jitter", "kinres", "mass", "maxfuel", "optmass", "optmul", "pgen", "piercing", "power", "range", "ranget", "regen", "reload", "rof", "shield", "shieldboost", "spinup", "syscap", "sysrate", "thermload", "thermres", "wepcap", "weprate", "shieldreinforcement" ],
     modifierActions: {
       mod_boot_time: {
@@ -13528,6 +13894,9 @@ module.exports = {
       },
       special_auto_loader: {},
       special_choke_canister: {},
+      special_concordant_sequence: {
+        thermload: .5
+      },
       special_corrosive_shell: {
         ammo: -.2
       },
@@ -13565,7 +13934,7 @@ module.exports = {
         thermload: .25
       },
       special_thermalshock: {
-        damage: -.25
+        damage: -.2
       },
       trade_cell_heat_cell_units: {},
       trade_defence_health_add_defence_global_mult: {},
