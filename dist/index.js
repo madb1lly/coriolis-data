@@ -11592,7 +11592,7 @@ module.exports = {
       pcq: [ {
         class: 5,
         cost: 1658100,
-        edID: 128727095,
+        edID: 128727925,
         eddbID: 1575,
         grp: "pcq",
         id: "mm",

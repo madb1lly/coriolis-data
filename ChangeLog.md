@@ -1,3 +1,6 @@
+#2.2.4
+  * Fix incorrect ID for class 5 luxury passenger cabin
+
 #2.2.3
   * Fix mismatch between class 5 and class 7 fighter hangars
   * Add details for concordant sequence special effect
