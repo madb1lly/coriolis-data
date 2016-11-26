@@ -87,7 +87,8 @@
     "range",
     "reload",
     "rof",
-    "thermload"
+    "thermload",
+    "type"
   ],
   "fi": [
     "boot",
@@ -160,7 +161,8 @@
     "range",
     "reload",
     "rof",
-    "thermload"
+    "thermload",
+    "type"
   ],
   "mr": [
     "ammo",
