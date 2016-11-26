@@ -10890,26 +10890,26 @@ module.exports = {
         cost: 65e3,
         edID: 128668543,
         eddbID: 1379,
-        explres: .2,
+        explres: .02,
         grp: "hr",
         id: "2c",
-        kinres: .2,
+        kinres: .02,
         mass: 32,
         rating: "E",
-        thermres: .2
+        thermres: .02
       }, {
         hullreinforcement: 330,
         class: 4,
         cost: 195e3,
         edID: 128668544,
         eddbID: 1380,
-        explres: .2,
+        explres: .02,
         grp: "hr",
         id: "2b",
-        kinres: .2,
+        kinres: .02,
         mass: 16,
         rating: "D",
-        thermres: .2
+        thermres: .02
       }, {
         hullreinforcement: 230,
         class: 3,
