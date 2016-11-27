@@ -13946,7 +13946,7 @@ module.exports = {
         method: "multiplicative"
       },
       shieldreinforcement: {
-        id: 38,
+        id: 39,
         name: "shieldreinforcement",
         type: "numeric",
         method: "multiplicative"
