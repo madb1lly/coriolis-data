@@ -38,6 +38,6 @@
     "thermres": {"id": 36, "name": "thermres", "type": "numeric", "method": "additive"},
     "wepcap": {"id": 37, "name": "wepcap", "type": "numeric", "method": "multiplicative"},
     "weprate": {"id": 38, "name": "weprate", "type": "numeric", "method": "multiplicative"},
-    "shieldreinforcement": {"id": 38, "name": "shieldreinforcement", "type": "numeric", "method": "multiplicative"},
+    "shieldreinforcement": {"id": 39, "name": "shieldreinforcement", "type": "numeric", "method": "multiplicative"},
     "type": {"id": 40, "name": "type", "type": "alphabetic", "method": "overwrite"}
 }
