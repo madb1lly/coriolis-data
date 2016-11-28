@@ -13119,13 +13119,13 @@
 					"cost": 65000,
 					"edID": 128668543,
 					"eddbID": 1379,
-					"explres": 0.2,
+					"explres": 0.02,
 					"grp": "hr",
 					"id": "2c",
-					"kinres": 0.2,
+					"kinres": 0.02,
 					"mass": 32,
 					"rating": "E",
-					"thermres": 0.2
+					"thermres": 0.02
 				},
 				{
 					"hullreinforcement": 330,
@@ -13133,13 +13133,13 @@
 					"cost": 195000,
 					"edID": 128668544,
 					"eddbID": 1380,
-					"explres": 0.2,
+					"explres": 0.02,
 					"grp": "hr",
 					"id": "2b",
-					"kinres": 0.2,
+					"kinres": 0.02,
 					"mass": 16,
 					"rating": "D",
-					"thermres": 0.2
+					"thermres": 0.02
 				},
 				{
 					"hullreinforcement": 230,
@@ -13882,7 +13882,7 @@
 				{
 					"class": 5,
 					"cost": 1658100,
-					"edID": 128727095,
+					"edID": 128727925,
 					"eddbID": 1575,
 					"grp": "pcq",
 					"id": "mm",
@@ -16106,48 +16106,254 @@
 				"name": "Sturdy"
 			}
 		},
-		"modifications": [
-			"ammo",
-			"boot",
-			"brokenregen",
-			"burst",
-			"clip",
-			"damage",
-			"distdraw",
-			"duration",
-			"eff",
-			"engcap",
-			"engrate",
-			"explres",
-			"facinglimit",
-			"hullboost",
-			"hullreinforcement",
-			"integrity",
-			"jitter",
-			"kinres",
-			"mass",
-			"maxfuel",
-			"optmass",
-			"optmul",
-			"pgen",
-			"piercing",
-			"power",
-			"range",
-			"ranget",
-			"regen",
-			"reload",
-			"rof",
-			"shield",
-			"shieldboost",
-			"spinup",
-			"syscap",
-			"sysrate",
-			"thermload",
-			"thermres",
-			"wepcap",
-			"weprate",
-			"shieldreinforcement"
-		],
+		"modifications": {
+			"ammo": {
+				"id": 0,
+				"name": "ammo",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"boot": {
+				"id": 1,
+				"name": "boot",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"brokenregen": {
+				"id": 2,
+				"name": "brokenregen",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"burst": {
+				"id": 3,
+				"name": "burst",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"clip": {
+				"id": 4,
+				"name": "clip",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"damage": {
+				"id": 5,
+				"name": "damage",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"distdraw": {
+				"id": 6,
+				"name": "distdraw",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"duration": {
+				"id": 7,
+				"name": "duration",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"eff": {
+				"id": 8,
+				"name": "eff",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"engcap": {
+				"id": 9,
+				"name": "engcap",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"engrate": {
+				"id": 10,
+				"name": "engrate",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"explres": {
+				"id": 11,
+				"name": "explres",
+				"type": "numeric",
+				"method": "additive"
+			},
+			"facinglimit": {
+				"id": 12,
+				"name": "facinglimit",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"hullboost": {
+				"id": 13,
+				"name": "hullboost",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"hullreinforcement": {
+				"id": 14,
+				"name": "hullreinforcement",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"integrity": {
+				"id": 15,
+				"name": "integrity",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"jitter": {
+				"id": 16,
+				"name": "jitter",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"kinres": {
+				"id": 17,
+				"name": "kinres",
+				"type": "numeric",
+				"method": "additive"
+			},
+			"mass": {
+				"id": 18,
+				"name": "mass",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"maxfuel": {
+				"id": 19,
+				"name": "maxfuel",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"optmass": {
+				"id": 20,
+				"name": "optmass",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"optmul": {
+				"id": 21,
+				"name": "optmul",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"pgen": {
+				"id": 22,
+				"name": "pgen",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"piercing": {
+				"id": 23,
+				"name": "piercing",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"power": {
+				"id": 24,
+				"name": "power",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"range": {
+				"id": 25,
+				"name": "range",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"ranget": {
+				"id": 26,
+				"name": "ranget",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"regen": {
+				"id": 27,
+				"name": "regen",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"reload": {
+				"id": 28,
+				"name": "reload",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"rof": {
+				"id": 29,
+				"name": "rof",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"shield": {
+				"id": 30,
+				"name": "shield",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"shieldboost": {
+				"id": 31,
+				"name": "shieldboost",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"spinup": {
+				"id": 32,
+				"name": "spinup",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"syscap": {
+				"id": 33,
+				"name": "syscap",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"sysrate": {
+				"id": 34,
+				"name": "sysrate",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"thermload": {
+				"id": 35,
+				"name": "thermload",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"thermres": {
+				"id": 36,
+				"name": "thermres",
+				"type": "numeric",
+				"method": "additive"
+			},
+			"wepcap": {
+				"id": 37,
+				"name": "wepcap",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"weprate": {
+				"id": 38,
+				"name": "weprate",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"shieldreinforcement": {
+				"id": 39,
+				"name": "shieldreinforcement",
+				"type": "numeric",
+				"method": "multiplicative"
+			},
+			"type": {
+				"id": 40,
+				"name": "type",
+				"type": "alphabetic",
+				"method": "overwrite"
+			}
+		},
 		"modifierActions": {
 			"mod_boot_time": {
 				"boot": 1
@@ -16349,7 +16555,8 @@
 			"special_high_yield_shell": {},
 			"special_incendiary_rounds": {
 				"rof": 0.05263157894736842,
-				"thermload": 2
+				"thermload": 2,
+				"type": "T"
 			},
 			"special_overload_munitions": {
 				"ammo": -0.2
@@ -16460,6 +16667,136 @@
 				"thermload": 1
 			}
 		},
+		"specials": {
+			"special_auto_loader": {
+				"id": 0,
+				"name": "Auto loader"
+			},
+			"special_choke_canister": {
+				"id": 1,
+				"name": "Choke canister"
+			},
+			"special_concordant_sequence": {
+				"id": 2,
+				"name": "Concordant sequence"
+			},
+			"special_corrosive_shell": {
+				"id": 3,
+				"name": "Corrosive shell"
+			},
+			"special_dazzle_shell": {
+				"id": 4,
+				"name": "Dazzle shell"
+			},
+			"special_dispersal_field": {
+				"id": 5,
+				"name": "Dispersal field"
+			},
+			"special_distortion_field": {
+				"id": 6,
+				"name": "Distortion field"
+			},
+			"special_drag_munitions": {
+				"id": 7,
+				"name": "Drag munitions"
+			},
+			"special_emissive_munitions": {
+				"id": 9,
+				"name": "Emissive munitions"
+			},
+			"special_feedback_cascade": {
+				"id": 9,
+				"name": "Feedback cascade"
+			},
+			"special_force_shell": {
+				"id": 10,
+				"name": "Force shell"
+			},
+			"special_high_yield_shell": {
+				"id": 11,
+				"name": "High yield shell"
+			},
+			"special_incendiary_rounds": {
+				"id": 12,
+				"name": "Incendiary rounds"
+			},
+			"special_ion_disruptor": {
+				"id": 13,
+				"name": "Ion disruptor"
+			},
+			"special_mass_lock_munition": {
+				"id": 14,
+				"name": "Mass lock munition"
+			},
+			"special_overload_munitions": {
+				"id": 15,
+				"name": "Overload munitions"
+			},
+			"special_penetrator_payload": {
+				"id": 16,
+				"name": "Penetrator payload"
+			},
+			"special_phasing_sequence": {
+				"id": 17,
+				"name": "Phasing sequence"
+			},
+			"special_plasma_slug": {
+				"id": 18,
+				"name": "Plasma slug"
+			},
+			"special_radiant_canister": {
+				"id": 19,
+				"name": "Radiant Canister"
+			},
+			"special_regeneration_sequence": {
+				"id": 20,
+				"name": "Regeneration sequence"
+			},
+			"special_reverberating_cascade": {
+				"id": 21,
+				"name": "Reverberating cascade"
+			},
+			"special_scramble_spectrum": {
+				"id": 22,
+				"name": "Scramble spectrum"
+			},
+			"special_screening_shell": {
+				"id": 23,
+				"name": "Screening shell"
+			},
+			"special_shiftlock_canister": {
+				"id": 24,
+				"name": "Shift-lock canister"
+			},
+			"special_smart_rounds": {
+				"id": 25,
+				"name": "Smart rounds"
+			},
+			"special_super_penetrator": {
+				"id": 26,
+				"name": "Super penetrator"
+			},
+			"special_target_lock_breaker": {
+				"id": 27,
+				"name": "Target lock breaker"
+			},
+			"special_thermal_cascade": {
+				"id": 28,
+				"name": "Thermal cascade"
+			},
+			"special_thermal_conduit": {
+				"id": 29,
+				"name": "Thermal conduit"
+			},
+			"special_thermal_vent": {
+				"id": 30,
+				"name": "Thermal vent"
+			},
+			"special_thermalshock": {
+				"id": 31,
+				"name": "Thermal shock"
+			}
+		},
 		"validity": {
 			"am": [
 				"integrity",
@@ -16549,7 +16886,8 @@
 				"range",
 				"reload",
 				"rof",
-				"thermload"
+				"thermload",
+				"type"
 			],
 			"fi": [
 				"boot",
@@ -16622,7 +16960,8 @@
 				"range",
 				"reload",
 				"rof",
-				"thermload"
+				"thermload",
+				"type"
 			],
 			"mr": [
 				"ammo",
