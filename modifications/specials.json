@@ -7,7 +7,7 @@
     "special_dispersal_field": {"id": 5, "name": "Dispersal field"},
     "special_distortion_field": {"id": 6, "name": "Distortion field"},
     "special_drag_munitions": {"id": 7, "name": "Drag munitions"},
-    "special_emissive_munitions": {"id": 9, "name": "Emissive munitions"},
+    "special_emissive_munitions": {"id": 8, "name": "Emissive munitions"},
     "special_feedback_cascade": {"id": 9, "name": "Feedback cascade"},
     "special_force_shell": {"id": 10, "name": "Force shell"},
     "special_high_yield_shell": {"id": 11, "name": "High yield shell"},
