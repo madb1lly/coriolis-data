@@ -1,3 +1,6 @@
+#2.2.4-a
+  * Fix incorrect ID for emissive munitions special
+
 #2.2.4
   * Fix incorrect ID for class 5 luxury passenger cabin
   * Add damage type modifier

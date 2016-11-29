@@ -14305,7 +14305,7 @@ module.exports = {
         name: "Drag munitions"
       },
       special_emissive_munitions: {
-        id: 9,
+        id: 8,
         name: "Emissive munitions"
       },
       special_feedback_cascade: {
