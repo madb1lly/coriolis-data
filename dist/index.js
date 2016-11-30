@@ -13714,19 +13714,19 @@ module.exports = {
       ammo: {
         id: 0,
         name: "ammo",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       boot: {
         id: 1,
         name: "boot",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       brokenregen: {
         id: 2,
         name: "brokenregen",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       burst: {
@@ -13737,80 +13737,80 @@ module.exports = {
       },
       burstrof: {
         id: 41,
-        name: "burst",
-        type: "numeric",
+        name: "burstrof",
+        type: "percentage",
         method: "multiplicative"
       },
       clip: {
         id: 4,
         name: "clip",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       damage: {
         id: 5,
         name: "damage",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       distdraw: {
         id: 6,
         name: "distdraw",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       duration: {
         id: 7,
         name: "duration",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       eff: {
         id: 8,
         name: "eff",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       engcap: {
         id: 9,
         name: "engcap",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       engrate: {
         id: 10,
         name: "engrate",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       explres: {
         id: 11,
         name: "explres",
-        type: "numeric",
+        type: "percentage",
         method: "additive"
       },
       facinglimit: {
         id: 12,
         name: "facinglimit",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       hullboost: {
         id: 13,
         name: "hullboost",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       hullreinforcement: {
         id: 14,
         name: "hullreinforcement",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       integrity: {
         id: 15,
         name: "integrity",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       jitter: {
@@ -13822,139 +13822,139 @@ module.exports = {
       kinres: {
         id: 17,
         name: "kinres",
-        type: "numeric",
+        type: "percentage",
         method: "additive"
       },
       mass: {
         id: 18,
         name: "mass",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       maxfuel: {
         id: 19,
         name: "maxfuel",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       optmass: {
         id: 20,
         name: "optmass",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       optmul: {
         id: 21,
         name: "optmul",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       pgen: {
         id: 22,
         name: "pgen",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       piercing: {
         id: 23,
         name: "piercing",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       power: {
         id: 24,
         name: "power",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       range: {
         id: 25,
         name: "range",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       ranget: {
         id: 26,
         name: "ranget",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       regen: {
         id: 27,
         name: "regen",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       reload: {
         id: 28,
         name: "reload",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       rof: {
         id: 29,
         name: "rof",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       shield: {
         id: 30,
         name: "shield",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       shieldboost: {
         id: 31,
         name: "shieldboost",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       spinup: {
         id: 32,
         name: "spinup",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       syscap: {
         id: 33,
         name: "syscap",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       sysrate: {
         id: 34,
         name: "sysrate",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       thermload: {
         id: 35,
         name: "thermload",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       thermres: {
         id: 36,
         name: "thermres",
-        type: "numeric",
+        type: "percentage",
         method: "additive"
       },
       wepcap: {
         id: 37,
         name: "wepcap",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       weprate: {
         id: 38,
         name: "weprate",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       shieldreinforcement: {
         id: 39,
         name: "shieldreinforcement",
-        type: "numeric",
+        type: "percentage",
         method: "multiplicative"
       },
       type: {
@@ -14427,7 +14427,7 @@ module.exports = {
       ch: [ "ammo", "integrity", "mass", "power", "reload" ],
       cs: [ "boot", "integrity", "mass", "power" ],
       ec: [ "integrity", "mass", "power" ],
-      fc: [ "ammo", "burst", "clip", "damage", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload", "type" ],
+      fc: [ "ammo", "burst", "burstrof", "clip", "damage", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload", "type" ],
       fi: [ "boot", "facinglimit", "integrity", "mass", "power", "ranget" ],
       fs: [ "integrity", "power" ],
       fsd: [ "boot", "integrity", "mass", "maxfuel", "optmass", "power", "thermload" ],
@@ -14454,7 +14454,7 @@ module.exports = {
       sg: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
       t: [ "integrity", "mass", "optmass", "optmul", "power", "thermload" ],
       tp: [ "damage", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
-      ul: [ "burst", "damage", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
+      ul: [ "burst", "burstrof", "damage", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
       ws: [ "boot", "integrity", "mass", "power" ]
     }
   }
