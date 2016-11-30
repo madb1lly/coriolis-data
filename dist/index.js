@@ -14304,7 +14304,7 @@ module.exports = {
         id: 3,
         name: "Corrosive shell"
       },
-      special_dazzle_shell: {
+      special_blinding_shell: {
         id: 4,
         name: "Dazzle shell"
       },
