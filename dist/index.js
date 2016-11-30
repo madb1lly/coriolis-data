@@ -6286,7 +6286,7 @@ module.exports = {
         power: .65,
         range: 3e3,
         rating: "F",
-        rof: 4.735,
+        rof: 2,
         thermload: .4,
         type: "T"
       }, {
@@ -6297,7 +6297,7 @@ module.exports = {
         burstrof: 17,
         class: 1,
         cost: 8600,
-        damage: 1.22,
+        damage: 1.2,
         distdraw: .27,
         edID: 128049404,
         eddbID: 835,
@@ -6310,7 +6310,7 @@ module.exports = {
         power: .64,
         range: 3e3,
         rating: "G",
-        rof: 5.28,
+        rof: 2.23,
         thermload: .3,
         type: "T"
       }, {
@@ -6334,7 +6334,7 @@ module.exports = {
         power: .6,
         range: 3e3,
         rating: "G",
-        rof: 4.795,
+        rof: 1.92,
         thermload: .2,
         type: "T"
       }, {
@@ -6360,7 +6360,7 @@ module.exports = {
         pp: "Archon Delaine",
         range: 600,
         rating: "F",
-        rof: 7.615,
+        rof: 1.98,
         thermload: .3,
         type: "T"
       }, {
@@ -6371,7 +6371,7 @@ module.exports = {
         burstrof: 11,
         class: 2,
         cost: 23e3,
-        damage: 3.53,
+        damage: 3.5,
         distdraw: .63,
         edID: 128049401,
         eddbID: 833,
@@ -6384,7 +6384,7 @@ module.exports = {
         power: 1.05,
         range: 3e3,
         rating: "E",
-        rof: 3.695,
+        rof: 1.6,
         thermload: .8,
         type: "T"
       }, {
@@ -6408,7 +6408,7 @@ module.exports = {
         power: 1.04,
         range: 3e3,
         rating: "F",
-        rof: 4.2,
+        rof: 1.78,
         thermload: .7,
         type: "T"
       }, {
@@ -6419,7 +6419,7 @@ module.exports = {
         burstrof: 15,
         class: 2,
         cost: 162800,
-        damage: 1.72,
+        damage: 1.74,
         distdraw: .31,
         edID: 128049408,
         eddbID: 839,
@@ -6432,7 +6432,7 @@ module.exports = {
         power: .98,
         range: 3e3,
         rating: "F",
-        rof: 3.93,
+        rof: 1.57,
         thermload: .4,
         type: "T"
       }, {
@@ -6443,7 +6443,7 @@ module.exports = {
         burstrof: 7,
         class: 3,
         cost: 140400,
-        damage: 7.74,
+        damage: 7.75,
         distdraw: 1.39,
         edID: 128049402,
         eddbID: 834,
@@ -6456,7 +6456,7 @@ module.exports = {
         power: 1.66,
         range: 3e3,
         rating: "D",
-        rof: 2.685,
+        rof: 1.2,
         thermload: 1.7,
         type: "T"
       }, {
@@ -6467,7 +6467,7 @@ module.exports = {
         burstrof: 9,
         class: 3,
         cost: 281600,
-        damage: 5.16,
+        damage: 5.18,
         distdraw: 1.16,
         edID: 128049406,
         eddbID: 837,
@@ -6480,7 +6480,7 @@ module.exports = {
         power: 1.65,
         range: 3e3,
         rating: "E",
-        rof: 3.215,
+        rof: 1.4,
         thermload: 1.4,
         type: "T"
       }, {
@@ -6491,7 +6491,7 @@ module.exports = {
         burstrof: 11,
         class: 3,
         cost: 800400,
-        damage: 3.53,
+        damage: 3.54,
         distdraw: .63,
         edID: 128049409,
         eddbID: 840,
@@ -6504,7 +6504,7 @@ module.exports = {
         power: 1.57,
         range: 3e3,
         rating: "E",
-        rof: 3.115,
+        rof: 1.272,
         thermload: .8,
         type: "T"
       }, {
@@ -6528,7 +6528,7 @@ module.exports = {
         power: 2.58,
         range: 3e3,
         rating: "E",
-        rof: 1.565,
+        rof: .8,
         thermload: 4.5,
         type: "T"
       }, {
@@ -6552,7 +6552,7 @@ module.exports = {
         power: 2.59,
         range: 3e3,
         rating: "E",
-        rof: 2.14,
+        rof: 1,
         thermload: 3.3,
         type: "T"
       } ],
@@ -13602,7 +13602,7 @@ module.exports = {
         name: "Low emissions"
       },
       ProspectingLimpet_LightWeight: {
-        id: 63,
+        id: 65,
         name: "Lightweight"
       },
       ProspectingLimpet_Reinforced: {
@@ -13731,6 +13731,12 @@ module.exports = {
       },
       burst: {
         id: 3,
+        name: "burst",
+        type: "numeric",
+        method: "multiplicative"
+      },
+      burstrof: {
+        id: 41,
         name: "burst",
         type: "numeric",
         method: "multiplicative"
@@ -14119,9 +14125,16 @@ module.exports = {
       mod_weapon_burst_interval: {
         rof: 1
       },
-      mod_weapon_burst_rof: {},
-      mod_weapon_burst_size: {},
+      mod_weapon_burst_rof: {
+        burstrof: 1
+      },
+      mod_weapon_burst_size: {
+        burst: 1
+      },
       mod_weapon_clip_size: {
+        clip: 1
+      },
+      mod_weapon_clip_size_override: {
         clip: 1
       },
       mod_weapon_damage: {
@@ -14172,6 +14185,9 @@ module.exports = {
       special_regeneration_sequence: {},
       special_scramble_spectrum: {
         rof: .1111111111111111
+      },
+      special_screening_shell: {
+        reload: -.5
       },
       special_shiftlock_canister: {
         damage: -.2
@@ -14305,7 +14321,7 @@ module.exports = {
         name: "Drag munitions"
       },
       special_emissive_munitions: {
-        id: 9,
+        id: 8,
         name: "Emissive munitions"
       },
       special_feedback_cascade: {

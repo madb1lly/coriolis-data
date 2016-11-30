@@ -1,3 +1,7 @@
+#2.2.5
+  * Fix rate of fire for burst lasers
+  * Add fragment cannon modifications
+
 #2.2.4
   * Fix incorrect ID for class 5 luxury passenger cabin
   * Add damage type modifier

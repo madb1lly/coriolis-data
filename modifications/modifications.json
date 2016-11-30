@@ -3,6 +3,7 @@
     "boot": {"id": 1, "name": "boot", "type": "numeric", "method": "multiplicative"},
     "brokenregen": {"id": 2, "name": "brokenregen", "type": "numeric", "method": "multiplicative"},
     "burst": {"id": 3, "name": "burst", "type": "numeric", "method": "multiplicative"},
+    "burstrof": {"id": 41, "name": "burst", "type": "numeric", "method": "multiplicative"},
     "clip": {"id": 4, "name": "clip", "type": "numeric", "method": "multiplicative"},
     "damage": {"id": 5, "name": "damage", "type": "numeric", "method": "multiplicative"},
     "distdraw": {"id": 6, "name": "distdraw", "type": "numeric", "method": "multiplicative"},

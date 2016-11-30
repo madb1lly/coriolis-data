@@ -159,9 +159,16 @@
   "mod_weapon_burst_interval": {
     "rof": 1
   },
-  "mod_weapon_burst_rof": {},
-  "mod_weapon_burst_size": {},
+  "mod_weapon_burst_rof": {
+    "burstrof": 1
+  },
+  "mod_weapon_burst_size": {
+    "burst": 1
+  },
   "mod_weapon_clip_size": {
+    "clip": 1
+  },
+  "mod_weapon_clip_size_override": {
     "clip": 1
   },
   "mod_weapon_damage": {
@@ -212,6 +219,9 @@
   "special_regeneration_sequence": {},
   "special_scramble_spectrum": {
     "rof": 0.1111111111111111
+  },
+  "special_screening_shell": {
+    "reload": -0.5
   },
   "special_shiftlock_canister": {
     "damage": -0.2
