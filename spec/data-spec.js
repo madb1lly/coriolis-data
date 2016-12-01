@@ -168,7 +168,31 @@ describe('JSON Data', function() {
       const blueprint = Modifications.blueprints[k];
       expect(ids[blueprint.id]).toBeFalsy('ID already exists: ' + blueprint.id);
       expect(blueprint.name).toBeDefined('Blueprint has no name, ID:' + blueprint.id);
-      ids[blueprint.idid] = true;
+      ids[blueprint.id] = true;
+    }
+  });
+
+  it('has valid modifications', function() {
+    var ids = {};
+
+    for (var k in Modifications.modifications) {
+      const modification = Modifications.modifications[k];
+      expect(ids[modification.id]).toBeFalsy('ID already exists: ' + modification.id);
+      expect(modification.name).toBeDefined('Modification has no name, ID:' + modification.id);
+      expect(modification.type).toBeDefined('Modification has no type, ID:' + modification.id);
+      expect(modification.method).toBeDefined('Modification has no method, ID:' + modification.id);
+      ids[modification.id] = true;
+    }
+  });
+
+  it('has valid specials', function() {
+    var ids = {};
+
+    for (var k in Modifications.specials) {
+      const special = Modifications.specials[k];
+      expect(ids[special.id]).toBeFalsy('ID already exists: ' + special.id);
+      expect(special.name).toBeDefined('Special has no name, ID:' + special.id);
+      ids[special.id] = true;
     }
   });
 

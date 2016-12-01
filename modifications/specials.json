@@ -3,7 +3,7 @@
     "special_choke_canister": {"id": 1, "name": "Choke canister"},
     "special_concordant_sequence": {"id": 2, "name": "Concordant sequence"},
     "special_corrosive_shell": {"id": 3, "name": "Corrosive shell"},
-    "special_dazzle_shell": {"id": 4, "name": "Dazzle shell"},
+    "special_blinding_shell": {"id": 4, "name": "Dazzle shell"},
     "special_dispersal_field": {"id": 5, "name": "Dispersal field"},
     "special_distortion_field": {"id": 6, "name": "Distortion field"},
     "special_drag_munitions": {"id": 7, "name": "Drag munitions"},

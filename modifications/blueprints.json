@@ -63,7 +63,7 @@
   "PowerPlant_Armoured": { "id": 62, "name": "Armoured" },
   "PowerPlant_Boosted": { "id": 63, "name": "Overcharged" },
   "PowerPlant_Stealth": { "id": 64, "name": "Low emissions" },
-  "ProspectingLimpet_LightWeight": { "id": 63, "name": "Lightweight" },
+  "ProspectingLimpet_LightWeight": { "id": 65, "name": "Lightweight" },
   "ProspectingLimpet_Reinforced": { "id": 66, "name": "Reinforced" },
   "ProspectingLimpet_Shielded": { "id": 67, "name": "Shielded" },
   "ShieldBooster_Explosive": { "id": 68, "name": "Blast resistant" },
