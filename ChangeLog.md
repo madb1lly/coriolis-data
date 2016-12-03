@@ -1,3 +1,4 @@
+#2.2.5
   * Fix incorrect ID for emissive munitions special
   * Fix rate of fire for burst lasers
   * Add fragment cannon modifications
