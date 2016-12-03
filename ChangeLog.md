@@ -1,5 +1,8 @@
-#2.2.4-a
+#2.2.5
   * Fix incorrect ID for emissive munitions special
+  * Fix rate of fire for burst lasers
+  * Add fragment cannon modifications
+  * Fix internal name of dazzle shell
 
 #2.2.4
   * Fix incorrect ID for class 5 luxury passenger cabin

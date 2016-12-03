@@ -76,6 +76,7 @@
   "fc": [
     "ammo",
     "burst",
+    "burstrof",
     "clip",
     "damage",
     "distdraw",
@@ -338,6 +339,7 @@
   ],
   "ul": [
     "burst",
+    "burstrof",
     "damage",
     "distdraw",
     "integrity",
