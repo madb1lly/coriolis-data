@@ -208,6 +208,9 @@
     "thermload": 2,
     "type": "T"
   },
+  "special_inertial_impact": {
+    "type": "KT"
+  },
   "special_overload_munitions": {
   },
   "special_phasing_sequence": {},

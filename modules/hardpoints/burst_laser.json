@@ -76,11 +76,11 @@
       "type": "T"
     },
     {
-      "breachdmg": 1.5,
+      "breachdmg": 2,
       "breachmax": 0,
       "breachmin": 0,
-      "burst": 3,
-      "burstrof": 15,
+      "burst": 8,
+      "burstrof": 20,
       "class": 1,
       "cost": 8800,
       "damage": 2.4,
@@ -90,6 +90,7 @@
       "grp": "ul",
       "id": "cy",
       "integrity": 40,
+      "jitter": 3.5,
       "mass": 2,
       "mount": "F",
       "name": "Cytoscrambler",
@@ -98,7 +99,7 @@
       "pp": "Archon Delaine",
       "range": 600,
       "rating": "F",
-      "rof": 1.98,
+      "rof": 6.6,
       "thermload": 0.3,
       "type": "T"
     },

@@ -276,6 +276,7 @@
       "grp": "fc",
       "id": "pa",
       "integrity": 64,
+      "jitter": 1.7,
       "mass": 8,
       "mount": "F",
       "name": "Pacifier",
@@ -285,6 +286,7 @@
       "rating": "C",
       "reload": 2.5,
       "rof": 4.5,
+      "roundspershot": 12,
       "speed": 1000,
       "thermload": 1.1,
       "type": "K"

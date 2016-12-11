@@ -10,12 +10,14 @@
       "speed": 300,
       "boost": 400,
       "boostEnergy": 8,
-      "agility": 6,
       "baseShieldStrength": 80,
       "baseArmour": 60,
       "hullMass": 50,
       "masslock": 6,
-      "pipSpeed": 0.075
+      "pipSpeed": 0.075,
+      "pitch": 40,
+      "roll": 100,
+      "yaw": 15
     },
     "retailCost": 110830,
     "bulkheads": [

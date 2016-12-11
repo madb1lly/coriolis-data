@@ -11,12 +11,14 @@ module.exports = {
         speed: 220,
         boost: 320,
         boostEnergy: 9,
-        agility: 8,
         baseShieldStrength: 60,
         baseArmour: 90,
         hullMass: 35,
         masslock: 7,
-        pipSpeed: .13625
+        pipSpeed: .13625,
+        pitch: 38,
+        roll: 100,
+        yaw: 14
       },
       retailCost: 87810,
       bulkheads: [ {
@@ -97,13 +99,15 @@ module.exports = {
         speed: 180,
         boost: 240,
         boostEnergy: 27,
-        agility: 2,
         baseShieldStrength: 350,
         baseArmour: 525,
         hullMass: 400,
         masslock: 23,
         pipSpeed: .13875,
-        fighterHangars: true
+        fighterHangars: true,
+        pitch: 25,
+        roll: 60,
+        yaw: 10
       },
       retailCost: 146969450,
       bulkheads: [ {
@@ -184,12 +188,14 @@ module.exports = {
         speed: 250,
         boost: 340,
         boostEnergy: 13,
-        agility: 6,
         baseShieldStrength: 140,
         baseArmour: 210,
         hullMass: 280,
         masslock: 11,
-        pipSpeed: .13
+        pipSpeed: .13,
+        pitch: 38,
+        roll: 100,
+        yaw: 10
       },
       retailCost: 6661150,
       bulkheads: [ {
@@ -270,12 +276,14 @@ module.exports = {
         speed: 220,
         boost: 300,
         boostEnergy: 13,
-        agility: 8,
         baseShieldStrength: 120,
         baseArmour: 180,
         hullMass: 150,
         masslock: 8,
-        pipSpeed: .125
+        pipSpeed: .125,
+        pitch: 40,
+        roll: 110,
+        yaw: 15
       },
       retailCost: 3961150,
       bulkheads: [ {
@@ -356,14 +364,16 @@ module.exports = {
         speed: 200,
         boost: 280,
         boostEnergy: 19,
-        agility: 2,
         baseShieldStrength: 280,
         baseArmour: 280,
         hullMass: 1100,
         masslock: 18,
-        pipSpeed: -1,
+        pipSpeed: .1125,
         luxuryCabins: true,
-        fighterHangars: true
+        fighterHangars: true,
+        pitch: 25,
+        roll: 60,
+        yaw: 17
       },
       retailCost: 84532770,
       bulkheads: [ {
@@ -484,12 +494,14 @@ module.exports = {
         speed: 280,
         boost: 400,
         boostEnergy: 10,
-        agility: 6,
         baseShieldStrength: 80,
         baseArmour: 120,
         hullMass: 180,
         masslock: 8,
-        pipSpeed: .125
+        pipSpeed: .125,
+        pitch: 40,
+        roll: 100,
+        yaw: 10
       },
       retailCost: 349720,
       bulkheads: [ {
@@ -570,12 +582,14 @@ module.exports = {
         speed: 200,
         boost: 300,
         boostEnergy: 10,
-        agility: 4,
         baseShieldStrength: 120,
         baseArmour: 120,
         hullMass: 210,
         masslock: 8,
-        pipSpeed: .125
+        pipSpeed: .125,
+        pitch: 30,
+        roll: 90,
+        yaw: 10
       },
       retailCost: 747660,
       bulkheads: [ {
@@ -656,12 +670,14 @@ module.exports = {
         speed: 260,
         boost: 340,
         boostEnergy: 13,
-        agility: 5,
         baseShieldStrength: 150,
         baseArmour: 150,
         hullMass: 298,
         masslock: 10,
-        pipSpeed: .09625
+        pipSpeed: .09625,
+        pitch: 35,
+        roll: 90,
+        yaw: 13
       },
       retailCost: 1894760,
       bulkheads: [ {
@@ -742,12 +758,14 @@ module.exports = {
         speed: 280,
         boost: 380,
         boostEnergy: 10,
-        agility: 8,
         baseShieldStrength: 120,
         baseArmour: 120,
         hullMass: 170,
         masslock: 8,
-        pipSpeed: .09875
+        pipSpeed: .09875,
+        pitch: 42,
+        roll: 100,
+        yaw: 15
       },
       retailCost: 564330,
       bulkheads: [ {
@@ -828,12 +846,14 @@ module.exports = {
         speed: 240,
         boost: 350,
         boostEnergy: 8,
-        agility: 10,
         baseShieldStrength: 60,
         baseArmour: 40,
         hullMass: 50,
         masslock: 6,
-        pipSpeed: .0625
+        pipSpeed: .0625,
+        pitch: 50,
+        roll: 120,
+        yaw: 18
       },
       retailCost: 44800,
       bulkheads: [ {
@@ -914,12 +934,14 @@ module.exports = {
         speed: 210,
         boost: 350,
         boostEnergy: 19,
-        agility: 6,
         baseShieldStrength: 200,
         baseArmour: 300,
         hullMass: 480,
         masslock: 14,
-        pipSpeed: .11125
+        pipSpeed: .11125,
+        pitch: 38,
+        roll: 90,
+        yaw: 19
       },
       retailCost: 19814210,
       bulkheads: [ {
@@ -1000,13 +1022,15 @@ module.exports = {
         speed: 200,
         boost: 260,
         boostEnergy: 27,
-        agility: 2,
         baseShieldStrength: 555,
         baseArmour: 370,
         hullMass: 900,
         masslock: 24,
         pipSpeed: .125,
-        fighterHangars: true
+        fighterHangars: true,
+        pitch: 28,
+        roll: 75,
+        yaw: 8
       },
       retailCost: 187969450,
       bulkheads: [ {
@@ -1087,12 +1111,14 @@ module.exports = {
         speed: 180,
         boost: 300,
         boostEnergy: 19,
-        agility: 2,
         baseShieldStrength: 200,
         baseArmour: 300,
         hullMass: 580,
         masslock: 14,
-        pipSpeed: .0725
+        pipSpeed: .0725,
+        pitch: 30,
+        roll: 80,
+        yaw: 14
       },
       retailCost: 14314210,
       bulkheads: [ {
@@ -1173,13 +1199,15 @@ module.exports = {
         speed: 170,
         boost: 280,
         boostEnergy: 23,
-        agility: 2,
         baseShieldStrength: 250,
         baseArmour: 350,
         hullMass: 580,
         masslock: 14,
         pipSpeed: .1025,
-        fighterHangars: true
+        fighterHangars: true,
+        pitch: 25,
+        roll: 80,
+        yaw: 18
       },
       retailCost: 35814210,
       bulkheads: [ {
@@ -1260,12 +1288,14 @@ module.exports = {
         speed: 260,
         boost: 350,
         boostEnergy: 19,
-        agility: 6,
         baseShieldStrength: 300,
         baseArmour: 225,
         hullMass: 250,
         masslock: 12,
-        pipSpeed: .03875
+        pipSpeed: .03875,
+        pitch: 38,
+        roll: 90,
+        yaw: 12
       },
       retailCost: 51567040,
       bulkheads: [ {
@@ -1345,13 +1375,15 @@ module.exports = {
         hullCost: 29790,
         speed: 200,
         boost: 300,
-        agility: 6,
         boostEnergy: 7,
         baseShieldStrength: 50,
         baseArmour: 50,
         hullMass: 14,
         masslock: 6,
-        pipSpeed: .1625
+        pipSpeed: .1625,
+        pitch: 36,
+        roll: 100,
+        yaw: 14
       },
       retailCost: 52720,
       bulkheads: [ {
@@ -1432,12 +1464,14 @@ module.exports = {
         speed: 300,
         boost: 380,
         boostEnergy: 19,
-        agility: 2,
         baseShieldStrength: 180,
         baseArmour: 270,
         hullMass: 400,
         masslock: 12,
-        pipSpeed: .1
+        pipSpeed: .1,
+        pitch: 40,
+        roll: 80,
+        yaw: 18
       },
       retailCost: 22296860,
       bulkheads: [ {
@@ -1518,12 +1552,14 @@ module.exports = {
         speed: 280,
         boost: 380,
         boostEnergy: 10,
-        agility: 6,
         baseShieldStrength: 200,
         baseArmour: 80,
         hullMass: 35,
         masslock: 7,
-        pipSpeed: .05375
+        pipSpeed: .05375,
+        pitch: 38,
+        roll: 90,
+        yaw: 16
       },
       retailCost: 2542930,
       bulkheads: [ {
@@ -1604,13 +1640,15 @@ module.exports = {
         speed: 200,
         boost: 320,
         boostEnergy: 23,
-        agility: 2,
         baseShieldStrength: 600,
         baseArmour: 400,
         hullMass: 1100,
         masslock: 27,
         pipSpeed: .05,
-        fighterHangars: true
+        fighterHangars: true,
+        pitch: 18,
+        roll: 45,
+        yaw: 8
       },
       retailCost: 208969450,
       bulkheads: [ {
@@ -1691,12 +1729,14 @@ module.exports = {
         speed: 300,
         boost: 400,
         boostEnergy: 8,
-        agility: 6,
         baseShieldStrength: 80,
         baseArmour: 60,
         hullMass: 50,
         masslock: 6,
-        pipSpeed: .075
+        pipSpeed: .075,
+        pitch: 40,
+        roll: 100,
+        yaw: 15
       },
       retailCost: 110830,
       bulkheads: [ {
@@ -1777,13 +1817,15 @@ module.exports = {
         speed: 200,
         boost: 300,
         boostEnergy: 10,
-        agility: 2,
         baseShieldStrength: 135,
         baseArmour: 135,
         hullMass: 180,
         masslock: 8,
         pipSpeed: .1375,
-        fighterHangars: true
+        fighterHangars: true,
+        pitch: 27,
+        roll: 100,
+        yaw: 15
       },
       retailCost: 3126160,
       bulkheads: [ {
@@ -1864,13 +1906,15 @@ module.exports = {
         speed: 300,
         boost: 380,
         boostEnergy: 16,
-        agility: 2,
         baseShieldStrength: 220,
         baseArmour: 220,
         hullMass: 580,
         masslock: 13,
         pipSpeed: .08375,
-        luxuryCabins: true
+        luxuryCabins: true,
+        pitch: 25,
+        roll: 55,
+        yaw: 18
       },
       retailCost: 48539900,
       bulkheads: [ {
@@ -1971,12 +2015,14 @@ module.exports = {
         speed: 230,
         boost: 300,
         boostEnergy: 23,
-        agility: 6,
         baseShieldStrength: 260,
         baseArmour: 260,
         hullMass: 350,
         masslock: 17,
-        pipSpeed: .0975
+        pipSpeed: .0975,
+        pitch: 29,
+        roll: 90,
+        yaw: 10
       },
       retailCost: 56978180,
       bulkheads: [ {
@@ -2057,12 +2103,14 @@ module.exports = {
         speed: 220,
         boost: 320,
         boostEnergy: 7,
-        agility: 8,
         baseShieldStrength: 40,
         baseArmour: 60,
         hullMass: 25,
         masslock: 6,
-        pipSpeed: .1375
+        pipSpeed: .1375,
+        pitch: 42,
+        roll: 110,
+        yaw: 16
       },
       retailCost: 40800,
       bulkheads: [ {
@@ -2143,12 +2191,14 @@ module.exports = {
         speed: 220,
         boost: 350,
         boostEnergy: 10,
-        agility: 3,
         baseShieldStrength: 90,
         baseArmour: 90,
         hullMass: 155,
         masslock: 8,
-        pipSpeed: .1475
+        pipSpeed: .1475,
+        pitch: 30,
+        roll: 100,
+        yaw: 17
       },
       retailCost: 1045950,
       bulkheads: [ {
@@ -2229,12 +2279,14 @@ module.exports = {
         speed: 180,
         boost: 300,
         boostEnergy: 10,
-        agility: 2,
         baseShieldStrength: 155,
         baseArmour: 170,
         hullMass: 420,
         masslock: 10,
-        pipSpeed: .16625
+        pipSpeed: .16625,
+        pitch: 22,
+        roll: 60,
+        yaw: 22
       },
       retailCost: 17472260,
       bulkheads: [ {
@@ -2315,13 +2367,15 @@ module.exports = {
         speed: 130,
         boost: 200,
         boostEnergy: 19,
-        agility: 0,
         baseShieldStrength: 240,
         baseArmour: 240,
         hullMass: 1e3,
         masslock: 16,
         pipSpeed: .17375,
-        fighterHangars: true
+        fighterHangars: true,
+        pitch: 20,
+        roll: 20,
+        yaw: 8
       },
       retailCost: 76555840,
       bulkheads: [ {
@@ -2402,12 +2456,14 @@ module.exports = {
         speed: 320,
         boost: 400,
         boostEnergy: 10,
-        agility: 6,
         baseShieldStrength: 105,
         baseArmour: 70,
         hullMass: 60,
         masslock: 7,
-        pipSpeed: .09375
+        pipSpeed: .09375,
+        pitch: 35,
+        roll: 90,
+        yaw: 15
       },
       retailCost: 142930,
       bulkheads: [ {
@@ -2488,12 +2544,14 @@ module.exports = {
         speed: 270,
         boost: 340,
         boostEnergy: 10,
-        agility: 4,
         baseShieldStrength: 150,
         baseArmour: 150,
         hullMass: 190,
         masslock: 7,
-        pipSpeed: .0875
+        pipSpeed: .0875,
+        pitch: 30,
+        roll: 90,
+        yaw: 12
       },
       retailCost: 437930,
       bulkheads: [ {
@@ -2574,12 +2632,14 @@ module.exports = {
         speed: 210,
         boost: 340,
         boostEnergy: 16,
-        agility: 9,
         baseShieldStrength: 240,
         baseArmour: 160,
         hullMass: 230,
         masslock: 10,
-        pipSpeed: .02375
+        pipSpeed: .02375,
+        pitch: 42,
+        roll: 110,
+        yaw: 17
       },
       retailCost: 4925620,
       bulkheads: [ {
@@ -3661,9 +3721,9 @@ module.exports = {
         integrity: 56,
         mass: 2.5,
         maxmass: 108,
-        maxmul: .96,
+        maxmul: 1.16,
         minmass: 36,
-        minmul: 1.16,
+        minmul: .96,
         optmass: 72,
         optmul: 1,
         power: 3,
@@ -6147,7 +6207,7 @@ module.exports = {
         mass: 4,
         mount: "F",
         name: "Disruptor",
-        piercing: "A",
+        piercing: 35,
         power: .7,
         pp: "Felicia Winters",
         rating: "E",
@@ -6338,11 +6398,11 @@ module.exports = {
         thermload: .2,
         type: "T"
       }, {
-        breachdmg: 1.5,
+        breachdmg: 2,
         breachmax: 0,
         breachmin: 0,
-        burst: 3,
-        burstrof: 15,
+        burst: 8,
+        burstrof: 20,
         class: 1,
         cost: 8800,
         damage: 2.4,
@@ -6352,6 +6412,7 @@ module.exports = {
         grp: "ul",
         id: "cy",
         integrity: 40,
+        jitter: 3.5,
         mass: 2,
         mount: "F",
         name: "Cytoscrambler",
@@ -6360,7 +6421,7 @@ module.exports = {
         pp: "Archon Delaine",
         range: 600,
         rating: "F",
-        rof: 1.98,
+        rof: 6.6,
         thermload: .3,
         type: "T"
       }, {
@@ -6893,13 +6954,13 @@ module.exports = {
         type: "K"
       }, {
         ammo: 1e3,
-        breachdmg: 2.7,
+        breachdmg: 2.6,
         breachmax: .8,
         breachmin: .4,
         class: 1,
-        clip: 100,
+        clip: 60,
         cost: 13980,
-        damage: 3,
+        damage: 2.9,
         distdraw: .12,
         eddbID: 1481,
         grp: "mc",
@@ -6908,7 +6969,7 @@ module.exports = {
         mass: 2,
         mount: "F",
         name: "Enforcer",
-        piercing: "A",
+        piercing: 30,
         power: .28,
         pp: "Pranav Antal",
         range: 4500,
@@ -7663,6 +7724,7 @@ module.exports = {
         grp: "fc",
         id: "pa",
         integrity: 64,
+        jitter: 1.7,
         mass: 8,
         mount: "F",
         name: "Pacifier",
@@ -7672,6 +7734,7 @@ module.exports = {
         rating: "C",
         reload: 2.5,
         rof: 4.5,
+        roundspershot: 12,
         speed: 1e3,
         thermload: 1.1,
         type: "K"
@@ -7746,9 +7809,10 @@ module.exports = {
         mass: 4,
         mount: "F",
         name: "Imperial Hammer",
-        piercing: "A",
+        piercing: 48,
         power: 1.63,
         pp: "Arissa Lavigny-Duval",
+        range: 3e3,
         rating: "B",
         reload: 1,
         rof: 4.1,
@@ -7772,7 +7836,7 @@ module.exports = {
         integrity: 51,
         mass: 4,
         mount: "F",
-        piercing: 55,
+        piercing: 100,
         power: 1.43,
         range: 3500,
         rating: "C",
@@ -7798,7 +7862,7 @@ module.exports = {
         integrity: 64,
         mass: 8,
         mount: "F",
-        piercing: 70,
+        piercing: 100,
         power: 1.97,
         range: 3500,
         rating: "B",
@@ -7809,7 +7873,7 @@ module.exports = {
         type: "KT"
       }, {
         ammo: 300,
-        breachdmg: 28.1,
+        breachdmg: 30.9,
         breachmax: .8,
         breachmin: .4,
         class: 3,
@@ -7825,7 +7889,7 @@ module.exports = {
         mass: 8,
         mount: "F",
         name: "Advanced Plasma Accelerator",
-        piercing: 70,
+        piercing: 100,
         power: 1.97,
         pp: "Denton Patreus",
         range: 3500,
@@ -7852,7 +7916,7 @@ module.exports = {
         integrity: 80,
         mass: 16,
         mount: "F",
-        piercing: 85,
+        piercing: 100,
         power: 2.63,
         range: 3500,
         rating: "A",
@@ -8171,16 +8235,17 @@ module.exports = {
         mount: "F",
         piercing: 18,
         power: .5,
+        range: 500,
         rating: "D",
         thermload: 2
       }, {
-        breachdmg: .6,
+        breachdmg: 1.2,
         breachmax: .2,
         breachmin: .1,
         class: 1,
         cost: 13600,
         damage: 8,
-        distdraw: 1.58,
+        distdraw: 1.75,
         eddbID: 1479,
         grp: "ml",
         id: "ml",
@@ -8188,9 +8253,10 @@ module.exports = {
         mass: 2,
         mount: "F",
         name: "Mining Lance",
-        piercing: "D",
+        piercing: 18,
         power: .7,
         pp: "Zemina Torval",
+        range: 2e3,
         rating: "D",
         thermload: 6,
         type: "T"
@@ -8211,6 +8277,7 @@ module.exports = {
         mount: "F",
         piercing: 18,
         power: .75,
+        range: 500,
         rating: "D",
         thermload: 4
       } ],
@@ -14172,6 +14239,9 @@ module.exports = {
         rof: .05263157894736842,
         thermload: 2,
         type: "T"
+      },
+      special_inertial_impact: {
+        type: "KT"
       },
       special_overload_munitions: {},
       special_phasing_sequence: {},

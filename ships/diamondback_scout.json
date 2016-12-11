@@ -10,13 +10,15 @@
       "speed": 280,
       "boost": 380,
       "boostEnergy": 10,
-      "agility": 8,
       "baseShieldStrength": 120,
       "baseArmour": 120,
       "hullMass": 170,
       "masslock": 8,
-      "pipSpeed": 0.09875
-    },
+      "pipSpeed": 0.09875,
+      "pitch": 42,
+      "roll": 100,
+      "yaw": 15 
+    } ,
     "retailCost": 564330,
     "bulkheads": [
       { "id": "b5", "edID": 128671218, "eddbID": 1384, "grp": "bh", "cost": 0, "mass": 0, "explres": -0.4, "kinres": -0.2, "thermres": 0, "hullboost": 0.8 },
