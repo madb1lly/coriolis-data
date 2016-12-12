@@ -1,3 +1,11 @@
+#2.2.6
+  * Update weapons with changed values for 2.2.03
+  * Add individual pitch/roll/yaw statistics for each ship
+  * Remove old and meaningless agility stat
+  * Use sane order for multi-module JSON - coriolis can re-order as it sees fit when displaying modules
+  * Fix cost of fighter hangars
+  * Update Powerplay weapons with current statistics
+
 #2.2.5
   * Fix incorrect ID for emissive munitions special
   * Fix rate of fire for burst lasers
