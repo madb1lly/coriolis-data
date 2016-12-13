@@ -30,12 +30,17 @@
     "slots": {
       "standard": [4, 4, 4, 2, 3, 3, 4],
       "hardpoints": [2, 2, 1, 1, 0, 0],
-      "internal": [4, 4, 3, 2, 2, 1]
+      "internal": [
+        4, 4, 3,
+        { "class": 2, "eligible": { "hr": 1, "scb": 1, "mrp": 1 } },
+        { "class": 2, "eligible": { "hr": 1, "scb": 1, "mrp": 1 } },
+        2, 2, 1
+      ]
     },
     "defaults": {
       "standard": ["4E", "4E", "4E", "2E", "3E", "3E", "4C"],
       "hardpoints": [0, 0, 17, 17, 0, 0],
-      "internal": ["02", "02", "44", "00", 0, "2h"]
+      "internal": ["02", "02", "44", 0, 0, "00", 0, "2h"]
     }
   }
 }

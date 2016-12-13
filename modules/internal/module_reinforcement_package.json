@@ -1,0 +1,114 @@
+{
+  "mrp": [
+    {
+      "class": 1,
+      "cost": 5000,
+      "eddbID": 1577,
+      "grp": "mrp",
+      "id": "m0",
+      "integrity": 60,
+      "mass": 4,
+      "protection": 0.3,
+      "rating": "E"
+    },
+    {
+      "class": 1,
+      "cost": 15000,
+      "eddbID": 1578,
+      "grp": "mrp",
+      "id": "m1",
+      "integrity": 25,
+      "mass": 4,
+      "protection": 0.6,
+      "rating": "D"
+    },
+    {
+      "class": 2,
+      "cost": 12000,
+      "eddbID": 1579,
+      "grp": "mrp",
+      "id": "m2",
+      "integrity": 90,
+      "mass": 8,
+      "protection": 0.3,
+      "rating": "E"
+    },
+    {
+      "class": 2,
+      "cost": 36000,
+      "eddbID": 1580,
+      "grp": "mrp",
+      "id": "m3",
+      "integrity": 38,
+      "mass": 4,
+      "protection": 0.6,
+      "rating": "D"
+    },
+    {
+      "class": 3,
+      "cost": 28000,
+      "eddbID": 1581,
+      "grp": "mrp",
+      "id": "m4",
+      "integrity": 135,
+      "mass": 16,
+      "protection": 0.3,
+      "rating": "E"
+    },
+    {
+      "class": 3,
+      "cost": 84000,
+      "eddbID": 1582,
+      "grp": "mrp",
+      "id": "m5",
+      "integrity": 56,
+      "mass": 8,
+      "protection": 0.6,
+      "rating": "D"
+    },
+    {
+      "class": 4,
+      "cost": 65000,
+      "eddbID": 1583,
+      "grp": "mrp",
+      "id": "m6",
+      "integrity": 203,
+      "mass": 32,
+      "protection": 0.3,
+      "rating": "E"
+    },
+    {
+      "class": 4,
+      "cost": 195000,
+      "eddbID": 1584,
+      "grp": "mrp",
+      "id": "m7",
+      "integrity": 84,
+      "mass": 16,
+      "protection": 0.6,
+      "rating": "D"
+    },
+    {
+      "class": 5,
+      "cost": 150000,
+      "eddbID": 1585,
+      "grp": "mrp",
+      "id": "m8",
+      "integrity": 304,
+      "mass": 64,
+      "protection": 0.3,
+      "rating": "E"
+    },
+    {
+      "class": 5,
+      "cost": 450000,
+      "eddbID": 1586,
+      "grp": "mrp",
+      "id": "m9",
+      "integrity": 127,
+      "mass": 16,
+      "protection": 0.6,
+      "rating": "D"
+    }
+  ]
+}

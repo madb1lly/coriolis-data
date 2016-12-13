@@ -6,6 +6,8 @@
   * Fix cost of fighter hangars
   * Update Powerplay weapons with current statistics
   * Add separate min/opt/max multipliers for enhanced thrusters for speed, acceleration and rotation
+  * Add module reinforcement packages
+  * Add military compartments
 
 #2.2.5
   * Fix incorrect ID for emissive munitions special

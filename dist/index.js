@@ -169,12 +169,26 @@ module.exports = {
       slots: {
         standard: [ 8, 7, 6, 5, 8, 8, 5 ],
         hardpoints: [ 4, 3, 3, 3, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ 7, 6, 6, 6, 5, 5, 5, 4, 4, 4, 2 ]
+        internal: [ 7, 6, 6, 6, 5, 5, 5, {
+          class: 5,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 5,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, 4, 4, 4, 2 ]
       },
       defaults: {
         standard: [ "8E", "7E", "6E", "5E", "8E", "8E", "5C" ],
         hardpoints: [ 0, 0, 0, 0, 0, 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "05", "04", "4j", 0, "03", 0, 0, 0, 0, "2h", "00" ]
+        internal: [ "05", "04", "4j", 0, "03", 0, 0, 0, 0, 0, 0, "2h", "00" ]
       }
     },
     asp: {
@@ -915,12 +929,19 @@ module.exports = {
       slots: {
         standard: [ 2, 3, 3, 1, 2, 2, 2 ],
         hardpoints: [ 1, 1, 1, 0 ],
-        internal: [ 3, 2, 1, 1 ]
+        internal: [ 3, 2, {
+          class: 2,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, 1, 1 ]
       },
       defaults: {
         standard: [ "2E", "3E", "3E", "1E", "2E", "2E", "2C" ],
         hardpoints: [ 17, 17, 0, 0 ],
-        internal: [ "44", "00", "2h", 0 ]
+        internal: [ "44", "00", 0, "2h", 0 ]
       }
     },
     federal_assault_ship: {
@@ -1003,12 +1024,33 @@ module.exports = {
       slots: {
         standard: [ 6, 6, 5, 5, 6, 4, 4 ],
         hardpoints: [ 3, 3, 2, 2, 0, 0, 0, 0 ],
-        internal: [ 5, 5, 4, 3, 2, 2 ]
+        internal: [ 5, 5, 4, {
+          class: 4,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 4,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 4,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, 3, 2, 2 ]
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "4e", "03", "02", "02", 0, 0 ]
+        internal: [ "4e", "03", "02", 0, 0, 0, "02", 0, 0 ]
       }
     },
     federal_corvette: {
@@ -1092,12 +1134,33 @@ module.exports = {
       slots: {
         standard: [ 8, 7, 6, 5, 8, 8, 5 ],
         hardpoints: [ 4, 4, 3, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ 7, 7, 7, 6, 6, 5, 5, 4, 4, 3 ]
+        internal: [ 7, 7, 7, 6, 6, 5, 5, {
+          class: 5,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 5,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 5,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, 4, 4, 3 ]
       },
       defaults: {
         standard: [ "8E", "7E", "6E", "5E", "8E", "8E", "5C" ],
         hardpoints: [ 0, 0, 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "4o", "05", 0, 0, 0, 0, 0, "02", "01", "2h" ]
+        internal: [ "4o", "05", 0, 0, 0, 0, 0, 0, 0, 0, "02", "01", "2h" ]
       }
     },
     federal_dropship: {
@@ -1180,12 +1243,33 @@ module.exports = {
       slots: {
         standard: [ 6, 6, 5, 5, 6, 4, 4 ],
         hardpoints: [ 3, 2, 2, 2, 2, 0, 0, 0, 0 ],
-        internal: [ 6, 5, 5, 4, 3, 3, 2 ]
+        internal: [ 6, 5, 5, 4, {
+          class: 4,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 4,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 4,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, 3, 3, 2 ]
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "03", "4e", "02", 0, 0, "2h" ]
+        internal: [ "04", "03", "4e", "02", 0, 0, 0, 0, 0, "2h" ]
       }
     },
     federal_gunship: {
@@ -1269,12 +1353,33 @@ module.exports = {
       slots: {
         standard: [ 6, 6, 5, 5, 7, 5, 4 ],
         hardpoints: [ 3, 2, 2, 2, 2, 1, 1, 0, 0, 0, 0 ],
-        internal: [ 6, 6, 5, 2, 2 ]
+        internal: [ 6, 6, 5, {
+          class: 4,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 4,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 4,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, 2, 2 ]
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "7E", "5E", "4C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ 0, "4j", "03", 0, "2h" ]
+        internal: [ 0, "4j", "03", 0, 0, 0, 0, "2h" ]
       }
     },
     fer_de_lance: {
@@ -1377,7 +1482,7 @@ module.exports = {
         boost: 300,
         boostEnergy: 7,
         baseShieldStrength: 50,
-        baseArmour: 50,
+        baseArmour: 100,
         hullMass: 14,
         masslock: 6,
         pipSpeed: .1625,
@@ -1710,12 +1815,33 @@ module.exports = {
       slots: {
         standard: [ 8, 8, 7, 7, 7, 7, 6 ],
         hardpoints: [ 4, 3, 3, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ 8, 8, 6, 6, 6, 5, 5, 4, 3 ]
+        internal: [ 8, 8, 6, 6, 6, 5, 5, {
+          class: 5,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 5,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 5,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, 4, 3 ]
       },
       defaults: {
         standard: [ "8E", "8E", "7E", "7E", "7E", "7E", "6C" ],
         hardpoints: [ 0, 0, 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "4t", "06", "04", 0, 0, 0, 0, "01", "2h" ]
+        internal: [ "4t", "06", "04", 0, 0, 0, 0, 0, 0, 0, "01", "2h" ]
       }
     },
     imperial_eagle: {
@@ -1798,12 +1924,19 @@ module.exports = {
       slots: {
         standard: [ 3, 3, 3, 1, 2, 2, 2 ],
         hardpoints: [ 2, 1, 1, 0 ],
-        internal: [ 3, 2, 1, 1 ]
+        internal: [ 3, 2, {
+          class: 2,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, 1, 1 ]
       },
       defaults: {
         standard: [ "3E", "3E", "3E", "1E", "2E", "2E", "2C" ],
         hardpoints: [ 0, 17, 17, 0 ],
-        internal: [ "44", "00", "2h", 0 ]
+        internal: [ "44", "00", 0, "2h", 0 ]
       }
     },
     keelback: {
@@ -1818,7 +1951,7 @@ module.exports = {
         boost: 300,
         boostEnergy: 10,
         baseShieldStrength: 135,
-        baseArmour: 135,
+        baseArmour: 270,
         hullMass: 180,
         masslock: 8,
         pipSpeed: .1375,
@@ -2192,7 +2325,7 @@ module.exports = {
         boost: 350,
         boostEnergy: 10,
         baseShieldStrength: 90,
-        baseArmour: 90,
+        baseArmour: 180,
         hullMass: 155,
         masslock: 8,
         pipSpeed: .1475,
@@ -2280,7 +2413,7 @@ module.exports = {
         boost: 300,
         boostEnergy: 10,
         baseShieldStrength: 155,
-        baseArmour: 170,
+        baseArmour: 340,
         hullMass: 420,
         masslock: 10,
         pipSpeed: .16625,
@@ -2368,7 +2501,7 @@ module.exports = {
         boost: 200,
         boostEnergy: 19,
         baseShieldStrength: 240,
-        baseArmour: 240,
+        baseArmour: 480,
         hullMass: 1e3,
         masslock: 16,
         pipSpeed: .17375,
@@ -2525,12 +2658,26 @@ module.exports = {
       slots: {
         standard: [ 3, 3, 3, 2, 3, 3, 2 ],
         hardpoints: [ 2, 2, 1, 1, 0, 0 ],
-        internal: [ 3, 3, 2, 1 ]
+        internal: [ 3, 3, {
+          class: 3,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 3,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, 2, 1 ]
       },
       defaults: {
         standard: [ "3E", "3E", "3E", "2E", "3E", "3E", "2C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0 ],
-        internal: [ "01", "44", 0, "2h" ]
+        internal: [ "01", "44", 0, 0, 0, "2h" ]
       }
     },
     viper_mk_iv: {
@@ -2613,12 +2760,26 @@ module.exports = {
       slots: {
         standard: [ 4, 4, 4, 2, 3, 3, 4 ],
         hardpoints: [ 2, 2, 1, 1, 0, 0 ],
-        internal: [ 4, 4, 3, 2, 2, 1 ]
+        internal: [ 4, 4, 3, {
+          class: 2,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 2,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, 2, 2, 1 ]
       },
       defaults: {
         standard: [ "4E", "4E", "4E", "2E", "3E", "3E", "4C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0 ],
-        internal: [ "02", "02", "44", "00", 0, "2h" ]
+        internal: [ "02", "02", "44", 0, 0, "00", 0, "2h" ]
       }
     },
     vulture: {
@@ -2701,12 +2862,26 @@ module.exports = {
       slots: {
         standard: [ 4, 5, 4, 3, 5, 4, 3 ],
         hardpoints: [ 3, 3, 0, 0, 0, 0 ],
-        internal: [ 5, 4, 2, 1, 1 ]
+        internal: [ 5, {
+          class: 5,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, {
+          class: 5,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
+        }, 4, 2, 1, 1 ]
       },
       defaults: {
         standard: [ "4E", "5E", "4E", "3E", "5E", "4E", "3C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0 ],
-        internal: [ "4e", "02", 0, 0, "2h" ]
+        internal: [ "4e", 0, 0, "02", 0, 0, "2h" ]
       }
     }
   },
@@ -11074,6 +11249,107 @@ module.exports = {
         rating: "D",
         thermres: .025
       } ],
+      mrp: [ {
+        class: 1,
+        cost: 5e3,
+        eddbID: 1577,
+        grp: "mrp",
+        id: "m0",
+        integrity: 60,
+        mass: 4,
+        protection: .3,
+        rating: "E"
+      }, {
+        class: 1,
+        cost: 15e3,
+        eddbID: 1578,
+        grp: "mrp",
+        id: "m1",
+        integrity: 25,
+        mass: 4,
+        protection: .6,
+        rating: "D"
+      }, {
+        class: 2,
+        cost: 12e3,
+        eddbID: 1579,
+        grp: "mrp",
+        id: "m2",
+        integrity: 90,
+        mass: 8,
+        protection: .3,
+        rating: "E"
+      }, {
+        class: 2,
+        cost: 36e3,
+        eddbID: 1580,
+        grp: "mrp",
+        id: "m3",
+        integrity: 38,
+        mass: 4,
+        protection: .6,
+        rating: "D"
+      }, {
+        class: 3,
+        cost: 28e3,
+        eddbID: 1581,
+        grp: "mrp",
+        id: "m4",
+        integrity: 135,
+        mass: 16,
+        protection: .3,
+        rating: "E"
+      }, {
+        class: 3,
+        cost: 84e3,
+        eddbID: 1582,
+        grp: "mrp",
+        id: "m5",
+        integrity: 56,
+        mass: 8,
+        protection: .6,
+        rating: "D"
+      }, {
+        class: 4,
+        cost: 65e3,
+        eddbID: 1583,
+        grp: "mrp",
+        id: "m6",
+        integrity: 203,
+        mass: 32,
+        protection: .3,
+        rating: "E"
+      }, {
+        class: 4,
+        cost: 195e3,
+        eddbID: 1584,
+        grp: "mrp",
+        id: "m7",
+        integrity: 84,
+        mass: 16,
+        protection: .6,
+        rating: "D"
+      }, {
+        class: 5,
+        cost: 15e4,
+        eddbID: 1585,
+        grp: "mrp",
+        id: "m8",
+        integrity: 304,
+        mass: 64,
+        protection: .3,
+        rating: "E"
+      }, {
+        class: 5,
+        cost: 45e4,
+        eddbID: 1586,
+        grp: "mrp",
+        id: "m9",
+        integrity: 127,
+        mass: 16,
+        protection: .6,
+        rating: "D"
+      } ],
       pv: [ {
         bays: 1,
         class: 2,
@@ -14423,6 +14699,10 @@ module.exports = {
       special_incendiary_rounds: {
         id: 12,
         name: "Incendiary rounds"
+      },
+      special_inertial_impact: {
+        id: 32,
+        name: "Inertial impact"
       },
       special_ion_disruptor: {
         id: 13,
