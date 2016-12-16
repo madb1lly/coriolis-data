@@ -11,6 +11,7 @@
       "boostEnergy": 10,
       "baseShieldStrength": 200,
       "baseArmour": 80,
+      "hardness": 30,
       "hullMass": 35,
       "masslock": 7,
       "pipSpeed": 0.05375,

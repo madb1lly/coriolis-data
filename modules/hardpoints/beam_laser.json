@@ -108,7 +108,7 @@
       "mass": 4,
       "mount": "F",
       "piercing": 35,
-      "power": 1,
+      "power": 1.01,
       "range": 3000,
       "rating": "D",
       "thermload": 5.1,

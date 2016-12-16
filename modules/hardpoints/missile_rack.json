@@ -3,8 +3,8 @@
     {
       "ammo": 16,
       "breachdmg": 20,
-      "breachmax": 1,
-      "breachmin": 1,
+      "breachmax": 0,
+      "breachmin": 0,
       "class": 1,
       "clip": 8,
       "cost": 32180,
@@ -57,8 +57,8 @@
     {
       "ammo": 48,
       "breachdmg": 20,
-      "breachmax": 1,
-      "breachmin": 1,
+      "breachmax": 0,
+      "breachmin": 0,
       "class": 2,
       "clip": 12,
       "cost": 240400,

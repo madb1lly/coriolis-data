@@ -14,6 +14,7 @@ describe('JSON Data', function() {
     'boostEnergy',
     'baseShieldStrength',
     'baseArmour',
+    'hardness',
     'hullMass',
     'masslock',
     'pipSpeed',
