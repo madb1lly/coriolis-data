@@ -8209,7 +8209,7 @@ module.exports = {
         class: 2,
         clip: 12,
         cost: 240400,
-        dps: 25,
+        damage: 50,
         edID: 128666725,
         eddbID: 1327,
         eps: .12,

@@ -8,6 +8,7 @@
   * Add separate min/opt/max multipliers for enhanced thrusters for speed, acceleration and rotation
   * Add module reinforcement packages
   * Add military compartments
+  * Fix missing damage value for 2B dumbfires
 
 #2.2.5
   * Fix incorrect ID for emissive munitions special
