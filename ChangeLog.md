@@ -9,6 +9,7 @@
   * Add module reinforcement packages
   * Add military compartments
   * Fix missing damage value for 2B dumbfires
+  * Update shield recharge rates
 
 #2.2.5
   * Fix incorrect ID for emissive munitions special

@@ -63,6 +63,7 @@
       "clip": 12,
       "cost": 240400,
       "damage": 50,
+      "distdraw": 0.24,
       "edID": 128666725,
       "eddbID": 1327,
       "eps": 0.12,
@@ -79,6 +80,7 @@
       "reload": 5,
       "rof": 0.5,
       "speed": 750,
+      "thermload": 3.6,
       "type": "E"
     },
     {
@@ -140,7 +142,7 @@
     },
     {
       "ammo": 120,
-      "breachdmg": 6,
+      "breachdmg": 3,
       "breachmax": 0,
       "breachmin": 0,
       "class": 2,

@@ -1,6 +1,7 @@
 {
   "sg": [
     {
+      "brokenregen": 1.6,
       "class": 1,
       "cost": 88075,
       "edID": 128064262,
@@ -18,10 +19,11 @@
       "optmul": 1.2,
       "power": 1.68,
       "rating": "A",
-      "recover": 1,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 1.6,
       "class": 2,
       "cost": 1980,
       "edID": 128064263,
@@ -39,10 +41,11 @@
       "optmul": 0.8,
       "power": 0.9,
       "rating": "E",
-      "recover": 1.6,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 1.6,
       "class": 2,
       "cost": 5930,
       "edID": 128064264,
@@ -60,10 +63,11 @@
       "optmul": 0.9,
       "power": 1.2,
       "rating": "D",
-      "recover": 1.6,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 1.6,
       "class": 2,
       "cost": 17800,
       "edID": 128064265,
@@ -81,10 +85,11 @@
       "optmul": 1,
       "power": 1.5,
       "rating": "C",
-      "recover": 1.6,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 1.6,
       "class": 2,
       "cost": 53410,
       "edID": 128064266,
@@ -102,10 +107,11 @@
       "optmul": 1.1,
       "power": 1.8,
       "rating": "B",
-      "recover": 1.6,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 1.6,
       "class": 2,
       "cost": 160220,
       "edID": 128064267,
@@ -123,10 +129,11 @@
       "optmul": 1.2,
       "power": 2.1,
       "rating": "A",
-      "recover": 1.6,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 1.9,
       "class": 3,
       "cost": 6270,
       "edID": 128064268,
@@ -144,10 +151,11 @@
       "optmul": 0.8,
       "power": 1.08,
       "rating": "E",
-      "recover": 1.6,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 1.9,
       "class": 3,
       "cost": 18810,
       "edID": 128064269,
@@ -165,10 +173,11 @@
       "optmul": 0.9,
       "power": 1.44,
       "rating": "D",
-      "recover": 1.6,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 1.9,
       "class": 3,
       "cost": 56440,
       "edID": 128064270,
@@ -186,10 +195,11 @@
       "optmul": 1,
       "power": 1.8,
       "rating": "C",
-      "recover": 1.6,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 1.9,
       "class": 3,
       "cost": 169300,
       "edID": 128064271,
@@ -207,10 +217,11 @@
       "optmul": 1.1,
       "power": 2.16,
       "rating": "B",
-      "recover": 1.6,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 1.9,
       "class": 3,
       "cost": 507910,
       "edID": 128064272,
@@ -228,10 +239,11 @@
       "optmul": 1.2,
       "power": 2.52,
       "rating": "A",
-      "recover": 1.6,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 2.5,
       "class": 4,
       "cost": 19880,
       "edID": 128064273,
@@ -249,10 +261,11 @@
       "optmul": 0.8,
       "power": 1.32,
       "rating": "E",
-      "recover": 1.9,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 2.5,
       "class": 4,
       "cost": 59630,
       "edID": 128064274,
@@ -270,10 +283,11 @@
       "optmul": 0.9,
       "power": 1.76,
       "rating": "D",
-      "recover": 1.9,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 2.5,
       "class": 4,
       "cost": 178900,
       "edID": 128064275,
@@ -291,10 +305,11 @@
       "optmul": 1,
       "power": 2.2,
       "rating": "C",
-      "recover": 1.9,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 2.5,
       "class": 4,
       "cost": 536690,
       "edID": 128064276,
@@ -312,10 +327,11 @@
       "optmul": 1.1,
       "power": 2.64,
       "rating": "B",
-      "recover": 1.9,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 2.5,
       "class": 4,
       "cost": 1610080,
       "edID": 128064277,
@@ -333,10 +349,11 @@
       "optmul": 1.2,
       "power": 3.08,
       "rating": "A",
-      "recover": 1.9,
+      "regen": 1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 3.7,
       "class": 5,
       "cost": 63010,
       "edID": 128064278,
@@ -354,10 +371,11 @@
       "optmul": 0.8,
       "power": 1.56,
       "rating": "E",
-      "recover": 2.5,
+      "regen": 1.5,
       "thermres": -0.2
     },
     {
+      "brokenregen": 3.7,
       "class": 5,
       "cost": 189040,
       "edID": 128064279,
@@ -375,10 +393,11 @@
       "optmul": 0.9,
       "power": 2.08,
       "rating": "D",
-      "recover": 2.5,
+      "regen": 1.5,
       "thermres": -0.2
     },
     {
+      "brokenregen": 3.7,
       "class": 5,
       "cost": 567110,
       "edID": 128064280,
@@ -396,10 +415,11 @@
       "optmul": 1,
       "power": 2.6,
       "rating": "C",
-      "recover": 2.5,
+      "regen": 1.5,
       "thermres": -0.2
     },
     {
+      "brokenregen": 3.7,
       "class": 5,
       "cost": 1701320,
       "edID": 128064281,
@@ -417,10 +437,11 @@
       "optmul": 1.1,
       "power": 3.12,
       "rating": "B",
-      "recover": 2.5,
+      "regen": 1.5,
       "thermres": -0.2
     },
     {
+      "brokenregen": 3.7,
       "class": 5,
       "cost": 5103950,
       "edID": 128064282,
@@ -438,10 +459,11 @@
       "optmul": 1.2,
       "power": 3.64,
       "rating": "A",
-      "recover": 2.5,
+      "regen": 1.5,
       "thermres": -0.2
     },
     {
+      "brokenregen": 5.3,
       "class": 6,
       "cost": 199750,
       "edID": 128064283,
@@ -459,10 +481,11 @@
       "optmul": 0.8,
       "power": 1.86,
       "rating": "E",
-      "recover": 3.2,
+      "regen": 2.1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 5.3,
       "class": 6,
       "cost": 599240,
       "edID": 128064284,
@@ -480,10 +503,11 @@
       "optmul": 0.9,
       "power": 2.48,
       "rating": "D",
-      "recover": 3.2,
+      "regen": 2.1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 5.3,
       "class": 6,
       "cost": 1797730,
       "edID": 128064285,
@@ -501,10 +525,11 @@
       "optmul": 1,
       "power": 3.1,
       "rating": "C",
-      "recover": 3.2,
+      "regen": 2.1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 5.3,
       "class": 6,
       "cost": 5393180,
       "edID": 128064286,
@@ -522,10 +547,11 @@
       "optmul": 1.1,
       "power": 3.72,
       "rating": "B",
-      "recover": 3.2,
+      "regen": 2.1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 5.3,
       "class": 6,
       "cost": 16179530,
       "edID": 128064287,
@@ -543,10 +569,11 @@
       "optmul": 1.2,
       "power": 4.34,
       "rating": "A",
-      "recover": 3.2,
+      "regen": 2.1,
       "thermres": -0.2
     },
     {
+      "brokenregen": 7.3,
       "class": 7,
       "cost": 633200,
       "edID": 128064288,
@@ -564,10 +591,11 @@
       "optmul": 0.8,
       "power": 2.1,
       "rating": "E",
-      "recover": 4,
+      "regen": 2.9,
       "thermres": -0.2
     },
     {
+      "brokenregen": 7.3,
       "class": 7,
       "cost": 1899600,
       "edID": 128064289,
@@ -585,10 +613,11 @@
       "optmul": 0.9,
       "power": 2.8,
       "rating": "D",
-      "recover": 4,
+      "regen": 2.9,
       "thermres": -0.2
     },
     {
+      "brokenregen": 7.3,
       "class": 7,
       "cost": 5698790,
       "edID": 128064290,
@@ -606,10 +635,11 @@
       "optmul": 1,
       "power": 3.5,
       "rating": "C",
-      "recover": 4,
+      "regen": 2.9,
       "thermres": -0.2
     },
     {
+      "brokenregen": 7.3,
       "class": 7,
       "cost": 17096370,
       "edID": 128064291,
@@ -627,10 +657,11 @@
       "optmul": 1.1,
       "power": 4.2,
       "rating": "B",
-      "recover": 4,
+      "regen": 2.9,
       "thermres": -0.2
     },
     {
+      "brokenregen": 7.3,
       "class": 7,
       "cost": 51289110,
       "edID": 128064292,
@@ -648,10 +679,11 @@
       "optmul": 1.2,
       "power": 4.9,
       "rating": "A",
-      "recover": 4,
+      "regen": 2.9,
       "thermres": -0.2
     },
     {
+      "brokenregen": 9.6,
       "class": 8,
       "cost": 2007240,
       "edID": 128064293,
@@ -669,10 +701,11 @@
       "optmul": 0.8,
       "power": 2.4,
       "rating": "E",
-      "recover": 4.8,
+      "regen": 3.8,
       "thermres": -0.2
     },
     {
+      "brokenregen": 9.6,
       "class": 8,
       "cost": 6021720,
       "edID": 128064294,
@@ -690,10 +723,11 @@
       "optmul": 0.9,
       "power": 3.2,
       "rating": "D",
-      "recover": 4.8,
+      "regen": 3.8,
       "thermres": -0.2
     },
     {
+      "brokenregen": 9.6,
       "class": 8,
       "cost": 18065170,
       "edID": 128064295,
@@ -711,10 +745,11 @@
       "optmul": 1,
       "power": 4,
       "rating": "C",
-      "recover": 4.8,
+      "regen": 3.8,
       "thermres": -0.2
     },
     {
+      "brokenregen": 9.6,
       "class": 8,
       "cost": 54195500,
       "edID": 128064296,
@@ -732,10 +767,11 @@
       "optmul": 1.1,
       "power": 4.8,
       "rating": "B",
-      "recover": 4.8,
+      "regen": 3.8,
       "thermres": -0.2
     },
     {
+      "brokenregen": 9.6,
       "class": 8,
       "cost": 162586490,
       "edID": 128064297,
@@ -753,7 +789,7 @@
       "optmul": 1.2,
       "power": 5.6,
       "rating": "A",
-      "recover": 4.8,
+      "regen": 3.8,
       "thermres": -0.2
     }
   ]

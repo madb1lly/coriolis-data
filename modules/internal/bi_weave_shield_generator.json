@@ -1,6 +1,7 @@
 {
   "bsg": [
     {
+      "brokenregen": 2.4,
       "class": 1,
       "cost": 7710,
       "edID": 128671331,
@@ -18,10 +19,11 @@
       "optmul": 0.9,
       "power": 1.2,
       "rating": "C",
-      "recover": 2.4,
+      "regen": 1.8,
       "thermres": -0.2
     },
     {
+      "brokenregen": 2.4,
       "class": 2,
       "cost": 26710,
       "edID": 128671332,
@@ -39,10 +41,11 @@
       "optmul": 0.9,
       "power": 1.5,
       "rating": "C",
-      "recover": 2.4,
+      "regen": 1.8,
       "thermres": -0.2
     },
     {
+      "brokenregen": 2.8,
       "class": 3,
       "cost": 84650,
       "edID": 128671333,
@@ -60,10 +63,11 @@
       "optmul": 0.9,
       "power": 1.8,
       "rating": "C",
-      "recover": 2.4,
+      "regen": 2.2,
       "thermres": -0.2
     },
     {
+      "brokenregen": 3.8,
       "class": 4,
       "cost": 268350,
       "edID": 128671334,
@@ -81,10 +85,11 @@
       "optmul": 0.9,
       "power": 2.2,
       "rating": "C",
-      "recover": 2.85,
+      "regen": 3,
       "thermres": -0.2
     },
     {
+      "brokenregen": 5.6,
       "class": 5,
       "cost": 850660,
       "edID": 128671335,
@@ -102,10 +107,11 @@
       "optmul": 0.9,
       "power": 2.6,
       "rating": "C",
-      "recover": 3.75,
+      "regen": 4.5,
       "thermres": -0.2
     },
     {
+      "brokenregen": 8,
       "class": 6,
       "cost": 2696600,
       "edID": 128671336,
@@ -123,10 +129,11 @@
       "optmul": 0.9,
       "power": 3.1,
       "rating": "C",
-      "recover": 4.8,
+      "regen": 6.4,
       "thermres": -0.2
     },
     {
+      "brokenregen": 11,
       "class": 7,
       "cost": 8548200,
       "edID": 128671337,
@@ -144,10 +151,11 @@
       "optmul": 0.9,
       "power": 3.5,
       "rating": "C",
-      "recover": 6,
+      "regen": 8.8,
       "thermres": -0.2
     },
     {
+      "brokenregen": 14.4,
       "class": 8,
       "cost": 27097750,
       "edID": 128671338,
@@ -165,7 +173,7 @@
       "optmul": 0.9,
       "power": 4,
       "rating": "C",
-      "recover": 7.2,
+      "regen": 11.5,
       "thermres": -0.2
     }
   ]

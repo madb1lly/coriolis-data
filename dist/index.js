@@ -8210,6 +8210,7 @@ module.exports = {
         clip: 12,
         cost: 240400,
         damage: 50,
+        distdraw: .24,
         edID: 128666725,
         eddbID: 1327,
         eps: .12,
@@ -8226,6 +8227,7 @@ module.exports = {
         reload: 5,
         rof: .5,
         speed: 750,
+        thermload: 3.6,
         type: "E"
       }, {
         ammo: 18,
@@ -8284,7 +8286,7 @@ module.exports = {
         type: "E"
       }, {
         ammo: 120,
-        breachdmg: 6,
+        breachdmg: 3,
         breachmax: 0,
         breachmin: 0,
         class: 2,
@@ -9346,6 +9348,7 @@ module.exports = {
         repair: 308
       } ],
       bsg: [ {
+        brokenregen: 2.4,
         class: 1,
         cost: 7710,
         edID: 128671331,
@@ -9363,9 +9366,10 @@ module.exports = {
         optmul: .9,
         power: 1.2,
         rating: "C",
-        recover: 2.4,
+        regen: 1.8,
         thermres: -.2
       }, {
+        brokenregen: 2.4,
         class: 2,
         cost: 26710,
         edID: 128671332,
@@ -9383,9 +9387,10 @@ module.exports = {
         optmul: .9,
         power: 1.5,
         rating: "C",
-        recover: 2.4,
+        regen: 1.8,
         thermres: -.2
       }, {
+        brokenregen: 2.8,
         class: 3,
         cost: 84650,
         edID: 128671333,
@@ -9403,9 +9408,10 @@ module.exports = {
         optmul: .9,
         power: 1.8,
         rating: "C",
-        recover: 2.4,
+        regen: 2.2,
         thermres: -.2
       }, {
+        brokenregen: 3.8,
         class: 4,
         cost: 268350,
         edID: 128671334,
@@ -9423,9 +9429,10 @@ module.exports = {
         optmul: .9,
         power: 2.2,
         rating: "C",
-        recover: 2.85,
+        regen: 3,
         thermres: -.2
       }, {
+        brokenregen: 5.6,
         class: 5,
         cost: 850660,
         edID: 128671335,
@@ -9443,9 +9450,10 @@ module.exports = {
         optmul: .9,
         power: 2.6,
         rating: "C",
-        recover: 3.75,
+        regen: 4.5,
         thermres: -.2
       }, {
+        brokenregen: 8,
         class: 6,
         cost: 2696600,
         edID: 128671336,
@@ -9463,9 +9471,10 @@ module.exports = {
         optmul: .9,
         power: 3.1,
         rating: "C",
-        recover: 4.8,
+        regen: 6.4,
         thermres: -.2
       }, {
+        brokenregen: 11,
         class: 7,
         cost: 8548200,
         edID: 128671337,
@@ -9483,9 +9492,10 @@ module.exports = {
         optmul: .9,
         power: 3.5,
         rating: "C",
-        recover: 6,
+        regen: 8.8,
         thermres: -.2
       }, {
+        brokenregen: 14.4,
         class: 8,
         cost: 27097750,
         edID: 128671338,
@@ -9503,7 +9513,7 @@ module.exports = {
         optmul: .9,
         power: 4,
         rating: "C",
-        recover: 7.2,
+        regen: 11.5,
         thermres: -.2
       } ],
       cr: [ {
@@ -11448,6 +11458,7 @@ module.exports = {
         rating: "G"
       } ],
       psg: [ {
+        brokenregen: 1.2,
         class: 1,
         cost: 132200,
         edID: 128671323,
@@ -11466,9 +11477,10 @@ module.exports = {
         power: 2.52,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 1.2,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 1.2,
         class: 2,
         cost: 240340,
         edID: 128671324,
@@ -11487,9 +11499,10 @@ module.exports = {
         power: 3.15,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 1.2,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 1.3,
         class: 3,
         cost: 761870,
         edID: 128671325,
@@ -11508,9 +11521,10 @@ module.exports = {
         power: 3.78,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 1.2,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 1.7,
         class: 4,
         cost: 2415120,
         edID: 128671326,
@@ -11529,9 +11543,10 @@ module.exports = {
         power: 4.62,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 1.425,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 2.3,
         class: 5,
         cost: 7655930,
         edID: 128671327,
@@ -11550,9 +11565,10 @@ module.exports = {
         power: 5.46,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 1.875,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 3.2,
         class: 6,
         cost: 24269300,
         edID: 128671328,
@@ -11571,9 +11587,10 @@ module.exports = {
         power: 6.51,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 2.4,
+        regen: 1.3,
         thermres: -.2
       }, {
+        brokenregen: 4.2,
         class: 7,
         cost: 76933670,
         edID: 128671329,
@@ -11592,9 +11609,10 @@ module.exports = {
         power: 7.35,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 3,
+        regen: 1.7,
         thermres: -.2
       }, {
+        brokenregen: 5.4,
         class: 8,
         cost: 243879730,
         edID: 128671330,
@@ -11613,7 +11631,7 @@ module.exports = {
         power: 8.4,
         pp: "Aisling Duval",
         rating: "A",
-        recover: 3.6,
+        regen: 2.2,
         thermres: -.2
       } ],
       pc: [ {
@@ -13012,6 +13030,7 @@ module.exports = {
         thermload: 800
       } ],
       sg: [ {
+        brokenregen: 1.6,
         class: 1,
         cost: 88075,
         edID: 128064262,
@@ -13029,9 +13048,10 @@ module.exports = {
         optmul: 1.2,
         power: 1.68,
         rating: "A",
-        recover: 1,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 1.6,
         class: 2,
         cost: 1980,
         edID: 128064263,
@@ -13049,9 +13069,10 @@ module.exports = {
         optmul: .8,
         power: .9,
         rating: "E",
-        recover: 1.6,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 1.6,
         class: 2,
         cost: 5930,
         edID: 128064264,
@@ -13069,9 +13090,10 @@ module.exports = {
         optmul: .9,
         power: 1.2,
         rating: "D",
-        recover: 1.6,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 1.6,
         class: 2,
         cost: 17800,
         edID: 128064265,
@@ -13089,9 +13111,10 @@ module.exports = {
         optmul: 1,
         power: 1.5,
         rating: "C",
-        recover: 1.6,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 1.6,
         class: 2,
         cost: 53410,
         edID: 128064266,
@@ -13109,9 +13132,10 @@ module.exports = {
         optmul: 1.1,
         power: 1.8,
         rating: "B",
-        recover: 1.6,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 1.6,
         class: 2,
         cost: 160220,
         edID: 128064267,
@@ -13129,9 +13153,10 @@ module.exports = {
         optmul: 1.2,
         power: 2.1,
         rating: "A",
-        recover: 1.6,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 1.9,
         class: 3,
         cost: 6270,
         edID: 128064268,
@@ -13149,9 +13174,10 @@ module.exports = {
         optmul: .8,
         power: 1.08,
         rating: "E",
-        recover: 1.6,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 1.9,
         class: 3,
         cost: 18810,
         edID: 128064269,
@@ -13169,9 +13195,10 @@ module.exports = {
         optmul: .9,
         power: 1.44,
         rating: "D",
-        recover: 1.6,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 1.9,
         class: 3,
         cost: 56440,
         edID: 128064270,
@@ -13189,9 +13216,10 @@ module.exports = {
         optmul: 1,
         power: 1.8,
         rating: "C",
-        recover: 1.6,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 1.9,
         class: 3,
         cost: 169300,
         edID: 128064271,
@@ -13209,9 +13237,10 @@ module.exports = {
         optmul: 1.1,
         power: 2.16,
         rating: "B",
-        recover: 1.6,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 1.9,
         class: 3,
         cost: 507910,
         edID: 128064272,
@@ -13229,9 +13258,10 @@ module.exports = {
         optmul: 1.2,
         power: 2.52,
         rating: "A",
-        recover: 1.6,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 2.5,
         class: 4,
         cost: 19880,
         edID: 128064273,
@@ -13249,9 +13279,10 @@ module.exports = {
         optmul: .8,
         power: 1.32,
         rating: "E",
-        recover: 1.9,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 2.5,
         class: 4,
         cost: 59630,
         edID: 128064274,
@@ -13269,9 +13300,10 @@ module.exports = {
         optmul: .9,
         power: 1.76,
         rating: "D",
-        recover: 1.9,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 2.5,
         class: 4,
         cost: 178900,
         edID: 128064275,
@@ -13289,9 +13321,10 @@ module.exports = {
         optmul: 1,
         power: 2.2,
         rating: "C",
-        recover: 1.9,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 2.5,
         class: 4,
         cost: 536690,
         edID: 128064276,
@@ -13309,9 +13342,10 @@ module.exports = {
         optmul: 1.1,
         power: 2.64,
         rating: "B",
-        recover: 1.9,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 2.5,
         class: 4,
         cost: 1610080,
         edID: 128064277,
@@ -13329,9 +13363,10 @@ module.exports = {
         optmul: 1.2,
         power: 3.08,
         rating: "A",
-        recover: 1.9,
+        regen: 1,
         thermres: -.2
       }, {
+        brokenregen: 3.7,
         class: 5,
         cost: 63010,
         edID: 128064278,
@@ -13349,9 +13384,10 @@ module.exports = {
         optmul: .8,
         power: 1.56,
         rating: "E",
-        recover: 2.5,
+        regen: 1.5,
         thermres: -.2
       }, {
+        brokenregen: 3.7,
         class: 5,
         cost: 189040,
         edID: 128064279,
@@ -13369,9 +13405,10 @@ module.exports = {
         optmul: .9,
         power: 2.08,
         rating: "D",
-        recover: 2.5,
+        regen: 1.5,
         thermres: -.2
       }, {
+        brokenregen: 3.7,
         class: 5,
         cost: 567110,
         edID: 128064280,
@@ -13389,9 +13426,10 @@ module.exports = {
         optmul: 1,
         power: 2.6,
         rating: "C",
-        recover: 2.5,
+        regen: 1.5,
         thermres: -.2
       }, {
+        brokenregen: 3.7,
         class: 5,
         cost: 1701320,
         edID: 128064281,
@@ -13409,9 +13447,10 @@ module.exports = {
         optmul: 1.1,
         power: 3.12,
         rating: "B",
-        recover: 2.5,
+        regen: 1.5,
         thermres: -.2
       }, {
+        brokenregen: 3.7,
         class: 5,
         cost: 5103950,
         edID: 128064282,
@@ -13429,9 +13468,10 @@ module.exports = {
         optmul: 1.2,
         power: 3.64,
         rating: "A",
-        recover: 2.5,
+        regen: 1.5,
         thermres: -.2
       }, {
+        brokenregen: 5.3,
         class: 6,
         cost: 199750,
         edID: 128064283,
@@ -13449,9 +13489,10 @@ module.exports = {
         optmul: .8,
         power: 1.86,
         rating: "E",
-        recover: 3.2,
+        regen: 2.1,
         thermres: -.2
       }, {
+        brokenregen: 5.3,
         class: 6,
         cost: 599240,
         edID: 128064284,
@@ -13469,9 +13510,10 @@ module.exports = {
         optmul: .9,
         power: 2.48,
         rating: "D",
-        recover: 3.2,
+        regen: 2.1,
         thermres: -.2
       }, {
+        brokenregen: 5.3,
         class: 6,
         cost: 1797730,
         edID: 128064285,
@@ -13489,9 +13531,10 @@ module.exports = {
         optmul: 1,
         power: 3.1,
         rating: "C",
-        recover: 3.2,
+        regen: 2.1,
         thermres: -.2
       }, {
+        brokenregen: 5.3,
         class: 6,
         cost: 5393180,
         edID: 128064286,
@@ -13509,9 +13552,10 @@ module.exports = {
         optmul: 1.1,
         power: 3.72,
         rating: "B",
-        recover: 3.2,
+        regen: 2.1,
         thermres: -.2
       }, {
+        brokenregen: 5.3,
         class: 6,
         cost: 16179530,
         edID: 128064287,
@@ -13529,9 +13573,10 @@ module.exports = {
         optmul: 1.2,
         power: 4.34,
         rating: "A",
-        recover: 3.2,
+        regen: 2.1,
         thermres: -.2
       }, {
+        brokenregen: 7.3,
         class: 7,
         cost: 633200,
         edID: 128064288,
@@ -13549,9 +13594,10 @@ module.exports = {
         optmul: .8,
         power: 2.1,
         rating: "E",
-        recover: 4,
+        regen: 2.9,
         thermres: -.2
       }, {
+        brokenregen: 7.3,
         class: 7,
         cost: 1899600,
         edID: 128064289,
@@ -13569,9 +13615,10 @@ module.exports = {
         optmul: .9,
         power: 2.8,
         rating: "D",
-        recover: 4,
+        regen: 2.9,
         thermres: -.2
       }, {
+        brokenregen: 7.3,
         class: 7,
         cost: 5698790,
         edID: 128064290,
@@ -13589,9 +13636,10 @@ module.exports = {
         optmul: 1,
         power: 3.5,
         rating: "C",
-        recover: 4,
+        regen: 2.9,
         thermres: -.2
       }, {
+        brokenregen: 7.3,
         class: 7,
         cost: 17096370,
         edID: 128064291,
@@ -13609,9 +13657,10 @@ module.exports = {
         optmul: 1.1,
         power: 4.2,
         rating: "B",
-        recover: 4,
+        regen: 2.9,
         thermres: -.2
       }, {
+        brokenregen: 7.3,
         class: 7,
         cost: 51289110,
         edID: 128064292,
@@ -13629,9 +13678,10 @@ module.exports = {
         optmul: 1.2,
         power: 4.9,
         rating: "A",
-        recover: 4,
+        regen: 2.9,
         thermres: -.2
       }, {
+        brokenregen: 9.6,
         class: 8,
         cost: 2007240,
         edID: 128064293,
@@ -13649,9 +13699,10 @@ module.exports = {
         optmul: .8,
         power: 2.4,
         rating: "E",
-        recover: 4.8,
+        regen: 3.8,
         thermres: -.2
       }, {
+        brokenregen: 9.6,
         class: 8,
         cost: 6021720,
         edID: 128064294,
@@ -13669,9 +13720,10 @@ module.exports = {
         optmul: .9,
         power: 3.2,
         rating: "D",
-        recover: 4.8,
+        regen: 3.8,
         thermres: -.2
       }, {
+        brokenregen: 9.6,
         class: 8,
         cost: 18065170,
         edID: 128064295,
@@ -13689,9 +13741,10 @@ module.exports = {
         optmul: 1,
         power: 4,
         rating: "C",
-        recover: 4.8,
+        regen: 3.8,
         thermres: -.2
       }, {
+        brokenregen: 9.6,
         class: 8,
         cost: 54195500,
         edID: 128064296,
@@ -13709,9 +13762,10 @@ module.exports = {
         optmul: 1.1,
         power: 4.8,
         rating: "B",
-        recover: 4.8,
+        regen: 3.8,
         thermres: -.2
       }, {
+        brokenregen: 9.6,
         class: 8,
         cost: 162586490,
         edID: 128064297,
@@ -13729,7 +13783,7 @@ module.exports = {
         optmul: 1.2,
         power: 5.6,
         rating: "A",
-        recover: 4.8,
+        regen: 3.8,
         thermres: -.2
       } ]
     }
