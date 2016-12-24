@@ -10,6 +10,7 @@
   * Add military compartments
   * Fix missing damage value for 2B dumbfires
   * Update shield recharge rates
+  * Reduce hull mass of Viper to 50T
 
 #2.2.5
   * Fix incorrect ID for emissive munitions special

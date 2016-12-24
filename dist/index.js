@@ -178,19 +178,12 @@ module.exports = {
             scb: 1,
             mrp: 1
           }
-        }, {
-          class: 5,
-          eligible: {
-            hr: 1,
-            scb: 1,
-            mrp: 1
-          }
         }, 4, 4, 4, 2 ]
       },
       defaults: {
         standard: [ "8E", "7E", "6E", "5E", "8E", "8E", "5C" ],
         hardpoints: [ 0, 0, 0, 0, 0, 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "05", "04", "4j", 0, "03", 0, 0, 0, 0, 0, 0, "2h", "00" ]
+        internal: [ "05", "04", "4j", 0, "03", 0, 0, 0, 0, 0, "2h", "00" ]
       }
     },
     asp: {
@@ -1049,19 +1042,12 @@ module.exports = {
             scb: 1,
             mrp: 1
           }
-        }, {
-          class: 4,
-          eligible: {
-            hr: 1,
-            scb: 1,
-            mrp: 1
-          }
         }, 3, 2, 2 ]
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0, 0, 0 ],
-        internal: [ "4e", "03", "02", 0, 0, 0, "02", 0, 0 ]
+        internal: [ "4e", "03", "02", 0, 0, "02", 0, 0 ]
       }
     },
     federal_corvette: {
@@ -1160,19 +1146,12 @@ module.exports = {
             scb: 1,
             mrp: 1
           }
-        }, {
-          class: 5,
-          eligible: {
-            hr: 1,
-            scb: 1,
-            mrp: 1
-          }
         }, 4, 4, 3 ]
       },
       defaults: {
         standard: [ "8E", "7E", "6E", "5E", "8E", "8E", "5C" ],
         hardpoints: [ 0, 0, 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "4o", "05", 0, 0, 0, 0, 0, 0, 0, 0, "02", "01", "2h" ]
+        internal: [ "4o", "05", 0, 0, 0, 0, 0, 0, 0, "02", "01", "2h" ]
       }
     },
     federal_dropship: {
@@ -1270,19 +1249,12 @@ module.exports = {
             scb: 1,
             mrp: 1
           }
-        }, {
-          class: 4,
-          eligible: {
-            hr: 1,
-            scb: 1,
-            mrp: 1
-          }
         }, 3, 3, 2 ]
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "6E", "4E", "4C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "04", "03", "4e", "02", 0, 0, 0, 0, 0, "2h" ]
+        internal: [ "04", "03", "4e", "02", 0, 0, 0, 0, "2h" ]
       }
     },
     federal_gunship: {
@@ -1381,19 +1353,12 @@ module.exports = {
             scb: 1,
             mrp: 1
           }
-        }, {
-          class: 4,
-          eligible: {
-            hr: 1,
-            scb: 1,
-            mrp: 1
-          }
         }, 2, 2 ]
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "7E", "5E", "4C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ 0, "4j", "03", 0, 0, 0, 0, "2h" ]
+        internal: [ 0, "4j", "03", 0, 0, 0, "2h" ]
       }
     },
     fer_de_lance: {
@@ -1848,19 +1813,12 @@ module.exports = {
             scb: 1,
             mrp: 1
           }
-        }, {
-          class: 5,
-          eligible: {
-            hr: 1,
-            scb: 1,
-            mrp: 1
-          }
         }, 4, 3 ]
       },
       defaults: {
         standard: [ "8E", "8E", "7E", "7E", "7E", "7E", "6C" ],
         hardpoints: [ 0, 0, 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ "4t", "06", "04", 0, 0, 0, 0, 0, 0, 0, "01", "2h" ]
+        internal: [ "4t", "06", "04", 0, 0, 0, 0, 0, 0, "01", "2h" ]
       }
     },
     imperial_eagle: {
@@ -2619,7 +2577,7 @@ module.exports = {
         baseShieldStrength: 105,
         baseArmour: 70,
         hardness: 35,
-        hullMass: 60,
+        hullMass: 50,
         masslock: 7,
         pipSpeed: .09375,
         pitch: 35,
@@ -2693,19 +2651,12 @@ module.exports = {
             scb: 1,
             mrp: 1
           }
-        }, {
-          class: 3,
-          eligible: {
-            hr: 1,
-            scb: 1,
-            mrp: 1
-          }
         }, 2, 1 ]
       },
       defaults: {
         standard: [ "3E", "3E", "3E", "2E", "3E", "3E", "2C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0 ],
-        internal: [ "01", "44", 0, 0, 0, "2h" ]
+        internal: [ "01", "44", 0, 0, "2h" ]
       }
     },
     viper_mk_iv: {
@@ -2796,19 +2747,12 @@ module.exports = {
             scb: 1,
             mrp: 1
           }
-        }, {
-          class: 2,
-          eligible: {
-            hr: 1,
-            scb: 1,
-            mrp: 1
-          }
         }, 2, 2, 1 ]
       },
       defaults: {
         standard: [ "4E", "4E", "4E", "2E", "3E", "3E", "4C" ],
         hardpoints: [ 0, 0, 17, 17, 0, 0 ],
-        internal: [ "02", "02", "44", 0, 0, "00", 0, "2h" ]
+        internal: [ "02", "02", "44", 0, "00", 0, "2h" ]
       }
     },
     vulture: {
@@ -2899,19 +2843,12 @@ module.exports = {
             scb: 1,
             mrp: 1
           }
-        }, {
-          class: 5,
-          eligible: {
-            hr: 1,
-            scb: 1,
-            mrp: 1
-          }
         }, 4, 2, 1, 1 ]
       },
       defaults: {
         standard: [ "4E", "5E", "4E", "3E", "5E", "4E", "3C" ],
         hardpoints: [ 17, 17, 0, 0, 0, 0 ],
-        internal: [ "4e", 0, 0, "02", 0, 0, "2h" ]
+        internal: [ "4e", 0, 0, "02", 0, "2h" ]
       }
     }
   },
