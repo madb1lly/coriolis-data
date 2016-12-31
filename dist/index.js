@@ -3356,7 +3356,7 @@ module.exports = {
         maxmul: 1.16,
         minmass: 1680,
         minmul: .96,
-        optmass: 5040,
+        optmass: 3360,
         optmul: 1,
         power: 10.8,
         rating: "A"
