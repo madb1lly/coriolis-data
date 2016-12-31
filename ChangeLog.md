@@ -11,6 +11,7 @@
   * Fix missing damage value for 2B dumbfires
   * Update shield recharge rates
   * Reduce hull mass of Viper to 50T
+  * Fix incorrect optimal mass value for 8A thrusters
 
 #2.2.5
   * Fix incorrect ID for emissive munitions special
