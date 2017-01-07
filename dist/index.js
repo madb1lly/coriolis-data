@@ -12202,7 +12202,7 @@ module.exports = {
         id: "2i",
         mass: 1.3,
         name: "Detailed Surface Scanner",
-        power: 0,
+        power: .6,
         rating: "C"
       } ],
       scb: [ {
