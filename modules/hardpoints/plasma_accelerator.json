@@ -8,7 +8,7 @@
       "class": 2,
       "clip": 5,
       "cost": 834200,
-      "damage": 57.2,
+      "damage": 54.3,
       "distdraw": 8.65,
       "edID": 128049465,
       "eddbID": 873,
@@ -17,7 +17,7 @@
       "integrity": 51,
       "mass": 4,
       "mount": "F",
-      "piercing": 300,
+      "piercing": 100,
       "power": 1.43,
       "range": 3500,
       "rating": "C",
@@ -25,7 +25,7 @@
       "rof": 0.33,
       "speed": 875,
       "thermload": 15.6,
-      "type": "KT"
+      "type": "A"
     },
     {
       "ammo": 100,
@@ -35,7 +35,7 @@
       "class": 3,
       "clip": 5,
       "cost": 3051200,
-      "damage": 87.92,
+      "damage": 83.4,
       "distdraw": 13.6,
       "edID": 128049466,
       "eddbID": 874,
@@ -44,7 +44,7 @@
       "integrity": 64,
       "mass": 8,
       "mount": "F",
-      "piercing": 300,
+      "piercing": 100,
       "power": 1.97,
       "range": 3500,
       "rating": "B",
@@ -52,7 +52,7 @@
       "rof": 0.29,
       "speed": 875,
       "thermload": 21.8,
-      "type": "KT"
+      "type": "A"
     },
     {
       "ammo": 300,
@@ -62,7 +62,7 @@
       "class": 3,
       "clip": 20,
       "cost": 4119120,
-      "damage": 36.3,
+      "damage": 34.5,
       "distdraw": 5.5,
       "edID": 128671339,
       "eddbID": 1482,
@@ -72,7 +72,7 @@
       "mass": 8,
       "mount": "F",
       "name": "Advanced Plasma Accelerator",
-      "piercing": 300,
+      "piercing": 100,
       "power": 1.97,
       "pp": "Denton Patreus",
       "range": 3500,
@@ -81,7 +81,7 @@
       "rof": 0.8,
       "speed": 875,
       "thermload": 11,
-      "type": "KT"
+      "type": "A"
     },
     {
       "ammo": 100,
@@ -91,7 +91,7 @@
       "class": 4,
       "clip": 5,
       "cost": 13793600,
-      "damage": 132,
+      "damage": 125.2,
       "distdraw": 21.04,
       "edID": 128049467,
       "eddbID": 875,
@@ -100,7 +100,7 @@
       "integrity": 80,
       "mass": 16,
       "mount": "F",
-      "piercing": 300,
+      "piercing": 100,
       "power": 2.63,
       "range": 3500,
       "rating": "A",
@@ -108,7 +108,7 @@
       "rof": 0.25,
       "speed": 875,
       "thermload": 29.5,
-      "type": "KT"
+      "type": "A"
     }
   ]
 }

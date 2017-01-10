@@ -1,7 +1,7 @@
 {
   "rg": [
     {
-      "ammo": 30,
+      "ammo": 80,
       "breachdmg": 22.2,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -17,7 +17,7 @@
       "integrity": 40,
       "mass": 2,
       "mount": "F",
-      "piercing": 90,
+      "piercing": 30,
       "power": 1.15,
       "range": 3000,
       "rating": "D",
@@ -27,7 +27,7 @@
       "type": "KT"
     },
     {
-      "ammo": 30,
+      "ammo": 80,
       "breachdmg": 39.5,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -43,7 +43,7 @@
       "integrity": 51,
       "mass": 4,
       "mount": "F",
-      "piercing": 150,
+      "piercing": 48,
       "power": 1.63,
       "range": 3000,
       "rating": "B",
