@@ -146,7 +146,7 @@
 				"speed": 180,
 				"boost": 240,
 				"boostEnergy": 27,
-				"baseShieldStrength": 385,
+				"baseShieldStrength": 350,
 				"baseArmour": 525,
 				"hardness": 200,
 				"hullMass": 400,
@@ -258,6 +258,7 @@
 					5,
 					{
 						"class": 5,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -714,6 +715,7 @@
 					6,
 					{
 						"class": 6,
+						"name": "Passenger",
 						"eligible": {
 							"cr": 1,
 							"hr": 1,
@@ -725,6 +727,7 @@
 					},
 					{
 						"class": 6,
+						"name": "Passenger",
 						"eligible": {
 							"cr": 1,
 							"hr": 1,
@@ -736,6 +739,7 @@
 					},
 					{
 						"class": 5,
+						"name": "Passenger",
 						"eligible": {
 							"cr": 1,
 							"hr": 1,
@@ -747,6 +751,7 @@
 					},
 					{
 						"class": 5,
+						"name": "Passenger",
 						"eligible": {
 							"cr": 1,
 							"hr": 1,
@@ -1468,6 +1473,7 @@
 					2,
 					{
 						"class": 2,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -1613,6 +1619,7 @@
 					4,
 					{
 						"class": 4,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -1621,6 +1628,7 @@
 					},
 					{
 						"class": 4,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -1786,6 +1794,7 @@
 					5,
 					{
 						"class": 5,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -1794,6 +1803,7 @@
 					},
 					{
 						"class": 5,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -1960,6 +1970,7 @@
 					4,
 					{
 						"class": 4,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -1968,6 +1979,7 @@
 					},
 					{
 						"class": 4,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -2127,6 +2139,7 @@
 					5,
 					{
 						"class": 4,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -2135,6 +2148,7 @@
 					},
 					{
 						"class": 4,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -2143,6 +2157,7 @@
 					},
 					{
 						"class": 4,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -2874,6 +2889,7 @@
 					5,
 					{
 						"class": 5,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -2882,6 +2898,7 @@
 					},
 					{
 						"class": 5,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -3039,6 +3056,7 @@
 					2,
 					{
 						"class": 2,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -3323,6 +3341,7 @@
 				"internal": [
 					{
 						"class": 6,
+						"name": "Passenger",
 						"eligible": {
 							"cr": 1,
 							"hr": 1,
@@ -3334,6 +3353,7 @@
 					},
 					{
 						"class": 5,
+						"name": "Passenger",
 						"eligible": {
 							"cr": 1,
 							"hr": 1,
@@ -4209,6 +4229,7 @@
 					3,
 					{
 						"class": 3,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -4354,6 +4375,7 @@
 					3,
 					{
 						"class": 2,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,
@@ -4500,6 +4522,7 @@
 					5,
 					{
 						"class": 5,
+						"name": "Military",
 						"eligible": {
 							"hr": 1,
 							"scb": 1,

@@ -100,7 +100,7 @@ module.exports = {
         speed: 180,
         boost: 240,
         boostEnergy: 27,
-        baseShieldStrength: 385,
+        baseShieldStrength: 350,
         baseArmour: 525,
         hardness: 200,
         hullMass: 400,
@@ -173,6 +173,7 @@ module.exports = {
         hardpoints: [ 4, 3, 3, 3, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0 ],
         internal: [ 7, 6, 6, 6, 5, 5, 5, {
           class: 5,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -449,6 +450,7 @@ module.exports = {
         hardpoints: [ 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0 ],
         internal: [ 6, 6, {
           class: 6,
+          name: "Passenger",
           eligible: {
             cr: 1,
             hr: 1,
@@ -459,6 +461,7 @@ module.exports = {
           }
         }, {
           class: 6,
+          name: "Passenger",
           eligible: {
             cr: 1,
             hr: 1,
@@ -469,6 +472,7 @@ module.exports = {
           }
         }, {
           class: 5,
+          name: "Passenger",
           eligible: {
             cr: 1,
             hr: 1,
@@ -479,6 +483,7 @@ module.exports = {
           }
         }, {
           class: 5,
+          name: "Passenger",
           eligible: {
             cr: 1,
             hr: 1,
@@ -934,6 +939,7 @@ module.exports = {
         hardpoints: [ 1, 1, 1, 0 ],
         internal: [ 3, 2, {
           class: 2,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -1030,6 +1036,7 @@ module.exports = {
         hardpoints: [ 3, 3, 2, 2, 0, 0, 0, 0 ],
         internal: [ 5, 5, 4, {
           class: 4,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -1037,6 +1044,7 @@ module.exports = {
           }
         }, {
           class: 4,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -1134,6 +1142,7 @@ module.exports = {
         hardpoints: [ 4, 4, 3, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0 ],
         internal: [ 7, 7, 7, 6, 6, 5, 5, {
           class: 5,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -1141,6 +1150,7 @@ module.exports = {
           }
         }, {
           class: 5,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -1237,6 +1247,7 @@ module.exports = {
         hardpoints: [ 3, 2, 2, 2, 2, 0, 0, 0, 0 ],
         internal: [ 6, 5, 5, 4, {
           class: 4,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -1244,6 +1255,7 @@ module.exports = {
           }
         }, {
           class: 4,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -1341,6 +1353,7 @@ module.exports = {
         hardpoints: [ 3, 2, 2, 2, 2, 1, 1, 0, 0, 0, 0 ],
         internal: [ 6, 6, 5, {
           class: 4,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -1348,6 +1361,7 @@ module.exports = {
           }
         }, {
           class: 4,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -1355,6 +1369,7 @@ module.exports = {
           }
         }, {
           class: 4,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -1808,6 +1823,7 @@ module.exports = {
         hardpoints: [ 4, 3, 3, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0 ],
         internal: [ 8, 8, 6, 6, 6, 5, 5, {
           class: 5,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -1815,6 +1831,7 @@ module.exports = {
           }
         }, {
           class: 5,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -1911,6 +1928,7 @@ module.exports = {
         hardpoints: [ 2, 1, 1, 0 ],
         internal: [ 3, 2, {
           class: 2,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -2098,6 +2116,7 @@ module.exports = {
         hardpoints: [ 3, 2, 2, 0, 0, 0, 0 ],
         internal: [ {
           class: 6,
+          name: "Passenger",
           eligible: {
             cr: 1,
             hr: 1,
@@ -2108,6 +2127,7 @@ module.exports = {
           }
         }, {
           class: 5,
+          name: "Passenger",
           eligible: {
             cr: 1,
             hr: 1,
@@ -2653,6 +2673,7 @@ module.exports = {
         hardpoints: [ 2, 2, 1, 1, 0, 0 ],
         internal: [ 3, 3, {
           class: 3,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -2749,6 +2770,7 @@ module.exports = {
         hardpoints: [ 2, 2, 1, 1, 0, 0 ],
         internal: [ 4, 4, 3, {
           class: 2,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,
@@ -2845,6 +2867,7 @@ module.exports = {
         hardpoints: [ 3, 3, 0, 0, 0, 0 ],
         internal: [ 5, {
           class: 5,
+          name: "Military",
           eligible: {
             hr: 1,
             scb: 1,

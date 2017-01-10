@@ -33,7 +33,7 @@
       "hardpoints": [2, 2, 1, 1, 0, 0],
       "internal": [
         4, 4, 3,
-        { "class": 2, "eligible": { "hr": 1, "scb": 1, "mrp": 1 } },
+        { "class": 2, "name": "Military", "eligible": { "hr": 1, "scb": 1, "mrp": 1 } },
         2, 2, 1
       ]
     },

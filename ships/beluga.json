@@ -35,10 +35,10 @@
       "hardpoints": [2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0],
       "internal": [
         6, 6,
-        { "class": 6, "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
-        { "class": 6, "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
-        { "class": 5, "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
-        { "class": 5, "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
+        { "class": 6, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
+        { "class": 6, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
+        { "class": 5, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
+        { "class": 5, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
         4, 3, 3, 3, 3
       ]
     },
