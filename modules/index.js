@@ -44,6 +44,7 @@ module.exports = {
     fx: require('./internal/fuel_transfer_limpet_controllers').fx,
     hb: require('./internal/hatch_breaker_limpet_controller').hb,
     hr: require('./internal/hull_reinforcement_package').hr,
+    mrp: require('./internal/module_reinforcement_package').mrp,
     pv: require('./internal/planetary_vehicle_hanger').pv,
     psg: require('./internal/pristmatic_shield_generator').psg,
     pc: require('./internal/prospector_limpet_controllers').pc,

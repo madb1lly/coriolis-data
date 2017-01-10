@@ -3,8 +3,8 @@
     {
       "ammo": 16,
       "breachdmg": 20,
-      "breachmax": 1,
-      "breachmin": 1,
+      "breachmax": 0,
+      "breachmin": 0,
       "class": 1,
       "clip": 8,
       "cost": 32180,
@@ -57,12 +57,13 @@
     {
       "ammo": 48,
       "breachdmg": 20,
-      "breachmax": 1,
-      "breachmin": 1,
+      "breachmax": 0,
+      "breachmin": 0,
       "class": 2,
       "clip": 12,
       "cost": 240400,
-      "dps": 25,
+      "damage": 50,
+      "distdraw": 0.24,
       "edID": 128666725,
       "eddbID": 1327,
       "eps": 0.12,
@@ -79,6 +80,7 @@
       "reload": 5,
       "rof": 0.5,
       "speed": 750,
+      "thermload": 3.6,
       "type": "E"
     },
     {
@@ -140,7 +142,7 @@
     },
     {
       "ammo": 120,
-      "breachdmg": 6,
+      "breachdmg": 3,
       "breachmax": 0,
       "breachmin": 0,
       "class": 2,

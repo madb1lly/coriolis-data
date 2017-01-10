@@ -1,7 +1,7 @@
 {
   "rg": [
     {
-      "ammo": 30,
+      "ammo": 80,
       "breachdmg": 22.2,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -27,7 +27,7 @@
       "type": "KT"
     },
     {
-      "ammo": 30,
+      "ammo": 80,
       "breachdmg": 39.5,
       "breachmax": 0.8,
       "breachmin": 0.4,
@@ -72,9 +72,10 @@
       "mass": 4,
       "mount": "F",
       "name": "Imperial Hammer",
-      "piercing": "A",
+      "piercing": 150,
       "power": 1.63,
       "pp": "Arissa Lavigny-Duval",
+      "range": 3000,
       "rating": "B",
       "reload": 1,
       "rof": 4.1,

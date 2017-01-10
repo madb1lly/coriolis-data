@@ -1,3 +1,19 @@
+#2.2.6
+  * Update weapons with changed values for 2.2.03
+  * Add individual pitch/roll/yaw statistics for each ship
+  * Remove old and meaningless agility stat
+  * Use sane order for multi-module JSON - coriolis can re-order as it sees fit when displaying modules
+  * Fix cost of fighter hangars
+  * Update Powerplay weapons with current statistics
+  * Add separate min/opt/max multipliers for enhanced thrusters for speed, acceleration and rotation
+  * Add module reinforcement packages
+  * Add military compartments
+  * Fix missing damage value for 2B dumbfires
+  * Update shield recharge rates
+  * Reduce hull mass of Viper to 50T
+  * Fix incorrect optimal mass value for 8A thrusters
+  * Add power draw for detailed surface scanner
+
 #2.2.5
   * Fix incorrect ID for emissive munitions special
   * Fix rate of fire for burst lasers

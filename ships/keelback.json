@@ -10,13 +10,16 @@
       "speed": 200,
       "boost": 300,
       "boostEnergy": 10,
-      "agility": 2,
       "baseShieldStrength": 135,
-      "baseArmour": 135,
+      "baseArmour": 270,
+      "hardness": 45,
       "hullMass": 180,
       "masslock": 8,
       "pipSpeed": 0.1375,
-      "fighterHangars": true
+      "fighterHangars": true,
+      "pitch": 27,
+      "roll": 100,
+      "yaw": 15
     },
     "retailCost": 3126160,
     "bulkheads": [

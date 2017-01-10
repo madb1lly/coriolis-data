@@ -10,13 +10,16 @@
       "speed": 300,
       "boost": 380,
       "boostEnergy": 16,
-      "agility": 2,
       "baseShieldStrength": 220,
       "baseArmour": 220,
+      "hardness": 55,
       "hullMass": 580,
       "masslock": 13,
       "pipSpeed": 0.08375,
-      "luxuryCabins": true
+      "luxuryCabins": true,
+      "pitch": 25,
+      "roll": 55,
+      "yaw": 18
     },
     "retailCost": 48539900,
     "bulkheads": [
@@ -30,8 +33,8 @@
       "standard": [5, 6, 5, 6, 5, 4, 5],
       "hardpoints": [3, 2, 2, 0, 0, 0, 0],
       "internal": [
-        { "class": 6, "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
-        { "class": 5, "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
+        { "class": 6, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
+        { "class": 5, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
         5, 5, 4, 3, 2, 2
       ]
     },

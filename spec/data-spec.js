@@ -12,12 +12,15 @@ describe('JSON Data', function() {
     'speed',
     'boost',
     'boostEnergy',
-    'agility',
     'baseShieldStrength',
     'baseArmour',
+    'hardness',
     'hullMass',
     'masslock',
-    'pipSpeed'
+    'pipSpeed',
+    'pitch',
+    'roll',
+    'yaw'
   ];
 
   var edIDs = {};
