@@ -1,0 +1,124 @@
+{
+  "mrp": [
+    {
+      "class": 1,
+      "cost": 5000,
+      "eddbID": 1577,
+      "edID": 128737270,
+      "grp": "mrp",
+      "id": "m0",
+      "integrity": 70,
+      "mass": 2,
+      "protection": 0.3,
+      "rating": "E"
+    },
+    {
+      "class": 1,
+      "cost": 15000,
+      "eddbID": 1578,
+      "edID": 128737271,
+      "grp": "mrp",
+      "id": "m1",
+      "integrity": 30,
+      "mass": 1,
+      "protection": 0.6,
+      "rating": "D"
+    },
+    {
+      "class": 2,
+      "cost": 12000,
+      "eddbID": 1579,
+      "edID": 128737272,
+      "grp": "mrp",
+      "id": "m2",
+      "integrity": 105,
+      "mass": 4,
+      "protection": 0.3,
+      "rating": "E"
+    },
+    {
+      "class": 2,
+      "cost": 36000,
+      "eddbID": 1580,
+      "edID": 128737273,
+      "grp": "mrp",
+      "id": "m3",
+      "integrity": 45,
+      "mass": 2,
+      "protection": 0.6,
+      "rating": "D"
+    },
+    {
+      "class": 3,
+      "cost": 28000,
+      "eddbID": 1581,
+      "edID": 128737274,
+      "grp": "mrp",
+      "id": "m4",
+      "integrity": 155,
+      "mass": 8,
+      "protection": 0.3,
+      "rating": "E"
+    },
+    {
+      "class": 3,
+      "cost": 84000,
+      "eddbID": 1582,
+      "edID": 128737275,
+      "grp": "mrp",
+      "id": "m5",
+      "integrity": 65,
+      "mass": 4,
+      "protection": 0.6,
+      "rating": "D"
+    },
+    {
+      "class": 4,
+      "cost": 65000,
+      "eddbID": 1583,
+      "edID": 128737276,
+      "grp": "mrp",
+      "id": "m6",
+      "integrity": 235,
+      "mass": 16,
+      "protection": 0.3,
+      "rating": "E"
+    },
+    {
+      "class": 4,
+      "cost": 195000,
+      "eddbID": 1584,
+      "edID": 128737277,
+      "grp": "mrp",
+      "id": "m7",
+      "integrity": 95,
+      "mass": 8,
+      "protection": 0.6,
+      "rating": "D"
+    },
+    {
+      "class": 5,
+      "cost": 150000,
+      "eddbID": 1585,
+      "edID": 128737278,
+      "grp": "mrp",
+      "id": "m8",
+      "integrity": 350,
+      "mass": 32,
+      "protection": 0.3,
+      "rating": "E"
+    },
+    {
+      "class": 5,
+      "cost": 450000,
+      "eddbID": 1586,
+      "edID": 128737279,
+      "grp": "mrp",
+      "id": "m9",
+      "integrity": 145,
+      "mass": 16,
+      "protection": 0.6,
+      "rating": "D"
+    }
+  ]
+}

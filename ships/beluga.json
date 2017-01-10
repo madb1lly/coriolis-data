@@ -10,14 +10,17 @@
       "speed": 200,
       "boost": 280,
       "boostEnergy": 19,
-      "agility": 2,
       "baseShieldStrength": 280,
       "baseArmour": 280,
+      "hardness": 60,
       "hullMass": 1100,
       "masslock": 18,
-      "pipSpeed": -1,
+      "pipSpeed": 0.1125,
       "luxuryCabins": true,
-      "fighterHangars": true
+      "fighterHangars": true,
+      "pitch": 25,
+      "roll": 60,
+      "yaw": 17 
     },
     "retailCost": 84532770,
     "bulkheads": [
@@ -32,10 +35,10 @@
       "hardpoints": [2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0],
       "internal": [
         6, 6,
-        { "class": 6, "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
-        { "class": 6, "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
-        { "class": 5, "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
-        { "class": 5, "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
+        { "class": 6, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
+        { "class": 6, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
+        { "class": 5, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
+        { "class": 5, "name": "Passenger", "eligible": { "cr": 1, "hr": 1, "pce": 1, "pci": 1, "pcm": 1, "pcq": 1 } },
         4, 3, 3, 3, 3
       ]
     },

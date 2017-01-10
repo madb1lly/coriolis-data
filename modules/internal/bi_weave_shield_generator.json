@@ -1,8 +1,10 @@
 {
   "bsg": [
     {
+      "brokenregen": 2.4,
       "class": 1,
       "cost": 7710,
+      "distdraw": 0.6,
       "edID": 128671331,
       "eddbID": 1530,
       "explres": 0.5,
@@ -18,12 +20,14 @@
       "optmul": 0.9,
       "power": 1.2,
       "rating": "C",
-      "recover": 2.4,
+      "regen": 1.8,
       "thermres": -0.2
     },
     {
+      "brokenregen": 2.4,
       "class": 2,
       "cost": 26710,
+      "distdraw": 0.6,
       "edID": 128671332,
       "eddbID": 1531,
       "explres": 0.5,
@@ -39,12 +43,14 @@
       "optmul": 0.9,
       "power": 1.5,
       "rating": "C",
-      "recover": 2.4,
+      "regen": 1.8,
       "thermres": -0.2
     },
     {
+      "brokenregen": 2.8,
       "class": 3,
       "cost": 84650,
+      "distdraw": 0.6,
       "edID": 128671333,
       "eddbID": 1532,
       "explres": 0.5,
@@ -60,12 +66,14 @@
       "optmul": 0.9,
       "power": 1.8,
       "rating": "C",
-      "recover": 2.4,
+      "regen": 2.2,
       "thermres": -0.2
     },
     {
+      "brokenregen": 3.8,
       "class": 4,
       "cost": 268350,
+      "distdraw": 0.6,
       "edID": 128671334,
       "eddbID": 1533,
       "explres": 0.5,
@@ -81,12 +89,14 @@
       "optmul": 0.9,
       "power": 2.2,
       "rating": "C",
-      "recover": 2.85,
+      "regen": 1.8,
       "thermres": -0.2
     },
     {
+      "brokenregen": 5.6,
       "class": 5,
       "cost": 850660,
+      "distdraw": 0.6,
       "edID": 128671335,
       "eddbID": 1534,
       "explres": 0.5,
@@ -102,12 +112,14 @@
       "optmul": 0.9,
       "power": 2.6,
       "rating": "C",
-      "recover": 3.75,
+      "regen": 2.2,
       "thermres": -0.2
     },
     {
+      "brokenregen": 8,
       "class": 6,
       "cost": 2696600,
+      "distdraw": 0.6,
       "edID": 128671336,
       "eddbID": 1535,
       "explres": 0.5,
@@ -123,12 +135,14 @@
       "optmul": 0.9,
       "power": 3.1,
       "rating": "C",
-      "recover": 4.8,
+      "regen": 3.2,
       "thermres": -0.2
     },
     {
+      "brokenregen": 11,
       "class": 7,
       "cost": 8548200,
+      "distdraw": 0.6,
       "edID": 128671337,
       "eddbID": 1536,
       "explres": 0.5,
@@ -144,12 +158,14 @@
       "optmul": 0.9,
       "power": 3.5,
       "rating": "C",
-      "recover": 6,
+      "regen": 4.4,
       "thermres": -0.2
     },
     {
+      "brokenregen": 14.4,
       "class": 8,
       "cost": 27097750,
+      "distdraw": 0.6,
       "edID": 128671338,
       "eddbID": 1537,
       "explres": 0.5,
@@ -165,7 +181,7 @@
       "optmul": 0.9,
       "power": 4,
       "rating": "C",
-      "recover": 7.2,
+      "regen": 5.8,
       "thermres": -0.2
     }
   ]

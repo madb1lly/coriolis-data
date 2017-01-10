@@ -195,7 +195,6 @@
     "ammo": -0.2
   },
   "special_dispersal_field": {
-    "damage": -0.1
   },
   "special_distortion_field": {},
   "special_drag_munitions": {},
@@ -209,8 +208,10 @@
     "thermload": 2,
     "type": "T"
   },
+  "special_inertial_impact": {
+    "type": "KT"
+  },
   "special_overload_munitions": {
-    "ammo": -0.2
   },
   "special_phasing_sequence": {},
   "special_radiant_canister": {

@@ -12,6 +12,7 @@
     "special_force_shell": {"id": 10, "name": "Force shell"},
     "special_high_yield_shell": {"id": 11, "name": "High yield shell"},
     "special_incendiary_rounds": {"id": 12, "name": "Incendiary rounds"},
+    "special_inertial_impact": {"id": 32, "name": "Inertial impact"},
     "special_ion_disruptor": {"id": 13, "name": "Ion disruptor"},
     "special_mass_lock_munition": {"id": 14, "name": "Mass lock munition"},
     "special_overload_munitions": {"id": 15, "name": "Overload munitions"},
