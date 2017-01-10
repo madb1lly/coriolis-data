@@ -1353,12 +1353,19 @@ module.exports = {
             scb: 1,
             mrp: 1
           }
+        }, {
+          class: 4,
+          eligible: {
+            hr: 1,
+            scb: 1,
+            mrp: 1
+          }
         }, 2, 2 ]
       },
       defaults: {
         standard: [ "6E", "6E", "5E", "5E", "7E", "5E", "4C" ],
         hardpoints: [ 0, 17, 17, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        internal: [ 0, "4j", "03", 0, 0, 0, "2h" ]
+        internal: [ 0, "4j", "03", 0, 0, 0, 0, "2h" ]
       }
     },
     fer_de_lance: {
@@ -9288,6 +9295,7 @@ module.exports = {
         brokenregen: 2.4,
         class: 1,
         cost: 7710,
+        distdraw: .6,
         edID: 128671331,
         eddbID: 1530,
         explres: .5,
@@ -9309,6 +9317,7 @@ module.exports = {
         brokenregen: 2.4,
         class: 2,
         cost: 26710,
+        distdraw: .6,
         edID: 128671332,
         eddbID: 1531,
         explres: .5,
@@ -9330,6 +9339,7 @@ module.exports = {
         brokenregen: 2.8,
         class: 3,
         cost: 84650,
+        distdraw: .6,
         edID: 128671333,
         eddbID: 1532,
         explres: .5,
@@ -9351,6 +9361,7 @@ module.exports = {
         brokenregen: 3.8,
         class: 4,
         cost: 268350,
+        distdraw: .6,
         edID: 128671334,
         eddbID: 1533,
         explres: .5,
@@ -9366,12 +9377,13 @@ module.exports = {
         optmul: .9,
         power: 2.2,
         rating: "C",
-        regen: 3,
+        regen: 1.8,
         thermres: -.2
       }, {
         brokenregen: 5.6,
         class: 5,
         cost: 850660,
+        distdraw: .6,
         edID: 128671335,
         eddbID: 1534,
         explres: .5,
@@ -9387,12 +9399,13 @@ module.exports = {
         optmul: .9,
         power: 2.6,
         rating: "C",
-        regen: 4.5,
+        regen: 2.2,
         thermres: -.2
       }, {
         brokenregen: 8,
         class: 6,
         cost: 2696600,
+        distdraw: .6,
         edID: 128671336,
         eddbID: 1535,
         explres: .5,
@@ -9408,12 +9421,13 @@ module.exports = {
         optmul: .9,
         power: 3.1,
         rating: "C",
-        regen: 6.4,
+        regen: 3.2,
         thermres: -.2
       }, {
         brokenregen: 11,
         class: 7,
         cost: 8548200,
+        distdraw: .6,
         edID: 128671337,
         eddbID: 1536,
         explres: .5,
@@ -9429,12 +9443,13 @@ module.exports = {
         optmul: .9,
         power: 3.5,
         rating: "C",
-        regen: 8.8,
+        regen: 4.4,
         thermres: -.2
       }, {
         brokenregen: 14.4,
         class: 8,
         cost: 27097750,
+        distdraw: .6,
         edID: 128671338,
         eddbID: 1537,
         explres: .5,
@@ -9450,7 +9465,7 @@ module.exports = {
         optmul: .9,
         power: 4,
         rating: "C",
-        regen: 11.5,
+        regen: 5.8,
         thermres: -.2
       } ],
       cr: [ {
@@ -11105,7 +11120,7 @@ module.exports = {
         grp: "hr",
         id: "26",
         kinres: .005,
-        mass: 4,
+        mass: 2,
         rating: "E",
         thermres: .005
       }, {
@@ -11118,7 +11133,7 @@ module.exports = {
         grp: "hr",
         id: "25",
         kinres: .005,
-        mass: 2,
+        mass: 1,
         rating: "D",
         thermres: .005
       }, {
@@ -11131,7 +11146,7 @@ module.exports = {
         grp: "hr",
         id: "28",
         kinres: .01,
-        mass: 8,
+        mass: 4,
         rating: "E",
         thermres: .01
       }, {
@@ -11144,7 +11159,7 @@ module.exports = {
         grp: "hr",
         id: "27",
         kinres: .01,
-        mass: 4,
+        mass: 2,
         rating: "D",
         thermres: .01
       }, {
@@ -11157,7 +11172,7 @@ module.exports = {
         grp: "hr",
         id: "2a",
         kinres: .015,
-        mass: 16,
+        mass: 8,
         rating: "E",
         thermres: .015
       }, {
@@ -11170,7 +11185,7 @@ module.exports = {
         grp: "hr",
         id: "29",
         kinres: .015,
-        mass: 8,
+        mass: 4,
         rating: "D",
         thermres: .015
       }, {
@@ -11183,7 +11198,7 @@ module.exports = {
         grp: "hr",
         id: "2c",
         kinres: .02,
-        mass: 32,
+        mass: 16,
         rating: "E",
         thermres: .02
       }, {
@@ -11196,7 +11211,7 @@ module.exports = {
         grp: "hr",
         id: "2b",
         kinres: .02,
-        mass: 16,
+        mass: 8,
         rating: "D",
         thermres: .02
       }, {
@@ -11209,7 +11224,7 @@ module.exports = {
         grp: "hr",
         id: "2e",
         kinres: .025,
-        mass: 64,
+        mass: 32,
         rating: "E",
         thermres: .025
       }, {
@@ -11222,7 +11237,7 @@ module.exports = {
         grp: "hr",
         id: "2d",
         kinres: .025,
-        mass: 32,
+        mass: 16,
         rating: "D",
         thermres: .025
       } ],
@@ -11230,99 +11245,109 @@ module.exports = {
         class: 1,
         cost: 5e3,
         eddbID: 1577,
+        edID: 128737270,
         grp: "mrp",
         id: "m0",
-        integrity: 60,
-        mass: 4,
+        integrity: 70,
+        mass: 2,
         protection: .3,
         rating: "E"
       }, {
         class: 1,
         cost: 15e3,
         eddbID: 1578,
+        edID: 128737271,
         grp: "mrp",
         id: "m1",
-        integrity: 25,
-        mass: 4,
+        integrity: 30,
+        mass: 1,
         protection: .6,
         rating: "D"
       }, {
         class: 2,
         cost: 12e3,
         eddbID: 1579,
+        edID: 128737272,
         grp: "mrp",
         id: "m2",
-        integrity: 90,
-        mass: 8,
+        integrity: 105,
+        mass: 4,
         protection: .3,
         rating: "E"
       }, {
         class: 2,
         cost: 36e3,
         eddbID: 1580,
+        edID: 128737273,
         grp: "mrp",
         id: "m3",
-        integrity: 38,
-        mass: 4,
+        integrity: 45,
+        mass: 2,
         protection: .6,
         rating: "D"
       }, {
         class: 3,
         cost: 28e3,
         eddbID: 1581,
+        edID: 128737274,
         grp: "mrp",
         id: "m4",
-        integrity: 135,
-        mass: 16,
+        integrity: 155,
+        mass: 8,
         protection: .3,
         rating: "E"
       }, {
         class: 3,
         cost: 84e3,
         eddbID: 1582,
+        edID: 128737275,
         grp: "mrp",
         id: "m5",
-        integrity: 56,
-        mass: 8,
+        integrity: 65,
+        mass: 4,
         protection: .6,
         rating: "D"
       }, {
         class: 4,
         cost: 65e3,
         eddbID: 1583,
+        edID: 128737276,
         grp: "mrp",
         id: "m6",
-        integrity: 203,
-        mass: 32,
+        integrity: 235,
+        mass: 16,
         protection: .3,
         rating: "E"
       }, {
         class: 4,
         cost: 195e3,
         eddbID: 1584,
+        edID: 128737277,
         grp: "mrp",
         id: "m7",
-        integrity: 84,
-        mass: 16,
+        integrity: 95,
+        mass: 8,
         protection: .6,
         rating: "D"
       }, {
         class: 5,
         cost: 15e4,
         eddbID: 1585,
+        edID: 128737278,
         grp: "mrp",
         id: "m8",
-        integrity: 304,
-        mass: 64,
+        integrity: 350,
+        mass: 32,
         protection: .3,
         rating: "E"
       }, {
         class: 5,
         cost: 45e4,
         eddbID: 1586,
+        edID: 128737279,
         grp: "mrp",
         id: "m9",
-        integrity: 127,
+        integrity: 145,
         mass: 16,
         protection: .6,
         rating: "D"
@@ -12970,6 +12995,7 @@ module.exports = {
         brokenregen: 1.6,
         class: 1,
         cost: 88075,
+        distdraw: .6,
         edID: 128064262,
         eddbID: 1551,
         explres: .5,
@@ -12991,6 +13017,7 @@ module.exports = {
         brokenregen: 1.6,
         class: 2,
         cost: 1980,
+        distdraw: .6,
         edID: 128064263,
         eddbID: 1116,
         explres: .5,
@@ -13012,6 +13039,7 @@ module.exports = {
         brokenregen: 1.6,
         class: 2,
         cost: 5930,
+        distdraw: .6,
         edID: 128064264,
         eddbID: 1117,
         explres: .5,
@@ -13033,6 +13061,7 @@ module.exports = {
         brokenregen: 1.6,
         class: 2,
         cost: 17800,
+        distdraw: .6,
         edID: 128064265,
         eddbID: 1118,
         explres: .5,
@@ -13054,6 +13083,7 @@ module.exports = {
         brokenregen: 1.6,
         class: 2,
         cost: 53410,
+        distdraw: .6,
         edID: 128064266,
         eddbID: 1119,
         explres: .5,
@@ -13075,6 +13105,7 @@ module.exports = {
         brokenregen: 1.6,
         class: 2,
         cost: 160220,
+        distdraw: .6,
         edID: 128064267,
         eddbID: 1120,
         explres: .5,
@@ -13096,6 +13127,7 @@ module.exports = {
         brokenregen: 1.9,
         class: 3,
         cost: 6270,
+        distdraw: .6,
         edID: 128064268,
         eddbID: 1121,
         explres: .5,
@@ -13117,6 +13149,7 @@ module.exports = {
         brokenregen: 1.9,
         class: 3,
         cost: 18810,
+        distdraw: .6,
         edID: 128064269,
         eddbID: 1122,
         explres: .5,
@@ -13138,6 +13171,7 @@ module.exports = {
         brokenregen: 1.9,
         class: 3,
         cost: 56440,
+        distdraw: .6,
         edID: 128064270,
         eddbID: 1123,
         explres: .5,
@@ -13159,6 +13193,7 @@ module.exports = {
         brokenregen: 1.9,
         class: 3,
         cost: 169300,
+        distdraw: .6,
         edID: 128064271,
         eddbID: 1124,
         explres: .5,
@@ -13180,6 +13215,7 @@ module.exports = {
         brokenregen: 1.9,
         class: 3,
         cost: 507910,
+        distdraw: .6,
         edID: 128064272,
         eddbID: 1125,
         explres: .5,
@@ -13201,6 +13237,7 @@ module.exports = {
         brokenregen: 2.5,
         class: 4,
         cost: 19880,
+        distdraw: .6,
         edID: 128064273,
         eddbID: 1126,
         explres: .5,
@@ -13222,6 +13259,7 @@ module.exports = {
         brokenregen: 2.5,
         class: 4,
         cost: 59630,
+        distdraw: .6,
         edID: 128064274,
         eddbID: 1127,
         explres: .5,
@@ -13243,6 +13281,7 @@ module.exports = {
         brokenregen: 2.5,
         class: 4,
         cost: 178900,
+        distdraw: .6,
         edID: 128064275,
         eddbID: 1128,
         explres: .5,
@@ -13264,6 +13303,7 @@ module.exports = {
         brokenregen: 2.5,
         class: 4,
         cost: 536690,
+        distdraw: .6,
         edID: 128064276,
         eddbID: 1129,
         explres: .5,
@@ -13285,6 +13325,7 @@ module.exports = {
         brokenregen: 2.5,
         class: 4,
         cost: 1610080,
+        distdraw: .6,
         edID: 128064277,
         eddbID: 1130,
         explres: .5,
@@ -13306,6 +13347,7 @@ module.exports = {
         brokenregen: 3.7,
         class: 5,
         cost: 63010,
+        distdraw: .6,
         edID: 128064278,
         eddbID: 1131,
         explres: .5,
@@ -13321,12 +13363,13 @@ module.exports = {
         optmul: .8,
         power: 1.56,
         rating: "E",
-        regen: 1.5,
+        regen: 1,
         thermres: -.2
       }, {
         brokenregen: 3.7,
         class: 5,
         cost: 189040,
+        distdraw: .6,
         edID: 128064279,
         eddbID: 1132,
         explres: .5,
@@ -13342,12 +13385,13 @@ module.exports = {
         optmul: .9,
         power: 2.08,
         rating: "D",
-        regen: 1.5,
+        regen: 1,
         thermres: -.2
       }, {
         brokenregen: 3.7,
         class: 5,
         cost: 567110,
+        distdraw: .6,
         edID: 128064280,
         eddbID: 1133,
         explres: .5,
@@ -13363,12 +13407,13 @@ module.exports = {
         optmul: 1,
         power: 2.6,
         rating: "C",
-        regen: 1.5,
+        regen: 1,
         thermres: -.2
       }, {
         brokenregen: 3.7,
         class: 5,
         cost: 1701320,
+        distdraw: .6,
         edID: 128064281,
         eddbID: 1134,
         explres: .5,
@@ -13384,12 +13429,13 @@ module.exports = {
         optmul: 1.1,
         power: 3.12,
         rating: "B",
-        regen: 1.5,
+        regen: 1,
         thermres: -.2
       }, {
         brokenregen: 3.7,
         class: 5,
         cost: 5103950,
+        distdraw: .6,
         edID: 128064282,
         eddbID: 1135,
         explres: .5,
@@ -13405,12 +13451,13 @@ module.exports = {
         optmul: 1.2,
         power: 3.64,
         rating: "A",
-        regen: 1.5,
+        regen: 1,
         thermres: -.2
       }, {
         brokenregen: 5.3,
         class: 6,
         cost: 199750,
+        distdraw: .6,
         edID: 128064283,
         eddbID: 1136,
         explres: .5,
@@ -13426,12 +13473,13 @@ module.exports = {
         optmul: .8,
         power: 1.86,
         rating: "E",
-        regen: 2.1,
+        regen: 1.3,
         thermres: -.2
       }, {
         brokenregen: 5.3,
         class: 6,
         cost: 599240,
+        distdraw: .6,
         edID: 128064284,
         eddbID: 1137,
         explres: .5,
@@ -13447,12 +13495,13 @@ module.exports = {
         optmul: .9,
         power: 2.48,
         rating: "D",
-        regen: 2.1,
+        regen: 1.3,
         thermres: -.2
       }, {
         brokenregen: 5.3,
         class: 6,
         cost: 1797730,
+        distdraw: .6,
         edID: 128064285,
         eddbID: 1138,
         explres: .5,
@@ -13468,12 +13517,13 @@ module.exports = {
         optmul: 1,
         power: 3.1,
         rating: "C",
-        regen: 2.1,
+        regen: 1.3,
         thermres: -.2
       }, {
         brokenregen: 5.3,
         class: 6,
         cost: 5393180,
+        distdraw: .6,
         edID: 128064286,
         eddbID: 1139,
         explres: .5,
@@ -13489,12 +13539,13 @@ module.exports = {
         optmul: 1.1,
         power: 3.72,
         rating: "B",
-        regen: 2.1,
+        regen: 3.1,
         thermres: -.2
       }, {
         brokenregen: 5.3,
         class: 6,
         cost: 16179530,
+        distdraw: .6,
         edID: 128064287,
         eddbID: 1140,
         explres: .5,
@@ -13510,12 +13561,13 @@ module.exports = {
         optmul: 1.2,
         power: 4.34,
         rating: "A",
-        regen: 2.1,
+        regen: 1.3,
         thermres: -.2
       }, {
         brokenregen: 7.3,
         class: 7,
         cost: 633200,
+        distdraw: .6,
         edID: 128064288,
         eddbID: 1141,
         explres: .5,
@@ -13531,12 +13583,13 @@ module.exports = {
         optmul: .8,
         power: 2.1,
         rating: "E",
-        regen: 2.9,
+        regen: 1.8,
         thermres: -.2
       }, {
         brokenregen: 7.3,
         class: 7,
         cost: 1899600,
+        distdraw: .6,
         edID: 128064289,
         eddbID: 1142,
         explres: .5,
@@ -13552,12 +13605,13 @@ module.exports = {
         optmul: .9,
         power: 2.8,
         rating: "D",
-        regen: 2.9,
+        regen: 1.8,
         thermres: -.2
       }, {
         brokenregen: 7.3,
         class: 7,
         cost: 5698790,
+        distdraw: .6,
         edID: 128064290,
         eddbID: 1143,
         explres: .5,
@@ -13573,12 +13627,13 @@ module.exports = {
         optmul: 1,
         power: 3.5,
         rating: "C",
-        regen: 2.9,
+        regen: 1.8,
         thermres: -.2
       }, {
         brokenregen: 7.3,
         class: 7,
         cost: 17096370,
+        distdraw: .6,
         edID: 128064291,
         eddbID: 1144,
         explres: .5,
@@ -13594,12 +13649,13 @@ module.exports = {
         optmul: 1.1,
         power: 4.2,
         rating: "B",
-        regen: 2.9,
+        regen: 1.8,
         thermres: -.2
       }, {
         brokenregen: 7.3,
         class: 7,
         cost: 51289110,
+        distdraw: .6,
         edID: 128064292,
         eddbID: 1145,
         explres: .5,
@@ -13615,12 +13671,13 @@ module.exports = {
         optmul: 1.2,
         power: 4.9,
         rating: "A",
-        regen: 2.9,
+        regen: 1.8,
         thermres: -.2
       }, {
         brokenregen: 9.6,
         class: 8,
         cost: 2007240,
+        distdraw: .6,
         edID: 128064293,
         eddbID: 1146,
         explres: .5,
@@ -13636,12 +13693,13 @@ module.exports = {
         optmul: .8,
         power: 2.4,
         rating: "E",
-        regen: 3.8,
+        regen: 2.4,
         thermres: -.2
       }, {
         brokenregen: 9.6,
         class: 8,
         cost: 6021720,
+        distdraw: .6,
         edID: 128064294,
         eddbID: 1147,
         explres: .5,
@@ -13657,12 +13715,13 @@ module.exports = {
         optmul: .9,
         power: 3.2,
         rating: "D",
-        regen: 3.8,
+        regen: 2.4,
         thermres: -.2
       }, {
         brokenregen: 9.6,
         class: 8,
         cost: 18065170,
+        distdraw: .6,
         edID: 128064295,
         eddbID: 1148,
         explres: .5,
@@ -13678,12 +13737,13 @@ module.exports = {
         optmul: 1,
         power: 4,
         rating: "C",
-        regen: 3.8,
+        regen: 2.4,
         thermres: -.2
       }, {
         brokenregen: 9.6,
         class: 8,
         cost: 54195500,
+        distdraw: .6,
         edID: 128064296,
         eddbID: 1149,
         explres: .5,
@@ -13699,12 +13759,13 @@ module.exports = {
         optmul: 1.1,
         power: 4.8,
         rating: "B",
-        regen: 3.8,
+        regen: 2.4,
         thermres: -.2
       }, {
         brokenregen: 9.6,
         class: 8,
         cost: 162586490,
+        distdraw: .6,
         edID: 128064297,
         eddbID: 1150,
         explres: .5,
@@ -13720,7 +13781,7 @@ module.exports = {
         optmul: 1.2,
         power: 5.6,
         rating: "A",
-        regen: 3.8,
+        regen: 2.4,
         thermres: -.2
       } ]
     }

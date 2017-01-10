@@ -10,7 +10,7 @@
       "grp": "hr",
       "id": "26",
       "kinres": 0.005,
-      "mass": 4,
+      "mass": 2,
       "rating": "E",
       "thermres": 0.005
     },
@@ -24,7 +24,7 @@
       "grp": "hr",
       "id": "25",
       "kinres": 0.005,
-      "mass": 2,
+      "mass": 1,
       "rating": "D",
       "thermres": 0.005
     },
@@ -38,7 +38,7 @@
       "grp": "hr",
       "id": "28",
       "kinres": 0.01,
-      "mass": 8,
+      "mass": 4,
       "rating": "E",
       "thermres": 0.01
     },
@@ -52,7 +52,7 @@
       "grp": "hr",
       "id": "27",
       "kinres": 0.01,
-      "mass": 4,
+      "mass": 2,
       "rating": "D",
       "thermres": 0.01
     },
@@ -66,7 +66,7 @@
       "grp": "hr",
       "id": "2a",
       "kinres": 0.015,
-      "mass": 16,
+      "mass": 8,
       "rating": "E",
       "thermres": 0.015
     },
@@ -80,7 +80,7 @@
       "grp": "hr",
       "id": "29",
       "kinres": 0.015,
-      "mass": 8,
+      "mass": 4,
       "rating": "D",
       "thermres": 0.015
     },
@@ -94,7 +94,7 @@
       "grp": "hr",
       "id": "2c",
       "kinres": 0.02,
-      "mass": 32,
+      "mass": 16,
       "rating": "E",
       "thermres": 0.02
     },
@@ -108,7 +108,7 @@
       "grp": "hr",
       "id": "2b",
       "kinres": 0.02,
-      "mass": 16,
+      "mass": 8,
       "rating": "D",
       "thermres": 0.02
     },
@@ -122,7 +122,7 @@
       "grp": "hr",
       "id": "2e",
       "kinres": 0.025,
-      "mass": 64,
+      "mass": 32,
       "rating": "E",
       "thermres": 0.025
     },
@@ -136,7 +136,7 @@
       "grp": "hr",
       "id": "2d",
       "kinres": 0.025,
-      "mass": 32,
+      "mass": 16,
       "rating": "D",
       "thermres": 0.025
     }
