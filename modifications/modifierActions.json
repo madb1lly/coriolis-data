@@ -201,23 +201,42 @@
   "special_emissive_munitions": {
     "thermload": 1
   },
-  "special_feedback_cascade": {},
-  "special_high_yield_shell": {},
+  "special_feedback_cascade": {
+    "breachdmg": -0.2,
+    "damage": -0.2
+  },
+  "special_force_shell": {
+    "jitter": 1,
+    "speed": -0.1667
+  },
+  "special_high_yield_shell": {
+    "rof": 0.1111111111111111
+  },
   "special_incendiary_rounds": {
     "rof": 0.05263157894736842,
     "thermload": 2,
     "type": "T"
   },
   "special_inertial_impact": {
+    "damage": 0.5,
+    "jitter": 1,
     "type": "KT"
   },
   "special_overload_munitions": {
   },
-  "special_phasing_sequence": {},
+  "special_phasing_sequence": {
+    "damage": -0.1
+  },
+  "special_plasma_slug": {
+    "damage": -0.2
+  },
   "special_radiant_canister": {
     "ammo": -0.25
   },
-  "special_regeneration_sequence": {},
+  "special_regeneration_sequence": {
+    "damage": -0.1
+  },
+  "special_reverberating_cascade": {},
   "special_scramble_spectrum": {
     "rof": 0.1111111111111111
   },
@@ -227,8 +246,13 @@
   "special_shiftlock_canister": {
     "damage": -0.2
   },
+  "special_super_penetrator": {
+    "reload": 0.5
+  },
   "special_thermal_cascade": {},
-  "special_thermal_conduit": {},
+  "special_thermal_conduit": {
+    "damage": -0.2
+  },
   "special_thermal_vent": {
     "thermload": 0.25
   },
