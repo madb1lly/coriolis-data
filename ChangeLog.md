@@ -1,3 +1,6 @@
+#2.2.9
+  * Add falloff metric for weapons
+
 #2.2.8
   * Set military slot of Viper Mk IV to class 3; was incorrectly set as class 2
   * Update base regeneration rate of prismatic shield generators to values in 2.2.03
