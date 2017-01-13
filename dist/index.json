@@ -4374,7 +4374,7 @@
 					4,
 					3,
 					{
-						"class": 2,
+						"class": 3,
 						"name": "Military",
 						"eligible": {
 							"hr": 1,
@@ -13736,6 +13736,7 @@
 					"brokenregen": 1.2,
 					"class": 1,
 					"cost": 132200,
+					"distdraw": 0.6,
 					"edID": 128671323,
 					"eddbID": 1485,
 					"explres": 0.5,
@@ -13759,6 +13760,7 @@
 					"brokenregen": 1.2,
 					"class": 2,
 					"cost": 240340,
+					"distdraw": 0.6,
 					"edID": 128671324,
 					"eddbID": 1486,
 					"explres": 0.5,
@@ -13782,6 +13784,7 @@
 					"brokenregen": 1.3,
 					"class": 3,
 					"cost": 761870,
+					"distdraw": 0.6,
 					"edID": 128671325,
 					"eddbID": 1487,
 					"explres": 0.5,
@@ -13805,6 +13808,7 @@
 					"brokenregen": 1.7,
 					"class": 4,
 					"cost": 2415120,
+					"distdraw": 0.6,
 					"edID": 128671326,
 					"eddbID": 1488,
 					"explres": 0.5,
@@ -13828,6 +13832,7 @@
 					"brokenregen": 2.3,
 					"class": 5,
 					"cost": 7655930,
+					"distdraw": 0.6,
 					"edID": 128671327,
 					"eddbID": 1489,
 					"explres": 0.5,
@@ -13851,6 +13856,7 @@
 					"brokenregen": 3.2,
 					"class": 6,
 					"cost": 24269300,
+					"distdraw": 0.6,
 					"edID": 128671328,
 					"eddbID": 1490,
 					"explres": 0.5,
@@ -13867,13 +13873,14 @@
 					"power": 6.51,
 					"pp": "Aisling Duval",
 					"rating": "A",
-					"regen": 1.3,
+					"regen": 1,
 					"thermres": -0.2
 				},
 				{
 					"brokenregen": 4.2,
 					"class": 7,
 					"cost": 76933670,
+					"distdraw": 0.6,
 					"edID": 128671329,
 					"eddbID": 1491,
 					"explres": 0.5,
@@ -13890,13 +13897,14 @@
 					"power": 7.35,
 					"pp": "Aisling Duval",
 					"rating": "A",
-					"regen": 1.7,
+					"regen": 1.1,
 					"thermres": -0.2
 				},
 				{
 					"brokenregen": 5.4,
 					"class": 8,
 					"cost": 243879730,
+					"distdraw": 0.6,
 					"edID": 128671330,
 					"eddbID": 1492,
 					"explres": 0.5,
@@ -13913,7 +13921,7 @@
 					"power": 8.4,
 					"pp": "Aisling Duval",
 					"rating": "A",
-					"regen": 2.2,
+					"regen": 1.2,
 					"thermres": -0.2
 				}
 			],
@@ -17073,22 +17081,41 @@
 			"special_emissive_munitions": {
 				"thermload": 1
 			},
-			"special_feedback_cascade": {},
-			"special_high_yield_shell": {},
+			"special_feedback_cascade": {
+				"breachdmg": -0.2,
+				"damage": -0.2
+			},
+			"special_force_shell": {
+				"jitter": 1,
+				"speed": -0.1667
+			},
+			"special_high_yield_shell": {
+				"rof": 0.1111111111111111
+			},
 			"special_incendiary_rounds": {
 				"rof": 0.05263157894736842,
 				"thermload": 2,
 				"type": "T"
 			},
 			"special_inertial_impact": {
+				"damage": 0.5,
+				"jitter": 1,
 				"type": "KT"
 			},
 			"special_overload_munitions": {},
-			"special_phasing_sequence": {},
+			"special_phasing_sequence": {
+				"damage": -0.1
+			},
+			"special_plasma_slug": {
+				"damage": -0.2
+			},
 			"special_radiant_canister": {
 				"ammo": -0.25
 			},
-			"special_regeneration_sequence": {},
+			"special_regeneration_sequence": {
+				"damage": -0.1
+			},
+			"special_reverberating_cascade": {},
 			"special_scramble_spectrum": {
 				"rof": 0.1111111111111111
 			},
@@ -17098,8 +17125,13 @@
 			"special_shiftlock_canister": {
 				"damage": -0.2
 			},
+			"special_super_penetrator": {
+				"reload": 0.5
+			},
 			"special_thermal_cascade": {},
-			"special_thermal_conduit": {},
+			"special_thermal_conduit": {
+				"damage": -0.2
+			},
 			"special_thermal_vent": {
 				"thermload": 0.25
 			},
