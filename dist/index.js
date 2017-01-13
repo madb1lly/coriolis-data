@@ -2769,7 +2769,7 @@ module.exports = {
         standard: [ 4, 4, 4, 2, 3, 3, 4 ],
         hardpoints: [ 2, 2, 1, 1, 0, 0 ],
         internal: [ 4, 4, 3, {
-          class: 2,
+          class: 3,
           name: "Military",
           eligible: {
             hr: 1,
@@ -11446,6 +11446,7 @@ module.exports = {
         brokenregen: 1.2,
         class: 1,
         cost: 132200,
+        distdraw: .6,
         edID: 128671323,
         eddbID: 1485,
         explres: .5,
@@ -11468,6 +11469,7 @@ module.exports = {
         brokenregen: 1.2,
         class: 2,
         cost: 240340,
+        distdraw: .6,
         edID: 128671324,
         eddbID: 1486,
         explres: .5,
@@ -11490,6 +11492,7 @@ module.exports = {
         brokenregen: 1.3,
         class: 3,
         cost: 761870,
+        distdraw: .6,
         edID: 128671325,
         eddbID: 1487,
         explres: .5,
@@ -11512,6 +11515,7 @@ module.exports = {
         brokenregen: 1.7,
         class: 4,
         cost: 2415120,
+        distdraw: .6,
         edID: 128671326,
         eddbID: 1488,
         explres: .5,
@@ -11534,6 +11538,7 @@ module.exports = {
         brokenregen: 2.3,
         class: 5,
         cost: 7655930,
+        distdraw: .6,
         edID: 128671327,
         eddbID: 1489,
         explres: .5,
@@ -11556,6 +11561,7 @@ module.exports = {
         brokenregen: 3.2,
         class: 6,
         cost: 24269300,
+        distdraw: .6,
         edID: 128671328,
         eddbID: 1490,
         explres: .5,
@@ -11572,12 +11578,13 @@ module.exports = {
         power: 6.51,
         pp: "Aisling Duval",
         rating: "A",
-        regen: 1.3,
+        regen: 1,
         thermres: -.2
       }, {
         brokenregen: 4.2,
         class: 7,
         cost: 76933670,
+        distdraw: .6,
         edID: 128671329,
         eddbID: 1491,
         explres: .5,
@@ -11594,12 +11601,13 @@ module.exports = {
         power: 7.35,
         pp: "Aisling Duval",
         rating: "A",
-        regen: 1.7,
+        regen: 1.1,
         thermres: -.2
       }, {
         brokenregen: 5.4,
         class: 8,
         cost: 243879730,
+        distdraw: .6,
         edID: 128671330,
         eddbID: 1492,
         explres: .5,
@@ -11616,7 +11624,7 @@ module.exports = {
         power: 8.4,
         pp: "Aisling Duval",
         rating: "A",
-        regen: 2.2,
+        regen: 1.2,
         thermres: -.2
       } ],
       pc: [ {
@@ -14632,22 +14640,41 @@ module.exports = {
       special_emissive_munitions: {
         thermload: 1
       },
-      special_feedback_cascade: {},
-      special_high_yield_shell: {},
+      special_feedback_cascade: {
+        breachdmg: -.2,
+        damage: -.2
+      },
+      special_force_shell: {
+        jitter: 1,
+        speed: -.1667
+      },
+      special_high_yield_shell: {
+        rof: .1111111111111111
+      },
       special_incendiary_rounds: {
         rof: .05263157894736842,
         thermload: 2,
         type: "T"
       },
       special_inertial_impact: {
+        damage: .5,
+        jitter: 1,
         type: "KT"
       },
       special_overload_munitions: {},
-      special_phasing_sequence: {},
+      special_phasing_sequence: {
+        damage: -.1
+      },
+      special_plasma_slug: {
+        damage: -.2
+      },
       special_radiant_canister: {
         ammo: -.25
       },
-      special_regeneration_sequence: {},
+      special_regeneration_sequence: {
+        damage: -.1
+      },
+      special_reverberating_cascade: {},
       special_scramble_spectrum: {
         rof: .1111111111111111
       },
@@ -14657,8 +14684,13 @@ module.exports = {
       special_shiftlock_canister: {
         damage: -.2
       },
+      special_super_penetrator: {
+        reload: .5
+      },
       special_thermal_cascade: {},
-      special_thermal_conduit: {},
+      special_thermal_conduit: {
+        damage: -.2
+      },
       special_thermal_vent: {
         thermload: .25
       },
