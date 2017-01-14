@@ -13,6 +13,7 @@
     "engrate": {"id": 10, "name": "engrate", "type": "percentage", "method": "multiplicative"},
     "explres": {"id": 11, "name": "explres", "type": "percentage", "method": "additive"},
     "facinglimit": {"id": 12, "name": "facinglimit", "type": "percentage", "method": "multiplicative"},
+    "fallofffromrange": {"id": 42, "name": "fallofffromrange", "type": "hidden", "method": "overwrite"},
     "hullboost": {"id": 13, "name": "hullboost", "type": "percentage", "method": "multiplicative"},
     "hullreinforcement": {"id": 14, "name": "hullreinforcement", "type": "percentage", "method": "multiplicative"},
     "integrity": {"id": 15, "name": "integrity", "type": "percentage", "method": "multiplicative"},

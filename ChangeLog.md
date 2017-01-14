@@ -1,5 +1,6 @@
 #2.2.9
   * Add falloff metric for weapons
+  * Add falloff from range modification
 
 #2.2.8
   * Set military slot of Viper Mk IV to class 3; was incorrectly set as class 2
