@@ -9,6 +9,9 @@
       "clip": 8,
       "cost": 32180,
       "damage": 50,
+      "damagedist": {
+        "E": 1
+      },
       "distdraw": 0.24,
       "edID": 128666724,
       "eddbID": 1326,
@@ -24,8 +27,7 @@
       "reload": 5,
       "rof": 0.5,
       "speed": 750,
-      "thermload": 3.6,
-      "type": "E"
+      "thermload": 3.6
     },
     {
       "ammo": 6,
@@ -36,6 +38,9 @@
       "clip": 6,
       "cost": 72600,
       "damage": 40,
+      "damagedist": {
+        "E": 1
+      },
       "distdraw": 0.24,
       "edID": 128049492,
       "eddbID": 878,
@@ -51,8 +56,7 @@
       "reload": 12,
       "rof": 0.333,
       "speed": 625,
-      "thermload": 3.6,
-      "type": "E"
+      "thermload": 3.6
     },
     {
       "ammo": 48,
@@ -63,6 +67,9 @@
       "clip": 12,
       "cost": 240400,
       "damage": 50,
+      "damagedist": {
+        "E": 1
+      },
       "distdraw": 0.24,
       "edID": 128666725,
       "eddbID": 1327,
@@ -80,8 +87,7 @@
       "reload": 5,
       "rof": 0.5,
       "speed": 750,
-      "thermload": 3.6,
-      "type": "E"
+      "thermload": 3.6
     },
     {
       "ammo": 18,
@@ -92,6 +98,9 @@
       "clip": 6,
       "cost": 512400,
       "damage": 40,
+      "damagedist": {
+        "E": 1
+      },
       "distdraw": 0.24,
       "edID": 128049493,
       "eddbID": 879,
@@ -109,8 +118,7 @@
       "reload": 12,
       "rof": 0.333,
       "speed": 625,
-      "thermload": 3.6,
-      "type": "E"
+      "thermload": 3.6
     },
     {
       "ammo": 48,
@@ -121,6 +129,9 @@
       "clip": 12,
       "cost": 190227,
       "damage": 40,
+      "damagedist": {
+        "E": 1
+      },
       "distdraw": 0.24,
       "eddbID": 1559,
       "grp": "mr",
@@ -137,8 +148,7 @@
       "reload": 5,
       "rof": 0.333,
       "speed": 750,
-      "thermload": 3.6,
-      "type": "E"
+      "thermload": 3.6
     },
     {
       "ammo": 120,
@@ -149,6 +159,9 @@
       "clip": 12,
       "cost": 768600,
       "damage": 7.5,
+      "damagedist": {
+        "E": 1
+      },
       "distdraw": 0.24,
       "edID": 128671344,
       "eddbID": 1480,
@@ -169,8 +182,7 @@
       "rof": 2,
       "roundspershot": 4,
       "speed": 600,
-      "thermload": 3.6,
-      "type": "E"
+      "thermload": 3.6
     }
   ]
 }

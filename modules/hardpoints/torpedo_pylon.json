@@ -9,6 +9,9 @@
       "clip": 1,
       "cost": 11200,
       "damage": 120,
+      "damagedist": {
+        "E": 1
+      },
       "distdraw": 0,
       "edID": 128049509,
       "eddbID": 882,
@@ -24,8 +27,7 @@
       "reload": 5,
       "rof": 1,
       "speed": 250,
-      "thermload": 45,
-      "type": "E"
+      "thermload": 45
     },
     {
       "ammo": 2,
@@ -36,6 +38,9 @@
       "clip": 1,
       "cost": 44800,
       "damage": 120,
+      "damagedist": {
+        "E": 1
+      },
       "distdraw": 0,
       "edID": 128049510,
       "eddbID": 883,
@@ -51,8 +56,7 @@
       "reload": 5,
       "rof": 1,
       "speed": 250,
-      "thermload": 50,
-      "type": "E"
+      "thermload": 50
     }
   ]
 }

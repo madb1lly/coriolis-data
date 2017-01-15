@@ -1,5 +1,6 @@
 #2.2.10
   * Fix incorrect base shield values for Cutter and Corvette
+  * Update weapons to have %-based damage distributions
 
 #2.2.9
   * Add falloff metric for weapons

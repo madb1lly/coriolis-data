@@ -80,18 +80,21 @@ describe('JSON Data', function() {
           edIDs[group[i].edID] = true;
         }
 	if (group[i].damage) {
-            expect(group[i].damage).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing damage`);
+          expect(group[i].damage).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing damage`);
+          expect(group[i].damagedist).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing damage distribution`);
+          if (group[i].grp != 'po') {
+            expect(group[i].thermload).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing thermload`);
             expect(group[i].breachmin).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing breachmin`);
             expect(group[i].breachmax).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing breachmax`);
             expect(group[i].breachdmg).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing breachdmg`);
             expect(group[i].piercing).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing piercing`);
-            expect(group[i].thermload).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing thermload`);
             expect(group[i].distdraw).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing distdraw`);
+          }
         }
 	if ((group[i].ammo || group[i].reload || group[i].clip) && g != 'hs' && g != 'ec') {
-            expect(group[i].ammo).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing ammo`);
-            expect(group[i].clip).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing clip`);
-            expect(group[i].reload).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing reload`);
+          expect(group[i].ammo).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing ammo`);
+          expect(group[i].clip).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing clip`);
+          expect(group[i].reload).toBeDefined(`Hardpoint ${group[i].grp}:${id} ${group[i].name ? group[i].name : ''} is missing reload`);
         }
         ids[id] = true;
       }

@@ -7,6 +7,7 @@
       "class": 1,
       "cost": 6800,
       "damage": 2,
+      "damagedist": {},
       "distdraw": 1.35,
       "edID": 128049525,
       "eddbID": 888,
@@ -29,6 +30,9 @@
       "class": 1,
       "cost": 13600,
       "damage": 8,
+      "damagedist": {
+        "T": 1
+      },
       "distdraw": 1.75,
       "eddbID": 1479,
       "falloff": 400,
@@ -43,8 +47,7 @@
       "pp": "Zemina Torval",
       "range": 2000,
       "rating": "D",
-      "thermload": 6,
-      "type": "T"
+      "thermload": 6
     },
     {
       "breachdmg": 1.2,
@@ -53,6 +56,7 @@
       "class": 2,
       "cost": 22580,
       "damage": 8,
+      "damagedist": {},
       "distdraw": 1.75,
       "edID": 128049526,
       "eddbID": 889,
