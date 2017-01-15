@@ -1,4 +1,8 @@
+#2.2.10
+  * Fix incorrect base shield values for Cutter and Corvette
+
 #2.2.9
+  * Add falloff metric for weapons
   * Add falloff metric for weapons
   * Add falloff from range modification
 
