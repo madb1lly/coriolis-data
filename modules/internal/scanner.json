@@ -48,7 +48,7 @@
       "id": "2i",
       "mass": 1.3,
       "name": "Detailed Surface Scanner",
-      "power": 0.6,
+      "power": 0,
       "rating": "C"
     }
   ]
