@@ -1,0 +1,774 @@
+{
+  "am": {
+    "blueprints": {
+      "AFM_LightWeight": [1, 2, 3, 4, 5],
+      "AFM_Reinforced": [1, 2, 3, 4, 5],
+      "AFM_Shielded": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "integrity",
+      "power"
+    ]
+  },
+  "bh": {
+    "blueprints": {
+      "Armour_Advanced": [1, 2, 3, 4, 5],
+      "Armour_Explosive": [1, 2, 3, 4, 5],
+      "Armour_HeavyDuty": [1, 2, 3, 4, 5],
+      "Armour_LightWeight": [1, 2, 3, 4, 5],
+      "Armour_Thermic": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "explres",
+      "hullboost",
+      "kinres",
+      "mass",
+      "thermres"
+    ]
+  },
+  "bl": {
+    "blueprints": {
+      "Weapon_Efficient": [1, 2, 3, 4, 5],
+      "Weapon_LightWeight": [1, 2, 3, 4, 5],
+      "Weapon_LongRange": [1, 2, 3, 4, 5],
+      "Weapon_Overcharged": [1, 2, 3, 4, 5],
+      "Weapon_ShortRange": [1, 2, 3, 4, 5],
+      "Weapon_Sturdy": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "damage",
+      "damagedist",
+      "distdraw",
+      "fallofffromrange",
+      "integrity",
+      "mass",
+      "piercing",
+      "power",
+      "range",
+      "thermload"
+    ]
+  },
+  "bsg": {
+    "blueprints": {
+      "ShieldGenerator_Kinetic": [1, 2, 3, 4, 5],
+      "ShieldGenerator_Optimised": [1, 2, 3, 4, 5],
+      "ShieldGenerator_Reinforced": [1, 2, 3, 4, 5],
+      "ShieldGenerator_Thermic": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "boot",
+      "brokenregen",
+      "distdraw",
+      "explres",
+      "integrity",
+      "kinres",
+      "mass",
+      "optmass",
+      "optmul",
+      "power",
+      "regen",
+      "thermload",
+      "thermres"
+    ]
+  },
+  "c": {
+    "blueprints": {
+      "Weapon_Efficient": [1, 2, 3, 4, 5],
+      "Weapon_HighCapacity": [1, 2, 3, 4, 5],
+      "Weapon_LightWeight": [1, 2, 3, 4, 5],
+      "Weapon_LongRange": [1, 2, 3, 4, 5],
+      "Weapon_Overcharged": [1, 2, 3, 4, 5],
+      "Weapon_RapidFire": [1, 2, 3, 4, 5],
+      "Weapon_ShortRange": [1, 2, 3, 4, 5],
+      "Weapon_Sturdy": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "ammo",
+      "clip",
+      "damage",
+      "damagedist",
+      "distdraw",
+      "fallofffromrange",
+      "integrity",
+      "jitter",
+      "mass",
+      "piercing",
+      "power",
+      "range",
+      "reload",
+      "rof",
+      "thermload"
+    ]
+  },
+  "cc": {
+    "blueprints": {
+      "CollectionLimpet_LightWeight": [1, 2, 3, 4, 5],
+      "CollectionLimpet_Reinforced": [1, 2, 3, 4, 5],
+      "CollectionLimpet_Shielded": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "integrity",
+      "mass",
+      "power"
+    ]
+  },
+  "ch": {
+    "blueprints": {
+      "ChaffLauncher_ChaffCapacity": [1, 2, 3, 4, 5],
+      "ChaffLauncher_LightWeight": [1, 2, 3, 4, 5],
+      "ChaffLauncher_Reinforced": [1, 2, 3, 4, 5],
+      "ChaffLauncher_Shielded": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "ammo",
+      "integrity",
+      "mass",
+      "power",
+      "reload"
+    ]
+  },
+  "cr": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "cs": {
+    "blueprints": {
+      "ManifestScanner_LightWeight": [1, 2, 3, 4, 5],
+      "ManifestScanner_Reinforced": [1, 2, 3, 4, 5],
+      "ManifestScanner_Shielded": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "boot",
+      "integrity",
+      "mass",
+      "power"
+    ]
+  },
+  "dc": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "ec": {
+    "blueprints": {
+      "ECM_LightWeight": [1, 2, 3, 4, 5],
+      "ECM_Reinforced": [1, 2, 3, 4, 5],
+      "ECM_Shielded": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "integrity",
+      "mass",
+      "power"
+    ]
+  },
+  "fc": {
+    "blueprints": {
+      "Weapon_DoubleShot": [1, 2, 3, 4, 5],
+      "Weapon_Efficient": [1, 2, 3, 4, 5],
+      "Weapon_HighCapacity": [1, 2, 3, 4, 5],
+      "Weapon_LightWeight": [1, 2, 3, 4, 5],
+      "Weapon_LongRange": [1, 2, 3, 4, 5],
+      "Weapon_Overcharged": [1, 2, 3, 4, 5],
+      "Weapon_RapidFire": [1, 2, 3, 4, 5],
+      "Weapon_Sturdy": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "ammo",
+      "burst",
+      "burstrof",
+      "clip",
+      "damage",
+      "damagedist",
+      "fallofffromrange",
+      "distdraw",
+      "integrity",
+      "jitter",
+      "mass",
+      "piercing",
+      "power",
+      "range",
+      "reload",
+      "rof",
+      "thermload"
+    ]
+  },
+  "fh": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "fi": {
+    "blueprints": {
+      "FSDinterdictor_Expanded": [1, 2, 3, 4],
+      "FSDinterdictor_LongRange": [1, 2, 3]
+    },
+    "modifications": [
+      "boot",
+      "facinglimit",
+      "integrity",
+      "mass",
+      "power",
+      "ranget"
+    ]
+  },
+  "fs": {
+    "blueprints": {
+      "FuelScoop_Shielded": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "integrity",
+      "power"
+    ]
+  },
+  "fsd": {
+    "blueprints": {
+      "FSD_FastBoot": [1, 2, 3, 4, 5],
+      "FSD_LongRange": [1, 2, 3, 4, 5],
+      "FSD_Shielded": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "boot",
+      "integrity",
+      "mass",
+      "maxfuel",
+      "optmass",
+      "power",
+      "thermload"
+    ]
+  },
+  "ft": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "fx": {
+    "blueprints": {
+      "FuelTransferLimpet_LightWeight": [1, 2, 3, 4, 5],
+      "FuelTransferLimpet_Reinforced": [1, 2, 3, 4, 5],
+      "FuelTransferLimpet_Shielded": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "integrity",
+      "mass",
+      "power"
+    ]
+  },
+  "hb": {
+    "blueprints": {
+      "HatchBreakerLimpet_LightWeight": [1, 2, 3, 4, 5],
+      "HatchBreakerLimpet_Reinforced": [1, 2, 3, 4, 5],
+      "HatchBreakerLimpet_Shielded": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "integrity",
+      "mass",
+      "power"
+    ]
+  },
+  "hr": {
+    "blueprints": {
+      "HullReinforcement_Advanced": [1, 2, 3, 4, 5],
+      "HullReinforcement_HeavyDuty": [1, 2, 3, 4, 5],
+      "HullReinforcement_Kinetic": [1, 2, 3, 4, 5],
+      "HullReinforcement_Lightweight": [1, 2, 3, 4, 5],
+      "HullReinforcement_Thermic": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "hullreinforcement",
+      "explres",
+      "hullboost",
+      "kinres",
+      "mass",
+      "thermres"
+    ]
+  },
+  "hs": {
+    "blueprints": {
+      "HeatSinkLauncher_HeatSinkCapacity": [3],
+      "HeatSinkLauncher_LightWeight": [1, 2, 3, 4, 5],
+      "HeatSinkLauncher_Reinforced": [1, 2, 3, 4, 5],
+      "HeatSinkLauncher_Shielded": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "ammo",
+      "integrity",
+      "mass",
+      "power",
+      "reload"
+    ]
+  },
+  "kw": {
+    "blueprints": {
+      "KillWarrantScanner_LightWeight": [1, 2, 3, 4, 5],
+      "KillWarrantScanner_Reinforced": [1, 2, 3, 4, 5],
+      "KillWarrantScanner_Shielded": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "boot",
+      "integrity",
+      "mass",
+      "power"
+    ]
+  },
+  "ls": {
+    "blueprints": {
+      "LifeSupport_LightWeight": [1, 2, 3, 4, 5],
+      "LifeSupport_Reinforced": [1, 2, 3, 4, 5],
+      "LifeSupport_Shielded": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "boot",
+      "integrity",
+      "mass",
+      "power"
+    ]
+  },
+  "mc": {
+    "blueprints": {
+      "Weapon_Efficient": [1, 2, 3, 4, 5],
+      "Weapon_HighCapacity": [1, 2, 3, 4, 5],
+      "Weapon_LightWeight": [1, 2, 3, 4, 5],
+      "Weapon_LongRange": [1, 2, 3, 4, 5],
+      "Weapon_Overcharged": [1, 2, 3, 4, 5],
+      "Weapon_RapidFire": [1, 2, 3, 4, 5],
+      "Weapon_ShortRange": [1, 2, 3, 4, 5],
+      "Weapon_Sturdy": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "ammo",
+      "clip",
+      "damage",
+      "damagedist",
+      "fallofffromrange",
+      "distdraw",
+      "integrity",
+      "jitter",
+      "mass",
+      "piercing",
+      "power",
+      "range",
+      "reload",
+      "rof",
+      "thermload"
+    ]
+  },
+  "ml": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "mr": {
+    "blueprints": {
+      "Weapon_HighCapacity": [1, 2, 3, 4, 5],
+      "Weapon_LightWeight": [1, 2, 3, 4, 5],
+      "Weapon_RapidFire": [1, 2, 3, 4, 5],
+      "Weapon_Sturdy": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "ammo",
+      "clip",
+      "damage",
+      "damagedist",
+      "fallofffromrange",
+      "distdraw",
+      "integrity",
+      "jitter",
+      "mass",
+      "piercing",
+      "power",
+      "reload",
+      "rof",
+      "thermload"
+    ]
+  },
+  "mrp": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "nl": {
+    "blueprints": {
+      "Weapon_HighCapacity": [1, 2, 3, 4, 5],
+      "Weapon_LightWeight": [1, 2, 3, 4, 5],
+      "Weapon_RapidFire": [1, 2, 3, 4, 5],
+      "Weapon_Sturdy": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "ammo",
+      "boot",
+      "clip",
+      "damage",
+      "damagedist",
+      "fallofffromrange",
+      "integrity",
+      "jitter",
+      "mass",
+      "piercing",
+      "power",
+      "reload",
+      "rof",
+      "thermload"
+    ]
+  },
+  "pa": {
+    "blueprints": {
+      "Weapon_Efficient": [1, 2, 3, 4, 5],
+      "Weapon_Focused": [1, 2, 3, 4, 5],
+      "Weapon_LightWeight": [1, 2, 3, 4, 5],
+      "Weapon_LongRange": [1, 2, 3, 4, 5],
+      "Weapon_Overcharged": [1, 2, 3, 4, 5],
+      "Weapon_RapidFire": [1, 2, 3, 4, 5],
+      "Weapon_ShortRange": [1, 2, 3, 4, 5],
+      "Weapon_Sturdy": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "ammo",
+      "clip",
+      "damage",
+      "damagedist",
+      "fallofffromrange",
+      "distdraw",
+      "integrity",
+      "jitter",
+      "mass",
+      "piercing",
+      "power",
+      "range",
+      "reload",
+      "rof",
+      "thermload"
+    ]
+  },
+  "pas": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "pc": {
+    "blueprints": {
+      "ProspectingLimpet_LightWeight": [1, 2, 3, 4, 5],
+      "ProspectingLimpet_Reinforced": [1, 2, 3, 4, 5],
+      "ProspectingLimpet_Shielded": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "integrity",
+      "mass",
+      "power"
+    ]
+  },
+  "pce": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "pci": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "pcm": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "pcq": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "pd": {
+    "blueprints": {
+      "PowerDistributor_HighFrequency": [1, 2, 3, 4, 5],
+      "PowerDistributor_PriorityEngines": [1, 2, 3],
+      "PowerDistributor_HighCapacity": [1, 2, 3, 4, 5],
+      "PowerDistributor_Shielded": [1, 2, 3, 4, 5],
+      "PowerDistributor_PrioritySystems": [1, 2, 3],
+      "PowerDistributor_PriorityWeapons": [1, 2, 3]
+    },
+    "modifications": [
+      "boot",
+      "engcap",
+      "engrate",
+      "integrity",
+      "mass",
+      "power",
+      "syscap",
+      "sysrate",
+      "wepcap",
+      "weprate"
+    ]
+  },
+  "pl": {
+    "blueprints": {
+      "Weapon_Efficient": [1, 2, 3, 4, 5],
+      "Weapon_Focused": [1, 2, 3, 4, 5],
+      "Weapon_LightWeight": [1, 2, 3, 4, 5],
+      "Weapon_LongRange": [1, 2, 3, 4, 5],
+      "Weapon_Overcharged": [1, 2, 3, 4, 5],
+      "Weapon_RapidFire": [1, 2, 3, 4, 5],
+      "Weapon_ShortRange": [1, 2, 3, 4, 5],
+      "Weapon_Sturdy": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "damage",
+      "damagedist",
+      "fallofffromrange",
+      "distdraw",
+      "integrity",
+      "jitter",
+      "mass",
+      "piercing",
+      "power",
+      "range",
+      "rof",
+      "thermload"
+    ]
+  },
+  "po": {
+    "blueprints": {
+      "PointDefence_PointDefenseCapacity": [3],
+      "PointDefence_LightWeight": [1, 2, 3, 4, 5],
+      "PointDefence_Reinforced": [1, 2, 3, 4, 5],
+      "PointDefence_Shielded": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "ammo",
+      "integrity",
+      "mass",
+      "power",
+      "reload"
+    ]
+  },
+  "pp": {
+    "blueprints": {
+      "PowerPlant_Armoured": [1, 2, 3, 4, 5],
+      "PowerPlant_Stealth": [1, 2, 3],
+      "PowerPlant_Boosted": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "eff",
+      "integrity",
+      "mass",
+      "pgen"
+    ]
+  },
+  "psg": {
+    "blueprints": {
+      "ShieldGenerator_Kinetic": [1, 2, 3, 4, 5],
+      "ShieldGenerator_Optimised": [1, 2, 3, 4, 5],
+      "ShieldGenerator_Reinforced": [1, 2, 3, 4, 5],
+      "ShieldGenerator_Thermic": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "boot",
+      "brokenregen",
+      "distdraw",
+      "explres",
+      "integrity",
+      "kinres",
+      "mass",
+      "optmass",
+      "optmul",
+      "power",
+      "regen",
+      "thermload",
+      "thermres"
+    ]
+  },
+  "pv": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "rf": {
+    "blueprints": {
+    },
+    "modifications": [
+      "integrity",
+      "power"
+    ]
+  },
+  "rg": {
+    "blueprints": {
+      "Weapon_HighCapacity": [1, 2, 3, 4, 5],
+      "Weapon_LightWeight": [1, 2, 3, 4, 5],
+      "Weapon_LongRange": [1, 2, 3, 4, 5],
+      "Weapon_ShortRange": [1, 2, 3, 4, 5],
+      "Weapon_Sturdy": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "ammo",
+      "clip",
+      "damage",
+      "damagedist",
+      "fallofffromrange",
+      "distdraw",
+      "integrity",
+      "jitter",
+      "mass",
+      "piercing",
+      "power",
+      "range",
+      "reload",
+      "rof",
+      "thermload"
+    ]
+  },
+  "s": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "sb": {
+    "blueprints": {
+      "ShieldBooster_Explosive": [1, 2, 3, 4, 5],
+      "ShieldBooster_HeavyDuty": [1, 2, 3, 4, 5],
+      "ShieldBooster_Kinetic": [1, 2, 3, 4, 5],
+      "ShieldBooster_Resistive": [1, 2, 3, 4, 5],
+      "ShieldBooster_Thermic": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "explres",
+      "integrity",
+      "kinres",
+      "mass",
+      "power",
+      "shieldboost",
+      "thermres"
+    ]
+  },
+  "sc": {
+    "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "scb": {
+    "blueprints": {
+      "ShieldCellBank_Rapid": [1, 2, 3, 4],
+      "ShieldCellBank_Specialised": [1, 2, 3, 4]
+    },
+    "modifications": [
+      "boot",
+      "duration",
+      "integrity",
+      "power",
+      "shieldreinforcement",
+      "spinup",
+      "thermload"
+    ]
+  },
+  "sg": {
+    "blueprints": {
+      "ShieldGenerator_Kinetic": [1, 2, 3, 4, 5],
+      "ShieldGenerator_Optimised": [1, 2, 3, 4, 5],
+      "ShieldGenerator_Reinforced": [1, 2, 3, 4, 5],
+      "ShieldGenerator_Thermic": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "boot",
+      "brokenregen",
+      "distdraw",
+      "explres",
+      "integrity",
+      "kinres",
+      "mass",
+      "optmass",
+      "optmul",
+      "power",
+      "regen",
+      "thermload",
+      "thermres"
+    ]
+  },
+  "t": {
+    "blueprints": {
+      "Engine_Dirty": [1, 2, 3, 4, 5],
+      "Engine_Reinforced": [1, 2, 3, 4, 5],
+      "Engine_Tuned": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "integrity",
+      "mass",
+      "optmass",
+      "optmul",
+      "power",
+      "thermload"
+    ]
+  },
+  "tp": {
+    "blueprints": {
+      "Weapon_LightWeight": [1, 2, 3, 4, 5],
+      "Weapon_Sturdy": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "damage",
+      "damagedist",
+      "fallofffromrange",
+      "distdraw",
+      "integrity",
+      "jitter",
+      "mass",
+      "piercing",
+      "power",
+      "range",
+      "rof",
+      "thermload"
+    ]
+  },
+  "ul": {
+    "blueprints": {
+      "Weapon_Efficient": [1, 2, 3, 4, 5],
+      "Weapon_Focused": [1, 2, 3, 4, 5],
+      "Weapon_LightWeight": [1, 2, 3, 4, 5],
+      "Weapon_LongRange": [1, 2, 3, 4, 5],
+      "Weapon_Overcharged": [1, 2, 3, 4, 5],
+      "Weapon_RapidFire": [1, 2, 3, 4, 5],
+      "Weapon_ShortRange": [1, 2, 3, 4, 5],
+      "Weapon_Sturdy": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "burst",
+      "burstrof",
+      "damage",
+      "damagedist",
+      "fallofffromrange",
+      "distdraw",
+      "integrity",
+      "jitter",
+      "mass",
+      "piercing",
+      "power",
+      "range",
+      "rof",
+      "thermload"
+    ]
+  },
+  "ws": {
+    "blueprints": {
+      "WakeScanner_LightWeight": [1, 2, 3, 4, 5],
+      "WakeScanner_Reinforced": [1, 2, 3, 4, 5],
+      "WakeScanner_Shielded": [1, 2, 3, 4, 5]
+    },
+    "modifications": [
+      "boot",
+      "integrity",
+      "mass",
+      "power"
+    ]
+  }
+}

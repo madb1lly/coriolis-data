@@ -7,6 +7,9 @@
       "class": 1,
       "cost": 37430,
       "damage": 9.8,
+      "damagedist": {
+        "T": 1
+      },
       "distdraw": 1.94,
       "edID": 128049428,
       "eddbID": 841,
@@ -20,8 +23,7 @@
       "power": 0.62,
       "range": 3000,
       "rating": "E",
-      "thermload": 3.5,
-      "type": "T"
+      "thermload": 3.5
     },
     {
       "breachdmg": 6.1,
@@ -30,6 +32,9 @@
       "class": 1,
       "cost": 74650,
       "damage": 7.66,
+      "damagedist": {
+        "T": 1
+      },
       "distdraw": 2.11,
       "edID": 128049432,
       "eddbID": 844,
@@ -43,8 +48,7 @@
       "power": 0.6,
       "range": 3000,
       "rating": "E",
-      "thermload": 3.6,
-      "type": "T"
+      "thermload": 3.6
     },
     {
       "breachdmg": 4.3,
@@ -53,6 +57,9 @@
       "class": 1,
       "cost": 500000,
       "damage": 5.4,
+      "damagedist": {
+        "T": 1
+      },
       "distdraw": 1.32,
       "edID": 128049435,
       "eddbID": 847,
@@ -68,8 +75,7 @@
       "power": 0.57,
       "range": 3000,
       "rating": "F",
-      "thermload": 2.4,
-      "type": "T"
+      "thermload": 2.4
     },
     {
       "breachdmg": 3.9,
@@ -78,6 +84,9 @@
       "class": 1,
       "cost": 56150,
       "damage": 4.9,
+      "damagedist": {
+        "T": 1
+      },
       "distdraw": 2.52,
       "edID": 128671346,
       "eddbID": 1476,
@@ -93,8 +102,7 @@
       "pp": "Edmund Mahon",
       "range": 3000,
       "rating": "E",
-      "thermload": 2.7,
-      "type": "T"
+      "thermload": 2.7
     },
     {
       "breachdmg": 12.8,
@@ -103,6 +111,9 @@
       "class": 2,
       "cost": 299520,
       "damage": 15.96,
+      "damagedist": {
+        "T": 1
+      },
       "distdraw": 3.16,
       "edID": 128049429,
       "eddbID": 842,
@@ -116,8 +127,7 @@
       "power": 1.01,
       "range": 3000,
       "rating": "D",
-      "thermload": 5.1,
-      "type": "T"
+      "thermload": 5.1
     },
     {
       "breachdmg": 10,
@@ -126,6 +136,9 @@
       "class": 2,
       "cost": 500600,
       "damage": 12.52,
+      "damagedist": {
+        "T": 1
+      },
       "distdraw": 3.44,
       "edID": 128049433,
       "eddbID": 845,
@@ -139,8 +152,7 @@
       "power": 0.99,
       "range": 3000,
       "rating": "D",
-      "thermload": 5.3,
-      "type": "T"
+      "thermload": 5.3
     },
     {
       "breachdmg": 7.1,
@@ -149,6 +161,9 @@
       "class": 2,
       "cost": 2099900,
       "damage": 8.82,
+      "damagedist": {
+        "T": 1
+      },
       "distdraw": 2.16,
       "edID": 128049436,
       "eddbID": 848,
@@ -162,8 +177,7 @@
       "power": 0.93,
       "range": 3000,
       "rating": "E",
-      "thermload": 3.5,
-      "type": "T"
+      "thermload": 3.5
     },
     {
       "breachdmg": 20.6,
@@ -172,6 +186,9 @@
       "class": 3,
       "cost": 1177600,
       "damage": 25.78,
+      "damagedist": {
+        "T": 1
+      },
       "distdraw": 5.1,
       "edID": 128049430,
       "eddbID": 843,
@@ -185,8 +202,7 @@
       "power": 1.62,
       "range": 3000,
       "rating": "C",
-      "thermload": 7.2,
-      "type": "T"
+      "thermload": 7.2
     },
     {
       "breachdmg": 16.2,
@@ -195,6 +211,9 @@
       "class": 3,
       "cost": 2396160,
       "damage": 20.28,
+      "damagedist": {
+        "T": 1
+      },
       "distdraw": 5.58,
       "edID": 128049434,
       "eddbID": 846,
@@ -208,8 +227,7 @@
       "power": 1.6,
       "range": 3000,
       "rating": "C",
-      "thermload": 7.6,
-      "type": "T"
+      "thermload": 7.6
     },
     {
       "breachdmg": 11.5,
@@ -218,6 +236,9 @@
       "class": 3,
       "cost": 19399600,
       "damage": 14.34,
+      "damagedist": {
+        "T": 1
+      },
       "distdraw": 3.51,
       "edID": 128049437,
       "eddbID": 849,
@@ -231,8 +252,7 @@
       "power": 1.51,
       "range": 3000,
       "rating": "D",
-      "thermload": 5.1,
-      "type": "T"
+      "thermload": 5.1
     },
     {
       "breachdmg": 33.1,
@@ -241,6 +261,9 @@
       "class": 4,
       "cost": 2396160,
       "damage": 41.38,
+      "damagedist": {
+        "T": 1
+      },
       "distdraw": 8.19,
       "edID": 128049431,
       "eddbID": 1540,
@@ -254,8 +277,7 @@
       "power": 2.61,
       "range": 3000,
       "rating": "A",
-      "thermload": 9.9,
-      "type": "T"
+      "thermload": 9.9
     },
     {
       "breachdmg": 26.1,
@@ -264,6 +286,9 @@
       "class": 4,
       "cost": 8746160,
       "damage": 32.68,
+      "damagedist": {
+        "T": 1
+      },
       "distdraw": 8.99,
       "edID": 128681994,
       "eddbID": 1544,
@@ -277,8 +302,7 @@
       "power": 2.57,
       "range": 3000,
       "rating": "A",
-      "thermload": 10.6,
-      "type": "T"
+      "thermload": 10.6
     }
   ]
 }

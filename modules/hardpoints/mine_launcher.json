@@ -9,6 +9,10 @@
       "clip": 3,
       "cost": 24260,
       "damage": 44,
+      "damagedist": {
+        "E": 0.5,
+	"T": 0.5
+      },
       "distdraw": 0,
       "edID": 128049500,
       "eddbID": 880,
@@ -22,8 +26,7 @@
       "rating": "I",
       "reload": 2,
       "rof": 1,
-      "thermload": 5,
-      "type": "ET"
+      "thermload": 5
     },
     {
       "ammo": 36,
@@ -34,6 +37,10 @@
       "clip": 3,
       "cost": 36400,
       "damage": 32,
+      "damagedist": {
+        "E": 0.5,
+	"T": 0.5
+      },
       "distdraw": 0,
       "edID": 128671448,
       "eddbID": 1523,
@@ -48,8 +55,7 @@
       "rating": "I",
       "reload": 2,
       "rof": 1,
-      "thermload": 5,
-      "type": "ET"
+      "thermload": 5
     },
     {
       "ammo": 36,
@@ -60,6 +66,10 @@
       "clip": 3,
       "cost": 294080,
       "damage": 44,
+      "damagedist": {
+        "E": 0.5,
+	"T": 0.5
+      },
       "distdraw": 0,
       "edID": 128049501,
       "eddbID": 881,
@@ -73,8 +83,7 @@
       "rating": "I",
       "reload": 2,
       "rof": 1,
-      "thermload": 7.5,
-      "type": "ET"
+      "thermload": 7.5
     }
   ]
 }

@@ -12,6 +12,7 @@
   ],
   "bl": [
     "damage",
+    "damagedist",
     "distdraw",
     "fallofffromrange",
     "integrity",
@@ -40,6 +41,7 @@
     "ammo",
     "clip",
     "damage",
+    "damagedist",
     "distdraw",
     "fallofffromrange",
     "integrity",
@@ -81,6 +83,7 @@
     "burstrof",
     "clip",
     "damage",
+    "damagedist",
     "fallofffromrange",
     "distdraw",
     "integrity",
@@ -91,8 +94,7 @@
     "range",
     "reload",
     "rof",
-    "thermload",
-    "type"
+    "thermload"
   ],
   "fi": [
     "boot",
@@ -156,6 +158,7 @@
     "ammo",
     "clip",
     "damage",
+    "damagedist",
     "fallofffromrange",
     "distdraw",
     "integrity",
@@ -166,13 +169,13 @@
     "range",
     "reload",
     "rof",
-    "thermload",
-    "type"
+    "thermload"
   ],
   "mr": [
     "ammo",
     "clip",
     "damage",
+    "damagedist",
     "fallofffromrange",
     "distdraw",
     "integrity",
@@ -189,6 +192,7 @@
     "boot",
     "clip",
     "damage",
+    "damagedist",
     "fallofffromrange",
     "integrity",
     "jitter",
@@ -203,6 +207,7 @@
     "ammo",
     "clip",
     "damage",
+    "damagedist",
     "fallofffromrange",
     "distdraw",
     "integrity",
@@ -234,6 +239,7 @@
   ],
   "pl": [
     "damage",
+    "damagedist",
     "fallofffromrange",
     "distdraw",
     "integrity",
@@ -281,6 +287,7 @@
     "ammo",
     "clip",
     "damage",
+    "damagedist",
     "fallofffromrange",
     "distdraw",
     "integrity",
@@ -336,6 +343,7 @@
   ],
   "tp": [
     "damage",
+    "damagedist",
     "fallofffromrange",
     "distdraw",
     "integrity",
@@ -351,6 +359,7 @@
     "burst",
     "burstrof",
     "damage",
+    "damagedist",
     "fallofffromrange",
     "distdraw",
     "integrity",

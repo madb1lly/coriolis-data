@@ -1069,7 +1069,7 @@ module.exports = {
         speed: 200,
         boost: 260,
         boostEnergy: 27,
-        baseShieldStrength: 610.5,
+        baseShieldStrength: 555,
         baseArmour: 370,
         hardness: 70,
         hullMass: 900,
@@ -1750,7 +1750,7 @@ module.exports = {
         speed: 200,
         boost: 320,
         boostEnergy: 23,
-        baseShieldStrength: 690,
+        baseShieldStrength: 600,
         baseArmour: 400,
         hardness: 70,
         hullMass: 1100,
@@ -6257,6 +6257,9 @@ module.exports = {
         class: 1,
         cost: 2200,
         damage: 2.04,
+        damagedist: {
+          T: 1
+        },
         distdraw: .3,
         edID: 128049381,
         eddbID: 823,
@@ -6271,8 +6274,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 3.847,
-        thermload: .3,
-        type: "T"
+        thermload: .3
       }, {
         breachdmg: 1.3,
         breachmax: .8,
@@ -6280,6 +6282,9 @@ module.exports = {
         class: 1,
         cost: 6600,
         damage: 1.56,
+        damagedist: {
+          T: 1
+        },
         distdraw: .31,
         edID: 128049385,
         eddbID: 826,
@@ -6294,8 +6299,7 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 3.987,
-        thermload: .3,
-        type: "T"
+        thermload: .3
       }, {
         breachdmg: 1,
         breachmax: .8,
@@ -6303,6 +6307,9 @@ module.exports = {
         class: 1,
         cost: 26e3,
         damage: 1.18,
+        damagedist: {
+          T: 1
+        },
         distdraw: .19,
         edID: 128049388,
         eddbID: 829,
@@ -6317,8 +6324,7 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 3.339,
-        thermload: .2,
-        type: "T"
+        thermload: .2
       }, {
         breachdmg: 3,
         breachmax: .8,
@@ -6326,6 +6332,9 @@ module.exports = {
         class: 2,
         cost: 17600,
         damage: 3.49,
+        damagedist: {
+          T: 1
+        },
         distdraw: .5,
         edID: 128049382,
         eddbID: 824,
@@ -6340,8 +6349,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 3.448,
-        thermload: .6,
-        type: "T"
+        thermload: .6
       }, {
         breachdmg: 2.3,
         breachmax: .8,
@@ -6349,6 +6357,9 @@ module.exports = {
         class: 2,
         cost: 35400,
         damage: 2.68,
+        damagedist: {
+          T: 1
+        },
         distdraw: .54,
         edID: 128049386,
         eddbID: 827,
@@ -6363,8 +6374,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 3.567,
-        thermload: .5,
-        type: "T"
+        thermload: .5
       }, {
         breachdmg: 1.7,
         breachmax: .8,
@@ -6372,6 +6382,9 @@ module.exports = {
         class: 2,
         cost: 132800,
         damage: 2.04,
+        damagedist: {
+          T: 1
+        },
         distdraw: .33,
         edID: 128049389,
         eddbID: 830,
@@ -6386,8 +6399,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 3.037,
-        thermload: .3,
-        type: "T"
+        thermload: .3
       }, {
         breachdmg: 2.4,
         breachmax: .8,
@@ -6395,6 +6407,9 @@ module.exports = {
         class: 2,
         cost: 26400,
         damage: 2.8,
+        damagedist: {
+          T: 1
+        },
         distdraw: .9,
         eddbID: 1483,
         falloff: 500,
@@ -6409,8 +6424,7 @@ module.exports = {
         pp: "Felicia Winters",
         rating: "E",
         rof: 1.664,
-        thermload: 1,
-        type: "T"
+        thermload: 1
       }, {
         breachdmg: 5.1,
         breachmax: .8,
@@ -6418,6 +6432,9 @@ module.exports = {
         class: 3,
         cost: 70400,
         damage: 5.98,
+        damagedist: {
+          T: 1
+        },
         distdraw: .86,
         edID: 128049383,
         eddbID: 825,
@@ -6432,8 +6449,7 @@ module.exports = {
         range: 3e3,
         rating: "D",
         rof: 3.3,
-        thermload: 1,
-        type: "T"
+        thermload: 1
       }, {
         breachdmg: 3.9,
         breachmax: .8,
@@ -6441,6 +6457,9 @@ module.exports = {
         class: 3,
         cost: 140600,
         damage: 4.58,
+        damagedist: {
+          T: 1
+        },
         distdraw: .92,
         edID: 128049387,
         eddbID: 828,
@@ -6455,8 +6474,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 3.223,
-        thermload: .9,
-        type: "T"
+        thermload: .9
       }, {
         breachdmg: 3,
         breachmax: .8,
@@ -6464,6 +6482,9 @@ module.exports = {
         class: 3,
         cost: 400400,
         damage: 3.49,
+        damagedist: {
+          T: 1
+        },
         distdraw: .56,
         edID: 128049390,
         eddbID: 831,
@@ -6478,8 +6499,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 2.705,
-        thermload: .6,
-        type: "T"
+        thermload: .6
       }, {
         breachdmg: 8.7,
         breachmax: .8,
@@ -6487,6 +6507,9 @@ module.exports = {
         class: 4,
         cost: 177600,
         damage: 10.23,
+        damagedist: {
+          T: 1
+        },
         distdraw: 1.48,
         edID: 128049384,
         eddbID: 1539,
@@ -6501,8 +6524,7 @@ module.exports = {
         range: 3e3,
         rating: "A",
         rof: 2.633,
-        thermload: 1.6,
-        type: "T"
+        thermload: 1.6
       }, {
         breachdmg: 6.6,
         breachmax: .8,
@@ -6510,6 +6532,9 @@ module.exports = {
         class: 4,
         cost: 877600,
         damage: 7.82,
+        damagedist: {
+          T: 1
+        },
         distdraw: 1.56,
         edID: 128681995,
         eddbID: 1545,
@@ -6524,8 +6549,7 @@ module.exports = {
         range: 3e3,
         rating: "A",
         rof: 2.777,
-        thermload: 1.6,
-        type: "T"
+        thermload: 1.6
       } ],
       ul: [ {
         breachdmg: 7.05,
@@ -6536,6 +6560,9 @@ module.exports = {
         class: 1,
         cost: 4400,
         damage: 1.72,
+        damagedist: {
+          T: 1
+        },
         distdraw: .24,
         edID: 128049400,
         eddbID: 832,
@@ -6550,8 +6577,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 2,
-        thermload: .4,
-        type: "T"
+        thermload: .4
       }, {
         breachdmg: 5.3,
         breachmax: .8,
@@ -6561,6 +6587,9 @@ module.exports = {
         class: 1,
         cost: 8600,
         damage: 1.2,
+        damagedist: {
+          T: 1
+        },
         distdraw: .23,
         edID: 128049404,
         eddbID: 835,
@@ -6575,8 +6604,7 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 2.23,
-        thermload: .3,
-        type: "T"
+        thermload: .3
       }, {
         breachdmg: 1.92,
         breachmax: .8,
@@ -6586,6 +6614,9 @@ module.exports = {
         class: 1,
         cost: 52800,
         damage: .87,
+        damagedist: {
+          T: 1
+        },
         distdraw: .136,
         edID: 128049407,
         eddbID: 838,
@@ -6600,8 +6631,7 @@ module.exports = {
         range: 3e3,
         rating: "G",
         rof: 1.92,
-        thermload: .2,
-        type: "T"
+        thermload: .2
       }, {
         breachdmg: 2,
         breachmax: 0,
@@ -6611,6 +6641,9 @@ module.exports = {
         class: 1,
         cost: 8800,
         damage: 2.4,
+        damagedist: {
+          T: 1
+        },
         distdraw: .31,
         edID: 128671449,
         eddbID: 1477,
@@ -6628,8 +6661,7 @@ module.exports = {
         range: 600,
         rating: "F",
         rof: 6.6,
-        thermload: .3,
-        type: "T"
+        thermload: .3
       }, {
         breachdmg: 11.1,
         breachmax: .8,
@@ -6639,6 +6671,9 @@ module.exports = {
         class: 2,
         cost: 23e3,
         damage: 3.5,
+        damagedist: {
+          T: 1
+        },
         distdraw: .482,
         edID: 128049401,
         eddbID: 833,
@@ -6653,8 +6688,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1.6,
-        thermload: .8,
-        type: "T"
+        thermload: .8
       }, {
         breachdmg: 8.82,
         breachmax: .8,
@@ -6664,6 +6698,9 @@ module.exports = {
         class: 2,
         cost: 48500,
         damage: 2.45,
+        damagedist: {
+          T: 1
+        },
         distdraw: .468,
         edID: 128049405,
         eddbID: 836,
@@ -6678,8 +6715,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 1.78,
-        thermload: .7,
-        type: "T"
+        thermload: .7
       }, {
         breachdmg: 3.51,
         breachmax: .8,
@@ -6689,6 +6725,9 @@ module.exports = {
         class: 2,
         cost: 162800,
         damage: 1.74,
+        damagedist: {
+          T: 1
+        },
         distdraw: .26,
         edID: 128049408,
         eddbID: 839,
@@ -6703,8 +6742,7 @@ module.exports = {
         range: 3e3,
         rating: "F",
         rof: 1.57,
-        thermload: .4,
-        type: "T"
+        thermload: .4
       }, {
         breachdmg: 10.53,
         breachmax: .8,
@@ -6714,6 +6752,9 @@ module.exports = {
         class: 3,
         cost: 140400,
         damage: 7.75,
+        damagedist: {
+          T: 1
+        },
         distdraw: 1.06,
         edID: 128049402,
         eddbID: 834,
@@ -6728,8 +6769,7 @@ module.exports = {
         range: 3e3,
         rating: "D",
         rof: 1.2,
-        thermload: 1.7,
-        type: "T"
+        thermload: 1.7
       }, {
         breachdmg: 14.08,
         breachmax: .8,
@@ -6739,6 +6779,9 @@ module.exports = {
         class: 3,
         cost: 281600,
         damage: 5.18,
+        damagedist: {
+          T: 1
+        },
         distdraw: .986,
         edID: 128049406,
         eddbID: 837,
@@ -6753,8 +6796,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1.4,
-        thermload: 1.4,
-        type: "T"
+        thermload: 1.4
       }, {
         breachdmg: 5.58,
         breachmax: .8,
@@ -6764,6 +6806,9 @@ module.exports = {
         class: 3,
         cost: 800400,
         damage: 3.54,
+        damagedist: {
+          T: 1
+        },
         distdraw: .536,
         edID: 128049409,
         eddbID: 840,
@@ -6778,8 +6823,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1.272,
-        thermload: .8,
-        type: "T"
+        thermload: .8
       }, {
         breachdmg: 28,
         breachmax: .8,
@@ -6789,6 +6833,9 @@ module.exports = {
         class: 4,
         cost: 281600,
         damage: 20.6,
+        damagedist: {
+          T: 1
+        },
         distdraw: 2.84,
         edID: 128049403,
         eddbID: 1549,
@@ -6803,8 +6850,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: .8,
-        thermload: 4.5,
-        type: "T"
+        thermload: 4.5
       }, {
         breachdmg: 21.63,
         breachmax: .8,
@@ -6814,6 +6860,9 @@ module.exports = {
         class: 4,
         cost: 1245600,
         damage: 12.1,
+        damagedist: {
+          T: 1
+        },
         distdraw: 2.31,
         edID: 128727920,
         eddbID: 1550,
@@ -6828,8 +6877,7 @@ module.exports = {
         range: 3e3,
         rating: "E",
         rof: 1,
-        thermload: 3.3,
-        type: "T"
+        thermload: 3.3
       } ],
       bl: [ {
         breachdmg: 7.9,
@@ -6838,6 +6886,9 @@ module.exports = {
         class: 1,
         cost: 37430,
         damage: 9.8,
+        damagedist: {
+          T: 1
+        },
         distdraw: 1.94,
         edID: 128049428,
         eddbID: 841,
@@ -6851,8 +6902,7 @@ module.exports = {
         power: .62,
         range: 3e3,
         rating: "E",
-        thermload: 3.5,
-        type: "T"
+        thermload: 3.5
       }, {
         breachdmg: 6.1,
         breachmax: .8,
@@ -6860,6 +6910,9 @@ module.exports = {
         class: 1,
         cost: 74650,
         damage: 7.66,
+        damagedist: {
+          T: 1
+        },
         distdraw: 2.11,
         edID: 128049432,
         eddbID: 844,
@@ -6873,8 +6926,7 @@ module.exports = {
         power: .6,
         range: 3e3,
         rating: "E",
-        thermload: 3.6,
-        type: "T"
+        thermload: 3.6
       }, {
         breachdmg: 4.3,
         breachmax: .8,
@@ -6882,6 +6934,9 @@ module.exports = {
         class: 1,
         cost: 5e5,
         damage: 5.4,
+        damagedist: {
+          T: 1
+        },
         distdraw: 1.32,
         edID: 128049435,
         eddbID: 847,
@@ -6897,8 +6952,7 @@ module.exports = {
         power: .57,
         range: 3e3,
         rating: "F",
-        thermload: 2.4,
-        type: "T"
+        thermload: 2.4
       }, {
         breachdmg: 3.9,
         breachmax: .8,
@@ -6906,6 +6960,9 @@ module.exports = {
         class: 1,
         cost: 56150,
         damage: 4.9,
+        damagedist: {
+          T: 1
+        },
         distdraw: 2.52,
         edID: 128671346,
         eddbID: 1476,
@@ -6921,8 +6978,7 @@ module.exports = {
         pp: "Edmund Mahon",
         range: 3e3,
         rating: "E",
-        thermload: 2.7,
-        type: "T"
+        thermload: 2.7
       }, {
         breachdmg: 12.8,
         breachmax: .8,
@@ -6930,6 +6986,9 @@ module.exports = {
         class: 2,
         cost: 299520,
         damage: 15.96,
+        damagedist: {
+          T: 1
+        },
         distdraw: 3.16,
         edID: 128049429,
         eddbID: 842,
@@ -6943,8 +7002,7 @@ module.exports = {
         power: 1.01,
         range: 3e3,
         rating: "D",
-        thermload: 5.1,
-        type: "T"
+        thermload: 5.1
       }, {
         breachdmg: 10,
         breachmax: .8,
@@ -6952,6 +7010,9 @@ module.exports = {
         class: 2,
         cost: 500600,
         damage: 12.52,
+        damagedist: {
+          T: 1
+        },
         distdraw: 3.44,
         edID: 128049433,
         eddbID: 845,
@@ -6965,8 +7026,7 @@ module.exports = {
         power: .99,
         range: 3e3,
         rating: "D",
-        thermload: 5.3,
-        type: "T"
+        thermload: 5.3
       }, {
         breachdmg: 7.1,
         breachmax: .8,
@@ -6974,6 +7034,9 @@ module.exports = {
         class: 2,
         cost: 2099900,
         damage: 8.82,
+        damagedist: {
+          T: 1
+        },
         distdraw: 2.16,
         edID: 128049436,
         eddbID: 848,
@@ -6987,8 +7050,7 @@ module.exports = {
         power: .93,
         range: 3e3,
         rating: "E",
-        thermload: 3.5,
-        type: "T"
+        thermload: 3.5
       }, {
         breachdmg: 20.6,
         breachmax: .8,
@@ -6996,6 +7058,9 @@ module.exports = {
         class: 3,
         cost: 1177600,
         damage: 25.78,
+        damagedist: {
+          T: 1
+        },
         distdraw: 5.1,
         edID: 128049430,
         eddbID: 843,
@@ -7009,8 +7074,7 @@ module.exports = {
         power: 1.62,
         range: 3e3,
         rating: "C",
-        thermload: 7.2,
-        type: "T"
+        thermload: 7.2
       }, {
         breachdmg: 16.2,
         breachmax: .8,
@@ -7018,6 +7082,9 @@ module.exports = {
         class: 3,
         cost: 2396160,
         damage: 20.28,
+        damagedist: {
+          T: 1
+        },
         distdraw: 5.58,
         edID: 128049434,
         eddbID: 846,
@@ -7031,8 +7098,7 @@ module.exports = {
         power: 1.6,
         range: 3e3,
         rating: "C",
-        thermload: 7.6,
-        type: "T"
+        thermload: 7.6
       }, {
         breachdmg: 11.5,
         breachmax: .8,
@@ -7040,6 +7106,9 @@ module.exports = {
         class: 3,
         cost: 19399600,
         damage: 14.34,
+        damagedist: {
+          T: 1
+        },
         distdraw: 3.51,
         edID: 128049437,
         eddbID: 849,
@@ -7053,8 +7122,7 @@ module.exports = {
         power: 1.51,
         range: 3e3,
         rating: "D",
-        thermload: 5.1,
-        type: "T"
+        thermload: 5.1
       }, {
         breachdmg: 33.1,
         breachmax: .8,
@@ -7062,6 +7130,9 @@ module.exports = {
         class: 4,
         cost: 2396160,
         damage: 41.38,
+        damagedist: {
+          T: 1
+        },
         distdraw: 8.19,
         edID: 128049431,
         eddbID: 1540,
@@ -7075,8 +7146,7 @@ module.exports = {
         power: 2.61,
         range: 3e3,
         rating: "A",
-        thermload: 9.9,
-        type: "T"
+        thermload: 9.9
       }, {
         breachdmg: 26.1,
         breachmax: .8,
@@ -7084,6 +7154,9 @@ module.exports = {
         class: 4,
         cost: 8746160,
         damage: 32.68,
+        damagedist: {
+          T: 1
+        },
         distdraw: 8.99,
         edID: 128681994,
         eddbID: 1544,
@@ -7097,8 +7170,7 @@ module.exports = {
         power: 2.57,
         range: 3e3,
         rating: "A",
-        thermload: 10.6,
-        type: "T"
+        thermload: 10.6
       } ],
       mc: [ {
         ammo: 2100,
@@ -7109,6 +7181,9 @@ module.exports = {
         clip: 100,
         cost: 9500,
         damage: 1.12,
+        damagedist: {
+          K: 1
+        },
         distdraw: .06,
         edID: 128049455,
         eddbID: 867,
@@ -7125,8 +7200,7 @@ module.exports = {
         reload: 4,
         rof: 7.69,
         speed: 1600,
-        thermload: .1,
-        type: "K"
+        thermload: .1
       }, {
         ammo: 2100,
         breachdmg: .7,
@@ -7136,6 +7210,9 @@ module.exports = {
         clip: 90,
         cost: 14250,
         damage: .82,
+        damagedist: {
+          K: 1
+        },
         distdraw: .07,
         edID: 128049459,
         eddbID: 869,
@@ -7152,8 +7229,7 @@ module.exports = {
         reload: 5,
         rof: 8.33,
         speed: 1600,
-        thermload: .1,
-        type: "K"
+        thermload: .1
       }, {
         ammo: 2100,
         breachdmg: .5,
@@ -7163,6 +7239,9 @@ module.exports = {
         clip: 90,
         cost: 81600,
         damage: .56,
+        damagedist: {
+          K: 1
+        },
         distdraw: .03,
         edID: 128049462,
         eddbID: 871,
@@ -7179,8 +7258,7 @@ module.exports = {
         reload: 4,
         rof: 7.14,
         speed: 1600,
-        thermload: 0,
-        type: "K"
+        thermload: 0
       }, {
         ammo: 1e3,
         breachdmg: 2.6,
@@ -7190,6 +7268,9 @@ module.exports = {
         clip: 60,
         cost: 13980,
         damage: 2.9,
+        damagedist: {
+          K: 1
+        },
         distdraw: .12,
         eddbID: 1481,
         falloff: 1800,
@@ -7207,8 +7288,7 @@ module.exports = {
         reload: 4,
         rof: 4.3,
         speed: 1800,
-        thermload: .2,
-        type: "K"
+        thermload: .2
       }, {
         ammo: 2100,
         breachdmg: 2,
@@ -7218,6 +7298,9 @@ module.exports = {
         clip: 100,
         cost: 38e3,
         damage: 2.19,
+        damagedist: {
+          K: 1
+        },
         distdraw: .11,
         edID: 128049456,
         eddbID: 868,
@@ -7234,8 +7317,7 @@ module.exports = {
         reload: 4,
         rof: 7.14,
         speed: 1600,
-        thermload: .2,
-        type: "K"
+        thermload: .2
       }, {
         ammo: 2100,
         breachdmg: 1.5,
@@ -7245,6 +7327,9 @@ module.exports = {
         clip: 90,
         cost: 57e3,
         damage: 1.64,
+        damagedist: {
+          K: 1
+        },
         distdraw: .14,
         edID: 128049460,
         eddbID: 870,
@@ -7261,8 +7346,7 @@ module.exports = {
         reload: 5,
         rof: 7.69,
         speed: 1600,
-        thermload: .2,
-        type: "K"
+        thermload: .2
       }, {
         ammo: 2100,
         breachdmg: 1.1,
@@ -7272,6 +7356,9 @@ module.exports = {
         clip: 90,
         cost: 1292800,
         damage: 1.17,
+        damagedist: {
+          K: 1
+        },
         distdraw: .06,
         edID: 128049463,
         eddbID: 872,
@@ -7288,8 +7375,7 @@ module.exports = {
         reload: 4,
         rof: 6.25,
         speed: 1600,
-        thermload: .1,
-        type: "K"
+        thermload: .1
       }, {
         ammo: 2100,
         breachdmg: 3.5,
@@ -7299,6 +7385,9 @@ module.exports = {
         clip: 100,
         cost: 140400,
         damage: 3.93,
+        damagedist: {
+          K: 1
+        },
         distdraw: .18,
         edID: 128049457,
         eddbID: 1541,
@@ -7315,8 +7404,7 @@ module.exports = {
         reload: 4,
         rof: 5.88,
         speed: 1600,
-        thermload: .3,
-        type: "K"
+        thermload: .3
       }, {
         ammo: 2100,
         breachdmg: 2.6,
@@ -7326,6 +7414,9 @@ module.exports = {
         clip: 90,
         cost: 578436,
         damage: 2.84,
+        damagedist: {
+          K: 1
+        },
         distdraw: .25,
         edID: 128049461,
         eddbID: 1543,
@@ -7342,8 +7433,7 @@ module.exports = {
         reload: 5,
         rof: 6.665,
         speed: 1600,
-        thermload: .3,
-        type: "K"
+        thermload: .3
       }, {
         ammo: 2100,
         breachdmg: 4.2,
@@ -7353,6 +7443,9 @@ module.exports = {
         clip: 100,
         cost: 1177600,
         damage: 4.62,
+        damagedist: {
+          K: 1
+        },
         distdraw: .24,
         edID: 128049458,
         eddbID: 1542,
@@ -7370,8 +7463,7 @@ module.exports = {
         rof: 3.03,
         roundspershot: 2,
         speed: 1600,
-        thermload: .4,
-        type: "K"
+        thermload: .4
       }, {
         ammo: 2100,
         breachdmg: 3.1,
@@ -7381,6 +7473,9 @@ module.exports = {
         clip: 90,
         cost: 6377600,
         damage: 3.46,
+        damagedist: {
+          K: 1
+        },
         distdraw: .37,
         edID: 128681996,
         eddbID: 1546,
@@ -7398,8 +7493,7 @@ module.exports = {
         rof: 3.365,
         roundspershot: 2,
         speed: 1600,
-        thermload: .5,
-        type: "K"
+        thermload: .5
       } ],
       c: [ {
         ammo: 120,
@@ -7410,6 +7504,9 @@ module.exports = {
         clip: 6,
         cost: 21100,
         damage: 22.5,
+        damagedist: {
+          K: 1
+        },
         distdraw: .46,
         edID: 128049438,
         eddbID: 850,
@@ -7426,8 +7523,7 @@ module.exports = {
         reload: 3,
         rof: .5,
         speed: 1200,
-        thermload: 1.4,
-        type: "K"
+        thermload: 1.4
       }, {
         ammo: 100,
         breachdmg: 13.2,
@@ -7437,6 +7533,9 @@ module.exports = {
         clip: 5,
         cost: 42200,
         damage: 16,
+        damagedist: {
+          K: 1
+        },
         distdraw: .48,
         edID: 128049442,
         eddbID: 854,
@@ -7453,8 +7552,7 @@ module.exports = {
         reload: 4,
         rof: .52,
         speed: 1e3,
-        thermload: 1.3,
-        type: "K"
+        thermload: 1.3
       }, {
         ammo: 100,
         breachdmg: 10.6,
@@ -7464,6 +7562,9 @@ module.exports = {
         clip: 5,
         cost: 506400,
         damage: 12.75,
+        damagedist: {
+          K: 1
+        },
         distdraw: .22,
         edID: 128049445,
         eddbID: 857,
@@ -7480,8 +7581,7 @@ module.exports = {
         reload: 4,
         rof: .435,
         speed: 1e3,
-        thermload: .7,
-        type: "K"
+        thermload: .7
       }, {
         ammo: 120,
         breachdmg: 28,
@@ -7491,6 +7591,9 @@ module.exports = {
         clip: 6,
         cost: 168430,
         damage: 36.5,
+        damagedist: {
+          K: 1
+        },
         distdraw: .7,
         edID: 128049439,
         eddbID: 851,
@@ -7507,8 +7610,7 @@ module.exports = {
         reload: 3,
         rof: .465,
         speed: 1051,
-        thermload: 2.1,
-        type: "K"
+        thermload: 2.1
       }, {
         ammo: 100,
         breachdmg: 20.3,
@@ -7518,6 +7620,9 @@ module.exports = {
         clip: 5,
         cost: 337600,
         damage: 24.5,
+        damagedist: {
+          K: 1
+        },
         distdraw: .75,
         edID: 128049443,
         eddbID: 855,
@@ -7534,8 +7639,7 @@ module.exports = {
         reload: 4,
         rof: .485,
         speed: 875,
-        thermload: 1.9,
-        type: "K"
+        thermload: 1.9
       }, {
         ammo: 100,
         breachdmg: 16.3,
@@ -7545,6 +7649,9 @@ module.exports = {
         clip: 5,
         cost: 4051200,
         damage: 19.77,
+        damagedist: {
+          K: 1
+        },
         distdraw: .34,
         edID: 128049446,
         eddbID: 858,
@@ -7561,8 +7668,7 @@ module.exports = {
         reload: 4,
         rof: .405,
         speed: 875,
-        thermload: 1,
-        type: "K"
+        thermload: 1
       }, {
         ammo: 120,
         breachdmg: 42.3,
@@ -7572,6 +7678,9 @@ module.exports = {
         clip: 6,
         cost: 675200,
         damage: 54.94,
+        damagedist: {
+          K: 1
+        },
         distdraw: 1.07,
         edID: 128049440,
         eddbID: 852,
@@ -7588,8 +7697,7 @@ module.exports = {
         reload: 3,
         rof: .425,
         speed: 959,
-        thermload: 3.2,
-        type: "K"
+        thermload: 3.2
       }, {
         ammo: 100,
         breachdmg: 30.9,
@@ -7599,6 +7707,9 @@ module.exports = {
         clip: 5,
         cost: 1350400,
         damage: 37.39,
+        damagedist: {
+          K: 1
+        },
         distdraw: 1.14,
         edID: 128671120,
         eddbID: 1383,
@@ -7617,8 +7728,7 @@ module.exports = {
         reload: 4,
         rof: .445,
         speed: 800,
-        thermload: 2.9,
-        type: "K"
+        thermload: 2.9
       }, {
         ammo: 100,
         breachdmg: 25.14,
@@ -7628,6 +7738,9 @@ module.exports = {
         clip: 5,
         cost: 16204800,
         damage: 30.4,
+        damagedist: {
+          K: 1
+        },
         distdraw: .53,
         edID: 128049447,
         eddbID: 859,
@@ -7644,8 +7757,7 @@ module.exports = {
         reload: 4,
         rof: .37,
         speed: 800,
-        thermload: 1.6,
-        type: "K"
+        thermload: 1.6
       }, {
         ammo: 120,
         breachdmg: 63.2,
@@ -7655,6 +7767,9 @@ module.exports = {
         clip: 6,
         cost: 2700800,
         damage: 82.1,
+        damagedist: {
+          K: 1
+        },
         distdraw: 1.61,
         edID: 128049441,
         eddbID: 853,
@@ -7673,8 +7788,7 @@ module.exports = {
         reload: 3,
         rof: .385,
         speed: 900,
-        thermload: 4.8,
-        type: "K"
+        thermload: 4.8
       }, {
         ammo: 100,
         breachdmg: 46.7,
@@ -7684,6 +7798,9 @@ module.exports = {
         clip: 5,
         cost: 5401600,
         damage: 56.58,
+        damagedist: {
+          K: 1
+        },
         distdraw: 1.72,
         edID: 128049444,
         eddbID: 856,
@@ -7702,8 +7819,7 @@ module.exports = {
         reload: 4,
         rof: .4,
         speed: 750,
-        thermload: 4.4,
-        type: "K"
+        thermload: 4.4
       } ],
       fc: [ {
         ammo: 180,
@@ -7714,6 +7830,9 @@ module.exports = {
         clip: 3,
         cost: 36e3,
         damage: 1.43,
+        damagedist: {
+          K: 1
+        },
         distdraw: .21,
         edID: 128049448,
         eddbID: 860,
@@ -7732,8 +7851,7 @@ module.exports = {
         rof: 5.555,
         roundspershot: 12,
         speed: 667,
-        thermload: .4,
-        type: "K"
+        thermload: .4
       }, {
         ammo: 180,
         breachdmg: .9,
@@ -7743,6 +7861,9 @@ module.exports = {
         clip: 3,
         cost: 54720,
         damage: 1.01,
+        damagedist: {
+          K: 1
+        },
         distdraw: .26,
         edID: 128049451,
         eddbID: 863,
@@ -7761,8 +7882,7 @@ module.exports = {
         rof: 5.88,
         roundspershot: 12,
         speed: 667,
-        thermload: .4,
-        type: "K"
+        thermload: .4
       }, {
         ammo: 180,
         breachdmg: .5,
@@ -7772,6 +7892,9 @@ module.exports = {
         clip: 3,
         cost: 182400,
         damage: .69,
+        damagedist: {
+          K: 1
+        },
         distdraw: .1,
         edID: 128049453,
         eddbID: 865,
@@ -7790,8 +7913,7 @@ module.exports = {
         rof: 4.76,
         roundspershot: 12,
         speed: 667,
-        thermload: .2,
-        type: "K"
+        thermload: .2
       }, {
         ammo: 180,
         breachdmg: 2.3,
@@ -7801,6 +7923,9 @@ module.exports = {
         clip: 3,
         cost: 291840,
         damage: 2.56,
+        damagedist: {
+          K: 1
+        },
         distdraw: .37,
         edID: 128049449,
         eddbID: 861,
@@ -7819,8 +7944,7 @@ module.exports = {
         rof: 5,
         roundspershot: 12,
         speed: 667,
-        thermload: .7,
-        type: "K"
+        thermload: .7
       }, {
         ammo: 180,
         breachdmg: 1.8,
@@ -7830,6 +7954,9 @@ module.exports = {
         clip: 3,
         cost: 437800,
         damage: 1.95,
+        damagedist: {
+          K: 1
+        },
         distdraw: .49,
         edID: 128049452,
         eddbID: 864,
@@ -7848,8 +7975,7 @@ module.exports = {
         rof: 5.26,
         roundspershot: 12,
         speed: 667,
-        thermload: .8,
-        type: "K"
+        thermload: .8
       }, {
         ammo: 180,
         breachdmg: 1.3,
@@ -7859,6 +7985,9 @@ module.exports = {
         clip: 3,
         cost: 1459200,
         damage: 1.43,
+        damagedist: {
+          K: 1
+        },
         distdraw: .21,
         edID: 128049454,
         eddbID: 866,
@@ -7877,8 +8006,7 @@ module.exports = {
         rof: 4.345,
         roundspershot: 12,
         speed: 667,
-        thermload: .4,
-        type: "K"
+        thermload: .4
       }, {
         ammo: 180,
         breachdmg: 3.5,
@@ -7888,6 +8016,9 @@ module.exports = {
         clip: 3,
         cost: 1167360,
         damage: 3.92,
+        damagedist: {
+          K: 1
+        },
         distdraw: .57,
         edID: 128049450,
         eddbID: 862,
@@ -7906,8 +8037,7 @@ module.exports = {
         rof: 4.545,
         roundspershot: 12,
         speed: 667,
-        thermload: 1.1,
-        type: "K"
+        thermload: 1.1
       }, {
         ammo: 180,
         breachdmg: 2.9,
@@ -7917,6 +8047,9 @@ module.exports = {
         clip: 3,
         cost: 1751040,
         damage: 3.23,
+        damagedist: {
+          K: 1
+        },
         distdraw: .81,
         edID: 128671321,
         eddbID: 1454,
@@ -7935,8 +8068,7 @@ module.exports = {
         rof: 4.76,
         roundspershot: 12,
         speed: 667,
-        thermload: 1.4,
-        type: "K"
+        thermload: 1.4
       }, {
         ammo: 180,
         breachdmg: 2.3,
@@ -7946,6 +8078,9 @@ module.exports = {
         clip: 3,
         cost: 5836800,
         damage: 2.56,
+        damagedist: {
+          K: 1
+        },
         distdraw: .37,
         edID: 128671322,
         eddbID: 1455,
@@ -7964,8 +8099,7 @@ module.exports = {
         rof: 4,
         roundspershot: 12,
         speed: 667,
-        thermload: .7,
-        type: "K"
+        thermload: .7
       }, {
         ammo: 180,
         breachdmg: 3.1,
@@ -7975,6 +8109,9 @@ module.exports = {
         clip: 3,
         cost: 1400830,
         damage: 3.4,
+        damagedist: {
+          K: 1
+        },
         distdraw: .57,
         edID: 128671343,
         eddbID: 1478,
@@ -7994,8 +8131,7 @@ module.exports = {
         rof: 4.5,
         roundspershot: 12,
         speed: 1e3,
-        thermload: 1.1,
-        type: "K"
+        thermload: 1.1
       } ],
       rg: [ {
         ammo: 80,
@@ -8006,6 +8142,10 @@ module.exports = {
         clip: 1,
         cost: 51600,
         damage: 23.3,
+        damagedist: {
+          K: .5,
+          T: .5
+        },
         distdraw: 2.69,
         edID: 128049488,
         eddbID: 876,
@@ -8021,8 +8161,7 @@ module.exports = {
         rating: "D",
         reload: 1,
         rof: 1.6,
-        thermload: 17.8,
-        type: "KT"
+        thermload: 17.8
       }, {
         ammo: 80,
         breachdmg: 39.5,
@@ -8032,6 +8171,10 @@ module.exports = {
         clip: 1,
         cost: 412800,
         damage: 41.5,
+        damagedist: {
+          K: .5,
+          T: .5
+        },
         distdraw: 5.11,
         edID: 128049489,
         eddbID: 877,
@@ -8047,8 +8190,7 @@ module.exports = {
         rating: "B",
         reload: 1,
         rof: 1.2,
-        thermload: 30,
-        type: "KT"
+        thermload: 30
       }, {
         ammo: 90,
         breachdmg: 14.3,
@@ -8060,6 +8202,10 @@ module.exports = {
         clip: 3,
         cost: 619200,
         damage: 15,
+        damagedist: {
+          K: .5,
+          T: .5
+        },
         distdraw: 2,
         edID: 128671341,
         eddbID: 1484,
@@ -8077,8 +8223,7 @@ module.exports = {
         rating: "B",
         reload: 1,
         rof: 4.1,
-        thermload: 16,
-        type: "KT"
+        thermload: 16
       } ],
       pa: [ {
         ammo: 100,
@@ -8089,6 +8234,11 @@ module.exports = {
         clip: 5,
         cost: 834200,
         damage: 54.3,
+        damagedist: {
+          A: .6,
+          K: .2,
+          T: .2
+        },
         distdraw: 8.65,
         edID: 128049465,
         eddbID: 873,
@@ -8105,8 +8255,7 @@ module.exports = {
         reload: 6,
         rof: .33,
         speed: 875,
-        thermload: 15.6,
-        type: "A"
+        thermload: 15.6
       }, {
         ammo: 100,
         breachdmg: 68,
@@ -8116,6 +8265,11 @@ module.exports = {
         clip: 5,
         cost: 3051200,
         damage: 83.4,
+        damagedist: {
+          A: .6,
+          K: .2,
+          T: .2
+        },
         distdraw: 13.6,
         edID: 128049466,
         eddbID: 874,
@@ -8132,8 +8286,7 @@ module.exports = {
         reload: 6,
         rof: .29,
         speed: 875,
-        thermload: 21.8,
-        type: "A"
+        thermload: 21.8
       }, {
         ammo: 300,
         breachdmg: 30.9,
@@ -8143,6 +8296,11 @@ module.exports = {
         clip: 20,
         cost: 4119120,
         damage: 34.5,
+        damagedist: {
+          A: .6,
+          K: .2,
+          T: .2
+        },
         distdraw: 5.5,
         edID: 128671339,
         eddbID: 1482,
@@ -8161,8 +8319,7 @@ module.exports = {
         reload: 6,
         rof: .8,
         speed: 875,
-        thermload: 11,
-        type: "A"
+        thermload: 11
       }, {
         ammo: 100,
         breachdmg: 102,
@@ -8172,6 +8329,11 @@ module.exports = {
         clip: 5,
         cost: 13793600,
         damage: 125.2,
+        damagedist: {
+          A: .6,
+          K: .2,
+          T: .2
+        },
         distdraw: 21.04,
         edID: 128049467,
         eddbID: 875,
@@ -8188,8 +8350,7 @@ module.exports = {
         reload: 6,
         rof: .25,
         speed: 875,
-        thermload: 29.5,
-        type: "A"
+        thermload: 29.5
       } ],
       mr: [ {
         ammo: 16,
@@ -8200,6 +8361,9 @@ module.exports = {
         clip: 8,
         cost: 32180,
         damage: 50,
+        damagedist: {
+          E: 1
+        },
         distdraw: .24,
         edID: 128666724,
         eddbID: 1326,
@@ -8215,8 +8379,7 @@ module.exports = {
         reload: 5,
         rof: .5,
         speed: 750,
-        thermload: 3.6,
-        type: "E"
+        thermload: 3.6
       }, {
         ammo: 6,
         breachdmg: 16,
@@ -8226,6 +8389,9 @@ module.exports = {
         clip: 6,
         cost: 72600,
         damage: 40,
+        damagedist: {
+          E: 1
+        },
         distdraw: .24,
         edID: 128049492,
         eddbID: 878,
@@ -8241,8 +8407,7 @@ module.exports = {
         reload: 12,
         rof: .333,
         speed: 625,
-        thermload: 3.6,
-        type: "E"
+        thermload: 3.6
       }, {
         ammo: 48,
         breachdmg: 20,
@@ -8252,6 +8417,9 @@ module.exports = {
         clip: 12,
         cost: 240400,
         damage: 50,
+        damagedist: {
+          E: 1
+        },
         distdraw: .24,
         edID: 128666725,
         eddbID: 1327,
@@ -8269,8 +8437,7 @@ module.exports = {
         reload: 5,
         rof: .5,
         speed: 750,
-        thermload: 3.6,
-        type: "E"
+        thermload: 3.6
       }, {
         ammo: 18,
         breachdmg: 16,
@@ -8280,6 +8447,9 @@ module.exports = {
         clip: 6,
         cost: 512400,
         damage: 40,
+        damagedist: {
+          E: 1
+        },
         distdraw: .24,
         edID: 128049493,
         eddbID: 879,
@@ -8297,8 +8467,7 @@ module.exports = {
         reload: 12,
         rof: .333,
         speed: 625,
-        thermload: 3.6,
-        type: "E"
+        thermload: 3.6
       }, {
         ammo: 48,
         breachdmg: 16,
@@ -8308,6 +8477,9 @@ module.exports = {
         clip: 12,
         cost: 190227,
         damage: 40,
+        damagedist: {
+          E: 1
+        },
         distdraw: .24,
         eddbID: 1559,
         grp: "mr",
@@ -8324,8 +8496,7 @@ module.exports = {
         reload: 5,
         rof: .333,
         speed: 750,
-        thermload: 3.6,
-        type: "E"
+        thermload: 3.6
       }, {
         ammo: 120,
         breachdmg: 3,
@@ -8335,6 +8506,9 @@ module.exports = {
         clip: 12,
         cost: 768600,
         damage: 7.5,
+        damagedist: {
+          E: 1
+        },
         distdraw: .24,
         edID: 128671344,
         eddbID: 1480,
@@ -8355,8 +8529,7 @@ module.exports = {
         rof: 2,
         roundspershot: 4,
         speed: 600,
-        thermload: 3.6,
-        type: "E"
+        thermload: 3.6
       } ],
       tp: [ {
         ammo: 1,
@@ -8367,6 +8540,9 @@ module.exports = {
         clip: 1,
         cost: 11200,
         damage: 120,
+        damagedist: {
+          E: 1
+        },
         distdraw: 0,
         edID: 128049509,
         eddbID: 882,
@@ -8382,8 +8558,7 @@ module.exports = {
         reload: 5,
         rof: 1,
         speed: 250,
-        thermload: 45,
-        type: "E"
+        thermload: 45
       }, {
         ammo: 2,
         breachdmg: 60,
@@ -8393,6 +8568,9 @@ module.exports = {
         clip: 1,
         cost: 44800,
         damage: 120,
+        damagedist: {
+          E: 1
+        },
         distdraw: 0,
         edID: 128049510,
         eddbID: 883,
@@ -8408,8 +8586,7 @@ module.exports = {
         reload: 5,
         rof: 1,
         speed: 250,
-        thermload: 50,
-        type: "E"
+        thermload: 50
       } ],
       nl: [ {
         ammo: 36,
@@ -8420,6 +8597,10 @@ module.exports = {
         clip: 3,
         cost: 24260,
         damage: 44,
+        damagedist: {
+          E: .5,
+          T: .5
+        },
         distdraw: 0,
         edID: 128049500,
         eddbID: 880,
@@ -8433,8 +8614,7 @@ module.exports = {
         rating: "I",
         reload: 2,
         rof: 1,
-        thermload: 5,
-        type: "ET"
+        thermload: 5
       }, {
         ammo: 36,
         breachdmg: 0,
@@ -8444,6 +8624,10 @@ module.exports = {
         clip: 3,
         cost: 36400,
         damage: 32,
+        damagedist: {
+          E: .5,
+          T: .5
+        },
         distdraw: 0,
         edID: 128671448,
         eddbID: 1523,
@@ -8458,8 +8642,7 @@ module.exports = {
         rating: "I",
         reload: 2,
         rof: 1,
-        thermload: 5,
-        type: "ET"
+        thermload: 5
       }, {
         ammo: 36,
         breachdmg: 0,
@@ -8469,6 +8652,10 @@ module.exports = {
         clip: 3,
         cost: 294080,
         damage: 44,
+        damagedist: {
+          E: .5,
+          T: .5
+        },
         distdraw: 0,
         edID: 128049501,
         eddbID: 881,
@@ -8482,8 +8669,7 @@ module.exports = {
         rating: "I",
         reload: 2,
         rof: 1,
-        thermload: 7.5,
-        type: "ET"
+        thermload: 7.5
       } ],
       ml: [ {
         breachdmg: .3,
@@ -8492,6 +8678,7 @@ module.exports = {
         class: 1,
         cost: 6800,
         damage: 2,
+        damagedist: {},
         distdraw: 1.35,
         edID: 128049525,
         eddbID: 888,
@@ -8513,6 +8700,9 @@ module.exports = {
         class: 1,
         cost: 13600,
         damage: 8,
+        damagedist: {
+          T: 1
+        },
         distdraw: 1.75,
         eddbID: 1479,
         falloff: 400,
@@ -8527,8 +8717,7 @@ module.exports = {
         pp: "Zemina Torval",
         range: 2e3,
         rating: "D",
-        thermload: 6,
-        type: "T"
+        thermload: 6
       }, {
         breachdmg: 1.2,
         breachmax: .2,
@@ -8536,6 +8725,7 @@ module.exports = {
         class: 2,
         cost: 22580,
         damage: 8,
+        damagedist: {},
         distdraw: 1.75,
         edID: 128049526,
         eddbID: 889,
@@ -8889,25 +9079,28 @@ module.exports = {
         burst: 4,
         burstrof: 15,
         class: 0,
-        clip: 50,
+        clip: 12,
         cost: 18550,
+        damage: .2,
+        damagedist: {
+          K: 1
+        },
         edID: 128049522,
         eddbID: 887,
         grp: "po",
         id: "03",
         integrity: 30,
-        jitter: 1.5,
+        jitter: .75,
         mass: .5,
         name: "Point Defence",
         passive: 1,
         power: .2,
         range: 2500,
         rating: "I",
-        reload: 0,
+        reload: .4,
         rof: 10,
         speed: 1e3,
-        thermload: .1,
-        type: "K"
+        thermload: .1
       } ]
     },
     internal: {
@@ -14739,12 +14932,17 @@ module.exports = {
       special_incendiary_rounds: {
         rof: .05263157894736842,
         thermload: 2,
-        type: "T"
+        damagedist: {
+          T: 1
+        }
       },
       special_inertial_impact: {
         damage: .5,
         jitter: 1,
-        type: "KT"
+        damagedist: {
+          K: .5,
+          T: .5
+        }
       },
       special_overload_munitions: {},
       special_phasing_sequence: {
@@ -15006,14 +15204,14 @@ module.exports = {
     validity: {
       am: [ "integrity", "power" ],
       bh: [ "explres", "hullboost", "kinres", "mass", "thermres" ],
-      bl: [ "damage", "distdraw", "fallofffromrange", "integrity", "mass", "piercing", "power", "range", "thermload" ],
+      bl: [ "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "mass", "piercing", "power", "range", "thermload" ],
       bsg: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
-      c: [ "ammo", "clip", "damage", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
+      c: [ "ammo", "clip", "damage", "damagedist", "distdraw", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
       cc: [ "integrity", "mass", "power" ],
       ch: [ "ammo", "integrity", "mass", "power", "reload" ],
       cs: [ "boot", "integrity", "mass", "power" ],
       ec: [ "integrity", "mass", "power" ],
-      fc: [ "ammo", "burst", "burstrof", "clip", "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload", "type" ],
+      fc: [ "ammo", "burst", "burstrof", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
       fi: [ "boot", "facinglimit", "integrity", "mass", "power", "ranget" ],
       fs: [ "integrity", "power" ],
       fsd: [ "boot", "integrity", "mass", "maxfuel", "optmass", "power", "thermload" ],
@@ -15023,24 +15221,24 @@ module.exports = {
       hs: [ "ammo", "integrity", "mass", "power", "reload" ],
       kw: [ "boot", "integrity", "mass", "power" ],
       ls: [ "boot", "integrity", "mass", "power" ],
-      mc: [ "ammo", "clip", "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload", "type" ],
-      mr: [ "ammo", "clip", "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
-      nl: [ "ammo", "boot", "clip", "damage", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
-      pa: [ "ammo", "clip", "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
+      mc: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
+      mr: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
+      nl: [ "ammo", "boot", "clip", "damage", "damagedist", "fallofffromrange", "integrity", "jitter", "mass", "piercing", "power", "reload", "rof", "thermload" ],
+      pa: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
       pc: [ "integrity", "mass", "power" ],
       pd: [ "boot", "engcap", "engrate", "integrity", "mass", "power", "syscap", "sysrate", "wepcap", "weprate" ],
-      pl: [ "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
+      pl: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
       po: [ "ammo", "integrity", "mass", "power", "reload" ],
       pp: [ "eff", "integrity", "mass", "pgen" ],
       psg: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
       rf: [ "integrity", "power" ],
-      rg: [ "ammo", "clip", "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
+      rg: [ "ammo", "clip", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "reload", "rof", "thermload" ],
       sb: [ "explres", "integrity", "kinres", "mass", "power", "shieldboost", "thermres" ],
       scb: [ "boot", "duration", "integrity", "power", "shieldreinforcement", "spinup", "thermload" ],
       sg: [ "boot", "brokenregen", "distdraw", "explres", "integrity", "kinres", "mass", "optmass", "optmul", "power", "regen", "thermload", "thermres" ],
       t: [ "integrity", "mass", "optmass", "optmul", "power", "thermload" ],
-      tp: [ "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
-      ul: [ "burst", "burstrof", "damage", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
+      tp: [ "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
+      ul: [ "burst", "burstrof", "damage", "damagedist", "fallofffromrange", "distdraw", "integrity", "jitter", "mass", "piercing", "power", "range", "rof", "thermload" ],
       ws: [ "boot", "integrity", "mass", "power" ]
     }
   }

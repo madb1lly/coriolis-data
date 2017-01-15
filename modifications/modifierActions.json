@@ -217,12 +217,17 @@
   "special_incendiary_rounds": {
     "rof": 0.05263157894736842,
     "thermload": 2,
-    "type": "T"
+    "damagedist": { 
+      "T": 1
+    }
   },
   "special_inertial_impact": {
     "damage": 0.5,
     "jitter": 1,
-    "type": "KT"
+    "damagedist": { 
+      "K": 0.5,
+      "T": 0.5
+    }
   },
   "special_overload_munitions": {
   },

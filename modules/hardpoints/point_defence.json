@@ -5,25 +5,28 @@
       "burst": 4,
       "burstrof": 15,
       "class": 0,
-      "clip": 50,
+      "clip": 12,
       "cost": 18550,
+      "damage": 0.2,
+      "damagedist": {
+        "K": 1
+      },
       "edID": 128049522,
       "eddbID": 887,
       "grp": "po",
       "id": "03",
       "integrity": 30,
-      "jitter": 1.5,
+      "jitter": 0.75,
       "mass": 0.5,
       "name": "Point Defence",
       "passive": 1,
       "power": 0.2,
       "range": 2500,
       "rating": "I",
-      "reload": 0,
+      "reload": 0.4,
       "rof": 10,
       "speed": 1000,
-      "thermload": 0.1,
-      "type": "K"
+      "thermload": 0.1
     }
   ]
 }
